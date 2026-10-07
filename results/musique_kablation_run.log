@@ -1,0 +1,166 @@
+2026-08-01 02:03:50,844 INFO Loading MuSiQue dataset...
+2026-08-01 02:03:52,943 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/main/README.md "HTTP/1.1 404 Not Found"
+2026-08-01 02:03:53,111 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue "HTTP/1.1 200 OK"
+2026-08-01 02:03:53,277 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/MuSiQue.py "HTTP/1.1 404 Not Found"
+2026-08-01 02:03:53,789 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/dgslibisey/MuSiQue/dgslibisey/MuSiQue.py "HTTP/1.1 404 Not Found"
+2026-08-01 02:03:53,953 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/README.md "HTTP/1.1 404 Not Found"
+2026-08-01 02:03:54,115 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/revision/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321 "HTTP/1.1 200 OK"
+2026-08-01 02:03:54,276 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-08-01 02:03:54,505 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=dgslibisey/MuSiQue "HTTP/1.1 200 OK"
+2026-08-01 02:03:54,672 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-08-01 02:03:54,839 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-08-01 02:03:55,142 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-08-01 02:03:55,179 INFO [dataset] Loaded 2417 rows from dgslibisey/MuSiQue
+2026-08-01 02:03:55,697 INFO [dataset] hop2: 15 examples selected
+2026-08-01 02:03:55,697 INFO [dataset] hop3: 15 examples selected
+2026-08-01 02:03:55,697 INFO [dataset] hop4: 15 examples selected
+2026-08-01 02:03:58,528 INFO [warmup] Model ready (2.8s)
+2026-08-01 02:03:58,528 INFO 
+============================================================
+K-ablation: K=3  (label=interactive_retrieval_k3)
+============================================================
+2026-08-01 02:04:38,669 INFO [interactive_retrieval_k3/hop2] 2hop__460946_294723: em=1 f1=1.00 tok=743 recall=0.50 s=40.1
+2026-08-01 02:05:34,235 INFO [interactive_retrieval_k3/hop2] 2hop__252311_366220: em=0 f1=0.00 tok=955 recall=0.50 s=55.6
+2026-08-01 02:06:44,835 INFO [interactive_retrieval_k3/hop2] 2hop__701895_752697: em=0 f1=0.00 tok=1265 recall=0.00 s=70.6
+2026-08-01 02:07:26,099 INFO [interactive_retrieval_k3/hop2] 2hop__259228_793698: em=1 f1=1.00 tok=690 recall=0.50 s=41.3
+2026-08-01 02:08:15,817 INFO [interactive_retrieval_k3/hop2] 2hop__481349_302087: em=0 f1=0.67 tok=834 recall=0.50 s=49.7
+2026-08-01 02:09:21,289 INFO [interactive_retrieval_k3/hop2] 2hop__697790_864352: em=0 f1=0.00 tok=1142 recall=0.00 s=65.5
+2026-08-01 02:10:25,937 INFO [interactive_retrieval_k3/hop2] 2hop__207476_625987: em=0 f1=0.57 tok=1152 recall=0.00 s=64.7
+2026-08-01 02:11:06,781 INFO [interactive_retrieval_k3/hop2] 2hop__390947_232243: em=0 f1=0.33 tok=661 recall=0.50 s=40.8
+2026-08-01 02:11:58,908 INFO [interactive_retrieval_k3/hop2] 2hop__354635_174222: em=1 f1=1.00 tok=896 recall=0.50 s=52.1
+2026-08-01 02:12:41,783 INFO [interactive_retrieval_k3/hop2] 2hop__635187_861533: em=0 f1=0.80 tok=694 recall=1.00 s=42.9
+2026-08-01 02:14:05,339 INFO [interactive_retrieval_k3/hop2] 2hop__166824_185403: em=0 f1=0.00 tok=1554 recall=0.50 s=83.6
+2026-08-01 02:14:54,738 INFO [interactive_retrieval_k3/hop2] 2hop__698577_851686: em=0 f1=0.00 tok=847 recall=0.50 s=49.4
+2026-08-01 02:15:39,572 INFO [interactive_retrieval_k3/hop2] 2hop__362107_652514: em=1 f1=1.00 tok=736 recall=1.00 s=44.8
+2026-08-01 02:16:13,564 INFO [interactive_retrieval_k3/hop2] 2hop__402530_774333: em=0 f1=0.00 tok=506 recall=0.50 s=34.0
+2026-08-01 02:16:53,244 INFO [interactive_retrieval_k3/hop2] 2hop__195917_575657: em=0 f1=0.67 tok=635 recall=0.50 s=39.7
+2026-08-01 02:18:21,245 INFO [interactive_retrieval_k3/hop3] 3hop1__454441_55349_651302: em=0 f1=0.00 tok=1642 recall=0.00 s=88.0
+2026-08-01 02:19:51,897 INFO [interactive_retrieval_k3/hop3] 3hop1__145290_443779_52195: em=0 f1=0.00 tok=1662 recall=1.00 s=90.7
+2026-08-01 02:20:40,378 INFO [interactive_retrieval_k3/hop3] 3hop1__105767_443779_52195: em=0 f1=0.00 tok=815 recall=0.33 s=48.5
+2026-08-01 02:22:26,039 INFO [interactive_retrieval_k3/hop3] 3hop1__105126_443779_52195: em=1 f1=1.00 tok=1997 recall=0.67 s=105.7
+2026-08-01 02:23:25,859 INFO [interactive_retrieval_k3/hop3] 3hop1__103881_443779_52195: em=0 f1=0.00 tok=1058 recall=0.33 s=59.8
+2026-08-01 02:24:30,655 INFO [interactive_retrieval_k3/hop3] 3hop1__106094_443779_52195: em=0 f1=0.00 tok=1143 recall=0.33 s=64.8
+2026-08-01 02:25:21,348 INFO [interactive_retrieval_k3/hop3] 3hop1__145212_443779_52195: em=0 f1=0.00 tok=875 recall=0.33 s=50.7
+2026-08-01 02:27:03,644 INFO [interactive_retrieval_k3/hop3] 3hop1__144678_443779_52195: em=0 f1=0.00 tok=1928 recall=0.67 s=102.3
+2026-08-01 02:28:27,497 INFO [interactive_retrieval_k3/hop3] 3hop1__103662_443779_52195: em=1 f1=1.00 tok=1552 recall=0.33 s=83.8
+2026-08-01 02:31:03,131 INFO [interactive_retrieval_k3/hop3] 3hop1__144439_443779_52195: em=1 f1=1.00 tok=2980 recall=0.33 s=155.6
+2026-08-01 02:32:14,469 INFO [interactive_retrieval_k3/hop3] 3hop1__103440_443779_52195: em=0 f1=0.00 tok=1267 recall=0.33 s=71.3
+2026-08-01 02:33:44,113 INFO [interactive_retrieval_k3/hop3] 3hop1__145411_443779_52195: em=1 f1=1.00 tok=1651 recall=1.00 s=89.6
+2026-08-01 02:34:56,600 INFO [interactive_retrieval_k3/hop3] 3hop1__106313_443779_52195: em=0 f1=0.00 tok=1258 recall=0.33 s=72.5
+2026-08-01 02:35:46,556 INFO [interactive_retrieval_k3/hop3] 3hop1__654651_55349_651302: em=1 f1=1.00 tok=863 recall=0.67 s=50.0
+2026-08-01 02:37:24,170 INFO [interactive_retrieval_k3/hop3] 3hop1__106900_443779_52195: em=1 f1=1.00 tok=1820 recall=1.00 s=97.6
+2026-08-01 02:38:33,460 INFO [interactive_retrieval_k3/hop4] 4hop1__93963_170667_443779_52195: em=0 f1=0.00 tok=1248 recall=0.25 s=69.3
+2026-08-01 02:39:40,809 INFO [interactive_retrieval_k3/hop4] 4hop3__862_846_326964_7713: em=0 f1=0.00 tok=1206 recall=0.33 s=67.3
+2026-08-01 02:41:01,198 INFO [interactive_retrieval_k3/hop4] 4hop3__862_846_613770_7713: em=0 f1=0.00 tok=1434 recall=0.33 s=80.4
+2026-08-01 02:42:08,302 INFO [interactive_retrieval_k3/hop4] 4hop3__857_846_613770_7713: em=0 f1=0.00 tok=1210 recall=0.67 s=67.1
+2026-08-01 02:43:28,821 INFO [interactive_retrieval_k3/hop4] 4hop3__857_846_326964_7713: em=0 f1=0.00 tok=1433 recall=0.33 s=80.5
+2026-08-01 02:44:27,721 INFO [interactive_retrieval_k3/hop4] 4hop1__72247_497223_15840_36002: em=0 f1=0.06 tok=988 recall=0.25 s=58.9
+2026-08-01 02:45:25,021 INFO [interactive_retrieval_k3/hop4] 4hop1__46196_497223_15840_36002: em=0 f1=0.43 tok=1005 recall=0.25 s=57.3
+2026-08-01 02:46:21,380 INFO [interactive_retrieval_k3/hop4] 4hop1__40316_497223_15840_36002: em=0 f1=0.00 tok=998 recall=0.25 s=56.4
+2026-08-01 02:47:16,085 INFO [interactive_retrieval_k3/hop4] 4hop1__94201_642284_131926_13165: em=0 f1=0.00 tok=950 recall=0.50 s=54.7
+2026-08-01 02:48:21,599 INFO [interactive_retrieval_k3/hop4] 4hop1__525129_315334_131926_89261: em=1 f1=1.00 tok=1172 recall=0.25 s=65.5
+2026-08-01 02:49:04,215 INFO [interactive_retrieval_k3/hop4] 4hop1__94201_642284_131926_87157: em=0 f1=0.00 tok=700 recall=0.00 s=42.6
+2026-08-01 02:50:03,993 INFO [interactive_retrieval_k3/hop4] 4hop1__860115_798482_131926_90707: em=0 f1=0.00 tok=1045 recall=0.50 s=59.8
+2026-08-01 02:51:11,996 INFO [interactive_retrieval_k3/hop4] 4hop1__94201_642284_131926_90707: em=0 f1=0.00 tok=1223 recall=0.00 s=68.0
+2026-08-01 02:52:25,470 INFO [interactive_retrieval_k3/hop4] 4hop1__860115_798482_131926_13165: em=0 f1=0.00 tok=1338 recall=0.00 s=73.5
+2026-08-01 02:53:11,212 INFO [interactive_retrieval_k3/hop4] 4hop1__525129_315334_131926_87157: em=0 f1=0.00 tok=762 recall=0.50 s=45.7
+2026-08-01 02:53:11,215 INFO 
+============================================================
+K-ablation: K=5  (label=interactive_retrieval_k5)
+============================================================
+2026-08-01 02:54:10,609 INFO [interactive_retrieval_k5/hop2] 2hop__460946_294723: em=1 f1=1.00 tok=926 recall=1.00 s=59.4
+2026-08-01 02:55:11,475 INFO [interactive_retrieval_k5/hop2] 2hop__252311_366220: em=0 f1=0.00 tok=924 recall=1.00 s=60.9
+2026-08-01 02:56:55,235 INFO [interactive_retrieval_k5/hop2] 2hop__701895_752697: em=0 f1=0.00 tok=1820 recall=0.00 s=103.8
+2026-08-01 02:57:42,175 INFO [interactive_retrieval_k5/hop2] 2hop__259228_793698: em=1 f1=1.00 tok=703 recall=0.50 s=46.9
+2026-08-01 02:58:42,604 INFO [interactive_retrieval_k5/hop2] 2hop__481349_302087: em=0 f1=0.67 tok=938 recall=0.50 s=60.4
+2026-08-01 03:00:06,167 INFO [interactive_retrieval_k5/hop2] 2hop__697790_864352: em=0 f1=0.00 tok=1407 recall=0.00 s=83.6
+2026-08-01 03:01:22,245 INFO [interactive_retrieval_k5/hop2] 2hop__207476_625987: em=0 f1=0.57 tok=1244 recall=0.00 s=76.1
+2026-08-01 03:02:07,688 INFO [interactive_retrieval_k5/hop2] 2hop__390947_232243: em=0 f1=0.40 tok=661 recall=0.50 s=45.4
+2026-08-01 03:03:18,135 INFO [interactive_retrieval_k5/hop2] 2hop__354635_174222: em=0 f1=0.00 tok=1157 recall=1.00 s=70.5
+2026-08-01 03:04:09,369 INFO [interactive_retrieval_k5/hop2] 2hop__635187_861533: em=0 f1=0.00 tok=724 recall=1.00 s=51.2
+2026-08-01 03:05:19,684 INFO [interactive_retrieval_k5/hop2] 2hop__166824_185403: em=0 f1=0.00 tok=1130 recall=0.50 s=70.3
+2026-08-01 03:07:16,389 INFO [interactive_retrieval_k5/hop2] 2hop__698577_851686: em=0 f1=0.00 tok=2082 recall=0.50 s=116.7
+2026-08-01 03:08:10,296 INFO [interactive_retrieval_k5/hop2] 2hop__362107_652514: em=1 f1=1.00 tok=793 recall=1.00 s=53.9
+2026-08-01 03:09:07,805 INFO [interactive_retrieval_k5/hop2] 2hop__402530_774333: em=0 f1=0.00 tok=858 recall=0.50 s=57.5
+2026-08-01 03:10:08,101 INFO [interactive_retrieval_k5/hop2] 2hop__195917_575657: em=0 f1=0.67 tok=951 recall=1.00 s=60.3
+2026-08-01 03:12:19,473 INFO [interactive_retrieval_k5/hop3] 3hop1__454441_55349_651302: em=0 f1=0.00 tok=2411 recall=0.00 s=131.4
+2026-08-01 03:14:15,212 INFO [interactive_retrieval_k5/hop3] 3hop1__145290_443779_52195: em=1 f1=1.00 tok=2000 recall=1.00 s=115.7
+2026-08-01 03:15:31,857 INFO [interactive_retrieval_k5/hop3] 3hop1__105767_443779_52195: em=0 f1=0.00 tok=1294 recall=0.67 s=76.6
+2026-08-01 03:18:24,635 INFO [interactive_retrieval_k5/hop3] 3hop1__105126_443779_52195: em=1 f1=1.00 tok=3191 recall=0.67 s=172.8
+2026-08-01 03:20:26,862 INFO [interactive_retrieval_k5/hop3] 3hop1__103881_443779_52195: em=1 f1=1.00 tok=2173 recall=1.00 s=122.2
+2026-08-01 03:23:54,407 INFO [interactive_retrieval_k5/hop3] 3hop1__106094_443779_52195: em=1 f1=1.00 tok=3818 recall=0.67 s=207.5
+2026-08-01 03:26:20,394 INFO [interactive_retrieval_k5/hop3] 3hop1__145212_443779_52195: em=0 f1=0.00 tok=2675 recall=0.67 s=146.0
+2026-08-01 03:27:36,469 INFO [interactive_retrieval_k5/hop3] 3hop1__144678_443779_52195: em=0 f1=0.00 tok=1282 recall=0.00 s=76.1
+2026-08-01 03:29:46,612 INFO [interactive_retrieval_k5/hop3] 3hop1__103662_443779_52195: em=1 f1=1.00 tok=2375 recall=0.33 s=130.1
+2026-08-01 03:32:48,233 INFO [interactive_retrieval_k5/hop3] 3hop1__144439_443779_52195: em=1 f1=1.00 tok=3312 recall=0.33 s=181.6
+2026-08-01 03:35:05,027 INFO [interactive_retrieval_k5/hop3] 3hop1__103440_443779_52195: em=0 f1=0.00 tok=2498 recall=0.67 s=136.8
+2026-08-01 03:36:50,865 INFO [interactive_retrieval_k5/hop3] 3hop1__145411_443779_52195: em=0 f1=0.00 tok=1864 recall=0.67 s=105.8
+2026-08-01 03:38:49,346 INFO [interactive_retrieval_k5/hop3] 3hop1__106313_443779_52195: em=0 f1=0.00 tok=2094 recall=0.33 s=118.5
+2026-08-01 03:40:16,341 INFO [interactive_retrieval_k5/hop3] 3hop1__654651_55349_651302: em=1 f1=1.00 tok=1545 recall=0.67 s=87.0
+2026-08-01 03:42:48,851 INFO [interactive_retrieval_k5/hop3] 3hop1__106900_443779_52195: em=1 f1=1.00 tok=2771 recall=1.00 s=152.5
+2026-08-01 03:45:45,834 INFO [interactive_retrieval_k5/hop4] 4hop1__93963_170667_443779_52195: em=0 f1=0.00 tok=3287 recall=0.75 s=177.0
+2026-08-01 03:47:30,515 INFO [interactive_retrieval_k5/hop4] 4hop3__862_846_326964_7713: em=0 f1=0.00 tok=1881 recall=0.67 s=104.7
+2026-08-01 03:49:42,189 INFO [interactive_retrieval_k5/hop4] 4hop3__862_846_613770_7713: em=0 f1=0.00 tok=2426 recall=0.33 s=131.7
+2026-08-01 03:51:37,252 INFO [interactive_retrieval_k5/hop4] 4hop3__857_846_613770_7713: em=0 f1=0.00 tok=2110 recall=1.00 s=115.1
+2026-08-01 03:53:36,697 INFO [interactive_retrieval_k5/hop4] 4hop3__857_846_326964_7713: em=0 f1=0.00 tok=2165 recall=0.67 s=119.4
+2026-08-01 03:55:09,653 INFO [interactive_retrieval_k5/hop4] 4hop1__72247_497223_15840_36002: em=0 f1=0.00 tok=1629 recall=0.25 s=93.0
+2026-08-01 03:56:42,544 INFO [interactive_retrieval_k5/hop4] 4hop1__46196_497223_15840_36002: em=0 f1=0.43 tok=1649 recall=0.25 s=92.9
+2026-08-01 03:58:10,068 INFO [interactive_retrieval_k5/hop4] 4hop1__40316_497223_15840_36002: em=0 f1=0.00 tok=1529 recall=0.50 s=87.5
+2026-08-01 03:59:56,943 INFO [interactive_retrieval_k5/hop4] 4hop1__94201_642284_131926_13165: em=0 f1=0.57 tok=1912 recall=0.50 s=106.9
+2026-08-01 04:01:45,246 INFO [interactive_retrieval_k5/hop4] 4hop1__525129_315334_131926_89261: em=1 f1=1.00 tok=1957 recall=0.50 s=108.3
+2026-08-01 04:02:53,148 INFO [interactive_retrieval_k5/hop4] 4hop1__94201_642284_131926_87157: em=0 f1=0.00 tok=1123 recall=0.00 s=67.9
+2026-08-01 04:04:11,147 INFO [interactive_retrieval_k5/hop4] 4hop1__860115_798482_131926_90707: em=0 f1=0.00 tok=1331 recall=0.25 s=78.0
+2026-08-01 04:06:03,593 INFO [interactive_retrieval_k5/hop4] 4hop1__94201_642284_131926_90707: em=0 f1=0.00 tok=2036 recall=0.00 s=112.4
+2026-08-01 04:07:46,690 INFO [interactive_retrieval_k5/hop4] 4hop1__860115_798482_131926_13165: em=0 f1=0.00 tok=1827 recall=0.50 s=103.1
+2026-08-01 04:09:18,044 INFO [interactive_retrieval_k5/hop4] 4hop1__525129_315334_131926_87157: em=0 f1=0.00 tok=1542 recall=0.75 s=91.3
+2026-08-01 04:09:18,049 INFO 
+============================================================
+K-ablation: K=7  (label=interactive_retrieval_k7)
+============================================================
+2026-08-01 04:11:03,603 INFO [interactive_retrieval_k7/hop2] 2hop__460946_294723: em=0 f1=0.00 tok=1770 recall=1.00 s=105.5
+2026-08-01 04:13:09,650 INFO [interactive_retrieval_k7/hop2] 2hop__252311_366220: em=0 f1=0.00 tok=2182 recall=0.50 s=126.0
+2026-08-01 04:16:12,241 INFO [interactive_retrieval_k7/hop2] 2hop__701895_752697: em=0 f1=0.00 tok=3301 recall=0.00 s=182.6
+2026-08-01 04:17:43,119 INFO [interactive_retrieval_k7/hop2] 2hop__259228_793698: em=0 f1=0.67 tok=1503 recall=1.00 s=90.9
+2026-08-01 04:19:34,035 INFO [interactive_retrieval_k7/hop2] 2hop__481349_302087: em=1 f1=1.00 tok=1903 recall=0.50 s=110.9
+2026-08-01 04:21:55,955 INFO [interactive_retrieval_k7/hop2] 2hop__697790_864352: em=0 f1=0.00 tok=2510 recall=0.00 s=141.9
+2026-08-01 04:24:50,692 INFO [interactive_retrieval_k7/hop2] 2hop__207476_625987: em=0 f1=0.57 tok=3112 recall=0.50 s=174.7
+2026-08-01 04:26:20,532 INFO [interactive_retrieval_k7/hop2] 2hop__390947_232243: em=0 f1=0.40 tok=1501 recall=0.50 s=89.8
+2026-08-01 04:28:06,754 INFO [interactive_retrieval_k7/hop2] 2hop__354635_174222: em=1 f1=1.00 tok=1791 recall=1.00 s=106.2
+2026-08-01 04:29:45,162 INFO [interactive_retrieval_k7/hop2] 2hop__635187_861533: em=0 f1=0.00 tok=1610 recall=1.00 s=98.4
+2026-08-01 04:31:20,574 INFO [interactive_retrieval_k7/hop2] 2hop__166824_185403: em=0 f1=0.00 tok=1497 recall=0.50 s=95.4
+2026-08-01 04:33:37,308 INFO [interactive_retrieval_k7/hop2] 2hop__698577_851686: em=0 f1=0.00 tok=2315 recall=1.00 s=136.7
+2026-08-01 04:35:10,894 INFO [interactive_retrieval_k7/hop2] 2hop__362107_652514: em=1 f1=1.00 tok=1572 recall=1.00 s=93.6
+2026-08-01 04:36:34,853 INFO [interactive_retrieval_k7/hop2] 2hop__402530_774333: em=0 f1=0.00 tok=1321 recall=0.50 s=84.0
+2026-08-01 04:38:01,814 INFO [interactive_retrieval_k7/hop2] 2hop__195917_575657: em=0 f1=0.67 tok=1384 recall=1.00 s=87.0
+2026-08-01 04:39:27,400 INFO [interactive_retrieval_k7/hop3] 3hop1__454441_55349_651302: em=0 f1=0.00 tok=1371 recall=0.00 s=85.6
+2026-08-01 04:44:13,734 INFO [interactive_retrieval_k7/hop3] 3hop1__145290_443779_52195: em=1 f1=1.00 tok=5135 recall=1.00 s=286.3
+2026-08-01 04:46:56,099 INFO [interactive_retrieval_k7/hop3] 3hop1__105767_443779_52195: em=0 f1=0.00 tok=2896 recall=1.00 s=162.4
+2026-08-01 04:50:59,031 INFO [interactive_retrieval_k7/hop3] 3hop1__105126_443779_52195: em=1 f1=1.00 tok=4394 recall=0.67 s=242.9
+2026-08-01 04:53:33,962 INFO [interactive_retrieval_k7/hop3] 3hop1__103881_443779_52195: em=0 f1=0.00 tok=2756 recall=0.67 s=154.9
+2026-08-01 04:59:14,482 INFO [interactive_retrieval_k7/hop3] 3hop1__106094_443779_52195: em=1 f1=1.00 tok=6069 recall=0.67 s=340.5
+2026-08-01 05:03:30,706 INFO [interactive_retrieval_k7/hop3] 3hop1__145212_443779_52195: em=0 f1=0.00 tok=4664 recall=0.67 s=256.2
+2026-08-01 05:07:24,569 INFO [interactive_retrieval_k7/hop3] 3hop1__144678_443779_52195: em=0 f1=0.00 tok=4162 recall=0.67 s=233.9
+2026-08-01 05:09:44,873 INFO [interactive_retrieval_k7/hop3] 3hop1__103662_443779_52195: em=0 f1=0.00 tok=2415 recall=0.67 s=140.3
+2026-08-01 05:14:06,142 INFO [interactive_retrieval_k7/hop3] 3hop1__144439_443779_52195: em=1 f1=1.00 tok=4736 recall=1.00 s=261.3
+2026-08-01 05:17:37,016 INFO [interactive_retrieval_k7/hop3] 3hop1__103440_443779_52195: em=0 f1=0.00 tok=3736 recall=0.67 s=210.9
+2026-08-01 05:20:18,763 INFO [interactive_retrieval_k7/hop3] 3hop1__145411_443779_52195: em=0 f1=0.00 tok=2724 recall=0.67 s=161.8
+2026-08-01 05:23:04,514 INFO [interactive_retrieval_k7/hop3] 3hop1__106313_443779_52195: em=0 f1=0.00 tok=2900 recall=0.33 s=165.8
+2026-08-01 05:24:30,643 INFO [interactive_retrieval_k7/hop3] 3hop1__654651_55349_651302: em=0 f1=0.00 tok=1377 recall=0.00 s=86.1
+2026-08-01 05:27:22,338 INFO [interactive_retrieval_k7/hop3] 3hop1__106900_443779_52195: em=0 f1=0.00 tok=3010 recall=0.33 s=171.7
+2026-08-01 05:30:55,012 INFO [interactive_retrieval_k7/hop4] 4hop1__93963_170667_443779_52195: em=0 f1=0.00 tok=3872 recall=0.75 s=212.7
+2026-08-01 05:33:10,324 INFO [interactive_retrieval_k7/hop4] 4hop3__862_846_326964_7713: em=0 f1=0.00 tok=2375 recall=1.00 s=135.3
+2026-08-01 05:35:02,415 INFO [interactive_retrieval_k7/hop4] 4hop3__862_846_613770_7713: em=0 f1=0.00 tok=1915 recall=0.67 s=112.1
+2026-08-01 05:37:57,809 INFO [interactive_retrieval_k7/hop4] 4hop3__857_846_613770_7713: em=0 f1=0.00 tok=3207 recall=1.00 s=175.4
+2026-08-01 05:40:55,691 INFO [interactive_retrieval_k7/hop4] 4hop3__857_846_326964_7713: em=0 f1=0.00 tok=3183 recall=0.67 s=177.9
+2026-08-01 05:43:15,388 INFO [interactive_retrieval_k7/hop4] 4hop1__72247_497223_15840_36002: em=0 f1=0.00 tok=2445 recall=0.25 s=139.7
+2026-08-01 05:45:49,430 INFO [interactive_retrieval_k7/hop4] 4hop1__46196_497223_15840_36002: em=0 f1=0.00 tok=2719 recall=0.75 s=154.0
+2026-08-01 05:48:08,713 INFO [interactive_retrieval_k7/hop4] 4hop1__40316_497223_15840_36002: em=0 f1=0.00 tok=2407 recall=0.50 s=139.3
+2026-08-01 05:50:43,564 INFO [interactive_retrieval_k7/hop4] 4hop1__94201_642284_131926_13165: em=0 f1=0.57 tok=2741 recall=0.50 s=154.8
+2026-08-01 05:53:04,836 INFO [interactive_retrieval_k7/hop4] 4hop1__525129_315334_131926_89261: em=1 f1=1.00 tok=2429 recall=1.00 s=141.3
+2026-08-01 05:54:50,088 INFO [interactive_retrieval_k7/hop4] 4hop1__94201_642284_131926_87157: em=0 f1=0.00 tok=1770 recall=0.50 s=105.2
+2026-08-01 05:56:35,569 INFO [interactive_retrieval_k7/hop4] 4hop1__860115_798482_131926_90707: em=0 f1=0.00 tok=1802 recall=0.25 s=105.5
+2026-08-01 05:59:08,448 INFO [interactive_retrieval_k7/hop4] 4hop1__94201_642284_131926_90707: em=0 f1=0.22 tok=2736 recall=0.00 s=152.9
+2026-08-01 06:01:47,661 INFO [interactive_retrieval_k7/hop4] 4hop1__860115_798482_131926_13165: em=0 f1=0.00 tok=2861 recall=0.25 s=159.2
+2026-08-01 06:04:00,255 INFO [interactive_retrieval_k7/hop4] 4hop1__525129_315334_131926_87157: em=0 f1=0.00 tok=2312 recall=0.75 s=132.6
+2026-08-01 06:04:00,259 INFO 
+K-ablation complete. Results in C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\musique_transfer (interactive_retrieval_k{K}.json per K).

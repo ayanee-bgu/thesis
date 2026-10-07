@@ -1,0 +1,17 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 300
+
+experiment:
+  dataset: "voidful/2WikiMultihopQA"
+  split: "validation"
+  num_per_type: 20       # per question type
+  question_types: ["compositional", "comparison", "bridge_comparison", "inference"]
+  seed: 42
+
+retrieval:
+  max_queries: 3         # K — reusing E5's near-optimal value, not re-ablated here
+
+output:
+  results_dir: "results/wikihop_transfer"

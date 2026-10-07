@@ -1,0 +1,196 @@
+2026-07-31 20:40:11,143 INFO Loading MuSiQue dataset...
+2026-07-31 20:40:13,139 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/main/README.md "HTTP/1.1 404 Not Found"
+2026-07-31 20:40:13,367 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue "HTTP/1.1 200 OK"
+2026-07-31 20:40:13,532 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/MuSiQue.py "HTTP/1.1 404 Not Found"
+2026-07-31 20:40:14,014 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/dgslibisey/MuSiQue/dgslibisey/MuSiQue.py "HTTP/1.1 404 Not Found"
+2026-07-31 20:40:14,175 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/README.md "HTTP/1.1 404 Not Found"
+2026-07-31 20:40:14,340 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/revision/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321 "HTTP/1.1 200 OK"
+2026-07-31 20:40:14,500 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-07-31 20:40:14,720 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=dgslibisey/MuSiQue "HTTP/1.1 200 OK"
+2026-07-31 20:40:14,888 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-07-31 20:40:15,055 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-07-31 20:40:15,365 INFO HTTP Request: HEAD https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-07-31 20:40:15,399 INFO [dataset] Loaded 2417 rows from dgslibisey/MuSiQue
+2026-07-31 20:40:15,888 INFO [dataset] hop2: 15 examples selected
+2026-07-31 20:40:15,888 INFO [dataset] hop3: 15 examples selected
+2026-07-31 20:40:15,888 INFO [dataset] hop4: 15 examples selected
+2026-07-31 20:40:18,403 INFO [warmup] Model ready (2.5s)
+2026-07-31 20:40:18,404 INFO 
+──────────────────────────────────────────────────
+Condition: no_context
+──────────────────────────────────────────────────
+2026-07-31 20:40:21,794 INFO [no_context/hop2] 2hop__460946_294723: em=0 f1=0.00 tok=17 recall=0.00 s=3.4
+2026-07-31 20:40:25,349 INFO [no_context/hop2] 2hop__252311_366220: em=0 f1=0.00 tok=22 recall=0.00 s=3.6
+2026-07-31 20:40:28,809 INFO [no_context/hop2] 2hop__701895_752697: em=0 f1=0.00 tok=24 recall=0.00 s=3.5
+2026-07-31 20:40:32,174 INFO [no_context/hop2] 2hop__259228_793698: em=0 f1=0.00 tok=20 recall=0.00 s=3.4
+2026-07-31 20:40:35,700 INFO [no_context/hop2] 2hop__481349_302087: em=1 f1=1.00 tok=22 recall=0.00 s=3.5
+2026-07-31 20:40:39,372 INFO [no_context/hop2] 2hop__697790_864352: em=0 f1=0.00 tok=23 recall=0.00 s=3.7
+2026-07-31 20:40:44,004 INFO [no_context/hop2] 2hop__207476_625987: em=0 f1=0.29 tok=29 recall=0.00 s=4.6
+2026-07-31 20:40:47,539 INFO [no_context/hop2] 2hop__390947_232243: em=0 f1=0.00 tok=26 recall=0.00 s=3.5
+2026-07-31 20:40:50,620 INFO [no_context/hop2] 2hop__354635_174222: em=0 f1=0.00 tok=18 recall=0.00 s=3.1
+2026-07-31 20:40:54,048 INFO [no_context/hop2] 2hop__635187_861533: em=0 f1=0.00 tok=24 recall=0.00 s=3.4
+2026-07-31 20:40:57,806 INFO [no_context/hop2] 2hop__166824_185403: em=0 f1=0.00 tok=28 recall=0.00 s=3.8
+2026-07-31 20:41:01,998 INFO [no_context/hop2] 2hop__698577_851686: em=0 f1=0.00 tok=28 recall=0.00 s=4.2
+2026-07-31 20:41:05,189 INFO [no_context/hop2] 2hop__362107_652514: em=0 f1=0.00 tok=20 recall=0.00 s=3.2
+2026-07-31 20:41:08,729 INFO [no_context/hop2] 2hop__402530_774333: em=0 f1=0.00 tok=25 recall=0.00 s=3.5
+2026-07-31 20:41:11,944 INFO [no_context/hop2] 2hop__195917_575657: em=0 f1=0.40 tok=22 recall=0.00 s=3.2
+2026-07-31 20:41:16,248 INFO [no_context/hop3] 3hop1__454441_55349_651302: em=0 f1=0.00 tok=38 recall=0.00 s=4.3
+2026-07-31 20:41:20,582 INFO [no_context/hop3] 3hop1__145290_443779_52195: em=0 f1=0.00 tok=40 recall=0.00 s=4.3
+2026-07-31 20:41:24,782 INFO [no_context/hop3] 3hop1__105767_443779_52195: em=0 f1=0.00 tok=35 recall=0.00 s=4.2
+2026-07-31 20:41:29,691 INFO [no_context/hop3] 3hop1__105126_443779_52195: em=0 f1=0.00 tok=37 recall=0.00 s=4.9
+2026-07-31 20:41:34,687 INFO [no_context/hop3] 3hop1__103881_443779_52195: em=0 f1=0.00 tok=38 recall=0.00 s=5.0
+2026-07-31 20:41:39,516 INFO [no_context/hop3] 3hop1__106094_443779_52195: em=0 f1=0.00 tok=35 recall=0.00 s=4.8
+2026-07-31 20:41:44,198 INFO [no_context/hop3] 3hop1__145212_443779_52195: em=0 f1=0.00 tok=45 recall=0.00 s=4.7
+2026-07-31 20:41:48,131 INFO [no_context/hop3] 3hop1__144678_443779_52195: em=0 f1=0.00 tok=37 recall=0.00 s=3.9
+2026-07-31 20:41:53,407 INFO [no_context/hop3] 3hop1__103662_443779_52195: em=0 f1=0.00 tok=46 recall=0.00 s=5.3
+2026-07-31 20:41:58,167 INFO [no_context/hop3] 3hop1__144439_443779_52195: em=0 f1=0.00 tok=47 recall=0.00 s=4.8
+2026-07-31 20:42:01,992 INFO [no_context/hop3] 3hop1__103440_443779_52195: em=0 f1=0.00 tok=35 recall=0.00 s=3.8
+2026-07-31 20:42:07,208 INFO [no_context/hop3] 3hop1__145411_443779_52195: em=0 f1=0.00 tok=47 recall=0.00 s=5.2
+2026-07-31 20:42:11,050 INFO [no_context/hop3] 3hop1__106313_443779_52195: em=0 f1=0.00 tok=35 recall=0.00 s=3.8
+2026-07-31 20:42:15,347 INFO [no_context/hop3] 3hop1__654651_55349_651302: em=0 f1=0.00 tok=35 recall=0.00 s=4.3
+2026-07-31 20:42:19,496 INFO [no_context/hop3] 3hop1__106900_443779_52195: em=0 f1=0.00 tok=38 recall=0.00 s=4.2
+2026-07-31 20:42:24,096 INFO [no_context/hop4] 4hop1__93963_170667_443779_52195: em=0 f1=0.00 tok=43 recall=0.00 s=4.6
+2026-07-31 20:42:28,304 INFO [no_context/hop4] 4hop3__862_846_326964_7713: em=0 f1=0.00 tok=44 recall=0.00 s=4.2
+2026-07-31 20:42:32,346 INFO [no_context/hop4] 4hop3__862_846_613770_7713: em=0 f1=0.00 tok=40 recall=0.00 s=4.0
+2026-07-31 20:42:36,293 INFO [no_context/hop4] 4hop3__857_846_613770_7713: em=0 f1=0.00 tok=33 recall=0.00 s=4.0
+2026-07-31 20:42:40,708 INFO [no_context/hop4] 4hop3__857_846_326964_7713: em=0 f1=0.00 tok=43 recall=0.00 s=4.4
+2026-07-31 20:42:44,926 INFO [no_context/hop4] 4hop1__72247_497223_15840_36002: em=0 f1=0.00 tok=44 recall=0.00 s=4.2
+2026-07-31 20:42:49,109 INFO [no_context/hop4] 4hop1__46196_497223_15840_36002: em=0 f1=0.00 tok=42 recall=0.00 s=4.2
+2026-07-31 20:42:53,014 INFO [no_context/hop4] 4hop1__40316_497223_15840_36002: em=0 f1=0.00 tok=36 recall=0.00 s=3.9
+2026-07-31 20:42:56,943 INFO [no_context/hop4] 4hop1__94201_642284_131926_13165: em=0 f1=0.40 tok=36 recall=0.00 s=3.9
+2026-07-31 20:43:01,198 INFO [no_context/hop4] 4hop1__525129_315334_131926_89261: em=0 f1=0.40 tok=41 recall=0.00 s=4.2
+2026-07-31 20:43:05,273 INFO [no_context/hop4] 4hop1__94201_642284_131926_87157: em=0 f1=0.00 tok=33 recall=0.00 s=4.1
+2026-07-31 20:43:09,240 INFO [no_context/hop4] 4hop1__860115_798482_131926_90707: em=0 f1=0.00 tok=34 recall=0.00 s=4.0
+2026-07-31 20:43:12,942 INFO [no_context/hop4] 4hop1__94201_642284_131926_90707: em=0 f1=0.00 tok=27 recall=0.00 s=3.7
+2026-07-31 20:43:16,927 INFO [no_context/hop4] 4hop1__860115_798482_131926_13165: em=0 f1=0.40 tok=37 recall=0.00 s=4.0
+2026-07-31 20:43:20,840 INFO [no_context/hop4] 4hop1__525129_315334_131926_87157: em=0 f1=0.00 tok=36 recall=0.00 s=3.9
+2026-07-31 20:43:20,843 INFO 
+──────────────────────────────────────────────────
+Condition: full_context
+──────────────────────────────────────────────────
+2026-07-31 20:43:25,306 INFO [full_context/hop2] 2hop__460946_294723: em=0 f1=0.00 tok=11 recall=1.00 s=4.5
+2026-07-31 20:45:03,832 INFO [full_context/hop2] 2hop__252311_366220: em=0 f1=0.00 tok=1932 recall=1.00 s=98.5
+2026-07-31 20:47:27,000 INFO [full_context/hop2] 2hop__701895_752697: em=0 f1=0.00 tok=2715 recall=1.00 s=143.2
+2026-07-31 20:49:09,051 INFO [full_context/hop2] 2hop__259228_793698: em=0 f1=0.00 tok=1993 recall=1.00 s=102.0
+2026-07-31 20:50:49,443 INFO [full_context/hop2] 2hop__481349_302087: em=0 f1=0.67 tok=1950 recall=1.00 s=100.4
+2026-07-31 20:52:38,178 INFO [full_context/hop2] 2hop__697790_864352: em=1 f1=1.00 tok=2083 recall=1.00 s=108.7
+2026-07-31 20:54:37,130 INFO [full_context/hop2] 2hop__207476_625987: em=0 f1=0.00 tok=2284 recall=1.00 s=119.0
+2026-07-31 20:55:54,934 INFO [full_context/hop2] 2hop__390947_232243: em=0 f1=0.40 tok=1516 recall=1.00 s=77.8
+2026-07-31 20:58:28,341 INFO [full_context/hop2] 2hop__354635_174222: em=0 f1=0.00 tok=2812 recall=1.00 s=153.4
+2026-07-31 21:00:35,323 INFO [full_context/hop2] 2hop__635187_861533: em=0 f1=0.00 tok=2448 recall=1.00 s=127.0
+2026-07-31 21:02:10,985 INFO [full_context/hop2] 2hop__166824_185403: em=0 f1=0.00 tok=1879 recall=1.00 s=95.7
+2026-07-31 21:04:17,817 INFO [full_context/hop2] 2hop__698577_851686: em=0 f1=0.13 tok=2313 recall=1.00 s=126.8
+2026-07-31 21:06:30,660 INFO [full_context/hop2] 2hop__362107_652514: em=0 f1=0.00 tok=2500 recall=1.00 s=132.8
+2026-07-31 21:08:51,056 INFO [full_context/hop2] 2hop__402530_774333: em=0 f1=0.04 tok=2490 recall=1.00 s=140.4
+2026-07-31 21:11:05,115 INFO [full_context/hop2] 2hop__195917_575657: em=0 f1=0.67 tok=2568 recall=1.00 s=134.1
+2026-07-31 21:11:23,247 INFO [full_context/hop3] 3hop1__454441_55349_651302: em=0 f1=0.04 tok=67 recall=1.00 s=18.1
+2026-07-31 21:14:14,092 INFO [full_context/hop3] 3hop1__145290_443779_52195: em=0 f1=0.10 tok=3002 recall=1.00 s=170.8
+2026-07-31 21:17:08,586 INFO [full_context/hop3] 3hop1__105767_443779_52195: em=0 f1=0.14 tok=3127 recall=1.00 s=174.5
+2026-07-31 21:19:57,036 INFO [full_context/hop3] 3hop1__105126_443779_52195: em=0 f1=0.24 tok=3074 recall=1.00 s=168.4
+2026-07-31 21:22:39,931 INFO [full_context/hop3] 3hop1__103881_443779_52195: em=0 f1=0.00 tok=3044 recall=1.00 s=162.9
+2026-07-31 21:25:33,629 INFO [full_context/hop3] 3hop1__106094_443779_52195: em=0 f1=0.00 tok=3142 recall=1.00 s=173.7
+2026-07-31 21:28:17,029 INFO [full_context/hop3] 3hop1__145212_443779_52195: em=0 f1=0.00 tok=2798 recall=1.00 s=163.4
+2026-07-31 21:31:21,099 INFO [full_context/hop3] 3hop1__144678_443779_52195: em=0 f1=0.00 tok=3111 recall=1.00 s=184.1
+2026-07-31 21:34:13,453 INFO [full_context/hop3] 3hop1__103662_443779_52195: em=0 f1=0.10 tok=3032 recall=1.00 s=172.3
+2026-07-31 21:36:53,351 INFO [full_context/hop3] 3hop1__144439_443779_52195: em=0 f1=0.40 tok=2998 recall=1.00 s=159.9
+2026-07-31 21:39:29,506 INFO [full_context/hop3] 3hop1__103440_443779_52195: em=0 f1=0.00 tok=2804 recall=1.00 s=156.2
+2026-07-31 21:42:12,032 INFO [full_context/hop3] 3hop1__145411_443779_52195: em=0 f1=0.12 tok=2906 recall=1.00 s=162.5
+2026-07-31 21:44:40,224 INFO [full_context/hop3] 3hop1__106313_443779_52195: em=1 f1=1.00 tok=2780 recall=1.00 s=148.2
+2026-07-31 21:47:08,199 INFO [full_context/hop3] 3hop1__654651_55349_651302: em=0 f1=0.06 tok=2530 recall=1.00 s=148.0
+2026-07-31 21:49:54,540 INFO [full_context/hop3] 3hop1__106900_443779_52195: em=0 f1=0.00 tok=2989 recall=1.00 s=166.3
+2026-07-31 21:52:26,241 INFO [full_context/hop4] 4hop1__93963_170667_443779_52195: em=0 f1=0.67 tok=2849 recall=1.00 s=151.7
+2026-07-31 21:55:42,051 INFO [full_context/hop4] 4hop3__862_846_326964_7713: em=0 f1=0.05 tok=3438 recall=1.00 s=195.8
+2026-07-31 21:58:46,902 INFO [full_context/hop4] 4hop3__862_846_613770_7713: em=0 f1=0.06 tok=3253 recall=1.00 s=184.8
+2026-07-31 22:00:39,595 INFO [full_context/hop4] 4hop3__857_846_613770_7713: em=0 f1=0.00 tok=2148 recall=1.00 s=112.7
+2026-07-31 22:03:45,586 INFO [full_context/hop4] 4hop3__857_846_326964_7713: em=0 f1=0.00 tok=3444 recall=1.00 s=186.0
+2026-07-31 22:06:33,911 INFO [full_context/hop4] 4hop1__72247_497223_15840_36002: em=0 f1=0.28 tok=2942 recall=1.00 s=168.3
+2026-07-31 22:10:22,479 INFO [full_context/hop4] 4hop1__46196_497223_15840_36002: em=0 f1=0.10 tok=3490 recall=1.00 s=228.6
+2026-07-31 22:12:23,004 INFO [full_context/hop4] 4hop1__40316_497223_15840_36002: em=0 f1=0.28 tok=2227 recall=1.00 s=120.5
+2026-07-31 22:15:05,458 INFO [full_context/hop4] 4hop1__94201_642284_131926_13165: em=0 f1=0.10 tok=2868 recall=1.00 s=162.4
+2026-07-31 22:16:54,811 INFO [full_context/hop4] 4hop1__525129_315334_131926_89261: em=0 f1=0.80 tok=2131 recall=1.00 s=109.3
+2026-07-31 22:18:39,715 INFO [full_context/hop4] 4hop1__94201_642284_131926_87157: em=0 f1=0.00 tok=2020 recall=1.00 s=104.9
+2026-07-31 22:20:35,330 INFO [full_context/hop4] 4hop1__860115_798482_131926_90707: em=0 f1=0.00 tok=2196 recall=1.00 s=115.6
+2026-07-31 22:22:01,735 INFO [full_context/hop4] 4hop1__94201_642284_131926_90707: em=0 f1=0.00 tok=1676 recall=1.00 s=86.4
+2026-07-31 22:24:48,767 INFO [full_context/hop4] 4hop1__860115_798482_131926_13165: em=0 f1=0.21 tok=3043 recall=1.00 s=167.0
+2026-07-31 22:26:58,530 INFO [full_context/hop4] 4hop1__525129_315334_131926_87157: em=0 f1=0.15 tok=2365 recall=1.00 s=129.8
+2026-07-31 22:26:58,534 INFO 
+──────────────────────────────────────────────────
+Condition: summary_doc
+──────────────────────────────────────────────────
+2026-07-31 22:30:05,966 INFO [summary_doc/hop2] 2hop__460946_294723: em=0 f1=0.00 tok=2688 recall=1.00 s=187.4
+2026-07-31 22:34:08,405 INFO [summary_doc/hop2] 2hop__252311_366220: em=0 f1=0.00 tok=3050 recall=1.00 s=242.4
+2026-07-31 22:39:10,046 INFO [summary_doc/hop2] 2hop__701895_752697: em=0 f1=0.00 tok=3804 recall=1.00 s=301.6
+2026-07-31 22:43:17,740 INFO [summary_doc/hop2] 2hop__259228_793698: em=0 f1=0.00 tok=3113 recall=1.00 s=247.7
+2026-07-31 22:47:22,408 INFO [summary_doc/hop2] 2hop__481349_302087: em=0 f1=0.67 tok=3069 recall=1.00 s=244.7
+2026-07-31 22:51:36,768 INFO [summary_doc/hop2] 2hop__697790_864352: em=1 f1=1.00 tok=3202 recall=1.00 s=254.4
+2026-07-31 22:56:05,575 INFO [summary_doc/hop2] 2hop__207476_625987: em=0 f1=0.00 tok=3405 recall=1.00 s=268.8
+2026-07-31 22:59:37,253 INFO [summary_doc/hop2] 2hop__390947_232243: em=0 f1=0.40 tok=2627 recall=1.00 s=211.7
+2026-07-31 23:04:49,336 INFO [summary_doc/hop2] 2hop__354635_174222: em=0 f1=0.00 tok=3928 recall=1.00 s=312.1
+2026-07-31 23:09:33,240 INFO [summary_doc/hop2] 2hop__635187_861533: em=0 f1=0.00 tok=3565 recall=1.00 s=283.9
+2026-07-31 23:13:30,796 INFO [summary_doc/hop2] 2hop__166824_185403: em=0 f1=0.00 tok=2999 recall=1.00 s=237.6
+2026-07-31 23:18:00,600 INFO [summary_doc/hop2] 2hop__698577_851686: em=0 f1=0.00 tok=3393 recall=1.00 s=269.8
+2026-07-31 23:22:49,746 INFO [summary_doc/hop2] 2hop__362107_652514: em=0 f1=0.00 tok=3620 recall=1.00 s=289.1
+2026-07-31 23:26:59,383 INFO [summary_doc/hop2] 2hop__402530_774333: em=0 f1=0.00 tok=3342 recall=1.00 s=249.6
+2026-07-31 23:31:52,061 INFO [summary_doc/hop2] 2hop__195917_575657: em=0 f1=0.29 tok=3687 recall=1.00 s=292.7
+2026-07-31 23:36:50,849 INFO [summary_doc/hop3] 3hop1__454441_55349_651302: em=0 f1=0.00 tok=3780 recall=1.00 s=298.8
+2026-07-31 23:42:12,231 INFO [summary_doc/hop3] 3hop1__145290_443779_52195: em=0 f1=0.00 tok=4053 recall=1.00 s=321.4
+2026-07-31 23:47:27,564 INFO [summary_doc/hop3] 3hop1__105767_443779_52195: em=0 f1=0.00 tok=4078 recall=1.00 s=315.3
+2026-07-31 23:52:58,050 INFO [summary_doc/hop3] 3hop1__105126_443779_52195: em=0 f1=0.00 tok=4170 recall=1.00 s=330.5
+2026-07-31 23:58:26,135 INFO [summary_doc/hop3] 3hop1__103881_443779_52195: em=0 f1=0.00 tok=4152 recall=1.00 s=328.1
+2026-08-01 00:04:03,901 INFO [summary_doc/hop3] 3hop1__106094_443779_52195: em=0 f1=0.00 tok=4242 recall=1.00 s=337.8
+2026-08-01 00:09:24,469 INFO [summary_doc/hop3] 3hop1__145212_443779_52195: em=0 f1=0.00 tok=4034 recall=1.00 s=320.6
+2026-08-01 00:14:52,321 INFO [summary_doc/hop3] 3hop1__144678_443779_52195: em=0 f1=0.00 tok=4134 recall=1.00 s=327.9
+2026-08-01 00:20:16,444 INFO [summary_doc/hop3] 3hop1__103662_443779_52195: em=0 f1=0.00 tok=4092 recall=1.00 s=324.1
+2026-08-01 00:25:43,842 INFO [summary_doc/hop3] 3hop1__144439_443779_52195: em=0 f1=0.00 tok=4112 recall=1.00 s=327.4
+2026-08-01 00:30:49,173 INFO [summary_doc/hop3] 3hop1__103440_443779_52195: em=0 f1=0.00 tok=3878 recall=1.00 s=305.3
+2026-08-01 00:36:04,632 INFO [summary_doc/hop3] 3hop1__145411_443779_52195: em=0 f1=0.00 tok=3988 recall=1.00 s=315.5
+2026-08-01 00:41:12,842 INFO [summary_doc/hop3] 3hop1__106313_443779_52195: em=0 f1=0.00 tok=3905 recall=1.00 s=308.2
+2026-08-01 00:45:20,036 INFO [summary_doc/hop3] 3hop1__654651_55349_651302: em=0 f1=0.00 tok=3327 recall=1.00 s=247.2
+2026-08-01 00:50:43,478 INFO [summary_doc/hop3] 3hop1__106900_443779_52195: em=0 f1=0.00 tok=4066 recall=1.00 s=323.4
+2026-08-01 00:55:57,818 INFO [summary_doc/hop4] 4hop1__93963_170667_443779_52195: em=0 f1=0.00 tok=3975 recall=1.00 s=314.3
+2026-08-01 01:01:55,134 INFO [summary_doc/hop4] 4hop3__862_846_326964_7713: em=0 f1=0.00 tok=4504 recall=1.00 s=357.3
+2026-08-01 01:07:08,605 INFO [summary_doc/hop4] 4hop3__862_846_613770_7713: em=0 f1=0.00 tok=4159 recall=1.00 s=313.5
+2026-08-01 01:10:47,071 INFO [summary_doc/hop4] 4hop3__857_846_613770_7713: em=0 f1=0.40 tok=3085 recall=1.00 s=218.5
+2026-08-01 01:16:49,377 INFO [summary_doc/hop4] 4hop3__857_846_326964_7713: em=0 f1=0.00 tok=4568 recall=1.00 s=362.3
+2026-08-01 01:22:04,981 INFO [summary_doc/hop4] 4hop1__72247_497223_15840_36002: em=1 f1=1.00 tok=3994 recall=1.00 s=315.6
+2026-08-01 01:28:05,294 INFO [summary_doc/hop4] 4hop1__46196_497223_15840_36002: em=0 f1=0.12 tok=4511 recall=1.00 s=360.3
+2026-08-01 01:32:26,604 INFO [summary_doc/hop4] 4hop1__40316_497223_15840_36002: em=0 f1=0.00 tok=3322 recall=1.00 s=261.3
+2026-08-01 01:37:37,543 INFO [summary_doc/hop4] 4hop1__94201_642284_131926_13165: em=0 f1=0.57 tok=3939 recall=1.00 s=310.9
+2026-08-01 01:41:51,238 INFO [summary_doc/hop4] 4hop1__525129_315334_131926_89261: em=0 f1=0.33 tok=3252 recall=1.00 s=253.7
+2026-08-01 01:45:19,429 INFO [summary_doc/hop4] 4hop1__94201_642284_131926_87157: em=0 f1=0.00 tok=2843 recall=1.00 s=208.2
+2026-08-01 01:49:38,048 INFO [summary_doc/hop4] 4hop1__860115_798482_131926_90707: em=0 f1=0.00 tok=3314 recall=1.00 s=258.6
+2026-08-01 01:53:19,404 INFO [summary_doc/hop4] 4hop1__94201_642284_131926_90707: em=0 f1=0.00 tok=2797 recall=1.00 s=221.4
+2026-08-01 01:58:43,856 INFO [summary_doc/hop4] 4hop1__860115_798482_131926_13165: em=0 f1=0.00 tok=4128 recall=1.00 s=324.4
+2026-08-01 02:03:14,094 INFO [summary_doc/hop4] 4hop1__525129_315334_131926_87157: em=0 f1=0.00 tok=3436 recall=1.00 s=270.2
+2026-08-01 02:03:14,098 INFO 
+Results written to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\musique_transfer
+
+=== E7 RESULTS SUMMARY (static conditions, overall across hop buckets) ===
+Condition                     EM      F1    Tokens      Sec  SF-Recall
+----------------------------------------------------------------------
+no_context                  2.2%    6.4%        33      4.1       0.0%
+full_context                4.4%   17.4%      2511    138.2     100.0%
+summary_doc                 4.4%   10.6%      3674    288.3     100.0%
+
+=== By hop bucket ===
+
+-- hop2 --
+Condition                     EM      F1    Tokens      Sec  SF-Recall
+----------------------------------------------------------------------
+no_context                  6.7%   11.2%        23      3.6       0.0%
+full_context                6.7%   19.4%      2100    111.0     100.0%
+summary_doc                 6.7%   15.7%      3299    259.6     100.0%
+
+-- hop3 --
+Condition                     EM      F1    Tokens      Sec  SF-Recall
+----------------------------------------------------------------------
+no_context                  0.0%    0.0%        39      4.5       0.0%
+full_context                6.7%   14.7%      2760    155.3     100.0%
+summary_doc                 0.0%    0.0%      4001    315.4     100.0%
+
+-- hop4 --
+Condition                     EM      F1    Tokens      Sec  SF-Recall
+----------------------------------------------------------------------
+no_context                  0.0%    8.0%        38      4.1       0.0%
+full_context                0.0%   18.0%      2673    148.3     100.0%
+summary_doc                 6.7%   16.2%      3722    290.0     100.0%

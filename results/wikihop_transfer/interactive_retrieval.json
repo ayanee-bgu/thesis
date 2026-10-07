@@ -1,0 +1,1669 @@
+{
+  "condition": "interactive_retrieval",
+  "config": {
+    "num_per_type": 20,
+    "max_queries": 3
+  },
+  "results_by_type": {
+    "compositional": [
+      {
+        "id": "8813f87c0bdd11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Who is the mother of the director of film Polish-Russian War (Film)?",
+        "gold_answer": "Ma\u0142gorzata Braunek",
+        "predicted_answer": "Ma\u0142gorzata Braunek",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1359,
+        "elapsed_s": 76.33,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Andrzej Wajda's family",
+          "Ma\u0142gorzata Braunek parents",
+          "Ma\u0142gorzata Braunek parents"
+        ]
+      },
+      {
+        "id": "e2a3bf2a0bdd11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "When did John V, Prince Of Anhalt-Zerbst's father die?",
+        "gold_answer": "12 June 1516",
+        "predicted_answer": "12 June 1516",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 957,
+        "elapsed_s": 57.01,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "John V of Anhalt-Zerbst parents",
+          "Ernest I Prince of Anhalt-Dessau death",
+          "George I Prince of Anhalt-Dessau death"
+        ]
+      },
+      {
+        "id": "0cd3bdea0bde11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?",
+        "gold_answer": "Myanmar Motion Picture Academy Awards",
+        "predicted_answer": "Myanmar Motion Picture Academy Awards",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 807,
+        "elapsed_s": 49.4,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Director of Wearing Velvet Slippers\"",
+          "\"Maung Wunna awards won\"",
+          "\"Maung Wunna Myanmar Motion Picture Awards\""
+        ]
+      },
+      {
+        "id": "f9dcb4a60bda11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where was the director of film Ronnie Rocket born?",
+        "gold_answer": "Missoula, Montana",
+        "predicted_answer": "Missoula",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 3048,
+        "elapsed_s": 162.4,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Ronnie Rocket director nationality",
+          "David Lynch birthplace",
+          "Missoula Montana history"
+        ]
+      },
+      {
+        "id": "019bed300bde11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where was the father of \u0218tefan I. Neni\u021bescu born?",
+        "gold_answer": "Gala\u021bi",
+        "predicted_answer": "Gala\u021bi",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 2741,
+        "elapsed_s": 147.08,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Stefan I Nenitzescu birthplace",
+          "Ioan S Nenitzescu birthplace",
+          "Ioan S Nenitzescu parents"
+        ]
+      },
+      {
+        "id": "464cfa460bd911eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where was the director of film Thomas Jefferson (Film) born?",
+        "gold_answer": "Brooklyn",
+        "predicted_answer": "Ken Burns",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 635,
+        "elapsed_s": 39.32,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Biography of Richard Sherman",
+          "Biography of Richard Sherman film director",
+          "Biography of Ken Burns"
+        ]
+      },
+      {
+        "id": "c05e16a40bdd11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?",
+        "gold_answer": "stroke",
+        "predicted_answer": "No information provided on Princess Victoria Melita of Edinburgh's death or cause of death.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 990,
+        "elapsed_s": 61.52,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Princess Victoria Melita of Edinburgh death",
+          "Princess Victoria Melita of Edinburgh death date",
+          "Princess Victoria Melita of Edinburgh cause"
+        ]
+      },
+      {
+        "id": "2935f1640bda11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where was the place of death of the director of film Beat Girl?",
+        "gold_answer": "Nice",
+        "predicted_answer": "Nice",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1042,
+        "elapsed_s": 60.51,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Director of Beat Girl\"",
+          "Place of death Edmond T. Gr\u00e9ville",
+          "Place of death Edmond T. Gr\u00e9ville"
+        ]
+      },
+      {
+        "id": "dfe93efe0bdd11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "When did Jean Martin (Singer)'s husband die?",
+        "gold_answer": "1983",
+        "predicted_answer": "2004",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 649,
+        "elapsed_s": 40.55,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Who is Jean Martin singer?",
+          "When did William Black die?",
+          "When did William Black die?"
+        ]
+      },
+      {
+        "id": "2207e9060bda11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "What nationality is the director of film World And Time Enough?",
+        "gold_answer": "United States",
+        "predicted_answer": "American",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1354,
+        "elapsed_s": 74.71,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Director of World and Time\"",
+          "\"Eric Mueller film director\"",
+          "\"Eric Mueller nationality\""
+        ]
+      },
+      {
+        "id": "a9cc5f240bdb11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Who is the spouse of the director of film Eden And After?",
+        "gold_answer": "Catherine Robbe-Grillet",
+        "predicted_answer": "Corinne Duryea",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 540,
+        "elapsed_s": 36.67,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Eden and After director wife\"",
+          "Alain Robbe-Grillet spouse",
+          "Alain Robbe-Grillet personal life"
+        ]
+      },
+      {
+        "id": "6ebe05740bde11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where was the place of death of Anastasia Of Serbia's husband?",
+        "gold_answer": "Hilandar",
+        "predicted_answer": "Mount Athos",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1584,
+        "elapsed_s": 87.5,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Anastasia of Serbia's husband death location\"",
+          "\"Stefan Nemanja place death\"",
+          "\"Mount Athos monastery death location\""
+        ]
+      },
+      {
+        "id": "0bedb7e80bdc11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Why did John Middleton Murry's wife die?",
+        "gold_answer": "tuberculosis",
+        "predicted_answer": "September 1923",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 969,
+        "elapsed_s": 58.84,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Sylvia Taylor Murry death\"",
+          "\"Katherine Mansfield death date\"",
+          "\"Mansfield cause of death\""
+        ]
+      },
+      {
+        "id": "c19b72520bdb11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "What is the place of birth of the director of film And The Spring Comes?",
+        "gold_answer": "Xi'an",
+        "predicted_answer": "Not applicable. The retrieved information does not mention Carlos Carrera or the film \"And The Spring Comes\".",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 505,
+        "elapsed_s": 36.29,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Carlos Carrera biography\"",
+          "\"Carlos Carrera Mexican filmmaker\"",
+          "\"Mexican film directors biography\""
+        ]
+      },
+      {
+        "id": "b3110a5e0bda11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Which country Prince Nikolaus Wilhelm Of Nassau's mother is from?",
+        "gold_answer": "German",
+        "predicted_answer": "German",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1001,
+        "elapsed_s": 59.4,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Princess Pauline of W\u00fcrttemberg nationality\"",
+          "\"William Duke of Nassau nationality\"",
+          "\"William Duke of Nassau mother nationality\""
+        ]
+      },
+      {
+        "id": "07e964920bde11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where was the husband of Caterina Visconti born?",
+        "gold_answer": "Pavia",
+        "predicted_answer": "Milan.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1030,
+        "elapsed_s": 60.53,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Who was Caterina Visconti's husband?\"",
+          "\"Where was Gian Galeazzo Visconti born?\"",
+          "\"Where was Gian Galeazzo Visconti born?\""
+        ]
+      },
+      {
+        "id": "c3c94d0a0bdc11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Who is the child of the director of film La Leona (Film)?",
+        "gold_answer": "V\u00edctor B\u00f3",
+        "predicted_answer": "Isabel Bo",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 462,
+        "elapsed_s": 32.49,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"La Leona director's child name\"",
+          "\"Armando Bo children names\"",
+          "\"Armando Bo children names list\""
+        ]
+      },
+      {
+        "id": "e41c14820bd911eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where does the director of film Man At Bath work at?",
+        "gold_answer": "Cahiers du cin\u00e9ma",
+        "predicted_answer": "Switzerland",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 946,
+        "elapsed_s": 55.92,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Who directed Man At Bath?\"",
+          "\"Where does Christophe Honor\u00e9 work?\"",
+          "\"Where does Christophe Honor\u00e9 teach?\""
+        ]
+      },
+      {
+        "id": "931a85420bdd11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Where was the father of Lord Patrick Crichton-Stuart born?",
+        "gold_answer": "London",
+        "predicted_answer": "London",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1841,
+        "elapsed_s": 98.06,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "John Patrick Crichton-Stuart birthplace",
+          "John Stuart Lord Mount Stuart",
+          "John Stuart birthplace London"
+        ]
+      },
+      {
+        "id": "0bbded440bda11eba7f7acde48001122",
+        "type": "compositional",
+        "condition": "interactive_retrieval",
+        "question": "Which country the director of film Daadagiri is from?",
+        "gold_answer": "Pakistan",
+        "predicted_answer": "Pakistani",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1167,
+        "elapsed_s": 66.88,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Daadagiri film director nationality\"",
+          "\"Arshad Khan nationality\"",
+          "\"Arshad Khan film director\""
+        ]
+      }
+    ],
+    "comparison": [
+      {
+        "id": "61a46987092f11ebbdaeac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?",
+        "gold_answer": "The Mask Of Fu Manchu",
+        "predicted_answer": "Blind Shaft (2003)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 739,
+        "elapsed_s": 45.62,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Blind Shaft release date\"",
+          "\"When was Fu Manchu released?\"",
+          "\"Mask Of Fu Manchu release date\""
+        ]
+      },
+      {
+        "id": "a7b9672009c311ebbdb0ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are North Marion High School (Oregon) and Seoul High School both located in the same country?",
+        "gold_answer": "no",
+        "predicted_answer": "No",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 791,
+        "elapsed_s": 47.6,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Seoul High School location",
+          "North Marion High School location",
+          "North Marion High School Oregon"
+        ]
+      },
+      {
+        "id": "ada1b358085211ebbd58ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Who died first, Fleetwood Sheppard or George William Whitaker?",
+        "gold_answer": "Fleetwood Sheppard",
+        "predicted_answer": "Fleetwood Sheppard",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 2531,
+        "elapsed_s": 134.86,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Fleetwood Sheppard death date",
+          "George William Whitaker death date",
+          "Who died first Fleetwood Sheppard or George William Whitaker"
+        ]
+      },
+      {
+        "id": "d8c36503097411ebbdb0ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film was released earlier, Moment Of Danger or The Ballad Of Josie?",
+        "gold_answer": "Moment Of Danger",
+        "predicted_answer": "1959",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 783,
+        "elapsed_s": 48.84,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Moment of Danger release date\"",
+          "\"The Ballad Of Josie release date\"",
+          "\"Which came first 1959 or 1967?\""
+        ]
+      },
+      {
+        "id": "a0065fe9085f11ebbd5dac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are Fire In Hell and The Tiger: An Old Hunter'S Tale from the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "South Korea",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 621,
+        "elapsed_s": 39.1,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"Fire in Hell author nationality\"",
+          "\"The Tiger author nationality\"",
+          "\"Same nationality authors\""
+        ]
+      },
+      {
+        "id": "7c490349090311ebbdadac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film was released more recently, Lo Zappatore or Placer Sangriento?",
+        "gold_answer": "Placer Sangriento",
+        "predicted_answer": "Neither (both are from 1950)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 441,
+        "elapsed_s": 31.78,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Italian horror films 1970s",
+          "Italian horror films 1980s",
+          "Italian horror films 1990s"
+        ]
+      },
+      {
+        "id": "8d2382e0085811ebbd5aac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Was \u015eemsettin Ba\u015f or Gwenc'Hlan Le Scou\u00ebzec born first?",
+        "gold_answer": "Gwenc'Hlan Le Scou\u00ebzec",
+        "predicted_answer": "January 4, 1973",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 597,
+        "elapsed_s": 41.64,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"\u015eemsettin Ba\u015f biography\"",
+          "\"\u015eemsettin Ba\u015f birthdate\"",
+          "\"Who is Gwenc'Hlan Le Scou\u00ebzec?\""
+        ]
+      },
+      {
+        "id": "3a84baaf088311ebbd6dac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Who died first, Madame Pasca or James A. Donohoe?",
+        "gold_answer": "Madame Pasca",
+        "predicted_answer": "Madame Pasca",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 566,
+        "elapsed_s": 37.19,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "Madame Pasca's death date",
+          "James A. Donohoe's death date",
+          "Who died first May"
+        ]
+      },
+      {
+        "id": "633132f008b711ebbd88ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Who was born later, D'Arcy Coulson or Thomas William Adams?",
+        "gold_answer": "D'Arcy Coulson",
+        "predicted_answer": "D'Arcy Coulson",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1581,
+        "elapsed_s": 90.79,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"D'Arcy Coulson birthdate\"",
+          "\"Thomas William Adams birthdate\"",
+          "\"Who was born later\""
+        ]
+      },
+      {
+        "id": "9aee006a09c211ebbdb0ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are Simonds Catholic College and Saginaw High School (Texas) both located in the same country?",
+        "gold_answer": "no",
+        "predicted_answer": "United States",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1471,
+        "elapsed_s": 87.35,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "Saginaw Texas high school location",
+          "Simonds Catholic College location",
+          "Same country as Saginaw Texas"
+        ]
+      },
+      {
+        "id": "db19bf4c086e11ebbd62ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Who was born first, John Beach or Gordon Persons?",
+        "gold_answer": "John Beach",
+        "predicted_answer": "September 21, 1800",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1445,
+        "elapsed_s": 80.04,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"John Beach politician biography\"",
+          "\"Gordon Persons biography\"",
+          "\"John Beach vs Gordon Persons birthdate\""
+        ]
+      },
+      {
+        "id": "e618b2c608c911ebbd92ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Who lived longer, Giuseppe Cesari or Nicos Poulantzas?",
+        "gold_answer": "Giuseppe Cesari",
+        "predicted_answer": "Giuseppe Cesari (1640) lived longer than Nicos Poulantzas (no death date mentioned).",
+        "em": 0.0,
+        "f1": 0.2857142857142857,
+        "tokens": 782,
+        "elapsed_s": 50.06,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Giuseppe Cesari biography\"",
+          "\"Giuseppe Cesari death date\"",
+          "\"Nicos Poulantzas death date\""
+        ]
+      },
+      {
+        "id": "f7eb7e31088c11ebbd70ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Who is older, Aryeh Ben-Eliezer or Jason Pociask?",
+        "gold_answer": "Aryeh Ben-Eliezer",
+        "predicted_answer": "Jason Pociask",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 733,
+        "elapsed_s": 45.65,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Jason Pociask biography\"",
+          "\"Jason Pociask birthdate\"",
+          "\"Aryeh Ben-Eliezer biography\""
+        ]
+      },
+      {
+        "id": "3f635554096511ebbdafac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are both Kaufland and Otrag located in the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "Germany",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 787,
+        "elapsed_s": 48.26,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Kaufland and Otrag locations\"",
+          "\"Kaufland location country\"",
+          "\"Compare Otrag and Kaufland countries\""
+        ]
+      },
+      {
+        "id": "b69ad95c08ad11ebbd83ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film came out earlier, Aanaval Mothiram or Heroes Of The Street?",
+        "gold_answer": "Heroes Of The Street",
+        "predicted_answer": "Aanaval Mothiram (1991)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 728,
+        "elapsed_s": 46.31,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Indian film Aanaval Mothiram\"",
+          "\"Malayalam film Heroes Of The Street\"",
+          "\"Indian film release date 1991\""
+        ]
+      },
+      {
+        "id": "6638a0f0084e11ebbd56ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are both Nikolsk Airport and Svobodny Airport located in the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 569,
+        "elapsed_s": 37.35,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Nikolsk Airport location\"",
+          "\"Svobodny Airport location\"",
+          "\"Russia airports Vologda Oblast\""
+        ]
+      },
+      {
+        "id": "83ff07cd096711ebbdafac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are both businesses, Telus and Ztr Control Systems, located in the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 736,
+        "elapsed_s": 45.92,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Telus company location Canada\"",
+          "\"Ztr Control Systems location\"",
+          "\"Ztr Control Systems same country Telus\""
+        ]
+      },
+      {
+        "id": "42f6d3b208b911ebbd88ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Who is older, Dyson Parody or Gene Watson?",
+        "gold_answer": "Gene Watson",
+        "predicted_answer": "Gene Watson",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 672,
+        "elapsed_s": 42.64,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Dyson Parody country music\"",
+          "\"Gene Watson country singer\"",
+          "\"Age difference country singers\""
+        ]
+      },
+      {
+        "id": "ac786909087411ebbd67ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are both bands, Snowman (Band) and Jessamine (Band), from the same country?",
+        "gold_answer": "no",
+        "predicted_answer": "United States",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1170,
+        "elapsed_s": 65.64,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Snowman Band origin country\"",
+          "\"Jessamine Band origin country\"",
+          "\"Country of origin Seattle\""
+        ]
+      },
+      {
+        "id": "a9f9985a09a211ebbdb0ac1f6bf848b6",
+        "type": "comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which song was released more recently, Go Ahead And Break My Heart or Knee Deep In My Heart?",
+        "gold_answer": "Go Ahead And Break My Heart",
+        "predicted_answer": "2016",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1212,
+        "elapsed_s": 68.2,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Go Ahead And Break My Heart\"",
+          "\"Knee Deep In My Heart\"",
+          "\"When was Stefani's album released\""
+        ]
+      }
+    ],
+    "bridge_comparison": [
+      {
+        "id": "298f23b8088a11ebbd6eac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director who was born later, El Extra\u00f1o Viaje or Love In Pawn?",
+        "gold_answer": "El Extra\u00f1o Viaje",
+        "predicted_answer": "Jess Franco (1942)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 653,
+        "elapsed_s": 42.07,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"El Extra\u00f1o Viaje director birthdate\"",
+          "\"Jess Franco birthdate\"",
+          "\"Love In Pawn director birthdate\""
+        ]
+      },
+      {
+        "id": "05f8a691087b11ebbd67ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director died first, Crimen A Las Tres or The Working Class Goes To Heaven?",
+        "gold_answer": "The Working Class Goes To Heaven",
+        "predicted_answer": "The Working Class Goes To Heaven",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 737,
+        "elapsed_s": 46.01,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Elio Petri filmography list",
+          "Elio Petri directed Crimen",
+          "Elio Petri film release dates"
+        ]
+      },
+      {
+        "id": "645c9a5a08c311ebbd8dac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director born first, Once A Gentleman or The Girl In White?",
+        "gold_answer": "Once A Gentleman",
+        "predicted_answer": "James Cruze",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 563,
+        "elapsed_s": 37.72,
+        "supporting_fact_recall": 0.75,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Director of Once A Gentleman\"",
+          "Director of The Girl In White",
+          "\"James Cruze vs John Sturges\""
+        ]
+      },
+      {
+        "id": "5bec3cd408a711ebbd7fac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director who died earlier, Il Seduttore or The Trial Of Joan Of Arc?",
+        "gold_answer": "The Trial Of Joan Of Arc",
+        "predicted_answer": "Il Seduttore",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 858,
+        "elapsed_s": 50.97,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Orson Welles filmography\"",
+          "\"Welles directed films list\"",
+          "\"Welles directed films list\""
+        ]
+      },
+      {
+        "id": "3f857208086c11ebbd61ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director born first, The Raven'S Dance or Ke\u00efta! L'H\u00e9ritage Du Griot?",
+        "gold_answer": "The Raven'S Dance",
+        "predicted_answer": "Markku Lehmuskallio",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 634,
+        "elapsed_s": 42.86,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Who directed The Raven's Dance?\"",
+          "\"Who directed Ke\u00efta! L'H\u00e9ritage Du Griot?\"",
+          "Who was born first Markku Lehmuskallio or Seydou Boro?"
+        ]
+      },
+      {
+        "id": "1d890623088711ebbd6dac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director who died earlier, Tangled Destinies or The Daltons' Women?",
+        "gold_answer": "Tangled Destinies",
+        "predicted_answer": "Frank R. Strayer",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 500,
+        "elapsed_s": 35.29,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Who directed Tangled Destinies?\"",
+          "\"Who directed The Daltons' Women?\"",
+          "\"Who died earlier Frank R Strayer or Ray Taylor?\""
+        ]
+      },
+      {
+        "id": "7abc1e3008d511ebbd98ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director died earlier, Poker In Bed or The Machine To Kill Bad People?",
+        "gold_answer": "The Machine To Kill Bad People",
+        "predicted_answer": "Giuliano Carnimeo (1979)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 467,
+        "elapsed_s": 34.12,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Director of Poker In Bed\"",
+          "\"Giuliano Carnimeo death date\"",
+          "\"Giuliano Carnimeo death date\""
+        ]
+      },
+      {
+        "id": "ae331827088b11ebbd6fac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film whose director is younger, Heads I Win, Tails You Lose or The Incredible Sarah?",
+        "gold_answer": "Heads I Win, Tails You Lose",
+        "predicted_answer": "Nanni Loy",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 730,
+        "elapsed_s": 45.32,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Incredible Sarah movie director\"",
+          "\"Heads I Win Tails You Lose\"",
+          "\"Heads I Win director\""
+        ]
+      },
+      {
+        "id": "4d982dc308c111ebbd8bac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director died earlier, Condemned Women or Faces In The Dark?",
+        "gold_answer": "Condemned Women",
+        "predicted_answer": "Condemned Women",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 664,
+        "elapsed_s": 42.54,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Jean Negulesco filmography\"",
+          "\"Jean Negulesco movies\"",
+          "\"Jean Negulesco Condemned Women\""
+        ]
+      },
+      {
+        "id": "1a114c5e088f11ebbd71ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director born later, Bhoomiyude Avakashikal or The Majesty Of The Law?",
+        "gold_answer": "Bhoomiyude Avakashikal",
+        "predicted_answer": "Julia Crawford Ivers",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1270,
+        "elapsed_s": 72.41,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "Director of Bhoomiyude Avakashikal",
+          "Director of The Majesty Of The Law",
+          "Born later T V Chandran or Julia Crawford Ivers"
+        ]
+      },
+      {
+        "id": "9980b1ed089d11ebbd78ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Do both films Payment On Demand and My Cousin From Warsaw have the directors from the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "German",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 806,
+        "elapsed_s": 48.56,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Payment On Demand director nationality\"",
+          "\"My Cousin From Warsaw director\"",
+          "\"Director nationality Bernhardt Gallone\""
+        ]
+      },
+      {
+        "id": "5b6b8c02089711ebbd77ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film whose director was born first, 45 Fathers or The Intended?",
+        "gold_answer": "45 Fathers",
+        "predicted_answer": "45 Fathers",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 570,
+        "elapsed_s": 36.92,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "Mark Romanek early work films",
+          "Mark Romanek filmography director",
+          "Mark Romanek film 45 Fathers"
+        ]
+      },
+      {
+        "id": "f7c4fdf2087611ebbd67ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director who was born later, A Quiet Place In The Country or When Were You Born?",
+        "gold_answer": "A Quiet Place In The Country",
+        "predicted_answer": "October 20, 1979",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1096,
+        "elapsed_s": 63.11,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "John Krasinski birthdate",
+          "John Krasinski birthdate",
+          "John Krasinski birthday"
+        ]
+      },
+      {
+        "id": "9e6d7bdc08a111ebbd79ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director born earlier, The House By The Cemetery or Charlie Chan In Honolulu?",
+        "gold_answer": "Charlie Chan In Honolulu",
+        "predicted_answer": "Lucio Fulci",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1656,
+        "elapsed_s": 91.59,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Santee's director in 1977\"",
+          "\"Henri Gordon MacLeod's directorial debut\"",
+          "Charlie Chan In Honolulu director"
+        ]
+      },
+      {
+        "id": "d71f453b085811ebbd5bac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are director of film Nights On The Road and director of film Swann In Love (Film) from the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "No",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 457,
+        "elapsed_s": 30.91,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Eric Rohmann filmography",
+          "Eric Rohmann vs Ian Barry",
+          "Director of Swann In Love"
+        ]
+      },
+      {
+        "id": "7de9188c088b11ebbd6fac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director who died earlier, Toen 'T Licht Verdween or Boum Sur Paris?",
+        "gold_answer": "Toen 'T Licht Verdween",
+        "predicted_answer": "Toen 't licht verdween",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 635,
+        "elapsed_s": 41.62,
+        "supporting_fact_recall": 0.75,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Toen 't Licht Verdween film",
+          "Maurits Binger director films",
+          "Boum Sur Paris film"
+        ]
+      },
+      {
+        "id": "f420d4a008a311ebbd7cac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director born first, Antonieta or Dodging The Dole?",
+        "gold_answer": "Dodging The Dole",
+        "predicted_answer": "Antonieta",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 743,
+        "elapsed_s": 46.11,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Antonieta film director name\"",
+          "\"Carlos Saura filmography\"",
+          "\"Carlos Saura earliest film\""
+        ]
+      },
+      {
+        "id": "7a57c5d2089111ebbd73ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Do both films, Dial M For Murder and Marius (1931 Film), have the directors who are from the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "English (Alfred Hitchcock)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2317,
+        "elapsed_s": 124.55,
+        "supporting_fact_recall": 0.75,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Alfred Hitchcock nationality\"",
+          "\"Louis Jouvet nationality\"",
+          "\"Marius director nationality\""
+        ]
+      },
+      {
+        "id": "f1ff478c089011ebbd72ac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Are both directors of films The Princess Bride (Film) and I Never Sang For My Father from the same country?",
+        "gold_answer": "yes",
+        "predicted_answer": "United States",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1256,
+        "elapsed_s": 71.28,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Directors of The Princess Bride\"",
+          "Director of I Never Sang For My Father",
+          "Country of birth Melvyn Douglas"
+        ]
+      },
+      {
+        "id": "d370f0b0085711ebbd5aac1f6bf848b6",
+        "type": "bridge_comparison",
+        "condition": "interactive_retrieval",
+        "question": "Which film has the director who died earlier, Captain Kidd And The Slave Girl or Relax Freddie?",
+        "gold_answer": "Captain Kidd And The Slave Girl",
+        "predicted_answer": "Charles Lamont",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 557,
+        "elapsed_s": 36.66,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Director of Captain Kidd\"",
+          "\"Director of Relax Freddie\"",
+          "\"Who directed Captain Kidd\""
+        ]
+      }
+    ],
+    "inference": [
+      {
+        "id": "8981e1ce0bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Charles Bretagne Marie De La Tr\u00e9moille's paternal grandfather?",
+        "gold_answer": "Charles Armand Ren\u00e9 de La Tr\u00e9moille",
+        "predicted_answer": "Charles Armand Ren\u00e9 de La Tr\u00e9moille",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 811,
+        "elapsed_s": 51.41,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Charles Bretagne Marie De La Tr\u00e9moille",
+          "Jean Bretagne Charles de La Tr\u00e9moille",
+          "Charles Armand Ren\u00e9 de La Tr\u00e9moille"
+        ]
+      },
+      {
+        "id": "2ec440560bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is the maternal grandfather of Antiochus X Eusebes?",
+        "gold_answer": "Ptolemy IX Lathyros",
+        "predicted_answer": "Antiochus VIII",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 3243,
+        "elapsed_s": 175.11,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Maternal grandfather Antiochus VIII",
+          "Cleopatra Selene wife",
+          "Maternal grandfather Cleopatra Selene"
+        ]
+      },
+      {
+        "id": "2002bf0c0bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law?",
+        "gold_answer": "Rupert",
+        "predicted_answer": "Rupert III",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 905,
+        "elapsed_s": 54.97,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Catherine of Pomerania husband",
+          "John Count Palatine Neumarkt father",
+          "Rupert III father"
+        ]
+      },
+      {
+        "id": "c531e7560baf11ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Marie Z\u00e9phyrine Of France's paternal grandmother?",
+        "gold_answer": "Marie Leszczy\u0144ska",
+        "predicted_answer": "Princess Marie of Hanover",
+        "em": 0.0,
+        "f1": 0.3333333333333333,
+        "tokens": 581,
+        "elapsed_s": 40.04,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Marie Th\u00e9r\u00e8se of Austria",
+          "Princess Marie of Saxe-Altenburg",
+          "Princess Louise of Orl\u00e9ans"
+        ]
+      },
+      {
+        "id": "7a1d9d7c0bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Cornelia (Wife Of Caesar)'s child-in-law?",
+        "gold_answer": "Pompey",
+        "predicted_answer": "Pompey",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 613,
+        "elapsed_s": 42.87,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Cornelia's son-in-law identity\"",
+          "\"Cornelia's family connection to Caesar\"",
+          "\"Cornelia's daughter Julia husband\""
+        ]
+      },
+      {
+        "id": "1869092c0bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is the paternal grandfather of Taj Al-Dawla?",
+        "gold_answer": "Rukn al-Dawla",
+        "predicted_answer": "Aziz al-Dawla",
+        "em": 0.0,
+        "f1": 0.5,
+        "tokens": 2337,
+        "elapsed_s": 127.04,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Alp Arslan's son name\"",
+          "Alp Arslan's son marriage",
+          "Taj Al-Dawla father name"
+        ]
+      },
+      {
+        "id": "3705552a0bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is the paternal grandfather of Alexandre Berthier, 3Rd Prince Of Wagram?",
+        "gold_answer": "Louis-Alexandre Berthier",
+        "predicted_answer": "Louis-Fran\u00e7ois Berthier",
+        "em": 0.0,
+        "f1": 0.5,
+        "tokens": 535,
+        "elapsed_s": 36.94,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"Who was Victor-Fran\u00e7ois?\"",
+          "\"Who is Victor-Fran\u00e7ois Berthier?\"",
+          "\"Who is Louis-Fran\u00e7ois?\""
+        ]
+      },
+      {
+        "id": "96fb4aee0baf11ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Blanche Of Portugal (1259\u20131321)'s paternal grandmother?",
+        "gold_answer": "Urraca of Castile",
+        "predicted_answer": "Ferdinand III of Castile",
+        "em": 0.0,
+        "f1": 0.5714285714285715,
+        "tokens": 898,
+        "elapsed_s": 53.72,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Blanche of Portugal's parents",
+          "Beatrice of Castile parents",
+          "Beatrice of Castile's parents"
+        ]
+      },
+      {
+        "id": "27e835ee0bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Arthur Gore, 2Nd Earl Of Arran's paternal grandfather?",
+        "gold_answer": "Sir Arthur Gore, 2nd Baronet",
+        "predicted_answer": "John Evans-Freke, 6th Baron Carbery",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1556,
+        "elapsed_s": 88.13,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Arthur Gore of Enniskillen\"",
+          "\"Arthur Gore's father Paul Gore\"",
+          "\"Arthur Gore's father-in-law John Evans\""
+        ]
+      },
+      {
+        "id": "3972d2b60baf11ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Gaston, Duke Of Orl\u00e9ans's paternal grandmother?",
+        "gold_answer": "Jeanne d'Albret",
+        "predicted_answer": "Marie de' Medici",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1962,
+        "elapsed_s": 107.12,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Valois royal family tree\"",
+          "Gaston Duke Of Orl\u00e9ans parents",
+          "Gaston Duke Of Orl\u00e9ans siblings"
+        ]
+      },
+      {
+        "id": "32e50df00bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is the father-in-law of Sophia Of Wittelsbach?",
+        "gold_answer": "Louis II",
+        "predicted_answer": "Peter Burroughs",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 652,
+        "elapsed_s": 42.11,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Who is Charles Louis?\"",
+          "\"Who is Sophia Of Wittelsbach?\"",
+          "\"Who is Otto I Wittelsbach?\""
+        ]
+      },
+      {
+        "id": "07388c7c0bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is the maternal grandfather of Amadeus Vii, Count Of Savoy?",
+        "gold_answer": "Peter I",
+        "predicted_answer": "Peter I, Duke of Bourbon",
+        "em": 0.0,
+        "f1": 0.5714285714285715,
+        "tokens": 1277,
+        "elapsed_s": 73.46,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Amadeus VII's mother's father\"",
+          "Amadeus VII's mother's father",
+          "Bonne of Bourbon's father"
+        ]
+      },
+      {
+        "id": "bc633e2c0baf11ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Maria Luisa Of Savoy's father-in-law?",
+        "gold_answer": "Louis, Grand Dauphin",
+        "predicted_answer": "Ferdinand VI of Spain",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1020,
+        "elapsed_s": 59.47,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "King of Spain 1700s marriage",
+          "Philip V of Spain wife",
+          "Philip V of Spain sons"
+        ]
+      },
+      {
+        "id": "2b4bd5020baf11ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is the paternal grandfather of Kuj\u014d Yoritsugu?",
+        "gold_answer": "Kuj\u014d Michiie",
+        "predicted_answer": "Kuj\u014d Michiie",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 910,
+        "elapsed_s": 55.13,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Kuj\u014d Michiari family history",
+          "Fujiwara clan patriarchs",
+          "Fujiwara clan patriarchs names"
+        ]
+      },
+      {
+        "id": "94198d580bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is William Ii, Count Of Flanders's paternal grandmother?",
+        "gold_answer": "Mathilde of Bourbon",
+        "predicted_answer": "Margaret I, Countess of Burgundy",
+        "em": 0.0,
+        "f1": 0.25,
+        "tokens": 769,
+        "elapsed_s": 56.43,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Matilda of Frisia wife\"",
+          "Margaret I of Flanders",
+          "\"Louis I Count of Flanders\""
+        ]
+      },
+      {
+        "id": "97ce0ec00baf11ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Henriette Of France (1727\u20131752)'s maternal grandfather?",
+        "gold_answer": "Stanis\u0142aw Leszczy\u0144ski",
+        "predicted_answer": "King Stanis\u0142aw I of Poland",
+        "em": 0.0,
+        "f1": 0.28571428571428575,
+        "tokens": 779,
+        "elapsed_s": 57.15,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Louis XV of France spouse",
+          "Marie Leszczy\u0144ska parents",
+          "King Stanis\u0142aw I's wife"
+        ]
+      },
+      {
+        "id": "5b637e060bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Prince Nicolas, Duke Of \u00c5ngermanland's mother?",
+        "gold_answer": "Princess Madeleine, Duchess of H\u00e4lsingland and G\u00e4strikland",
+        "predicted_answer": "Verona Barnes",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 681,
+        "elapsed_s": 51.37,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"Prince Carl's wife 1655\"",
+          "Prince Carl's spouse 1632",
+          "Prince Carl's spouse 1655"
+        ]
+      },
+      {
+        "id": "1a2188840bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is the paternal grandmother of Princess Augusta Of Waldeck-Pyrmont?",
+        "gold_answer": "Princess Augusta of Schwarzburg-Sondershausen",
+        "predicted_answer": "Wilhelmine von Erbach",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 810,
+        "elapsed_s": 59.76,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Who was Wilhelmine von Erbach?",
+          "Who married Princess Helena?",
+          "Who married Princess Augusta Of Waldeck-Pyrmont?"
+        ]
+      },
+      {
+        "id": "e6688a7e0baf11ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Philip Of Sicily's father?",
+        "gold_answer": "Charles I of Naples",
+        "predicted_answer": "Gerald Rudolff Ford",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 636,
+        "elapsed_s": 51.56,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "Roger II of Normandy",
+          "Who is Roger II's father",
+          "Who is Roger II's father"
+        ]
+      },
+      {
+        "id": "77f41ab20bb011ebab90acde48001122",
+        "type": "inference",
+        "condition": "interactive_retrieval",
+        "question": "Who is Edward De Vere, 17Th Earl Of Oxford's paternal grandfather?",
+        "gold_answer": "John de Vere, 15th Earl of Oxford",
+        "predicted_answer": "Edward Trussell",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 736,
+        "elapsed_s": 55.11,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "John de Vere's ancestry",
+          "John de Vere's parents",
+          "John de Vere's father"
+        ]
+      }
+    ]
+  },
+  "summary_by_type": {
+    "compositional": {
+      "num_tasks": 20,
+      "exact_match": 0.35,
+      "f1": 0.38333333333333336,
+      "mean_tokens": 1181.35,
+      "mean_elapsed_s": 68.07050000000001,
+      "mean_supporting_fact_recall": 0.7,
+      "mean_dfs_score": 0.975,
+      "mean_num_queries": 3.0
+    },
+    "comparison": {
+      "num_tasks": 20,
+      "exact_match": 0.35,
+      "f1": 0.36428571428571427,
+      "mean_tokens": 947.75,
+      "mean_elapsed_s": 56.742000000000004,
+      "mean_supporting_fact_recall": 0.9,
+      "mean_dfs_score": 0.6,
+      "mean_num_queries": 3.0
+    },
+    "bridge_comparison": {
+      "num_tasks": 20,
+      "exact_match": 0.2,
+      "f1": 0.2,
+      "mean_tokens": 858.45,
+      "mean_elapsed_s": 52.03099999999999,
+      "mean_supporting_fact_recall": 0.4,
+      "mean_dfs_score": 0.8,
+      "mean_num_queries": 3.0
+    },
+    "inference": {
+      "num_tasks": 20,
+      "exact_match": 0.15,
+      "f1": 0.33392857142857146,
+      "mean_tokens": 1085.55,
+      "mean_elapsed_s": 66.94500000000001,
+      "mean_supporting_fact_recall": 0.55,
+      "mean_dfs_score": 0.775,
+      "mean_num_queries": 3.0
+    }
+  },
+  "summary_overall": {
+    "num_tasks": 80,
+    "exact_match": 0.2625,
+    "f1": 0.32038690476190473,
+    "mean_tokens": 1018.275,
+    "mean_elapsed_s": 60.94712500000001,
+    "mean_supporting_fact_recall": 0.6375,
+    "mean_dfs_score": 0.7875,
+    "mean_num_queries": 3.0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "conditions": [
+    {
+      "condition": "graph_session",
+      "num_tasks": 5,
+      "success_rate": 0.6,
+      "mean_total_tokens": 3795.8,
+      "mean_plan_tokens": 3795.8,
+      "mean_oracle_tokens": 0.0,
+      "tokens_per_successful_task": 6326.333333333333,
+      "mean_oracle_questions_asked": 0.0,
+      "mean_memory_chars": 1465.0,
+      "retrieval_rate": 1.0,
+      "mean_plan_elapsed_s": 1719.94,
+      "mean_oracle_elapsed_s": 0.0,
+      "mean_total_elapsed_s": 1720.632,
+      "mean_oracle_call_elapsed_s": 0.0
+    },
+    {
+      "condition": "full_handoff",
+      "num_tasks": 5,
+      "success_rate": 0.4,
+      "mean_total_tokens": 5757.0,
+      "mean_plan_tokens": 5757.0,
+      "mean_oracle_tokens": 0.0,
+      "tokens_per_successful_task": 14392.5,
+      "mean_oracle_questions_asked": 0.0,
+      "mean_memory_chars": 8072.0,
+      "retrieval_rate": 1.0,
+      "mean_plan_elapsed_s": 492.01000000000005,
+      "mean_oracle_elapsed_s": 0.0,
+      "mean_total_elapsed_s": 492.284,
+      "mean_oracle_call_elapsed_s": 0.0
+    },
+    {
+      "condition": "interactive_oracle",
+      "num_tasks": 5,
+      "success_rate": 0.4,
+      "mean_total_tokens": 21761.4,
+      "mean_plan_tokens": 4907.0,
+      "mean_oracle_tokens": 16854.4,
+      "tokens_per_successful_task": 54403.5,
+      "mean_oracle_questions_asked": 5.0,
+      "mean_memory_chars": 6597.6,
+      "retrieval_rate": 1.0,
+      "mean_plan_elapsed_s": 470.97800000000007,
+      "mean_oracle_elapsed_s": 445.18999999999994,
+      "mean_total_elapsed_s": 916.298,
+      "mean_oracle_call_elapsed_s": 63.612
+    }
+  ]
+}

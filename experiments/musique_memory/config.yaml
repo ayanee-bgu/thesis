@@ -1,0 +1,35 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 450
+
+# ── Phase 1: memory population (train split) ────────────────────────────────
+population:
+  dataset: "dgslibisey/MuSiQue"
+  split: "train"
+  hop_buckets: [2, 3]
+  num_per_hop: 30          # train questions per hop bucket
+  oracle:
+    max_queries: 4         # allow one extra query on 3-hop questions
+  extraction:
+    min_answer_f1: 0.4
+    procedure_dedup_threshold: 0.70
+    min_procedure_sessions: 2
+    min_program_success_rate: 0.50
+
+# ── Phase 2: evaluation (val split) ─────────────────────────────────────────
+evaluation:
+  dataset: "dgslibisey/MuSiQue"
+  split: "validation"
+  hop_buckets: [2, 3]
+  num_per_hop: 15
+
+retrieval:
+  max_queries: 3
+  verbatim_max_nodes: 10
+  verbatim_max_words: 1000
+  filter_by_hop: true      # only retrieve memory from same hop count
+
+output:
+  memory_dir: "results/musique_memory/pool"
+  results_dir: "results/musique_memory/eval"

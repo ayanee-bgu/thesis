@@ -1,0 +1,250 @@
+2026-08-01 12:53:14,771 INFO Loading QASPER dataset...
+2026-08-01 12:53:21,511 INFO HTTP Request: HEAD https://huggingface.co/datasets/allenai/qasper/resolve/refs%2Fconvert%2Fparquet/README.md "HTTP/1.1 404 Not Found"
+2026-08-01 12:53:21,732 INFO HTTP Request: GET https://huggingface.co/api/datasets/allenai/qasper/revision/refs%2Fconvert%2Fparquet "HTTP/1.1 200 OK"
+2026-08-01 12:53:21,898 INFO HTTP Request: HEAD https://huggingface.co/datasets/allenai/qasper/resolve/06806e4608976fc2fac0a090ac425d5b2b29caf4/qasper.py "HTTP/1.1 404 Not Found"
+2026-08-01 12:53:22,419 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/allenai/qasper/allenai/qasper.py "HTTP/1.1 404 Not Found"
+2026-08-01 12:53:22,592 INFO HTTP Request: HEAD https://huggingface.co/datasets/allenai/qasper/resolve/06806e4608976fc2fac0a090ac425d5b2b29caf4/README.md "HTTP/1.1 404 Not Found"
+2026-08-01 12:53:22,753 INFO HTTP Request: GET https://huggingface.co/api/datasets/allenai/qasper/revision/06806e4608976fc2fac0a090ac425d5b2b29caf4 "HTTP/1.1 200 OK"
+2026-08-01 12:53:22,916 INFO HTTP Request: HEAD https://huggingface.co/datasets/allenai/qasper/resolve/06806e4608976fc2fac0a090ac425d5b2b29caf4/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-08-01 12:53:23,095 INFO HTTP Request: GET https://huggingface.co/api/datasets/allenai/qasper/tree/06806e4608976fc2fac0a090ac425d5b2b29caf4/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-08-01 12:53:23,258 INFO HTTP Request: GET https://huggingface.co/api/datasets/allenai/qasper/tree/06806e4608976fc2fac0a090ac425d5b2b29caf4?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-08-01 12:53:23,433 INFO HTTP Request: GET https://huggingface.co/api/datasets/allenai/qasper/tree/06806e4608976fc2fac0a090ac425d5b2b29caf4/qasper?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-01 12:53:23,735 INFO HTTP Request: HEAD https://huggingface.co/datasets/allenai/qasper/resolve/06806e4608976fc2fac0a090ac425d5b2b29caf4/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-08-01 12:53:23,773 INFO [dataset] Loaded 281 papers from allenai/qasper
+2026-08-01 12:53:23,967 INFO [dataset] length tertile cuts: short<2493 <= medium<3800 <= long (words)
+2026-08-01 12:53:23,976 INFO [dataset] short: 15 examples selected
+2026-08-01 12:53:23,976 INFO [dataset] medium: 15 examples selected
+2026-08-01 12:53:23,976 INFO [dataset] long: 15 examples selected
+2026-08-01 12:53:26,489 INFO [warmup] Model ready (2.5s)
+2026-08-01 12:53:26,489 INFO 
+──────────────────────────────────────────────────
+Condition: no_context
+──────────────────────────────────────────────────
+2026-08-01 12:53:30,035 INFO [no_context/short] a313e98994fc039a82aa2447c411dda92c65a470: em=0 f1=0.00 tok=21 recall=0.00 s=3.5
+2026-08-01 12:53:33,605 INFO [no_context/short] 37861be6aecd9242c4fdccdfcd06e48f3f1f8f81: em=0 f1=0.00 tok=27 recall=0.00 s=3.6
+2026-08-01 12:53:37,857 INFO [no_context/short] 7e62a53823aba08bc26b2812db016f5ce6159565: em=0 f1=0.00 tok=25 recall=0.00 s=4.2
+2026-08-01 12:53:41,344 INFO [no_context/short] 9eabb54c2408dac24f00f92cf1061258c7ea2e1a: em=0 f1=0.00 tok=21 recall=0.00 s=3.5
+2026-08-01 12:53:44,804 INFO [no_context/short] 3d013f15796ae7fed5272183a166c45f16e24e39: em=0 f1=0.00 tok=18 recall=0.00 s=3.5
+2026-08-01 12:53:49,320 INFO [no_context/short] 71e4ba4e87e6596aeca187127c0d088df6570c57: em=0 f1=0.00 tok=24 recall=1.00 s=4.5
+2026-08-01 12:53:52,766 INFO [no_context/short] 7561a968470a8936d10e1ba722d2f38b5a9a4d38: em=0 f1=0.00 tok=18 recall=0.00 s=3.5
+2026-08-01 12:53:58,324 INFO [no_context/short] 6d4400f45bd97b812e946b8a682b018826e841f1: em=0 f1=0.08 tok=39 recall=0.00 s=5.6
+2026-08-01 12:54:01,817 INFO [no_context/short] 26c2e1eb12143d985e4fb50543cf0d1eb4395e67: em=0 f1=0.00 tok=19 recall=0.00 s=3.5
+2026-08-01 12:54:05,471 INFO [no_context/short] d27438b11bc70e706431dda0af2b1c0b0d209f96: em=0 f1=0.00 tok=22 recall=0.00 s=3.6
+2026-08-01 12:54:09,414 INFO [no_context/short] 8d4ac4afbf5b14f412171729ceb5e822afcfa3f4: em=0 f1=0.00 tok=33 recall=0.00 s=3.9
+2026-08-01 12:54:13,143 INFO [no_context/short] 3c93894c4baf49deacc6ed2a14ef5e0f13b7d96f: em=0 f1=0.25 tok=22 recall=0.00 s=3.7
+2026-08-01 12:54:16,476 INFO [no_context/short] 07d15501a599bae7eb4a9ead63e9df3d55b3dc35: em=0 f1=0.00 tok=19 recall=0.00 s=3.3
+2026-08-01 12:54:19,973 INFO [no_context/short] 1ff0fccf0dca95a6630380c84b0422bed854269a: em=0 f1=0.00 tok=21 recall=0.00 s=3.5
+2026-08-01 12:54:23,175 INFO [no_context/short] 3d7d865e905295d11f1e85af5fa89b210e3e9fdf: em=0 f1=0.00 tok=17 recall=0.00 s=3.2
+2026-08-01 12:54:27,564 INFO [no_context/medium] b6f15fb6279b82e34a5bf4828b7b5ddabfdf1d54: em=0 f1=0.00 tok=26 recall=0.00 s=4.4
+2026-08-01 12:54:31,082 INFO [no_context/medium] f5e6f43454332e0521a778db0b769481e23e7682: em=0 f1=0.00 tok=19 recall=0.00 s=3.5
+2026-08-01 12:54:35,343 INFO [no_context/medium] 9a05a5f4351db75da371f7ac12eb0b03607c4b87: em=0 f1=0.00 tok=23 recall=0.00 s=4.3
+2026-08-01 12:54:40,362 INFO [no_context/medium] 5eda469a8a77f028d0c5f1acd296111085614537: em=0 f1=0.00 tok=27 recall=0.00 s=5.0
+2026-08-01 12:54:44,335 INFO [no_context/medium] 18c5d366b1da8447b5404eab71f4cc658ba12e6f: em=0 f1=0.00 tok=20 recall=0.00 s=4.0
+2026-08-01 12:54:48,059 INFO [no_context/medium] b5e4866f0685299f1d7af267bbcc4afe2aab806f: em=0 f1=0.00 tok=20 recall=0.00 s=3.7
+2026-08-01 12:54:51,644 INFO [no_context/medium] 1f085b9bb7bfd0d6c8cba1a9d73f08fcf2da7590: em=0 f1=0.00 tok=22 recall=0.00 s=3.6
+2026-08-01 12:54:55,106 INFO [no_context/medium] 113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab: em=0 f1=0.29 tok=17 recall=0.00 s=3.5
+2026-08-01 12:54:59,322 INFO [no_context/medium] 0752d71a0a1f73b3482a888313622ce9e9870d6e: em=0 f1=0.00 tok=21 recall=0.00 s=4.2
+2026-08-01 12:55:03,591 INFO [no_context/medium] 55c8f7acbfd4f5cde634aaecd775b3bb32e9ffa3: em=0 f1=0.00 tok=22 recall=0.00 s=4.3
+2026-08-01 12:55:07,740 INFO [no_context/medium] 4eaf9787f51cd7cdc45eb85cf223d752328c6ee4: em=0 f1=0.00 tok=21 recall=0.00 s=4.2
+2026-08-01 12:55:11,389 INFO [no_context/medium] fb2b536dc8e442dffab408db992b971e86548158: em=0 f1=0.00 tok=23 recall=1.00 s=3.6
+2026-08-01 12:55:15,220 INFO [no_context/medium] 31735ec3d83c40b79d11df5c34154849aeb3fb47: em=0 f1=0.00 tok=21 recall=0.00 s=3.8
+2026-08-01 12:55:18,455 INFO [no_context/medium] 10d450960907091f13e0be55f40bcb96f44dd074: em=1 f1=1.00 tok=17 recall=0.00 s=3.2
+2026-08-01 12:55:21,933 INFO [no_context/medium] b5608076d91450b0d295ad14c3e3a90d7e168d0e: em=1 f1=1.00 tok=21 recall=0.00 s=3.5
+2026-08-01 12:55:28,096 INFO [no_context/long] b6ae8e10c6a0d34c834f18f66ab730b670fb528c: em=0 f1=0.00 tok=33 recall=0.00 s=6.2
+2026-08-01 12:55:31,230 INFO [no_context/long] a87a009c242d57c51fc94fe312af5e02070f898b: em=0 f1=0.00 tok=16 recall=0.00 s=3.1
+2026-08-01 12:55:34,986 INFO [no_context/long] ef4dba073d24042f24886580ae77add5326f2130: em=0 f1=0.00 tok=19 recall=1.00 s=3.8
+2026-08-01 12:55:38,466 INFO [no_context/long] 2df4a045a9cd7b44874340b6fdf9308d3c55327a: em=0 f1=0.00 tok=17 recall=0.00 s=3.5
+2026-08-01 12:55:43,355 INFO [no_context/long] 9ee07edc371e014df686ced4fb0c3a7b9ce3d5dc: em=0 f1=0.00 tok=30 recall=0.00 s=4.9
+2026-08-01 12:55:46,591 INFO [no_context/long] d3aa0449708cc861a51551b128d73e11d62207d2: em=0 f1=0.00 tok=19 recall=0.00 s=3.2
+2026-08-01 12:55:50,860 INFO [no_context/long] cfbec1ef032ac968560a7c76dec70faf1269b27c: em=0 f1=0.57 tok=20 recall=0.00 s=4.3
+2026-08-01 12:55:55,565 INFO [no_context/long] c0e341c4d2253eb42c8840381b082aae274eddad: em=0 f1=0.00 tok=24 recall=0.00 s=4.7
+2026-08-01 12:55:59,267 INFO [no_context/long] 1ec152119cf756b16191b236c85522afeed11f59: em=0 f1=0.03 tok=24 recall=0.00 s=3.7
+2026-08-01 12:56:02,870 INFO [no_context/long] 891c2001d6baaaf0da4e65b647402acac621a7d2: em=0 f1=0.00 tok=22 recall=0.00 s=3.6
+2026-08-01 12:56:06,613 INFO [no_context/long] 66c96c297c2cffdf5013bab5e95b59101cb38655: em=0 f1=0.00 tok=23 recall=0.00 s=3.7
+2026-08-01 12:56:11,727 INFO [no_context/long] 6b53e1f46ae4ba9b75117fc6e593abded89366be: em=0 f1=0.00 tok=28 recall=0.00 s=5.1
+2026-08-01 12:56:14,970 INFO [no_context/long] c0bee6539eb6956a7347daa9d2419b367bd02064: em=0 f1=0.00 tok=22 recall=0.00 s=3.2
+2026-08-01 12:56:19,364 INFO [no_context/long] 3de0487276bb5961586acc6e9f82934ef8cb668c: em=0 f1=0.00 tok=27 recall=0.00 s=4.4
+2026-08-01 12:56:23,452 INFO [no_context/long] f17ca24b135f9fe6bb25dc5084b13e1637ec7744: em=0 f1=0.00 tok=25 recall=0.00 s=4.1
+2026-08-01 12:56:23,454 INFO 
+──────────────────────────────────────────────────
+Condition: full_context
+──────────────────────────────────────────────────
+2026-08-01 12:56:33,124 INFO [full_context/short] a313e98994fc039a82aa2447c411dda92c65a470: em=0 f1=0.13 tok=38 recall=1.00 s=9.7
+2026-08-01 12:56:53,552 INFO [full_context/short] 37861be6aecd9242c4fdccdfcd06e48f3f1f8f81: em=0 f1=0.30 tok=88 recall=1.00 s=20.4
+2026-08-01 12:57:19,695 INFO [full_context/short] 7e62a53823aba08bc26b2812db016f5ce6159565: em=0 f1=0.30 tok=104 recall=1.00 s=26.1
+2026-08-01 13:00:41,870 INFO [full_context/short] 9eabb54c2408dac24f00f92cf1061258c7ea2e1a: em=0 f1=0.52 tok=3599 recall=1.00 s=202.2
+2026-08-01 13:01:05,890 INFO [full_context/short] 3d013f15796ae7fed5272183a166c45f16e24e39: em=0 f1=0.59 tok=84 recall=1.00 s=24.0
+2026-08-01 13:04:16,730 INFO [full_context/short] 71e4ba4e87e6596aeca187127c0d088df6570c57: em=0 f1=0.02 tok=2984 recall=1.00 s=190.8
+2026-08-01 13:04:26,376 INFO [full_context/short] 7561a968470a8936d10e1ba722d2f38b5a9a4d38: em=0 f1=0.78 tok=38 recall=1.00 s=9.7
+2026-08-01 13:05:22,010 INFO [full_context/short] 6d4400f45bd97b812e946b8a682b018826e841f1: em=0 f1=0.13 tok=228 recall=1.00 s=55.6
+2026-08-01 13:06:07,437 INFO [full_context/short] 26c2e1eb12143d985e4fb50543cf0d1eb4395e67: em=0 f1=0.13 tok=177 recall=1.00 s=45.4
+2026-08-01 13:07:55,834 INFO [full_context/short] d27438b11bc70e706431dda0af2b1c0b0d209f96: em=0 f1=0.08 tok=2015 recall=1.00 s=108.4
+2026-08-01 13:09:43,046 INFO [full_context/short] 8d4ac4afbf5b14f412171729ceb5e822afcfa3f4: em=0 f1=0.00 tok=1940 recall=1.00 s=107.2
+2026-08-01 13:09:52,699 INFO [full_context/short] 3c93894c4baf49deacc6ed2a14ef5e0f13b7d96f: em=0 f1=0.10 tok=47 recall=1.00 s=9.7
+2026-08-01 13:10:13,082 INFO [full_context/short] 07d15501a599bae7eb4a9ead63e9df3d55b3dc35: em=0 f1=0.10 tok=99 recall=1.00 s=20.4
+2026-08-01 13:12:56,004 INFO [full_context/short] 1ff0fccf0dca95a6630380c84b0422bed854269a: em=0 f1=0.51 tok=2677 recall=1.00 s=162.9
+2026-08-01 13:13:03,279 INFO [full_context/short] 3d7d865e905295d11f1e85af5fa89b210e3e9fdf: em=0 f1=0.00 tok=30 recall=1.00 s=7.3
+2026-08-01 13:17:12,849 INFO [full_context/medium] b6f15fb6279b82e34a5bf4828b7b5ddabfdf1d54: em=0 f1=0.07 tok=4187 recall=1.00 s=249.6
+2026-08-01 13:21:23,332 INFO [full_context/medium] f5e6f43454332e0521a778db0b769481e23e7682: em=0 f1=0.13 tok=4189 recall=1.00 s=250.5
+2026-08-01 13:25:10,065 INFO [full_context/medium] 9a05a5f4351db75da371f7ac12eb0b03607c4b87: em=0 f1=0.24 tok=4097 recall=1.00 s=226.7
+2026-08-01 13:29:16,572 INFO [full_context/medium] 5eda469a8a77f028d0c5f1acd296111085614537: em=0 f1=0.08 tok=4174 recall=1.00 s=246.5
+2026-08-01 13:33:17,147 INFO [full_context/medium] 18c5d366b1da8447b5404eab71f4cc658ba12e6f: em=0 f1=0.30 tok=4152 recall=1.00 s=240.6
+2026-08-01 13:37:05,568 INFO [full_context/medium] b5e4866f0685299f1d7af267bbcc4afe2aab806f: em=0 f1=0.12 tok=4103 recall=1.00 s=228.4
+2026-08-01 13:41:08,936 INFO [full_context/medium] 1f085b9bb7bfd0d6c8cba1a9d73f08fcf2da7590: em=0 f1=0.03 tok=4162 recall=1.00 s=243.4
+2026-08-01 13:45:12,217 INFO [full_context/medium] 113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab: em=0 f1=0.07 tok=4156 recall=1.00 s=243.3
+2026-08-01 13:49:11,148 INFO [full_context/medium] 0752d71a0a1f73b3482a888313622ce9e9870d6e: em=0 f1=0.12 tok=4142 recall=1.00 s=238.9
+2026-08-01 13:53:05,501 INFO [full_context/medium] 55c8f7acbfd4f5cde634aaecd775b3bb32e9ffa3: em=0 f1=0.58 tok=4127 recall=1.00 s=234.3
+2026-08-01 13:57:06,437 INFO [full_context/medium] 4eaf9787f51cd7cdc45eb85cf223d752328c6ee4: em=0 f1=0.11 tok=4153 recall=1.00 s=240.9
+2026-08-01 14:01:07,081 INFO [full_context/medium] fb2b536dc8e442dffab408db992b971e86548158: em=0 f1=0.00 tok=4150 recall=1.00 s=240.6
+2026-08-01 14:05:01,315 INFO [full_context/medium] 31735ec3d83c40b79d11df5c34154849aeb3fb47: em=0 f1=0.48 tok=4126 recall=1.00 s=234.2
+2026-08-01 14:09:57,751 INFO [full_context/medium] 10d450960907091f13e0be55f40bcb96f44dd074: em=0 f1=0.00 tok=4363 recall=1.00 s=296.4
+2026-08-01 14:14:03,168 INFO [full_context/medium] b5608076d91450b0d295ad14c3e3a90d7e168d0e: em=0 f1=0.00 tok=4168 recall=1.00 s=245.4
+2026-08-01 14:18:24,414 INFO [full_context/long] b6ae8e10c6a0d34c834f18f66ab730b670fb528c: em=0 f1=0.12 tok=4228 recall=1.00 s=261.2
+2026-08-01 14:22:39,908 INFO [full_context/long] a87a009c242d57c51fc94fe312af5e02070f898b: em=0 f1=0.11 tok=4211 recall=1.00 s=255.5
+2026-08-01 14:26:49,354 INFO [full_context/long] ef4dba073d24042f24886580ae77add5326f2130: em=0 f1=0.20 tok=4186 recall=1.00 s=249.4
+2026-08-01 14:30:40,747 INFO [full_context/long] 2df4a045a9cd7b44874340b6fdf9308d3c55327a: em=0 f1=0.18 tok=4115 recall=1.00 s=231.4
+2026-08-01 14:34:55,073 INFO [full_context/long] 9ee07edc371e014df686ced4fb0c3a7b9ce3d5dc: em=0 f1=0.05 tok=4204 recall=1.00 s=254.3
+2026-08-01 14:39:02,730 INFO [full_context/long] d3aa0449708cc861a51551b128d73e11d62207d2: em=0 f1=0.32 tok=4178 recall=1.00 s=247.7
+2026-08-01 14:42:45,418 INFO [full_context/long] cfbec1ef032ac968560a7c76dec70faf1269b27c: em=0 f1=0.73 tok=4083 recall=1.00 s=222.7
+2026-08-01 14:46:42,546 INFO [full_context/long] c0e341c4d2253eb42c8840381b082aae274eddad: em=0 f1=0.12 tok=4134 recall=1.00 s=237.1
+2026-08-01 14:51:11,787 INFO [full_context/long] 1ec152119cf756b16191b236c85522afeed11f59: em=0 f1=0.40 tok=4266 recall=1.00 s=269.2
+2026-08-01 14:55:24,432 INFO [full_context/long] 891c2001d6baaaf0da4e65b647402acac621a7d2: em=0 f1=0.27 tok=4202 recall=1.00 s=252.7
+2026-08-01 14:59:44,509 INFO [full_context/long] 66c96c297c2cffdf5013bab5e95b59101cb38655: em=0 f1=0.16 tok=4231 recall=1.00 s=260.1
+2026-08-01 15:03:50,842 INFO [full_context/long] 6b53e1f46ae4ba9b75117fc6e593abded89366be: em=0 f1=0.15 tok=4175 recall=1.00 s=246.3
+2026-08-01 15:08:05,997 INFO [full_context/long] c0bee6539eb6956a7347daa9d2419b367bd02064: em=0 f1=0.02 tok=4198 recall=1.00 s=255.2
+2026-08-01 15:11:55,947 INFO [full_context/long] 3de0487276bb5961586acc6e9f82934ef8cb668c: em=0 f1=0.18 tok=4107 recall=1.00 s=229.9
+2026-08-01 15:15:52,894 INFO [full_context/long] f17ca24b135f9fe6bb25dc5084b13e1637ec7744: em=0 f1=0.16 tok=4141 recall=1.00 s=236.9
+2026-08-01 15:15:52,898 INFO 
+──────────────────────────────────────────────────
+Condition: summary_doc
+──────────────────────────────────────────────────
+2026-08-01 15:20:29,258 INFO [summary_doc/short] a313e98994fc039a82aa2447c411dda92c65a470: em=0 f1=0.00 tok=3786 recall=0.00 s=276.4
+2026-08-01 15:22:30,784 INFO [summary_doc/short] 37861be6aecd9242c4fdccdfcd06e48f3f1f8f81: em=0 f1=0.58 tok=820 recall=0.00 s=121.5
+2026-08-01 15:24:22,370 INFO [summary_doc/short] 7e62a53823aba08bc26b2812db016f5ce6159565: em=0 f1=0.00 tok=444 recall=0.00 s=111.6
+2026-08-01 15:29:34,529 INFO [summary_doc/short] 9eabb54c2408dac24f00f92cf1061258c7ea2e1a: em=0 f1=0.08 tok=4348 recall=0.00 s=312.2
+2026-08-01 15:31:42,414 INFO [summary_doc/short] 3d013f15796ae7fed5272183a166c45f16e24e39: em=0 f1=0.04 tok=761 recall=0.00 s=127.9
+2026-08-01 15:36:18,621 INFO [summary_doc/short] 71e4ba4e87e6596aeca187127c0d088df6570c57: em=0 f1=0.00 tok=3712 recall=1.00 s=276.2
+2026-08-01 15:39:07,469 INFO [summary_doc/short] 7561a968470a8936d10e1ba722d2f38b5a9a4d38: em=0 f1=0.89 tok=1104 recall=0.00 s=168.8
+2026-08-01 15:40:58,163 INFO [summary_doc/short] 6d4400f45bd97b812e946b8a682b018826e841f1: em=0 f1=0.08 tok=757 recall=0.00 s=110.7
+2026-08-01 15:42:40,985 INFO [summary_doc/short] 26c2e1eb12143d985e4fb50543cf0d1eb4395e67: em=0 f1=0.50 tok=600 recall=0.00 s=102.8
+2026-08-01 15:45:46,737 INFO [summary_doc/short] d27438b11bc70e706431dda0af2b1c0b0d209f96: em=1 f1=1.00 tok=2664 recall=0.00 s=185.8
+2026-08-01 15:49:08,847 INFO [summary_doc/short] 8d4ac4afbf5b14f412171729ceb5e822afcfa3f4: em=0 f1=0.00 tok=2743 recall=0.00 s=202.1
+2026-08-01 15:50:34,524 INFO [summary_doc/short] 3c93894c4baf49deacc6ed2a14ef5e0f13b7d96f: em=0 f1=0.00 tok=664 recall=0.00 s=85.7
+2026-08-01 15:51:58,453 INFO [summary_doc/short] 07d15501a599bae7eb4a9ead63e9df3d55b3dc35: em=0 f1=0.00 tok=539 recall=0.00 s=83.9
+2026-08-01 15:56:10,491 INFO [summary_doc/short] 1ff0fccf0dca95a6630380c84b0422bed854269a: em=0 f1=0.24 tok=3419 recall=0.00 s=252.0
+2026-08-01 15:57:58,041 INFO [summary_doc/short] 3d7d865e905295d11f1e85af5fa89b210e3e9fdf: em=1 f1=1.00 tok=758 recall=0.00 s=107.5
+2026-08-01 16:03:31,253 INFO [summary_doc/medium] b6f15fb6279b82e34a5bf4828b7b5ddabfdf1d54: em=0 f1=0.00 tok=4852 recall=0.00 s=333.2
+2026-08-01 16:08:53,517 INFO [summary_doc/medium] f5e6f43454332e0521a778db0b769481e23e7682: em=0 f1=0.00 tok=4698 recall=0.00 s=322.3
+2026-08-01 16:14:32,956 INFO [summary_doc/medium] 9a05a5f4351db75da371f7ac12eb0b03607c4b87: em=0 f1=0.80 tok=4781 recall=0.00 s=339.4
+2026-08-01 16:20:02,357 INFO [summary_doc/medium] 5eda469a8a77f028d0c5f1acd296111085614537: em=0 f1=0.00 tok=4826 recall=0.00 s=329.4
+2026-08-01 16:26:21,237 INFO [summary_doc/medium] 18c5d366b1da8447b5404eab71f4cc658ba12e6f: em=0 f1=0.95 tok=5152 recall=0.00 s=378.9
+2026-08-01 16:31:35,962 INFO [summary_doc/medium] b5e4866f0685299f1d7af267bbcc4afe2aab806f: em=0 f1=0.00 tok=4630 recall=0.00 s=314.7
+2026-08-01 16:37:36,439 INFO [summary_doc/medium] 1f085b9bb7bfd0d6c8cba1a9d73f08fcf2da7590: em=0 f1=0.00 tok=4930 recall=0.00 s=360.5
+2026-08-01 16:43:12,996 INFO [summary_doc/medium] 113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab: em=0 f1=0.00 tok=4888 recall=0.00 s=336.6
+2026-08-01 16:49:00,568 INFO [summary_doc/medium] 0752d71a0a1f73b3482a888313622ce9e9870d6e: em=0 f1=0.00 tok=4948 recall=0.00 s=347.6
+2026-08-01 16:54:49,376 INFO [summary_doc/medium] 55c8f7acbfd4f5cde634aaecd775b3bb32e9ffa3: em=0 f1=0.80 tok=4896 recall=0.00 s=348.8
+2026-08-01 17:00:10,787 INFO [summary_doc/medium] 4eaf9787f51cd7cdc45eb85cf223d752328c6ee4: em=0 f1=0.00 tok=4795 recall=0.00 s=321.4
+2026-08-01 17:05:17,135 INFO [summary_doc/medium] fb2b536dc8e442dffab408db992b971e86548158: em=1 f1=1.00 tok=4685 recall=1.00 s=306.4
+2026-08-01 17:10:15,015 INFO [summary_doc/medium] 31735ec3d83c40b79d11df5c34154849aeb3fb47: em=0 f1=0.00 tok=4500 recall=0.00 s=297.9
+2026-08-01 17:15:12,323 INFO [summary_doc/medium] 10d450960907091f13e0be55f40bcb96f44dd074: em=0 f1=0.00 tok=4456 recall=0.00 s=297.3
+2026-08-01 17:20:22,959 INFO [summary_doc/medium] b5608076d91450b0d295ad14c3e3a90d7e168d0e: em=0 f1=0.00 tok=4433 recall=0.00 s=310.6
+2026-08-01 17:25:33,266 INFO [summary_doc/long] b6ae8e10c6a0d34c834f18f66ab730b670fb528c: em=0 f1=0.27 tok=4723 recall=0.00 s=310.3
+2026-08-01 17:31:03,500 INFO [summary_doc/long] a87a009c242d57c51fc94fe312af5e02070f898b: em=0 f1=0.00 tok=4853 recall=0.00 s=330.2
+2026-08-01 17:36:27,093 INFO [summary_doc/long] ef4dba073d24042f24886580ae77add5326f2130: em=0 f1=0.00 tok=4807 recall=1.00 s=323.6
+2026-08-01 17:41:54,666 INFO [summary_doc/long] 2df4a045a9cd7b44874340b6fdf9308d3c55327a: em=1 f1=1.00 tok=4735 recall=0.00 s=327.6
+2026-08-01 17:47:36,300 INFO [summary_doc/long] 9ee07edc371e014df686ced4fb0c3a7b9ce3d5dc: em=0 f1=0.57 tok=4907 recall=0.00 s=341.6
+2026-08-01 17:53:06,861 INFO [summary_doc/long] d3aa0449708cc861a51551b128d73e11d62207d2: em=0 f1=0.19 tok=4715 recall=0.00 s=330.6
+2026-08-01 17:58:35,265 INFO [summary_doc/long] cfbec1ef032ac968560a7c76dec70faf1269b27c: em=1 f1=1.00 tok=4726 recall=0.00 s=328.4
+2026-08-01 18:04:30,786 INFO [summary_doc/long] c0e341c4d2253eb42c8840381b082aae274eddad: em=0 f1=0.00 tok=5013 recall=0.00 s=355.5
+2026-08-01 18:09:39,074 INFO [summary_doc/long] 1ec152119cf756b16191b236c85522afeed11f59: em=0 f1=0.00 tok=4682 recall=0.00 s=308.3
+2026-08-01 18:14:32,832 INFO [summary_doc/long] 891c2001d6baaaf0da4e65b647402acac621a7d2: em=0 f1=0.87 tok=4380 recall=0.00 s=293.8
+2026-08-01 18:20:22,188 INFO [summary_doc/long] 66c96c297c2cffdf5013bab5e95b59101cb38655: em=0 f1=0.16 tok=4957 recall=0.00 s=349.4
+2026-08-01 18:26:05,962 INFO [summary_doc/long] 6b53e1f46ae4ba9b75117fc6e593abded89366be: em=0 f1=0.53 tok=4925 recall=0.00 s=343.8
+2026-08-01 18:31:45,066 INFO [summary_doc/long] c0bee6539eb6956a7347daa9d2419b367bd02064: em=0 f1=0.25 tok=4896 recall=0.00 s=339.1
+2026-08-01 18:37:22,395 INFO [summary_doc/long] 3de0487276bb5961586acc6e9f82934ef8cb668c: em=0 f1=0.67 tok=4797 recall=0.00 s=337.3
+2026-08-01 18:43:19,795 INFO [summary_doc/long] f17ca24b135f9fe6bb25dc5084b13e1637ec7744: em=0 f1=0.10 tok=5012 recall=0.00 s=357.4
+2026-08-01 18:43:19,799 INFO 
+──────────────────────────────────────────────────
+Condition: interactive_retrieval
+──────────────────────────────────────────────────
+2026-08-01 18:45:10,335 INFO [interactive_retrieval/short] a313e98994fc039a82aa2447c411dda92c65a470: em=0 f1=0.00 tok=1994 recall=0.00 s=110.5
+2026-08-01 18:46:47,658 INFO [interactive_retrieval/short] 37861be6aecd9242c4fdccdfcd06e48f3f1f8f81: em=0 f1=0.00 tok=1752 recall=0.00 s=97.3
+2026-08-01 18:48:05,514 INFO [interactive_retrieval/short] 7e62a53823aba08bc26b2812db016f5ce6159565: em=0 f1=0.00 tok=1400 recall=0.00 s=77.9
+2026-08-01 18:49:14,416 INFO [interactive_retrieval/short] 9eabb54c2408dac24f00f92cf1061258c7ea2e1a: em=0 f1=0.00 tok=1263 recall=0.00 s=68.9
+2026-08-01 18:50:22,545 INFO [interactive_retrieval/short] 3d013f15796ae7fed5272183a166c45f16e24e39: em=0 f1=0.00 tok=1250 recall=0.00 s=68.1
+2026-08-01 18:51:42,079 INFO [interactive_retrieval/short] 71e4ba4e87e6596aeca187127c0d088df6570c57: em=0 f1=0.00 tok=1485 recall=1.00 s=79.5
+2026-08-01 18:53:42,938 INFO [interactive_retrieval/short] 7561a968470a8936d10e1ba722d2f38b5a9a4d38: em=0 f1=0.67 tok=2289 recall=1.00 s=120.9
+2026-08-01 18:55:06,870 INFO [interactive_retrieval/short] 6d4400f45bd97b812e946b8a682b018826e841f1: em=0 f1=0.00 tok=1556 recall=0.00 s=83.9
+2026-08-01 18:56:56,770 INFO [interactive_retrieval/short] 26c2e1eb12143d985e4fb50543cf0d1eb4395e67: em=0 f1=0.29 tok=2042 recall=0.00 s=109.9
+2026-08-01 18:59:15,755 INFO [interactive_retrieval/short] d27438b11bc70e706431dda0af2b1c0b0d209f96: em=1 f1=1.00 tok=2541 recall=0.33 s=139.0
+2026-08-01 19:00:40,408 INFO [interactive_retrieval/short] 8d4ac4afbf5b14f412171729ceb5e822afcfa3f4: em=0 f1=0.00 tok=1515 recall=1.00 s=84.7
+2026-08-01 19:01:15,636 INFO [interactive_retrieval/short] 3c93894c4baf49deacc6ed2a14ef5e0f13b7d96f: em=0 f1=0.67 tok=524 recall=0.25 s=35.2
+2026-08-01 19:02:43,623 INFO [interactive_retrieval/short] 07d15501a599bae7eb4a9ead63e9df3d55b3dc35: em=0 f1=0.00 tok=1613 recall=0.00 s=88.0
+2026-08-01 19:04:57,060 INFO [interactive_retrieval/short] 1ff0fccf0dca95a6630380c84b0422bed854269a: em=0 f1=0.00 tok=2504 recall=0.00 s=133.4
+2026-08-01 19:06:26,890 INFO [interactive_retrieval/short] 3d7d865e905295d11f1e85af5fa89b210e3e9fdf: em=1 f1=1.00 tok=1599 recall=1.00 s=89.8
+2026-08-01 19:08:28,414 INFO [interactive_retrieval/medium] b6f15fb6279b82e34a5bf4828b7b5ddabfdf1d54: em=0 f1=0.36 tok=2266 recall=1.00 s=121.5
+2026-08-01 19:10:24,265 INFO [interactive_retrieval/medium] f5e6f43454332e0521a778db0b769481e23e7682: em=0 f1=0.18 tok=2113 recall=0.50 s=115.8
+2026-08-01 19:11:24,488 INFO [interactive_retrieval/medium] 9a05a5f4351db75da371f7ac12eb0b03607c4b87: em=0 f1=0.00 tok=1049 recall=0.00 s=60.2
+2026-08-01 19:13:45,059 INFO [interactive_retrieval/medium] 5eda469a8a77f028d0c5f1acd296111085614537: em=0 f1=0.00 tok=2650 recall=0.00 s=140.6
+2026-08-01 19:15:06,217 INFO [interactive_retrieval/medium] 18c5d366b1da8447b5404eab71f4cc658ba12e6f: em=0 f1=0.63 tok=1405 recall=1.00 s=81.2
+2026-08-01 19:17:15,694 INFO [interactive_retrieval/medium] b5e4866f0685299f1d7af267bbcc4afe2aab806f: em=0 f1=0.00 tok=2415 recall=0.00 s=129.5
+2026-08-01 19:20:14,789 INFO [interactive_retrieval/medium] 1f085b9bb7bfd0d6c8cba1a9d73f08fcf2da7590: em=0 f1=0.00 tok=3352 recall=0.67 s=179.1
+2026-08-01 19:21:15,521 INFO [interactive_retrieval/medium] 113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab: em=0 f1=0.00 tok=1076 recall=0.00 s=60.7
+2026-08-01 19:22:07,464 INFO [interactive_retrieval/medium] 0752d71a0a1f73b3482a888313622ce9e9870d6e: em=0 f1=0.00 tok=880 recall=1.00 s=51.9
+2026-08-01 19:23:24,993 INFO [interactive_retrieval/medium] 55c8f7acbfd4f5cde634aaecd775b3bb32e9ffa3: em=1 f1=1.00 tok=1336 recall=1.00 s=77.5
+2026-08-01 19:25:37,349 INFO [interactive_retrieval/medium] 4eaf9787f51cd7cdc45eb85cf223d752328c6ee4: em=1 f1=1.00 tok=2466 recall=1.00 s=132.4
+2026-08-01 19:30:40,364 INFO [interactive_retrieval/medium] fb2b536dc8e442dffab408db992b971e86548158: em=1 f1=1.00 tok=5599 recall=1.00 s=303.0
+2026-08-01 19:35:14,798 INFO [interactive_retrieval/medium] 31735ec3d83c40b79d11df5c34154849aeb3fb47: em=0 f1=0.67 tok=5072 recall=1.00 s=274.4
+2026-08-01 19:41:10,282 INFO [interactive_retrieval/medium] 10d450960907091f13e0be55f40bcb96f44dd074: em=0 f1=0.00 tok=5914 recall=0.25 s=355.5
+2026-08-01 19:44:51,542 INFO [interactive_retrieval/medium] b5608076d91450b0d295ad14c3e3a90d7e168d0e: em=0 f1=0.00 tok=4110 recall=0.50 s=221.3
+2026-08-01 19:47:57,008 INFO [interactive_retrieval/long] b6ae8e10c6a0d34c834f18f66ab730b670fb528c: em=0 f1=0.00 tok=3508 recall=0.00 s=185.5
+2026-08-01 19:49:50,757 INFO [interactive_retrieval/long] a87a009c242d57c51fc94fe312af5e02070f898b: em=0 f1=0.40 tok=2155 recall=0.00 s=113.8
+2026-08-01 19:51:21,210 INFO [interactive_retrieval/long] ef4dba073d24042f24886580ae77add5326f2130: em=0 f1=0.00 tok=1698 recall=1.00 s=90.5
+2026-08-01 19:54:26,554 INFO [interactive_retrieval/long] 2df4a045a9cd7b44874340b6fdf9308d3c55327a: em=0 f1=0.00 tok=3566 recall=0.00 s=185.3
+2026-08-01 19:56:51,320 INFO [interactive_retrieval/long] 9ee07edc371e014df686ced4fb0c3a7b9ce3d5dc: em=1 f1=1.00 tok=2763 recall=0.50 s=144.8
+2026-08-01 19:59:16,868 INFO [interactive_retrieval/long] d3aa0449708cc861a51551b128d73e11d62207d2: em=0 f1=0.08 tok=2751 recall=0.00 s=145.6
+2026-08-01 20:03:19,864 INFO [interactive_retrieval/long] cfbec1ef032ac968560a7c76dec70faf1269b27c: em=0 f1=0.00 tok=4624 recall=1.00 s=243.0
+2026-08-01 20:06:51,863 INFO [interactive_retrieval/long] c0e341c4d2253eb42c8840381b082aae274eddad: em=0 f1=0.78 tok=3952 recall=1.00 s=212.0
+2026-08-01 20:08:15,019 INFO [interactive_retrieval/long] 1ec152119cf756b16191b236c85522afeed11f59: em=0 f1=0.18 tok=1439 recall=0.20 s=83.2
+2026-08-01 20:09:45,122 INFO [interactive_retrieval/long] 891c2001d6baaaf0da4e65b647402acac621a7d2: em=0 f1=0.00 tok=1693 recall=0.00 s=90.1
+2026-08-01 20:11:41,346 INFO [interactive_retrieval/long] 66c96c297c2cffdf5013bab5e95b59101cb38655: em=0 f1=0.05 tok=2155 recall=0.33 s=116.2
+2026-08-01 20:12:34,122 INFO [interactive_retrieval/long] 6b53e1f46ae4ba9b75117fc6e593abded89366be: em=0 f1=0.40 tok=842 recall=0.25 s=52.8
+2026-08-01 20:15:16,241 INFO [interactive_retrieval/long] c0bee6539eb6956a7347daa9d2419b367bd02064: em=0 f1=0.00 tok=2976 recall=0.00 s=162.1
+2026-08-01 20:18:31,109 INFO [interactive_retrieval/long] 3de0487276bb5961586acc6e9f82934ef8cb668c: em=0 f1=0.36 tok=3492 recall=0.25 s=194.9
+2026-08-01 20:20:28,861 INFO [interactive_retrieval/long] f17ca24b135f9fe6bb25dc5084b13e1637ec7744: em=0 f1=0.17 tok=2169 recall=0.60 s=117.8
+2026-08-01 20:20:28,866 INFO 
+Results written to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\qasper_transfer
+
+=== E8 RESULTS SUMMARY (overall, all length buckets combined) ===
+Condition                     EM      F1    Tokens      Sec   EvRecall     DFS
+------------------------------------------------------------------------------
+no_context                  4.4%    7.2%        23      3.9       6.7%       —
+full_context                0.0%   20.4%      3095    186.0     100.0%       —
+summary_doc                11.1%   30.1%      3794    276.6       6.7%       —
+interactive_retrieval      13.3%   26.4%      2374    129.5      41.4%   95.6%
+
+=== By length bucket ===
+
+-- short --
+Condition                     EM      F1    Tokens      Sec   EvRecall     DFS
+------------------------------------------------------------------------------
+no_context                  0.0%    2.2%        23      3.8       6.7%       —
+full_context                0.0%   24.5%       943     66.7     100.0%       —
+summary_doc                13.3%   29.4%      1808    168.3       6.7%       —
+interactive_retrieval      13.3%   24.1%      1688     92.5      30.6%   90.0%
+
+-- medium --
+Condition                     EM      F1    Tokens      Sec   EvRecall     DFS
+------------------------------------------------------------------------------
+no_context                 13.3%   15.2%        21      3.9       6.7%       —
+full_context                0.0%   15.5%      4163    244.0     100.0%       —
+summary_doc                 6.7%   23.7%      4765    329.7       6.7%       —
+interactive_retrieval      20.0%   32.3%      2780    153.6      59.4%  100.0%
+
+-- long --
+Condition                     EM      F1    Tokens      Sec   EvRecall     DFS
+------------------------------------------------------------------------------
+no_context                  0.0%    4.0%        23      4.1       6.7%       —
+full_context                0.0%   21.2%      4177    247.3     100.0%       —
+summary_doc                13.3%   37.3%      4809    331.8       6.7%       —
+interactive_retrieval       6.7%   22.8%      2652    142.5      34.2%   96.7%

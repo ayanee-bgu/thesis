@@ -1,0 +1,588 @@
+{
+  "nodes": [
+    {
+      "id": "a83cc8be",
+      "content": "Pick up an object and place it in a target location, ensuring correct placement.",
+      "level": "script",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "pick_cup",
+      "keywords": [
+        "cup",
+        "sink",
+        "red",
+        "place",
+        "you",
+        "can"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:33:59.532517+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "3218b8f6",
+      "content": "Walk to the counter and pick up the red cup.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "pick_cup",
+      "keywords": [
+        "walk",
+        "counter",
+        "pick",
+        "red",
+        "cup"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:33:59.532605+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "e189f25c",
+      "content": "Place the red cup in the sink.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "pick_cup",
+      "keywords": [
+        "place",
+        "red",
+        "cup",
+        "sink"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:33:59.532771+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "20401d0a",
+      "content": "Find an object, heat it in a microwave, and place it on a designated surface.",
+      "level": "script",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "apple",
+        "you",
+        "can",
+        "try",
+        "microwave",
+        "plate"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.625280+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "295dd8c5",
+      "content": "Look around the room to find the apple.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "look",
+        "around",
+        "room",
+        "find",
+        "apple"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.625524+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "8272a3c6",
+      "content": "Pick up the apple from the coffee table.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "pick",
+        "apple",
+        "coffee",
+        "table"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.625824+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "8d35e3af",
+      "content": "Open the microwave.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "open",
+        "microwave"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.626020+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "f0c27390",
+      "content": "Put the apple in the microwave.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "put",
+        "apple",
+        "microwave"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.626291+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "a1fbdc8a",
+      "content": "Heat the apple for a specified time.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "heat",
+        "apple",
+        "specified",
+        "time"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.626625+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "c8c5e2e6",
+      "content": "Go to the plate.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "plate"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.626921+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "0cdd770b",
+      "content": "Place the heated apple on the plate.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [
+        "place",
+        "heated",
+        "apple",
+        "plate"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:34:51.627211+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "eedba36e",
+      "content": "To complete a task, start by picking up an object, then move to the location where the task is performed, and finally perform the action required for the task.",
+      "level": "script",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "clean_knife",
+      "keywords": [
+        "knife",
+        "clean",
+        "sink",
+        "you",
+        "can",
+        "try"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:37:37.387605+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "f5b3144e",
+      "content": "Pick up the knife from the counter.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "clean_knife",
+      "keywords": [
+        "pick",
+        "knife",
+        "counter"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:37:37.388045+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "3189a690",
+      "content": "Find the knife.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "clean_knife",
+      "keywords": [
+        "find",
+        "knife"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:37:37.388396+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "eb379243",
+      "content": "Go to the sink.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "clean_knife",
+      "keywords": [
+        "sink"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:37:37.388964+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "fa00bfff",
+      "content": "Clean the knife in the sink.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "clean_knife",
+      "keywords": [
+        "clean",
+        "knife",
+        "sink"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:37:37.389552+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "f3cde62d",
+      "content": "Put the cleaned knife on the countertop.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "clean_knife",
+      "keywords": [
+        "put",
+        "cleaned",
+        "knife",
+        "countertop"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:37:37.390153+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "0934dbfb",
+      "content": "Cool an object in a refrigerator and then place it on a designated surface.",
+      "level": "script",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [
+        "mug",
+        "fridge",
+        "you",
+        "can",
+        "try",
+        "cool"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:38:22.900505+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "cded629f",
+      "content": "Walk to the fridge and put the mug inside.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [
+        "walk",
+        "fridge",
+        "put",
+        "mug",
+        "inside"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:38:22.902558+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "b938993c",
+      "content": "Take the cooled mug out of the fridge.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [
+        "take",
+        "cooled",
+        "mug",
+        "out",
+        "fridge"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:38:22.904579+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "c208ef17",
+      "content": "Open the fridge.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [
+        "open",
+        "fridge"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:38:22.905849+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "b7d0467a",
+      "content": "Remove the mug from the fridge.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [
+        "remove",
+        "mug",
+        "fridge"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:38:22.907717+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "4d758ff9",
+      "content": "Go to coffee table.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [
+        "coffee",
+        "table"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:38:22.909539+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "0d6681e4",
+      "content": "Place the cooled mug on the coffee table.",
+      "level": "step",
+      "source_agent": "graph_session_grounded",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [
+        "place",
+        "cooled",
+        "mug",
+        "coffee",
+        "table"
+      ],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:38:22.912538+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    }
+  ],
+  "edges": [
+    {
+      "src": "a83cc8be",
+      "dst": "3218b8f6",
+      "relation": "generalizes"
+    },
+    {
+      "src": "a83cc8be",
+      "dst": "e189f25c",
+      "relation": "generalizes"
+    },
+    {
+      "src": "e189f25c",
+      "dst": "3218b8f6",
+      "relation": "depends_on"
+    },
+    {
+      "src": "20401d0a",
+      "dst": "295dd8c5",
+      "relation": "generalizes"
+    },
+    {
+      "src": "20401d0a",
+      "dst": "8272a3c6",
+      "relation": "generalizes"
+    },
+    {
+      "src": "20401d0a",
+      "dst": "8d35e3af",
+      "relation": "generalizes"
+    },
+    {
+      "src": "20401d0a",
+      "dst": "f0c27390",
+      "relation": "generalizes"
+    },
+    {
+      "src": "20401d0a",
+      "dst": "a1fbdc8a",
+      "relation": "generalizes"
+    },
+    {
+      "src": "20401d0a",
+      "dst": "c8c5e2e6",
+      "relation": "generalizes"
+    },
+    {
+      "src": "20401d0a",
+      "dst": "0cdd770b",
+      "relation": "generalizes"
+    },
+    {
+      "src": "8272a3c6",
+      "dst": "295dd8c5",
+      "relation": "depends_on"
+    },
+    {
+      "src": "8d35e3af",
+      "dst": "8272a3c6",
+      "relation": "depends_on"
+    },
+    {
+      "src": "f0c27390",
+      "dst": "8d35e3af",
+      "relation": "depends_on"
+    },
+    {
+      "src": "a1fbdc8a",
+      "dst": "f0c27390",
+      "relation": "depends_on"
+    },
+    {
+      "src": "c8c5e2e6",
+      "dst": "a1fbdc8a",
+      "relation": "depends_on"
+    },
+    {
+      "src": "0cdd770b",
+      "dst": "c8c5e2e6",
+      "relation": "depends_on"
+    },
+    {
+      "src": "eedba36e",
+      "dst": "f5b3144e",
+      "relation": "generalizes"
+    },
+    {
+      "src": "eedba36e",
+      "dst": "3189a690",
+      "relation": "generalizes"
+    },
+    {
+      "src": "eedba36e",
+      "dst": "eb379243",
+      "relation": "generalizes"
+    },
+    {
+      "src": "eedba36e",
+      "dst": "fa00bfff",
+      "relation": "generalizes"
+    },
+    {
+      "src": "eedba36e",
+      "dst": "f3cde62d",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3189a690",
+      "dst": "f5b3144e",
+      "relation": "depends_on"
+    },
+    {
+      "src": "eb379243",
+      "dst": "3189a690",
+      "relation": "depends_on"
+    },
+    {
+      "src": "0934dbfb",
+      "dst": "cded629f",
+      "relation": "generalizes"
+    },
+    {
+      "src": "0934dbfb",
+      "dst": "b938993c",
+      "relation": "generalizes"
+    },
+    {
+      "src": "0934dbfb",
+      "dst": "c208ef17",
+      "relation": "generalizes"
+    },
+    {
+      "src": "0934dbfb",
+      "dst": "b7d0467a",
+      "relation": "generalizes"
+    },
+    {
+      "src": "0934dbfb",
+      "dst": "4d758ff9",
+      "relation": "generalizes"
+    },
+    {
+      "src": "0934dbfb",
+      "dst": "0d6681e4",
+      "relation": "generalizes"
+    },
+    {
+      "src": "b938993c",
+      "dst": "cded629f",
+      "relation": "depends_on"
+    },
+    {
+      "src": "b7d0467a",
+      "dst": "c208ef17",
+      "relation": "depends_on"
+    }
+  ]
+}

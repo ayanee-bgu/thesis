@@ -1,0 +1,98 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\huggingface_hub\file_download.py:138: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\ayane\.cache\huggingface\hub\datasets--EleutherAI--hendrycks_math. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading MATH dataset (level=3, n_per_subject=3)...
+  algebra: 3 problems
+Generating train split:   0%|          | 0/870 [00:00<?, ? examples/s]Generating train split: 100%|##########| 870/870 [00:00<00:00, 5689.48 examples/s]Generating train split: 100%|##########| 870/870 [00:00<00:00, 5626.24 examples/s]
+Generating test split:   0%|          | 0/479 [00:00<?, ? examples/s]Generating test split: 100%|##########| 479/479 [00:00<00:00, 11359.03 examples/s]
+  geometry: 3 problems
+Generating train split:   0%|          | 0/869 [00:00<?, ? examples/s]Generating train split: 100%|##########| 869/869 [00:00<00:00, 8039.28 examples/s]Generating train split: 100%|##########| 869/869 [00:00<00:00, 7972.64 examples/s]
+Generating test split:   0%|          | 0/540 [00:00<?, ? examples/s]Generating test split: 100%|##########| 540/540 [00:00<00:00, 6737.32 examples/s]
+  number_theory: 3 problems
+Generating train split:   0%|          | 0/771 [00:00<?, ? examples/s]Generating train split: 100%|##########| 771/771 [00:00<00:00, 11847.58 examples/s]
+Generating test split:   0%|          | 0/474 [00:00<?, ? examples/s]Generating test split: 100%|##########| 474/474 [00:00<00:00, 8737.86 examples/s]
+  counting_and_probability: 3 problems
+Generating train split:   0%|          | 0/1205 [00:00<?, ? examples/s]Generating train split: 100%|##########| 1205/1205 [00:00<00:00, 18706.14 examples/s]
+Generating test split:   0%|          | 0/871 [00:00<?, ? examples/s]Generating test split: 100%|##########| 871/871 [00:00<00:00, 35149.94 examples/s]
+Traceback (most recent call last):
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Python314\Lib\http\client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\experiments\multi_agent_cooperation\math_eval.py", line 293, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\experiments\multi_agent_cooperation\math_eval.py", line 273, in main
+    baseline_results = run_baseline(problems, baseline_model)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\experiments\multi_agent_cooperation\math_eval.py", line 122, in run_baseline
+    resp = requests.post("http://localhost:11434/api/chat", json=payload, timeout=600)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\adapters.py", line 691, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)
+  prealgebra: 3 problems
+Total: 15 problems
+
+=== Baseline: deepseek-r1:32b ===
+  [1/15] algebra | OK | pred='2' gt='2'

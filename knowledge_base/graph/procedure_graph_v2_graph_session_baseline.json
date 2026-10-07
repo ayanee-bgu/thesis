@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "f53e5bb1",
+      "content": "TASK: Pick up the red cup from the counter and place it in the sink.\nACTION: Pick up the red cup from the counter and place it in the sink.\nOBS: OK. You can try: examine cup",
+      "level": "script",
+      "source_agent": "graph_session_baseline",
+      "session_id": "session_1",
+      "task_type": "pick_cup",
+      "keywords": [],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:22:14.436308+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "43ebb831",
+      "content": "TASK: Find the apple, heat it in the microwave, and place it on the plate.\nACTION: Find the apple, heat it in the microwave, and place it on the plate.\nOBS: OK. You can try: find apple",
+      "level": "script",
+      "source_agent": "graph_session_baseline",
+      "session_id": "session_1",
+      "task_type": "heat_apple",
+      "keywords": [],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:22:14.436329+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "4f1d0ffd",
+      "content": "TASK: Clean the knife in the sink and put it on the countertop.\nACTION: Clean the knife in the sink and put it on the countertop.\nOBS: Task completed successfully.",
+      "level": "script",
+      "source_agent": "graph_session_baseline",
+      "session_id": "session_2",
+      "task_type": "clean_knife",
+      "keywords": [],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:22:14.437945+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "6c3a2547",
+      "content": "TASK: Cool the mug in the fridge and place it on the coffee table.\nACTION: Cool the mug in the fridge and place it on the coffee table.\nOBS: OK. You can try: find mug",
+      "level": "script",
+      "source_agent": "graph_session_baseline",
+      "session_id": "session_2",
+      "task_type": "cool_mug",
+      "keywords": [],
+      "reinforce_count": 1,
+      "created_at": "2026-08-02T14:22:14.437958+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    }
+  ],
+  "edges": []
+}

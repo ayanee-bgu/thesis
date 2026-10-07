@@ -1,0 +1,55 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  distil_model: "llama3:8b"
+  timeout: 600
+
+experiment:
+  num_sessions: 2            # session 1 builds memory, session 2 uses it
+  tasks_per_session: 2
+  seed: 42
+  task_split: "validation"
+
+memory:
+  graph_path: "knowledge_base/graph/procedure_graph_v2.json"
+  k_hops: 2
+  top_seeds: 5
+  token_budget: 2000
+  dedup_threshold: 0.82
+  embed_model: "all-MiniLM-L6-v2"
+
+# Each condition ablates exactly one lever on top of graph_session (session-end
+# consolidation) from E1 — graph_session itself is the control, reused unmodified
+# from experiments/memory_controller/config.yaml for comparison.
+conditions:
+  - name: graph_session_baseline
+    description: "Control — same behavior as E1's graph_session (TF-IDF dedup/retrieval, no keywords, no reinforcement weighting)"
+    use_embed: false
+    use_keyword_prefilter: false
+    use_reinforcement: false
+    use_recluster: false
+
+  - name: graph_session_embed
+    description: "+ real sentence-embedding dedup/retrieval instead of TF-IDF (never tested before now)"
+    use_embed: true
+    use_keyword_prefilter: false
+    use_reinforcement: false
+    use_recluster: false
+
+  - name: graph_session_grounded
+    description: "+ task_type/keyword prefilter before scoring + reinforce_count-weighted ranking"
+    use_embed: false
+    use_keyword_prefilter: true
+    use_reinforcement: true
+    use_recluster: false
+
+  - name: graph_session_full
+    description: "All levers combined: embeddings + grounding + reinforcement weighting + periodic recluster"
+    use_embed: true
+    use_keyword_prefilter: true
+    use_reinforcement: true
+    use_recluster: true
+
+output:
+  results_dir: "results/memory_controller_v2"
+  log_level: "INFO"

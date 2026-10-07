@@ -1,0 +1,14 @@
+[
+  {
+    "condition": "F3_interactive",
+    "summary": {
+      "num": 100,
+      "exact_match": 0.12,
+      "f1": 0.17423809523809525,
+      "mean_tokens": 868.48,
+      "mean_supporting_recall": 0.41666666666666663,
+      "mean_dfs_score": 0.755,
+      "mean_num_queries": 2.96
+    }
+  }
+]

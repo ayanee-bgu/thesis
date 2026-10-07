@@ -1,0 +1,139 @@
+2026-08-01 20:48:31,017 INFO Loading NarrativeQA dataset...
+2026-08-01 20:48:33,144 INFO HTTP Request: HEAD https://huggingface.co/datasets/deepmind/narrativeqa/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-01 20:48:33,158 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/deepmind/narrativeqa/2e643e7363944af1c33a652d1c87320d0871c4e4/README.md "HTTP/1.1 200 OK"
+2026-08-01 20:48:33,318 INFO HTTP Request: HEAD https://huggingface.co/datasets/deepmind/narrativeqa/resolve/2e643e7363944af1c33a652d1c87320d0871c4e4/narrativeqa.py "HTTP/1.1 404 Not Found"
+2026-08-01 20:48:33,864 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/deepmind/narrativeqa/deepmind/narrativeqa.py "HTTP/1.1 404 Not Found"
+2026-08-01 20:48:34,039 INFO HTTP Request: GET https://huggingface.co/api/datasets/deepmind/narrativeqa/revision/2e643e7363944af1c33a652d1c87320d0871c4e4 "HTTP/1.1 200 OK"
+2026-08-01 20:48:34,203 INFO HTTP Request: HEAD https://huggingface.co/datasets/deepmind/narrativeqa/resolve/2e643e7363944af1c33a652d1c87320d0871c4e4/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-08-01 20:48:34,443 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=deepmind/narrativeqa "HTTP/1.1 200 OK"
+2026-08-01 20:48:34,614 INFO HTTP Request: GET https://huggingface.co/api/datasets/deepmind/narrativeqa/tree/2e643e7363944af1c33a652d1c87320d0871c4e4/data?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-01 20:48:34,787 INFO HTTP Request: GET https://huggingface.co/api/datasets/deepmind/narrativeqa/tree/2e643e7363944af1c33a652d1c87320d0871c4e4?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-08-01 20:48:35,041 INFO HTTP Request: HEAD https://huggingface.co/datasets/deepmind/narrativeqa/resolve/2e643e7363944af1c33a652d1c87320d0871c4e4/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-08-01 20:48:35,178 INFO [dataset] Loaded 3461 rows from deepmind/narrativeqa
+2026-08-01 20:48:35,210 INFO [dataset] gutenberg: 10 examples selected
+2026-08-01 20:48:35,210 INFO [dataset] movie: 10 examples selected
+2026-08-01 20:48:37,726 INFO [warmup] Model ready (2.5s)
+2026-08-01 20:48:37,726 INFO 
+──────────────────────────────────────────────────
+Condition: no_context
+──────────────────────────────────────────────────
+2026-08-01 20:48:41,286 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=26 contain=0 s=3.6
+2026-08-01 20:48:46,287 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=35 contain=0 s=5.0
+2026-08-01 20:48:49,745 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=19 contain=0 s=3.5
+2026-08-01 20:48:53,894 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=35 contain=0 s=4.2
+2026-08-01 20:48:58,288 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=34 contain=0 s=4.4
+2026-08-01 20:49:02,978 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=34 contain=0 s=4.7
+2026-08-01 20:49:07,092 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=29 contain=0 s=4.1
+2026-08-01 20:49:10,667 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=27 contain=0 s=3.6
+2026-08-01 20:49:14,080 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=25 contain=0 s=3.4
+2026-08-01 20:49:17,714 INFO [no_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=27 contain=0 s=3.6
+2026-08-01 20:49:21,709 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=27 contain=0 s=4.0
+2026-08-01 20:49:25,636 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.50 tok=33 contain=0 s=3.9
+2026-08-01 20:49:30,512 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=40 contain=0 s=4.9
+2026-08-01 20:49:34,622 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=35 contain=0 s=4.1
+2026-08-01 20:49:39,261 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=38 contain=0 s=4.6
+2026-08-01 20:49:43,312 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=31 contain=0 s=4.0
+2026-08-01 20:49:46,931 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=26 contain=0 s=3.6
+2026-08-01 20:49:50,454 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=24 contain=0 s=3.5
+2026-08-01 20:49:53,948 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=22 contain=0 s=3.5
+2026-08-01 20:49:57,439 INFO [no_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=19 contain=0 s=3.5
+2026-08-01 20:49:57,441 INFO 
+──────────────────────────────────────────────────
+Condition: full_context
+──────────────────────────────────────────────────
+2026-08-01 20:53:54,868 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.04 tok=4149 contain=1 s=237.4
+2026-08-01 20:57:44,212 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=4104 contain=0 s=229.3
+2026-08-01 21:01:40,429 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=4130 contain=0 s=236.2
+2026-08-01 21:05:28,293 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.45 tok=4098 contain=0 s=227.9
+2026-08-01 21:09:26,761 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=4123 contain=0 s=238.5
+2026-08-01 21:13:23,725 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=4135 contain=1 s=237.0
+2026-08-01 21:17:33,197 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.07 tok=4183 contain=0 s=249.5
+2026-08-01 21:21:18,921 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.21 tok=4090 contain=1 s=225.7
+2026-08-01 21:25:15,631 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.05 tok=4129 contain=0 s=236.7
+2026-08-01 21:29:01,429 INFO [full_context/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=4093 contain=1 s=225.8
+2026-08-01 21:32:58,337 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.11 tok=4129 contain=1 s=236.9
+2026-08-01 21:36:59,393 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4150 contain=1 s=241.1
+2026-08-01 21:40:48,356 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.10 tok=4103 contain=1 s=229.0
+2026-08-01 21:44:36,213 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4094 contain=1 s=227.9
+2026-08-01 21:48:22,479 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.12 tok=4091 contain=1 s=226.3
+2026-08-01 21:52:17,718 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.05 tok=4124 contain=1 s=235.2
+2026-08-01 21:56:05,431 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4098 contain=1 s=227.7
+2026-08-01 21:59:50,531 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4086 contain=0 s=225.1
+2026-08-01 22:03:54,039 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4149 contain=1 s=243.5
+2026-08-01 22:08:00,920 INFO [full_context/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4149 contain=1 s=246.9
+2026-08-01 22:08:00,923 INFO 
+──────────────────────────────────────────────────
+Condition: summary_doc
+──────────────────────────────────────────────────
+2026-08-01 22:08:04,748 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.67 tok=10 contain=1 s=3.8
+2026-08-01 22:08:08,480 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=26 contain=1 s=3.7
+2026-08-01 22:08:12,413 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=1 f1=1.00 tok=21 contain=1 s=3.9
+2026-08-01 22:08:17,595 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.80 tok=40 contain=1 s=5.2
+2026-08-01 22:08:21,959 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=1 f1=1.00 tok=33 contain=1 s=4.4
+2026-08-01 22:08:26,002 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=1 f1=1.00 tok=29 contain=1 s=4.0
+2026-08-01 22:08:33,917 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.33 tok=51 contain=1 s=7.9
+2026-08-01 22:08:40,037 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.63 tok=42 contain=1 s=6.1
+2026-08-01 22:08:43,776 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=26 contain=1 s=3.7
+2026-08-01 22:08:47,764 INFO [summary_doc/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=1 f1=1.00 tok=29 contain=1 s=4.0
+2026-08-01 22:08:55,263 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.47 tok=31 contain=1 s=7.5
+2026-08-01 22:08:59,528 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=1 f1=1.00 tok=33 contain=1 s=4.3
+2026-08-01 22:09:04,124 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.67 tok=36 contain=1 s=4.6
+2026-08-01 22:09:08,667 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=1 f1=1.00 tok=35 contain=1 s=4.5
+2026-08-01 22:09:13,950 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=35 contain=1 s=5.3
+2026-08-01 22:09:18,035 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=29 contain=1 s=4.1
+2026-08-01 22:09:22,008 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=1 f1=1.00 tok=27 contain=1 s=4.0
+2026-08-01 22:09:25,608 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=1 f1=1.00 tok=23 contain=1 s=3.6
+2026-08-01 22:09:29,634 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=1 f1=1.00 tok=24 contain=1 s=4.0
+2026-08-01 22:09:33,445 INFO [summary_doc/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=1 f1=1.00 tok=20 contain=1 s=3.8
+2026-08-01 22:09:33,448 INFO 
+──────────────────────────────────────────────────
+Condition: interactive_retrieval
+──────────────────────────────────────────────────
+2026-08-01 22:10:51,694 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=1341 contain=0 s=78.2
+2026-08-01 22:12:27,200 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=1713 contain=0 s=95.5
+2026-08-01 22:14:15,990 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=1981 contain=0 s=108.8
+2026-08-01 22:15:59,170 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=1836 contain=0 s=103.2
+2026-08-01 22:17:45,182 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=1913 contain=0 s=106.0
+2026-08-01 22:19:26,678 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=1 f1=1.00 tok=1781 contain=1 s=101.5
+2026-08-01 22:21:38,913 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.15 tok=2402 contain=0 s=132.2
+2026-08-01 22:23:47,161 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=2345 contain=1 s=128.2
+2026-08-01 22:25:54,672 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.50 tok=2326 contain=0 s=127.5
+2026-08-01 22:27:49,044 INFO [interactive_retrieval/gutenberg] 00fb61fa7bee266ad995e52190ebb73606b60b70: em=0 f1=0.00 tok=2049 contain=0 s=114.4
+2026-08-01 22:29:47,764 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=2171 contain=0 s=118.7
+2026-08-01 22:33:27,783 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4068 contain=1 s=220.0
+2026-08-01 22:35:25,031 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=2159 contain=1 s=117.2
+2026-08-01 22:39:04,492 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=4069 contain=0 s=219.5
+2026-08-01 22:40:52,221 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.50 tok=1992 contain=1 s=107.7
+2026-08-01 22:42:49,503 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=2166 contain=1 s=117.3
+2026-08-01 22:44:55,758 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=2321 contain=1 s=126.3
+2026-08-01 22:47:54,988 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=3335 contain=0 s=179.2
+2026-08-01 22:49:48,456 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=0 f1=0.00 tok=2068 contain=0 s=113.5
+2026-08-01 22:51:51,855 INFO [interactive_retrieval/movie] 01502137e4276712d118bd4bdaf481c89aed163b: em=1 f1=1.00 tok=2300 contain=1 s=123.4
+2026-08-01 22:51:51,858 INFO 
+Results written to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\narrativeqa_transfer
+
+=== E9 RESULTS SUMMARY (overall, both kinds combined) ===
+Condition                     EM      F1    Tokens      Sec    Contain     DFS
+------------------------------------------------------------------------------
+no_context                  0.0%    2.5%        29      4.0       0.0%       —
+full_context                0.0%    6.0%      4120    234.2      65.0%       —
+summary_doc                50.0%   67.8%        30      4.6     100.0%       —
+interactive_retrieval      10.0%   15.8%      2317    126.9      40.0%   92.5%
+
+=== By document kind ===
+
+-- gutenberg --
+Condition                     EM      F1    Tokens      Sec    Contain     DFS
+------------------------------------------------------------------------------
+no_context                  0.0%    0.0%        29      4.0       0.0%       —
+full_context                0.0%    8.2%      4123    234.4      40.0%       —
+summary_doc                40.0%   64.3%        31      4.7     100.0%       —
+interactive_retrieval      10.0%   16.5%      1969    109.6      20.0%   85.0%
+
+-- movie --
+Condition                     EM      F1    Tokens      Sec    Contain     DFS
+------------------------------------------------------------------------------
+no_context                  0.0%    5.0%        30      4.0       0.0%       —
+full_context                0.0%    3.7%      4117    233.9      90.0%       —
+summary_doc                60.0%   71.4%        29      4.6     100.0%       —
+interactive_retrieval      10.0%   15.0%      2665    144.3      60.0%  100.0%

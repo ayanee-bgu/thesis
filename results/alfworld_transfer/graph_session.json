@@ -1,0 +1,150 @@
+[
+  {
+    "task_id": "pick_and_place_simple-Candle-None-Toilet-407",
+    "condition": "graph_session",
+    "success": false,
+    "sequence_correct": false,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 220,
+    "oracle_tokens": 0,
+    "total_tokens": 220,
+    "oracle_questions": [],
+    "oracle_elapsed_s": 0.0,
+    "plan_elapsed_s": 10.94,
+    "total_elapsed_s": 10.94,
+    "plan_text": "1. GotoLocation Toilet\n2. PickupObject Candle\n3. PutObject Candle on/in Toilet\n4. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "PutObject"
+    ],
+    "memory_chars": 0
+  },
+  {
+    "task_id": "pick_and_place_simple-Candle-None-Toilet-429",
+    "condition": "graph_session",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 227,
+    "oracle_tokens": 0,
+    "total_tokens": 227,
+    "oracle_questions": [],
+    "oracle_elapsed_s": 0.0,
+    "plan_elapsed_s": 12.67,
+    "total_elapsed_s": 12.67,
+    "plan_text": "1. GotoLocation Toilet\n2. PickupObject Candle\n3. GotoLocation Newspaper\n4. PutObject Candle on/in Newspaper\n5. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 0
+  },
+  {
+    "task_id": "pick_and_place_simple-CellPhone-None-ArmChair-318",
+    "condition": "graph_session",
+    "success": false,
+    "sequence_correct": false,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 224,
+    "oracle_tokens": 0,
+    "total_tokens": 224,
+    "oracle_questions": [],
+    "oracle_elapsed_s": 0.0,
+    "plan_elapsed_s": 11.53,
+    "total_elapsed_s": 11.53,
+    "plan_text": "1. GotoLocation ArmChair\n2. PickupObject CellPhone\n3. PutObject CellPhone on/in ArmChair\n4. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "PutObject"
+    ],
+    "memory_chars": 0
+  },
+  {
+    "task_id": "pick_and_place_simple-CellPhone-None-Bed-324",
+    "condition": "graph_session",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 235,
+    "oracle_tokens": 0,
+    "total_tokens": 235,
+    "oracle_questions": [],
+    "oracle_elapsed_s": 0.0,
+    "plan_elapsed_s": 12.68,
+    "total_elapsed_s": 12.68,
+    "plan_text": "1. GotoLocation Dresser\n2. PickupObject CellPhone\n3. GotoLocation Bed\n4. PutObject CellPhone on Bed\n5. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 0
+  },
+  {
+    "task_id": "pick_and_place_simple-Cloth-None-BathtubBasin-405",
+    "condition": "graph_session",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 237,
+    "oracle_tokens": 0,
+    "total_tokens": 237,
+    "oracle_questions": [],
+    "oracle_elapsed_s": 0.0,
+    "plan_elapsed_s": 14.33,
+    "total_elapsed_s": 14.33,
+    "plan_text": "1. GotoLocation Cabinet\n2. PickupObject Cloth\n3. GotoLocation BathtubBasin\n4. PutObject Cloth on/in BathtubBasin\n5. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 0
+  }
+]

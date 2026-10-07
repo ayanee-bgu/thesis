@@ -1,0 +1,143 @@
+{
+  "condition": "interactive_oracle",
+  "config": {
+    "num_tasks_teacher": 5,
+    "num_tasks_student": 5,
+    "max_questions": 5,
+    "task_split": "validation"
+  },
+  "teacher_task_ids": [
+    "val_000",
+    "val_001",
+    "val_002",
+    "val_003",
+    "val_004"
+  ],
+  "tasks": [
+    {
+      "task_id": "val_005",
+      "condition": "interactive_oracle",
+      "success": false,
+      "plan_tokens": 4846,
+      "oracle_tokens": 17958,
+      "total_tokens": 22804,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the most cost-effective way to travel from Chicago to Albany on March 22nd, 2022, considering our budget of $2,300, and are there any specific flight or train options that would allow us to stay within budget?",
+        "What are the most cost-effective flight options from Chicago to Albany on March 22nd, 2022, considering budget airlines and the possibility of layovers, and are there any specific flight combinations that would allow us to stay within our budget of $2,300?",
+        "What is the average cost of accommodations in Albany, New York, that allow smoking and offer entire rooms, and are there any specific hotels or lodging options that would fit within our budget of $2,300 for the 3-day trip?",
+        "What is the average cost of a 3-day stay at a hotel or lodging option in Albany, New York, that allows smoking and offers entire rooms, and are there any specific hotels or lodging options that would fit within our budget of $2,300 for the 3-day trip?",
+        "What is the average cost of a 3-day stay at a hotel or lodging option in Albany, New York, that allows smoking and offers entire rooms, and are there any specific hotels or lodging options that would fit within our budget of $2,300 for the 3-day trip?"
+      ],
+      "retrieved": true,
+      "memory_chars": 7677,
+      "plan_elapsed_s": 488.51,
+      "oracle_elapsed_s": 666.5,
+      "mean_oracle_call_elapsed_s": 104.36,
+      "total_elapsed_s": 1155.33
+    },
+    {
+      "task_id": "val_006",
+      "condition": "interactive_oracle",
+      "success": true,
+      "plan_tokens": 4420,
+      "oracle_tokens": 15396,
+      "total_tokens": 19816,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the average daily budget for transportation and activities that the previous agent allocated for a similar 3-day trip from Daytona Beach to Atlanta, considering the group size and age range of the travelers?",
+        "What is the average daily budget for accommodations that the previous agent allocated for a similar 3-day trip, considering the group size, age range of the travelers, and the requirement for accommodations that allow children under 10 years of age?",
+        "What is the average daily food budget that the previous agent allocated for a similar 3-day trip, considering the group size and age range of the travelers, and how did they accommodate the group's dining preferences and needs?",
+        "What is the average daily distance that the previous agent drove for a similar 3-day trip from Daytona Beach to Atlanta, considering the group size and age range of the travelers, and how did they plan for fuel costs and potential stops along the way?",
+        "What is the average daily food budget that the previous agent allocated for a similar 3-day trip, considering the group size and age range of the travelers, and how did they accommodate the group's dining preferences and needs?"
+      ],
+      "retrieved": true,
+      "memory_chars": 3984,
+      "plan_elapsed_s": 418.44,
+      "oracle_elapsed_s": 289.15,
+      "mean_oracle_call_elapsed_s": 40.3,
+      "total_elapsed_s": 708.17
+    },
+    {
+      "task_id": "val_007",
+      "condition": "interactive_oracle",
+      "success": false,
+      "plan_tokens": 5346,
+      "oracle_tokens": 16508,
+      "total_tokens": 21854,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the average daily budget for transportation and accommodations that the previous agent allocated for a similar trip, and were there any specific transportation options chosen (e.g. flights, trains, shuttles)?",
+        "What is the average daily budget for food and dining that the previous agent allocated for a similar trip, and were there any specific dining options or restaurants chosen?",
+        "What is the average daily budget for transportation and accommodations that the previous agent allocated for a similar trip, and were there any specific transportation options chosen (e.g. flights, trains, shuttles)?",
+        "What is the average daily budget for food and dining that the previous agent allocated for a similar trip, and were there any specific dining options or restaurants chosen for the same cuisines (Indian, American, Chinese, and Italian) that we are interested in for our Pensacola trip?",
+        "What is the average daily budget for transportation and accommodations that the previous agent allocated for a similar trip, and were there any specific transportation options chosen (e.g. flights, trains, shuttles)?"
+      ],
+      "retrieved": true,
+      "memory_chars": 5781,
+      "plan_elapsed_s": 619.2,
+      "oracle_elapsed_s": 429.41,
+      "mean_oracle_call_elapsed_s": 58.65,
+      "total_elapsed_s": 1048.9
+    },
+    {
+      "task_id": "val_008",
+      "condition": "interactive_oracle",
+      "success": false,
+      "plan_tokens": 4442,
+      "oracle_tokens": 16459,
+      "total_tokens": 20901,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the average daily budget for transportation, food, and activities that previous agents have allocated for similar family travel itineraries, considering the constraints of visiting Savannah with children under 10 and catering to Mediterranean, Mexican, French, and Indian cuisines?",
+        "What is the average cost of accommodations in Savannah that previous agents have allocated for similar family travel itineraries, considering the constraints of visiting Savannah with children under 10 and suitable accommodations for families with young children?",
+        "What is the average cost of a 3-day family-friendly accommodation in Savannah that caters to children under 10, considering the Mediterranean, Mexican, French, and Indian cuisines preferences, and is within the total budget of $1,400?",
+        "What is the average cost of a 3-day family-friendly transportation package from Newark to Savannah that caters to children under 10, considering the Mediterranean, Mexican, French, and Indian cuisines preferences, and is within the total budget of $1,400?",
+        "What is the average cost of a round-trip flight from Newark to Savannah for a family of two with children under 10, considering the travel dates of March 3rd to March 5th, 2022, and the total budget of $1,400?"
+      ],
+      "retrieved": true,
+      "memory_chars": 5282,
+      "plan_elapsed_s": 422.93,
+      "oracle_elapsed_s": 389.83,
+      "mean_oracle_call_elapsed_s": 54.21,
+      "total_elapsed_s": 812.78
+    },
+    {
+      "task_id": "val_009",
+      "condition": "interactive_oracle",
+      "success": false,
+      "plan_tokens": 5575,
+      "oracle_tokens": 17243,
+      "total_tokens": 22818,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the most cost-effective and convenient transportation option from South Bend to Atlanta for two people on March 6th, 2022, considering our budget of $1,500?",
+        "What are the top three accommodation options in Atlanta that allow parties and are within our budget of $1,500, considering our travel dates of March 6th to March 8th, 2022?",
+        "What are the top three restaurants or food establishments in Atlanta that serve Mediterranean, American, Chinese, and Indian cuisines, and are within walking distance or a short ride-share from the accommodations we'll be staying at?",
+        "What are the top three transportation options from Atlanta to our accommodations on March 6th, 2022, considering our budget of $1,500 and the fact that we are not planning on driving ourselves?",
+        "What are the top three transportation options from South Bend to Atlanta on March 6th, 2022, considering our budget of $1,500, and what are the estimated costs for each option?"
+      ],
+      "retrieved": true,
+      "memory_chars": 7228,
+      "plan_elapsed_s": 683.29,
+      "oracle_elapsed_s": 511.08,
+      "mean_oracle_call_elapsed_s": 76.79,
+      "total_elapsed_s": 1195.28
+    }
+  ],
+  "summary": {
+    "num_tasks": 5,
+    "success_rate": 0.2,
+    "mean_total_tokens": 21638.6,
+    "mean_plan_tokens": 4925.8,
+    "mean_oracle_tokens": 16712.8,
+    "tokens_per_successful_task": 108193.0,
+    "mean_oracle_questions_asked": 5.0,
+    "mean_memory_chars": 5990.4,
+    "retrieval_rate": 1.0,
+    "mean_plan_elapsed_s": 526.4739999999999,
+    "mean_oracle_elapsed_s": 457.19399999999996,
+    "mean_total_elapsed_s": 984.092,
+    "mean_oracle_call_elapsed_s": 66.862
+  }
+}

@@ -1,0 +1,108 @@
+﻿python : Loaded 63 F1 nodes
+At line:1 char:357
++ ... rs\Thesis"; python experiments/musique_memory/materialize_f6f7.py > r ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Loaded 63 F1 nodes:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Reconstructed 24 clusters
+Existing F6 types: set()
+Existing F7 types: set()
+
+[unknown] hop=2 n=3 sr=0%
+  F6: To successfully navigate these sessions, it's recommended to anchor on a specifi
+  F7: no pivot sessions, skipping
+
+[hop2_what_when] hop=2 n=9 sr=0%
+  F6: Anchor the search with a specific entity or concept and then use relationships t
+  F7: To correct this, start by rephrasing the query to focus on the specific aspect b
+
+[hop2_what_what] hop=2 n=5 sr=60%
+  F6: Anchor the most specific and unique entity first, followed by queries that frame
+  F7: To correct this, try rephrasing the question to focus on a specific aspect of th
+
+[hop2_who_what] hop=2 n=7 sr=14%
+  F6: Anchor with a well-known entity (Celine Dion) and use specific queries that grad
+  F7: To correct this, users should try to be more specific and focused in their initi
+
+[hop2_who_when] hop=2 n=2 sr=0%
+  F6: Anchor the query with a specific entity (e.g., 'Cincinnati Reds' or 'Fitbit') an
+  F7: To correct this, rephrase the query to focus on the specific team and event, suc
+
+[hop2_who_who] hop=2 n=1 sr=100%
+  F6: Anchoring with a specific entity (American Psychological Association) and using 
+  F7: Corrected by refining the search to focus on the code of ethics founders, then f
+
+[hop2_where_which] hop=2 n=1 sr=100%
+  F6: Anchoring the Russian city entity first and using a combination of specific and 
+  F7: To correct this, rephrase the query to focus on the relationship between Russia 
+
+[hop2_what_where] hop=2 n=1 sr=0%
+  F6: Anchoring the director as the primary entity and using specific queries that fra
+  F7: To correct this mistake, rephrase the query to focus on a specific aspect of the
+
+[hop2_which_what] hop=2 n=2 sr=50%
+  F6: Anchor with a specific entity (Ali Javan) and then gradually shift focus to rela
+  F7: To fix this, start your query with specific and relevant keywords. For example, 
+
+[hop2_what_who] hop=2 n=1 sr=0%
+  F6: Anchoring with a specific entity (e.g., 'French defense') and using relationship
+  F7: To correct this, rephrase the query to focus on the event or action being defend
+
+[hop2_who_how] hop=2 n=1 sr=0%
+  F6: extraction failed
+  F7: To correct this, rephrase the query to focus on the team aspect and then refine 
+
+[hop3_what_where_who] hop=3 n=1 sr=0%
+  F6: Anchoring with a specific location (Washington D.C.) and then gradually adding m
+  F7: To correct this, break down the search into separate queries for each concept an
+
+[hop3_where_what_who] hop=3 n=1 sr=0%
+  F6: To successfully navigate complex questions, prioritize anchoring a specific enti
+  F7: To correct this, start by specifying the exact topic or entity you're looking fo
+
+[hop3_who_who_what] hop=3 n=7 sr=0%
+  F6: Anchoring on the key entity (e.g., Marie Antoinette, Louis XVI) and framing rela
+  F7: To correct this, start by identifying the monarch who retranslated Reflections i
+
+[hop3_what_what_what] hop=3 n=3 sr=0%
+  F6: extraction failed
+  F7: To correct this, break down the question into its constituent parts and rephrase
+
+[hop3_where_what_how] hop=3 n=2 sr=50%
+  F6: Anchor with a specific entity (e.g., country or ethnicity) and use relationship 
+  F7: To correct this, start by identifying the key entities mentioned in the question
+
+[hop3_what_where_how] hop=3 n=2 sr=0%
+  F6: Anchoring on a specific entity (e.g., 'new students' or 'largest immigrant group
+  F7: Instead, break down the question into smaller parts and ask separate queries for
+
+[hop3_where_who_how] hop=3 n=2 sr=0%
+  F6: Anchor with a specific entity (e.g., 'Deserter's families') and use relationship
+  F7: To correct this, rephrase the query to focus on the football tournament country 
+
+[hop3_who_where_how] hop=3 n=2 sr=0%
+  F6: Anchoring the country entity first and using specific queries that frame relatio
+  F7: To correct this, the search approach should focus on finding the country where t
+
+[hop3_who_what_how] hop=3 n=2 sr=0%
+  F6: Anchoring with a specific entity (e.g., country) and using relationship framing 
+  F7: Instead, break down the query into smaller parts by identifying key entities and
+
+[hop3_what_who_how] hop=3 n=2 sr=50%
+  F6: Anchoring the country that won the 2002 World Cup first, followed by a specific 
+  F7: To correct this, break down the query into smaller parts: first identify the cou
+
+[hop3_who_who_how] hop=3 n=4 sr=0%
+  F6: To successfully answer hop3_who_who_how questions, it's essential to anchor the 
+  F7: To correct this, start by identifying both parts of the question: who started th
+
+[hop3_where_who_what] hop=3 n=1 sr=0%
+  F6: To successfully navigate multi-hop searches, prioritize anchoring a specific ent
+  F7: To correct this, rephrase the question to focus on a specific country or context
+
+[hop3_who_where_what] hop=3 n=1 sr=0%
+  F6: Anchoring with a specific entity (country or location) and then gradually adding
+  F7: To correct this, it's essential to recognize when the initial query isn't provid
+
+Done. Generated: F6=22, F7=23

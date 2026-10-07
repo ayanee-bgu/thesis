@@ -1,0 +1,79 @@
+{
+  "title": "VOYAGER: An Open-Ended Embodied Agent with Large Language Models",
+  "authors": ["Guanzhi Wang", "Yuqi Xie", "Yunfan Jiang", "Ajay Mandlekar", "Chaowei Xiao", "Yuke Zhu", "Linxi Fan", "Anima Anandkumar"],
+  "venue": "arXiv / NeurIPS 2023",
+  "year": "2023",
+  "url": "https://arxiv.org/abs/2305.16291",
+  "arxiv_id": "2305.16291",
+  "doi": null,
+  "code_url": "https://github.com/MineDojo/Voyager",
+  "data_url": null,
+  "problem_statement": "How can an embodied agent continuously acquire, accumulate, and reuse skills in an open-ended environment without human intervention or model parameter fine-tuning?",
+  "key_ideas": [
+    "Represent skills as executable code (JavaScript/Mineflayer) rather than natural language or weight updates",
+    "Index skill programs by semantic embeddings for similarity-based retrieval",
+    "Use a GPT-4-driven automatic curriculum that adapts bottom-up to the agent's current capability frontier",
+    "Iterative prompting with three feedback types: environment state feedback, execution errors, and LLM-based self-verification",
+    "Skill library as an external, persistent, portable memory — separable from any specific agent or model"
+  ],
+  "method_summary": "VOYAGER consists of three components: (1) an automatic curriculum where GPT-4 proposes tasks based on agent state + exploration history, targeting diversity; (2) a skill library — a vector DB mapping GPT-3.5 embeddings of program descriptions to JavaScript programs, with retrieval by embedding similarity; (3) an iterative prompting loop with environment feedback, execution errors, and self-verification (separate GPT-4 critic), up to 4 rounds per task. No gradient-based training; GPT-4 and GPT-3.5 used as blackbox APIs.",
+  "datasets_used": ["Minecraft via MineDojo", "Mineflayer JavaScript API"],
+  "baselines": ["ReAct", "Reflexion", "AutoGPT", "VOYAGER w/o skill library", "AutoGPT w/ VOYAGER skill library"],
+  "metrics": [
+    "Unique items discovered (exploration)",
+    "Prompting iterations to unlock tech tree tiers (wooden/stone/iron/diamond)",
+    "Map traversal distance",
+    "Zero-shot task success rate and iterations on 4 unseen tasks"
+  ],
+  "key_results": {
+    "unique_items": "63 items in 160 iterations vs ~19 for best baseline (3.3x)",
+    "tech_tree_wooden": "6±2 iterations (VOYAGER) vs 92±72 (AutoGPT, 15.3x faster)",
+    "tech_tree_stone": "11±2 vs 94±72 (8.5x faster)",
+    "tech_tree_iron": "21±7 vs 135±103 (6.4x faster)",
+    "tech_tree_diamond": "102 iterations (1/3 runs) — only VOYAGER reaches diamond",
+    "map_distance": "2.3x longer than baselines",
+    "zero_shot": "VOYAGER solves all 4 tasks 3/3 runs; all baselines fail 0/3",
+    "gpt4_vs_gpt35": "GPT-4 gets 5.7x more unique items than GPT-3.5",
+    "self_verification_ablation": "-73% items without self-verification",
+    "curriculum_ablation": "-93% items with random curriculum"
+  },
+  "contributions": [
+    "First LLM-powered embodied lifelong learning agent operating without model fine-tuning",
+    "Skill library architecture: executable code + embedding-based retrieval as persistent procedural memory",
+    "Automatic curriculum driven by LLM world knowledge, adapting to agent state",
+    "Iterative prompting with environment feedback + execution errors + self-verification",
+    "Demonstrated skill library portability (AutoGPT + VOYAGER skills improves AutoGPT)"
+  ],
+  "limitations_acknowledged": [
+    "GPT-4 API cost is 15x GPT-3.5; GPT-3.5 too weak for code generation quality needed",
+    "Agent occasionally gets stuck and fails to generate correct skill",
+    "Hallucinations: curriculum proposes non-existent items; code generation calls non-existent APIs",
+    "Self-verification module occasionally fails on ambiguous success signals",
+    "Text-only: no visual perception at time of writing"
+  ],
+  "limitations_observed": [
+    "No skill pruning or quality control — library grows unboundedly; retrieval quality at scale untested",
+    "Zero-shot evaluation only on 4 craft tasks; no spatial or biome-novel tasks",
+    "No comparison against gradient-based continual learners (DreamerV3, VPT) on same metrics",
+    "Curriculum quality depends on GPT-4 knowledge of Minecraft; unclear generalization to less-documented domains",
+    "Minecraft-specific; no cross-domain validation"
+  ],
+  "relevance_to_thesis": "Directly relevant to all three focus areas. Skill library = concrete procedural memory architecture (external, embedding-indexed, executable). Plug-and-play skill transfer to AutoGPT = inter-agent knowledge transfer demonstration. No-weight-update learning = important data point for defining educability: does it require weight updates or is external skill accumulation sufficient?",
+  "gaps_and_questions": [
+    "Does a skill library built with GPT-4 transfer to Claude/Llama (cross-model skill transfer)?",
+    "Can this architecture generalize beyond Minecraft to research or API workflows?",
+    "What happens to retrieval quality as library scales to 100s or 1000s of skills?",
+    "Skill acquisition rate as a function of base model could operationalize educability metrics",
+    "Comparison: executable-code skills vs. natural-language descriptive memories (Generative Agents) — which transfers better?"
+  ],
+  "poc_ideas": [
+    "Port skill library to a research assistant domain: skills = Python/API functions, curriculum = GPT-4 proposes research subtasks, retrieval by embedding similarity",
+    "Cross-model transfer test: accumulate 50 skills with GPT-4, measure zero-shot task completion with Claude and Llama-3 using same skill library",
+    "Educability benchmark: fix curriculum and tasks, vary base model, measure iterations-to-proficiency curve"
+  ],
+  "tags": ["#procedural-memory", "#skill-library", "#lifelong-learning", "#open-ended-agents", "#code-as-actions", "#iterative-prompting", "#automatic-curriculum", "#minecraft", "#in-context-learning", "#no-fine-tuning", "#knowledge-transfer", "#educability"],
+  "related_papers": ["Generative Agents (Park et al. 2023)", "ReAct (Yao et al. 2022)", "Reflexion (Shinn et al. 2023)", "AutoGPT", "Code as Policies (Liang et al. 2022)", "MineDojo (Fan et al. 2022)"],
+  "citations_count": null,
+  "read_date": "2026-08-02",
+  "confidence": "high"
+}

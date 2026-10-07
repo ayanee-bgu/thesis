@@ -1,0 +1,74 @@
+{
+  "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents",
+  "authors": ["Yi Yu", "Liuyi Yao", "Yuexiang Xie", "Qingquan Tan", "Jiaqi Feng", "Yaliang Li", "Libing Wu"],
+  "venue": "arXiv preprint",
+  "year": "2026",
+  "url": "https://arxiv.org/abs/2601.01885",
+  "arxiv_id": "2601.01885",
+  "doi": "",
+  "code_url": "",
+  "data_url": "",
+  "problem_statement": "Existing agent memory systems treat LTM and STM as independent components optimized separately, leading to fragmented memory construction and suboptimal long-horizon performance. Unified joint management of both memory types through a learnable policy remains unexplored.",
+  "key_ideas": [
+    "Unified tool-based interface for both LTM (ADD, UPDATE, DELETE) and STM (RETRIEVE, SUMMARY, FILTER) management integrated directly into the agent's policy",
+    "Three-stage progressive RL strategy: Stage 1 (LTM construction from context), Stage 2 (STM control under distractors with context reset), Stage 3 (integrated reasoning with both memory types)",
+    "Step-wise GRPO: terminal trajectory reward broadcast uniformly to all timesteps for long-range credit assignment across heterogeneous memory operations",
+    "Composite reward covering task completion (Rtask), context management (Rcontext = compression + preventive + preservation), and memory quality (Rmemory = storage quality + maintenance + semantic relevance)",
+    "RL training on HotpotQA only; zero-shot generalization to 4 additional diverse long-horizon benchmarks"
+  ],
+  "method_summary": "AgeMem integrates 6 memory tools into the LLM agent's action space. Training uses a three-stage progressive RL curriculum: Stage 1 exposes casual context for LTM construction, Stage 2 resets context and injects distractors to train STM filtering, Stage 3 presents the full task requiring coordinated retrieval and reasoning. K=8 independent rollouts per task; group-normalized terminal rewards are broadcast to all timesteps (step-wise GRPO). The composite reward uses uniform 1/3 weighting across task, context, and memory components. Trained only on HotpotQA; evaluated on ALFWorld, SciWorld, PDDL, BabyAI, and HotpotQA.",
+  "datasets_used": ["HotpotQA (RL training)", "ALFWorld", "SciWorld", "PDDL", "BabyAI"],
+  "baselines": ["No Memory", "LangMem", "A-Mem", "Mem0", "Mem0g (graph variant)", "AgeMem-noRL"],
+  "metrics": ["Success Rate (SR) for ALFWorld/SciWorld/BabyAI", "Progress Rate (PR) for PDDL", "LLM-as-a-Judge (J) for HotpotQA", "Memory Quality (MQ) on HotpotQA", "Token count for STM analysis"],
+  "key_results": {
+    "avg_performance_qwen25_7b": "41.96% (highest across 5 benchmarks)",
+    "avg_performance_qwen3_4b": "54.31% (highest across 5 benchmarks)",
+    "relative_gain_over_no_memory_qwen25": "+49.59%",
+    "relative_gain_over_no_memory_qwen3": "+23.52%",
+    "rl_contribution_over_no_rl": "+8.53% (Qwen2.5-7B), +8.72% (Qwen3-4B)",
+    "memory_quality_qwen25": "0.533 (vs. 0.527 Mem0, 0.512 A-Mem, 0.498 LangMem)",
+    "memory_quality_qwen3": "0.605 (vs. 0.587 A-Mem, 0.543 Mem0, 0.465 LangMem)",
+    "stm_token_reduction_qwen25": "3.1% reduction vs. RAG baseline",
+    "stm_token_reduction_qwen3": "5.1% reduction vs. RAG baseline",
+    "all_returns_vs_answer_only_mq_qwen25": "0.533 vs. 0.479",
+    "rl_induced_add_operations": "0.92 to 1.64 on Qwen2.5-7B",
+    "rl_induced_filter_operations": "0.02 to 0.31 on Qwen2.5-7B"
+  },
+  "contributions": [
+    "AgeMem: first unified framework jointly managing LTM and STM via learnable tool-based policy",
+    "Three-stage progressive RL strategy that curriculum-trains memory acquisition, context filtering, and integrated coordination",
+    "Step-wise GRPO for long-range credit assignment across heterogeneous memory operations",
+    "Composite reward design covering task performance, context compression, and memory quality",
+    "Demonstration that unified memory management with RL improves both task performance AND memory quality simultaneously"
+  ],
+  "limitations_acknowledged": [
+    "Fixed set of memory tools limits fine-grained control",
+    "Evaluated on limited benchmark selection relative to real-world task diversity"
+  ],
+  "limitations_observed": [
+    "RL training only on HotpotQA may not learn optimal memory behaviors for spatial/planning tasks",
+    "No analysis of memory content evolution across many tasks in deployment",
+    "No ablation on removing individual training stages",
+    "Memory Quality metric only available for HotpotQA where ground-truth facts exist",
+    "Reward weights and KL coefficient not ablated"
+  ],
+  "relevance_to_thesis": "Most technically sophisticated memory controller in thesis reading list. The 6-tool action space (ADD/UPDATE/DELETE/RETRIEVE/SUMMARY/FILTER) is a complete implementable design. Three-stage progressive RL is a curriculum for teaching memory management from task-level feedback — directly relevant to educability. Cross-benchmark generalization from HotpotQA training demonstrates transfer of learned memory policies. Step-wise GRPO credit assignment mechanism is applicable to any thesis experiment involving RL-trained memory behaviors.",
+  "gaps_and_questions": [
+    "Can the RL-trained memory policy transfer to different model backbones?",
+    "What happens with multi-domain RL training beyond HotpotQA?",
+    "Can memory quality reward serve as an independent teaching signal for knowledge transfer?",
+    "Would simpler reward designs achieve comparable results?",
+    "How does memory content evolve across extended deployment with diverse tasks?"
+  ],
+  "poc_ideas": [
+    "Implement AgeMem 3-stage progressive RL as thesis training curriculum for memory controller",
+    "Test whether step-wise GRPO credit assignment improves memory learning vs. only rewarding final task outcomes",
+    "Compare AgeMem (RL-based) vs. MemP/ReMe (prompt-based) on same benchmark to understand training cost vs. performance tradeoffs",
+    "Investigate whether AgeMem composite reward components serve as teaching signals in knowledge distillation from teacher to student agent"
+  ],
+  "tags": ["memory-management", "reinforcement-learning", "GRPO", "LTM", "STM", "unified-memory", "tool-use", "progressive-training", "credit-assignment", "agent-memory", "educability"],
+  "related_papers": ["MemP (2508.06433)", "ReMe (2512.10696)", "LangMem", "A-Mem", "Mem0", "ReSum", "HiAgent", "Memory-R1", "Mem1"],
+  "citations_count": null,
+  "read_date": "2026-06-15",
+  "confidence": "high"
+}

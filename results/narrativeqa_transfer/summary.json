@@ -1,0 +1,136 @@
+{
+  "conditions": [
+    {
+      "condition": "no_context",
+      "overall": {
+        "num_tasks": 20,
+        "exact_match": 0.0,
+        "f1": 0.025,
+        "mean_tokens": 29.3,
+        "mean_elapsed_s": 3.9844999999999997,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 10,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 29.1,
+        "mean_elapsed_s": 3.997,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_movie": {
+        "num_tasks": 10,
+        "exact_match": 0.0,
+        "f1": 0.05,
+        "mean_tokens": 29.5,
+        "mean_elapsed_s": 3.972,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "full_context",
+      "overall": {
+        "num_tasks": 20,
+        "exact_match": 0.0,
+        "f1": 0.05952527808348962,
+        "mean_tokens": 4120.35,
+        "mean_elapsed_s": 234.17400000000004,
+        "mean_supporting_fact_recall": 0.65,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 10,
+        "exact_match": 0.0,
+        "f1": 0.08247382020943832,
+        "mean_tokens": 4123.4,
+        "mean_elapsed_s": 234.398,
+        "mean_supporting_fact_recall": 0.4,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_movie": {
+        "num_tasks": 10,
+        "exact_match": 0.0,
+        "f1": 0.03657673595754091,
+        "mean_tokens": 4117.3,
+        "mean_elapsed_s": 233.95,
+        "mean_supporting_fact_recall": 0.9,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "summary_doc",
+      "overall": {
+        "num_tasks": 20,
+        "exact_match": 0.5,
+        "f1": 0.6784416924664602,
+        "mean_tokens": 30.0,
+        "mean_elapsed_s": 4.625500000000001,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 10,
+        "exact_match": 0.4,
+        "f1": 0.6431578947368422,
+        "mean_tokens": 30.7,
+        "mean_elapsed_s": 4.683,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_movie": {
+        "num_tasks": 10,
+        "exact_match": 0.6,
+        "f1": 0.7137254901960783,
+        "mean_tokens": 29.3,
+        "mean_elapsed_s": 4.568,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "interactive_retrieval",
+      "overall": {
+        "num_tasks": 20,
+        "exact_match": 0.1,
+        "f1": 0.1576923076923077,
+        "mean_tokens": 2316.8,
+        "mean_elapsed_s": 126.921,
+        "mean_supporting_fact_recall": 0.4,
+        "mean_dfs_score": 0.925,
+        "mean_num_queries": 3.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 10,
+        "exact_match": 0.1,
+        "f1": 0.16538461538461538,
+        "mean_tokens": 1968.7,
+        "mean_elapsed_s": 109.55999999999999,
+        "mean_supporting_fact_recall": 0.2,
+        "mean_dfs_score": 0.85,
+        "mean_num_queries": 3.0
+      },
+      "by_type_movie": {
+        "num_tasks": 10,
+        "exact_match": 0.1,
+        "f1": 0.15,
+        "mean_tokens": 2664.9,
+        "mean_elapsed_s": 144.28199999999998,
+        "mean_supporting_fact_recall": 0.6,
+        "mean_dfs_score": 1.0,
+        "mean_num_queries": 3.0
+      }
+    }
+  ]
+}

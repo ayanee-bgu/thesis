@@ -1,0 +1,18 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 300
+
+experiment:
+  dataset: "hotpotqa/hotpot_qa"
+  dataset_config: "distractor"
+  split: "validation"
+  num_per_type: 30       # bridge and comparison, each
+  question_types: ["bridge", "comparison"]
+  seed: 42
+
+retrieval:
+  max_queries: 3         # K — interactive_retrieval question budget
+
+output:
+  results_dir: "results/hotpotqa_transfer"

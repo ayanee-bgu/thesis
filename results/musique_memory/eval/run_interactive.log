@@ -1,0 +1,162 @@
+﻿python : 2026-08-26 20:55:02,609 INFO [pool] {'total': 203, 'by_format': {'F1_raw': 63, 'F2_chain': 63, 
+'F3_procedure': 14, 'F4_program': 4, 'F5_decomp': 14, 'F6_preference': 22, 'F7_correction': 23}}
+At line:1 char:357
++ ... rs\Thesis"; python experiments/musique_memory/evaluate.py --condition ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-08-26 20:5...rrection': 23}}:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-08-26 20:55:02,609 INFO Loading val split...
+2026-08-26 20:55:05,706 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/main/README.md "HTTP/1.1 404 Not Found"
+2026-08-26 20:55:05,876 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue "HTTP/1.1 200 OK"
+2026-08-26 20:55:06,052 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/MuSiQue.py 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:55:06,600 INFO HTTP Request: HEAD 
+https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/dgslibisey/MuSiQue/dgslibisey/MuSiQue.py "HTTP/1.1 
+404 Not Found"
+2026-08-26 20:55:06,773 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/README.md 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:55:06,947 INFO HTTP Request: GET 
+https://huggingface.co/api/datasets/dgslibisey/MuSiQue/revision/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321 "HTTP/1.1 200 
+OK"
+2026-08-26 20:55:07,110 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/.huggingface.yaml 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:55:07,333 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=dgslibisey/MuSiQue 
+"HTTP/1.1 200 OK"
+2026-08-26 20:55:07,527 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465f
+b69d31a8eae894c3fd509c4ca321/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-08-26 20:55:07,700 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465f
+b69d31a8eae894c3fd509c4ca321?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-08-26 20:55:08,072 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/dataset_infos.json 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:55:08,336 INFO [dataset] 2417 val rows
+2026-08-26 20:55:08,915 INFO [dataset] hop2: 50 val examples
+2026-08-26 20:55:08,915 INFO [dataset] hop3: 50 val examples
+2026-08-26 20:55:08,919 INFO 
+────────────────────────────────────────────────────────────
+Condition: F3_interactive
+────────────────────────────────────────────────────────────
+2026-08-26 20:57:07,070 INFO [F3_interactive/hop2] 2hop__460946: em=0 f1=0.00 sup=0% dfs=100% tok=558
+2026-08-26 20:59:04,111 INFO [F3_interactive/hop2] 2hop__252311: em=0 f1=0.00 sup=0% dfs=50% tok=684
+2026-08-26 21:01:51,064 INFO [F3_interactive/hop2] 2hop__701895: em=0 f1=0.00 sup=50% dfs=100% tok=677
+2026-08-26 21:03:33,166 INFO [F3_interactive/hop2] 2hop__259228: em=0 f1=0.00 sup=50% dfs=100% tok=440
+2026-08-26 21:05:25,639 INFO [F3_interactive/hop2] 2hop__481349: em=1 f1=1.00 sup=100% dfs=50% tok=626
+2026-08-26 21:07:55,975 INFO [F3_interactive/hop2] 2hop__697790: em=0 f1=0.00 sup=0% dfs=100% tok=541
+2026-08-26 21:09:53,370 INFO [F3_interactive/hop2] 2hop__207476: em=0 f1=0.00 sup=0% dfs=100% tok=521
+2026-08-26 21:11:53,816 INFO [F3_interactive/hop2] 2hop__390947: em=0 f1=0.00 sup=50% dfs=100% tok=456
+2026-08-26 21:14:12,300 INFO [F3_interactive/hop2] 2hop__354635: em=1 f1=1.00 sup=50% dfs=100% tok=420
+2026-08-26 21:15:37,777 INFO [F3_interactive/hop2] 2hop__635187: em=0 f1=0.00 sup=50% dfs=0% tok=598
+2026-08-26 21:17:10,923 INFO [F3_interactive/hop2] 2hop__166824: em=0 f1=0.00 sup=0% dfs=100% tok=404
+2026-08-26 21:18:41,393 INFO [F3_interactive/hop2] 2hop__698577: em=0 f1=0.00 sup=0% dfs=100% tok=367
+2026-08-26 21:20:37,068 INFO [F3_interactive/hop2] 2hop__362107: em=1 f1=1.00 sup=100% dfs=100% tok=541
+2026-08-26 21:22:00,787 INFO [F3_interactive/hop2] 2hop__402530: em=0 f1=0.67 sup=100% dfs=100% tok=453
+2026-08-26 21:23:56,386 INFO [F3_interactive/hop2] 2hop__195917: em=1 f1=1.00 sup=100% dfs=100% tok=486
+2026-08-26 21:25:55,835 INFO [F3_interactive/hop2] 2hop__683835: em=0 f1=0.00 sup=50% dfs=100% tok=387
+2026-08-26 21:27:58,313 INFO [F3_interactive/hop2] 2hop__197470: em=0 f1=0.00 sup=0% dfs=100% tok=357
+2026-08-26 21:30:32,657 INFO [F3_interactive/hop2] 2hop__458131: em=0 f1=0.00 sup=50% dfs=100% tok=518
+2026-08-26 21:32:33,775 INFO [F3_interactive/hop2] 2hop__299142: em=0 f1=0.40 sup=100% dfs=50% tok=722
+2026-08-26 21:35:01,766 INFO [F3_interactive/hop2] 2hop__528263: em=0 f1=0.00 sup=0% dfs=0% tok=840
+2026-08-26 21:37:36,585 INFO [F3_interactive/hop2] 2hop__569582: em=0 f1=0.00 sup=50% dfs=100% tok=861
+2026-08-26 21:39:12,828 INFO [F3_interactive/hop2] 2hop__505860: em=0 f1=0.00 sup=0% dfs=100% tok=580
+2026-08-26 21:41:33,661 INFO [F3_interactive/hop2] 2hop__821197: em=1 f1=1.00 sup=100% dfs=100% tok=452
+2026-08-26 21:44:03,671 INFO [F3_interactive/hop2] 2hop__554167: em=0 f1=0.00 sup=0% dfs=100% tok=960
+2026-08-26 21:46:20,484 INFO [F3_interactive/hop2] 2hop__702496: em=0 f1=0.50 sup=50% dfs=100% tok=517
+2026-08-26 21:49:20,337 INFO [F3_interactive/hop2] 2hop__549146: em=0 f1=0.33 sup=0% dfs=100% tok=467
+2026-08-26 21:52:13,171 INFO [F3_interactive/hop2] 2hop__647996: em=0 f1=0.00 sup=0% dfs=100% tok=755
+2026-08-26 21:54:06,088 INFO [F3_interactive/hop2] 2hop__673655: em=0 f1=0.00 sup=50% dfs=100% tok=826
+2026-08-26 21:56:24,955 INFO [F3_interactive/hop2] 2hop__574419: em=0 f1=0.50 sup=100% dfs=100% tok=541
+2026-08-26 21:59:11,818 INFO [F3_interactive/hop2] 2hop__403712: em=0 f1=0.29 sup=50% dfs=100% tok=687
+2026-08-26 22:01:17,757 INFO [F3_interactive/hop2] 2hop__832795: em=0 f1=0.00 sup=0% dfs=50% tok=793
+2026-08-26 22:02:37,603 INFO [F3_interactive/hop2] 2hop__744055: em=1 f1=1.00 sup=100% dfs=100% tok=341
+2026-08-26 22:04:36,547 INFO [F3_interactive/hop2] 2hop__726717: em=0 f1=0.57 sup=50% dfs=100% tok=484
+2026-08-26 22:06:38,160 INFO [F3_interactive/hop2] 2hop__499577: em=0 f1=0.00 sup=50% dfs=100% tok=509
+2026-08-26 22:08:13,829 INFO [F3_interactive/hop2] 2hop__685280: em=0 f1=0.00 sup=0% dfs=0% tok=480
+2026-08-26 22:09:38,696 INFO [F3_interactive/hop2] 2hop__341305: em=1 f1=1.00 sup=100% dfs=100% tok=516
+2026-08-26 22:11:38,666 INFO [F3_interactive/hop2] 2hop__731228: em=0 f1=0.00 sup=0% dfs=100% tok=951
+2026-08-26 22:13:37,342 INFO [F3_interactive/hop2] 2hop__693444: em=0 f1=0.50 sup=50% dfs=100% tok=420
+2026-08-26 22:15:53,899 INFO [F3_interactive/hop2] 2hop__235471: em=0 f1=0.50 sup=50% dfs=100% tok=682
+2026-08-26 22:17:47,392 INFO [F3_interactive/hop2] 2hop__310456: em=0 f1=0.00 sup=50% dfs=100% tok=657
+2026-08-26 22:19:31,633 INFO [F3_interactive/hop2] 2hop__335418: em=0 f1=0.00 sup=0% dfs=0% tok=657
+2026-08-26 22:21:41,187 INFO [F3_interactive/hop2] 2hop__191125: em=0 f1=0.00 sup=50% dfs=100% tok=891
+2026-08-26 22:23:04,752 INFO [F3_interactive/hop2] 2hop__475070: em=0 f1=0.00 sup=0% dfs=100% tok=401
+2026-08-26 22:25:52,474 INFO [F3_interactive/hop2] 2hop__700093: em=0 f1=0.00 sup=50% dfs=100% tok=446
+2026-08-26 22:27:40,417 INFO [F3_interactive/hop2] 2hop__512773: em=0 f1=0.50 sup=100% dfs=100% tok=481
+2026-08-26 22:29:32,862 INFO [F3_interactive/hop2] 2hop__411091: em=0 f1=0.67 sup=100% dfs=100% tok=1058
+2026-08-26 22:31:22,482 INFO [F3_interactive/hop2] 2hop__423972: em=0 f1=0.00 sup=100% dfs=100% tok=699
+2026-08-26 22:33:40,661 INFO [F3_interactive/hop2] 2hop__455158: em=0 f1=0.00 sup=0% dfs=100% tok=455
+2026-08-26 22:36:57,005 INFO [F3_interactive/hop2] 2hop__189094: em=0 f1=0.00 sup=0% dfs=100% tok=380
+2026-08-26 22:39:24,699 INFO [F3_interactive/hop2] 2hop__765678: em=0 f1=0.00 sup=0% dfs=50% tok=670
+2026-08-26 22:41:59,988 INFO [F3_interactive/hop3] 3hop1__45444: em=0 f1=0.00 sup=0% dfs=100% tok=391
+2026-08-26 22:45:25,169 INFO [F3_interactive/hop3] 3hop1__14529: em=1 f1=1.00 sup=33% dfs=100% tok=1398
+2026-08-26 22:47:58,988 INFO [F3_interactive/hop3] 3hop1__10576: em=0 f1=0.00 sup=67% dfs=50% tok=930
+2026-08-26 22:51:02,059 INFO [F3_interactive/hop3] 3hop1__10512: em=0 f1=0.00 sup=33% dfs=0% tok=975
+2026-08-26 22:54:10,303 INFO [F3_interactive/hop3] 3hop1__10388: em=0 f1=0.00 sup=67% dfs=50% tok=774
+2026-08-26 22:57:19,642 INFO [F3_interactive/hop3] 3hop1__10609: em=0 f1=0.00 sup=33% dfs=100% tok=794
+2026-08-26 23:01:34,884 INFO [F3_interactive/hop3] 3hop1__14521: em=0 f1=0.00 sup=67% dfs=100% tok=1356
+2026-08-26 23:05:21,936 INFO [F3_interactive/hop3] 3hop1__14467: em=0 f1=0.00 sup=33% dfs=100% tok=1260
+2026-08-26 23:08:24,257 INFO [F3_interactive/hop3] 3hop1__10366: em=0 f1=0.00 sup=0% dfs=100% tok=989
+2026-08-26 23:11:15,605 INFO [F3_interactive/hop3] 3hop1__14443: em=1 f1=1.00 sup=33% dfs=100% tok=1555
+2026-08-26 23:14:34,476 INFO [F3_interactive/hop3] 3hop1__10344: em=0 f1=0.00 sup=67% dfs=100% tok=1758
+2026-08-26 23:17:09,896 INFO [F3_interactive/hop3] 3hop1__14541: em=0 f1=0.00 sup=67% dfs=50% tok=803
+2026-08-26 23:20:01,215 INFO [F3_interactive/hop3] 3hop1__10631: em=0 f1=0.00 sup=67% dfs=50% tok=805
+2026-08-26 23:22:03,827 INFO [F3_interactive/hop3] 3hop1__65465: em=0 f1=0.00 sup=0% dfs=100% tok=381
+2026-08-26 23:24:47,078 INFO [F3_interactive/hop3] 3hop1__10690: em=0 f1=0.00 sup=67% dfs=100% tok=918
+2026-08-26 23:27:42,874 INFO [F3_interactive/hop3] 3hop1__93963: em=0 f1=0.00 sup=33% dfs=100% tok=667
+2026-08-26 23:30:06,272 INFO [F3_interactive/hop3] 3hop1__12319: em=0 f1=0.00 sup=67% dfs=50% tok=499
+2026-08-26 23:33:29,003 INFO [F3_interactive/hop3] 3hop1__24892: em=0 f1=0.00 sup=67% dfs=0% tok=1237
+2026-08-26 23:37:03,807 INFO [F3_interactive/hop3] 3hop1__15973: em=0 f1=0.00 sup=33% dfs=100% tok=1033
+2026-08-26 23:39:57,635 INFO [F3_interactive/hop3] 3hop1__16302: em=0 f1=0.00 sup=67% dfs=100% tok=1000
+2026-08-26 23:43:39,692 INFO [F3_interactive/hop3] 3hop1__23444: em=0 f1=0.00 sup=33% dfs=0% tok=1469
+2026-08-26 23:45:55,063 INFO [F3_interactive/hop3] 3hop1__48874: em=0 f1=0.00 sup=67% dfs=50% tok=914
+2026-08-26 23:48:57,635 INFO [F3_interactive/hop3] 3hop1__10668: em=0 f1=0.00 sup=0% dfs=100% tok=948
+2026-08-26 23:51:56,572 INFO [F3_interactive/hop3] 3hop1__74958: em=0 f1=0.00 sup=67% dfs=50% tok=1124
+2026-08-26 23:55:02,192 INFO [F3_interactive/hop3] 3hop1__43836: em=0 f1=0.00 sup=67% dfs=0% tok=938
+2026-08-26 23:58:27,699 INFO [F3_interactive/hop3] 3hop1__16150: em=0 f1=0.00 sup=33% dfs=0% tok=783
+2026-08-27 00:01:41,910 INFO [F3_interactive/hop3] 3hop1__22238: em=0 f1=0.00 sup=67% dfs=0% tok=779
+2026-08-27 00:05:30,460 INFO [F3_interactive/hop3] 3hop1__50796: em=0 f1=0.00 sup=33% dfs=0% tok=1272
+2026-08-27 00:08:45,931 INFO [F3_interactive/hop3] 3hop1__10684: em=0 f1=0.00 sup=33% dfs=100% tok=1304
+2026-08-27 00:12:09,934 INFO [F3_interactive/hop3] 3hop1__28404: em=0 f1=0.00 sup=33% dfs=0% tok=1519
+2026-08-27 00:15:39,779 INFO [F3_interactive/hop3] 3hop1__60479: em=1 f1=1.00 sup=33% dfs=100% tok=1910
+2026-08-27 00:19:17,156 INFO [F3_interactive/hop3] 3hop1__47535: em=0 f1=0.00 sup=33% dfs=100% tok=1544
+2026-08-27 00:23:26,563 INFO [F3_interactive/hop3] 3hop1__49895: em=0 f1=0.00 sup=33% dfs=50% tok=1747
+2026-08-27 00:27:15,195 INFO [F3_interactive/hop3] 3hop1__74379: em=1 f1=1.00 sup=33% dfs=100% tok=1923
+2026-08-27 00:29:31,873 INFO [F3_interactive/hop3] 3hop1__37630: em=0 f1=0.00 sup=0% dfs=100% tok=1193
+2026-08-27 00:33:10,070 INFO [F3_interactive/hop3] 3hop1__10583: em=0 f1=0.00 sup=67% dfs=0% tok=1459
+2026-08-27 00:36:51,242 INFO [F3_interactive/hop3] 3hop1__48730: em=0 f1=0.00 sup=67% dfs=50% tok=1074
+2026-08-27 00:39:41,959 INFO [F3_interactive/hop3] 3hop1__48956: em=0 f1=0.00 sup=67% dfs=100% tok=921
+2026-08-27 00:42:54,148 INFO [F3_interactive/hop3] 3hop1__63262: em=0 f1=0.00 sup=33% dfs=50% tok=1279
+2026-08-27 00:46:41,389 INFO [F3_interactive/hop3] 3hop1__37401: em=0 f1=0.00 sup=67% dfs=0% tok=1147
+2026-08-27 00:49:53,654 INFO [F3_interactive/hop3] 3hop1__10719: em=0 f1=0.00 sup=33% dfs=50% tok=1835
+2026-08-27 00:53:06,936 INFO [F3_interactive/hop3] 3hop1__27526: em=1 f1=1.00 sup=100% dfs=50% tok=1808
+2026-08-27 00:56:26,729 INFO [F3_interactive/hop3] 3hop1__50436: em=0 f1=0.00 sup=33% dfs=100% tok=1078
+2026-08-27 00:59:58,023 INFO [F3_interactive/hop3] 3hop1__10499: em=0 f1=0.00 sup=67% dfs=0% tok=1543
+2026-08-27 01:03:41,361 INFO [F3_interactive/hop3] 3hop1__37931: em=0 f1=0.00 sup=0% dfs=100% tok=1037
+2026-08-27 01:07:23,543 INFO [F3_interactive/hop3] 3hop1__83519: em=0 f1=0.00 sup=33% dfs=50% tok=1753
+2026-08-27 01:10:26,869 INFO [F3_interactive/hop3] 3hop1__30885: em=0 f1=0.00 sup=0% dfs=100% tok=699
+2026-08-27 01:11:44,507 INFO [F3_interactive/hop3] 3hop1__10686: em=0 f1=0.00 sup=0% dfs=100% tok=703
+2026-08-27 01:12:57,948 INFO [F3_interactive/hop3] 3hop1__58200: em=0 f1=0.00 sup=0% dfs=100% tok=1262
+2026-08-27 01:14:06,223 INFO [F3_interactive/hop3] 3hop1__30959: em=0 f1=0.00 sup=33% dfs=50% tok=1147
+
+=== E12 RESULTS — MuSiQue Procedural Memory ===
+Condition                    EM     F1  Sup.Rec    DFS   Qs     Tok
+───────────────────────────────────────────────────────────────────
+── baselines ──
+── verbatim (memory→oracle) ──
+── guided oracle ──
+F3_interactive            12.0%  17.4%    41.7%  75.5%  3.0     868
+── fused ──
+
+── hop2 ──
+Condition                    EM     F1  Sup.Rec    DFS   Qs     Tok
+───────────────────────────────────────────────────────────────────
+F3_interactive            14.0%  24.8%    42.0%  87.0%  2.9     584
+
+── hop3 ──
+Condition                    EM     F1  Sup.Rec    DFS   Qs     Tok
+───────────────────────────────────────────────────────────────────
+F3_interactive            10.0%  10.0%    41.3%  64.0%  3.0    1153

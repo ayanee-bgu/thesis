@@ -1,0 +1,60 @@
+{
+  "task": "\nSolve this algebra problem step by step:\n\nA train travels from city A to city B at 60 km/h and returns at 40 km/h.\nWhat is the average speed for the entire round trip?\n\nExpress your answer as a single number in km/h (e.g. \"48\").\n",
+  "started_at": "2026-05-24T16:51:55.952393",
+  "rounds": [
+    {
+      "round": 1,
+      "votes": [
+        {
+          "role": "reasoner",
+          "answer": "120",
+          "confidence": 1.0
+        },
+        {
+          "role": "generalist",
+          "answer": "48",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": false,
+      "winning_answer": null
+    },
+    {
+      "round": 2,
+      "votes": [
+        {
+          "role": "reasoner",
+          "answer": "17.14",
+          "confidence": 0.9
+        },
+        {
+          "role": "generalist",
+          "answer": "48 km/h",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": false,
+      "winning_answer": null
+    },
+    {
+      "round": 3,
+      "votes": [
+        {
+          "role": "reasoner",
+          "answer": "179.7",
+          "confidence": 1.0
+        },
+        {
+          "role": "generalist",
+          "answer": "48",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": false,
+      "winning_answer": null
+    }
+  ],
+  "final_answer": "48",
+  "consensus_reached": false,
+  "total_rounds": 3
+}

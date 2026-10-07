@@ -1,0 +1,71 @@
+{
+  "task": "[Domain: algebra | Lead specialist: reasoner]\n\nSolve this problem. State your final answer as a plain number or expression (no LaTeX boxed notation needed \u2014 just the value).\n\nHow many vertical asymptotes does the graph of $y=\\frac{2}{x^2+x-6}$ have?",
+  "started_at": "2026-05-31T21:13:39.573006",
+  "memory_enabled": true,
+  "rounds": [
+    {
+      "round": 1,
+      "votes": [
+        {
+          "role": "reasoner",
+          "answer": "0",
+          "confidence": 1.0
+        },
+        {
+          "role": "coder",
+          "answer": "0",
+          "confidence": 1.0
+        },
+        {
+          "role": "retriever",
+          "answer": "2",
+          "confidence": 1.0
+        },
+        {
+          "role": "generalist",
+          "answer": "2",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": false,
+      "winning_answer": null,
+      "memory_transfers": 0
+    },
+    {
+      "round": 2,
+      "votes": [
+        {
+          "role": "reasoner",
+          "answer": "2",
+          "confidence": 1.0
+        },
+        {
+          "role": "coder",
+          "answer": "0",
+          "confidence": 1.0
+        },
+        {
+          "role": "retriever",
+          "answer": "2",
+          "confidence": 1.0
+        },
+        {
+          "role": "generalist",
+          "answer": "2",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": true,
+      "winning_answer": "2",
+      "memory_transfers": 0
+    }
+  ],
+  "final_answer": "2",
+  "consensus_reached": true,
+  "total_rounds": 2,
+  "memory_transfer_summary": {
+    "total_transfers": 0,
+    "by_round": {},
+    "by_pair": {}
+  }
+}

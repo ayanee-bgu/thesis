@@ -1,0 +1,216 @@
+{
+  "conditions": [
+    {
+      "condition": "no_context",
+      "overall": {
+        "num_tasks": 80,
+        "exact_match": 0.1375,
+        "f1": 0.20499084249084248,
+        "mean_tokens": 27.5,
+        "mean_elapsed_s": 3.8685,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_compositional": {
+        "num_tasks": 20,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 24.65,
+        "mean_elapsed_s": 3.646,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.45,
+        "f1": 0.5361538461538461,
+        "mean_tokens": 28.9,
+        "mean_elapsed_s": 3.931,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_bridge_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.1,
+        "f1": 0.1619047619047619,
+        "mean_tokens": 30.3,
+        "mean_elapsed_s": 3.995,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_inference": {
+        "num_tasks": 20,
+        "exact_match": 0.0,
+        "f1": 0.12190476190476192,
+        "mean_tokens": 26.15,
+        "mean_elapsed_s": 3.902,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "full_context",
+      "overall": {
+        "num_tasks": 80,
+        "exact_match": 0.175,
+        "f1": 0.4110697070069967,
+        "mean_tokens": 905.25,
+        "mean_elapsed_s": 47.88825,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_compositional": {
+        "num_tasks": 20,
+        "exact_match": 0.3,
+        "f1": 0.3763888888888889,
+        "mean_tokens": 855.25,
+        "mean_elapsed_s": 44.310500000000005,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.15,
+        "f1": 0.41038281979458446,
+        "mean_tokens": 726.55,
+        "mean_elapsed_s": 39.415000000000006,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_bridge_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.05,
+        "f1": 0.37099918283657685,
+        "mean_tokens": 869.85,
+        "mean_elapsed_s": 47.789,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_inference": {
+        "num_tasks": 20,
+        "exact_match": 0.2,
+        "f1": 0.48650793650793644,
+        "mean_tokens": 1169.35,
+        "mean_elapsed_s": 60.0385,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "summary_doc",
+      "overall": {
+        "num_tasks": 80,
+        "exact_match": 0.175,
+        "f1": 0.38157113719613717,
+        "mean_tokens": 1706.3125,
+        "mean_elapsed_s": 132.85025000000002,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_compositional": {
+        "num_tasks": 20,
+        "exact_match": 0.1,
+        "f1": 0.145,
+        "mean_tokens": 1644.55,
+        "mean_elapsed_s": 125.7325,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.4,
+        "f1": 0.6223190698190698,
+        "mean_tokens": 1501.4,
+        "mean_elapsed_s": 116.90299999999999,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_bridge_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.2,
+        "f1": 0.3814835164835165,
+        "mean_tokens": 1652.75,
+        "mean_elapsed_s": 129.14849999999998,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_inference": {
+        "num_tasks": 20,
+        "exact_match": 0.0,
+        "f1": 0.3774819624819625,
+        "mean_tokens": 2026.55,
+        "mean_elapsed_s": 159.61700000000002,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "interactive_retrieval",
+      "overall": {
+        "num_tasks": 80,
+        "exact_match": 0.2625,
+        "f1": 0.32038690476190473,
+        "mean_tokens": 1018.275,
+        "mean_elapsed_s": 60.94712500000001,
+        "mean_supporting_fact_recall": 0.6375,
+        "mean_dfs_score": 0.7875,
+        "mean_num_queries": 3.0
+      },
+      "by_type_compositional": {
+        "num_tasks": 20,
+        "exact_match": 0.35,
+        "f1": 0.38333333333333336,
+        "mean_tokens": 1181.35,
+        "mean_elapsed_s": 68.07050000000001,
+        "mean_supporting_fact_recall": 0.7,
+        "mean_dfs_score": 0.975,
+        "mean_num_queries": 3.0
+      },
+      "by_type_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.35,
+        "f1": 0.36428571428571427,
+        "mean_tokens": 947.75,
+        "mean_elapsed_s": 56.742000000000004,
+        "mean_supporting_fact_recall": 0.9,
+        "mean_dfs_score": 0.6,
+        "mean_num_queries": 3.0
+      },
+      "by_type_bridge_comparison": {
+        "num_tasks": 20,
+        "exact_match": 0.2,
+        "f1": 0.2,
+        "mean_tokens": 858.45,
+        "mean_elapsed_s": 52.03099999999999,
+        "mean_supporting_fact_recall": 0.4,
+        "mean_dfs_score": 0.8,
+        "mean_num_queries": 3.0
+      },
+      "by_type_inference": {
+        "num_tasks": 20,
+        "exact_match": 0.15,
+        "f1": 0.33392857142857146,
+        "mean_tokens": 1085.55,
+        "mean_elapsed_s": 66.94500000000001,
+        "mean_supporting_fact_recall": 0.55,
+        "mean_dfs_score": 0.775,
+        "mean_num_queries": 3.0
+      }
+    }
+  ]
+}

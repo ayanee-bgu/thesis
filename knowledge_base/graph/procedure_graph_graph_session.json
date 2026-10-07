@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "e16d3906",
+      "content": "Design a 3-day travel itinerary for 2 people departing from Ithaca and heading to Newark, considering budget constraints ($1,200) and preferences (entire rooms, visitor-friendly, no driving).",
+      "level": "script",
+      "source_agent": "graph_session",
+      "session_id": "session_1",
+      "created_at": "2026-06-17T12:19:34.043993+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "6cbaf5a7",
+      "content": "Day 1: Plan transportation from Ithaca to Newark, book accommodation in West Village, schedule breakfast at Artistry, visit The Newark Museum of Art, have lunch at Angeethi Restaurant, dinner at Bernardo's.",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_1",
+      "created_at": "2026-06-17T12:19:34.044038+00:00",
+      "deprecated": true,
+      "deprecation_reason": "merged_into:6cbaf5a7"
+    },
+    {
+      "id": "6b9eae18",
+      "content": "Day 2: Have breakfast at Cafe Bethak, visit Weequahic Park, have lunch at Escape Terrace Bar Kitchen, dinner at Jaguar. Repeat the same accommodation for both days.",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_1",
+      "created_at": "2026-06-17T12:19:34.044222+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "c5916bcb",
+      "content": "Day 3: Plan transportation from Newark to Ithaca, schedule a visit to Paul Robeson Galleries, and have lunch at Republic of Chicken.",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_1",
+      "created_at": "2026-06-17T12:19:34.044441+00:00",
+      "deprecated": true,
+      "deprecation_reason": "merged_into:c5916bcb"
+    },
+    {
+      "id": "d708860a",
+      "content": "Plan a 3-day trip from Nashville to Detroit with accommodations that permit smoking and are not shared. Use flights for transportation and book rooms through online platforms.",
+      "level": "script",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:27:21.888892+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "56d4c2da",
+      "content": "Book a flight from Nashville to Detroit (Day 1)",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:27:21.889235+00:00",
+      "deprecated": true,
+      "deprecation_reason": "merged_into:56d4c2da"
+    },
+    {
+      "id": "a40cfaa3",
+      "content": "Choose an accommodation in Fort Greene, Detroit that permits smoking and is not shared",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:27:21.889727+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "6236cc5d",
+      "content": "Plan breakfast, lunch, and dinner for each day",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:27:21.890124+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "3b647396",
+      "content": "Select attractions to visit on each day",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:27:21.890545+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "778697fd",
+      "content": "Repeat steps 2-4 for Day 2",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:27:21.890988+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "a93341d5",
+      "content": "Plan breakfast and possibly lunch or dinner for the return trip",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:27:21.892309+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "b699083c",
+      "content": "Plan a trip to Knoxville from Atlanta for 3 days, focusing on private accommodations that accommodate children under 10. Use public transportation and visitor-friendly attractions.",
+      "level": "script",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:29:01.056788+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "913ea0d7",
+      "content": "Book flights from Atlanta to Knoxville (Day 1) and schedule breakfast at Cafe Arabelle",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:29:01.057734+00:00",
+      "deprecated": true,
+      "deprecation_reason": "merged_into:913ea0d7"
+    },
+    {
+      "id": "bfad0f52",
+      "content": "Visit World's Fair Park as the main attraction of Day 1",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:29:01.058699+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "7b4689e9",
+      "content": "Stay in a private Manhattan Room for two nights, ensuring no visitors, pets, or smoking",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:29:01.060715+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "3585e1e1",
+      "content": "Repeat the same routine on Day 2, with Weequahic Park as the main attraction",
+      "level": "step",
+      "source_agent": "graph_session",
+      "session_id": "session_2",
+      "created_at": "2026-06-17T12:29:01.061843+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    }
+  ],
+  "edges": [
+    {
+      "src": "e16d3906",
+      "dst": "6cbaf5a7",
+      "relation": "generalizes"
+    },
+    {
+      "src": "e16d3906",
+      "dst": "6b9eae18",
+      "relation": "generalizes"
+    },
+    {
+      "src": "e16d3906",
+      "dst": "c5916bcb",
+      "relation": "generalizes"
+    },
+    {
+      "src": "6b9eae18",
+      "dst": "6cbaf5a7",
+      "relation": "depends_on"
+    },
+    {
+      "src": "c5916bcb",
+      "dst": "6b9eae18",
+      "relation": "depends_on"
+    },
+    {
+      "src": "d708860a",
+      "dst": "56d4c2da",
+      "relation": "generalizes"
+    },
+    {
+      "src": "d708860a",
+      "dst": "a40cfaa3",
+      "relation": "generalizes"
+    },
+    {
+      "src": "d708860a",
+      "dst": "6236cc5d",
+      "relation": "generalizes"
+    },
+    {
+      "src": "d708860a",
+      "dst": "3b647396",
+      "relation": "generalizes"
+    },
+    {
+      "src": "d708860a",
+      "dst": "778697fd",
+      "relation": "generalizes"
+    },
+    {
+      "src": "d708860a",
+      "dst": "a93341d5",
+      "relation": "generalizes"
+    },
+    {
+      "src": "b699083c",
+      "dst": "913ea0d7",
+      "relation": "generalizes"
+    },
+    {
+      "src": "b699083c",
+      "dst": "bfad0f52",
+      "relation": "generalizes"
+    },
+    {
+      "src": "b699083c",
+      "dst": "6cbaf5a7",
+      "relation": "generalizes"
+    },
+    {
+      "src": "b699083c",
+      "dst": "7b4689e9",
+      "relation": "generalizes"
+    },
+    {
+      "src": "b699083c",
+      "dst": "3585e1e1",
+      "relation": "generalizes"
+    },
+    {
+      "src": "b699083c",
+      "dst": "c5916bcb",
+      "relation": "generalizes"
+    }
+  ]
+}

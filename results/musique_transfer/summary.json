@@ -1,0 +1,145 @@
+{
+  "conditions": [
+    {
+      "condition": "no_context",
+      "overall": {
+        "num_tasks": 45,
+        "exact_match": 0.022222222222222223,
+        "f1": 0.06412698412698413,
+        "mean_tokens": 33.44444444444444,
+        "mean_elapsed_s": 4.054444444444444,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 0.0
+      },
+      "by_type_hop2": {
+        "num_tasks": 15,
+        "exact_match": 0.06666666666666667,
+        "f1": 0.11238095238095239,
+        "mean_tokens": 23.2,
+        "mean_elapsed_s": 3.57,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 0.0
+      },
+      "by_type_hop3": {
+        "num_tasks": 15,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 39.2,
+        "mean_elapsed_s": 4.5040000000000004,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 0.0
+      },
+      "by_type_hop4": {
+        "num_tasks": 15,
+        "exact_match": 0.0,
+        "f1": 0.08000000000000002,
+        "mean_tokens": 37.93333333333333,
+        "mean_elapsed_s": 4.089333333333333,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 0.0
+      }
+    },
+    {
+      "condition": "full_context",
+      "overall": {
+        "num_tasks": 45,
+        "exact_match": 0.044444444444444446,
+        "f1": 0.17368097240661035,
+        "mean_tokens": 2510.8444444444444,
+        "mean_elapsed_s": 138.1691111111111,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      },
+      "by_type_hop2": {
+        "num_tasks": 15,
+        "exact_match": 0.06666666666666667,
+        "f1": 0.19407407407407407,
+        "mean_tokens": 2099.6,
+        "mean_elapsed_s": 110.95,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      },
+      "by_type_hop3": {
+        "num_tasks": 15,
+        "exact_match": 0.06666666666666667,
+        "f1": 0.14702218308356416,
+        "mean_tokens": 2760.266666666667,
+        "mean_elapsed_s": 155.29333333333335,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      },
+      "by_type_hop4": {
+        "num_tasks": 15,
+        "exact_match": 0.0,
+        "f1": 0.1799466600621928,
+        "mean_tokens": 2672.6666666666665,
+        "mean_elapsed_s": 148.264,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      }
+    },
+    {
+      "condition": "summary_doc",
+      "overall": {
+        "num_tasks": 45,
+        "exact_match": 0.044444444444444446,
+        "f1": 0.10618566618566619,
+        "mean_tokens": 3674.0,
+        "mean_elapsed_s": 288.346,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      },
+      "by_type_hop2": {
+        "num_tasks": 15,
+        "exact_match": 0.06666666666666667,
+        "f1": 0.15682539682539684,
+        "mean_tokens": 3299.4666666666667,
+        "mean_elapsed_s": 259.5686666666667,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      },
+      "by_type_hop3": {
+        "num_tasks": 15,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 4000.733333333333,
+        "mean_elapsed_s": 315.428,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      },
+      "by_type_hop4": {
+        "num_tasks": 15,
+        "exact_match": 0.06666666666666667,
+        "f1": 0.16173160173160175,
+        "mean_tokens": 3721.8,
+        "mean_elapsed_s": 290.04133333333334,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null,
+        "full_recall_rate": 1.0
+      }
+    }
+  ]
+}

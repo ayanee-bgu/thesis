@@ -1,0 +1,298 @@
+{
+  "coactive_pipeline": {
+    "none": {
+      "completed": true,
+      "avg_detail_preservation": 0.625,
+      "avg_task_success": 0.875,
+      "avg_questions_asked": null,
+      "avg_clarification_requests": null,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "none",
+          "task_id": 0,
+          "detail_preservation": 1.0,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 244.1
+        },
+        {
+          "agent": 2,
+          "condition": "none",
+          "task_id": 1,
+          "detail_preservation": 0.5,
+          "task_success": false,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 260.4
+        },
+        {
+          "agent": 3,
+          "condition": "none",
+          "task_id": 2,
+          "detail_preservation": 0.5,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 327.6
+        },
+        {
+          "agent": 4,
+          "condition": "none",
+          "task_id": 3,
+          "detail_preservation": 0.5,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 337.5
+        },
+        {
+          "agent": 5,
+          "condition": "none",
+          "task_id": 4,
+          "detail_preservation": 0.5,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 357.5
+        },
+        {
+          "agent": 6,
+          "condition": "none",
+          "task_id": 5,
+          "detail_preservation": 0.5,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 559.9
+        },
+        {
+          "agent": 7,
+          "condition": "none",
+          "task_id": 6,
+          "detail_preservation": 1.0,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 293.4
+        },
+        {
+          "agent": 8,
+          "condition": "none",
+          "task_id": 7,
+          "detail_preservation": 0.5,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 638.2
+        }
+      ]
+    },
+    "static": {
+      "completed": true,
+      "avg_detail_preservation": 0.75,
+      "avg_task_success": 0.5,
+      "avg_questions_asked": null,
+      "avg_clarification_requests": null,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "static",
+          "task_id": 0,
+          "detail_preservation": 1.0,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 98.1
+        },
+        {
+          "agent": 2,
+          "condition": "static",
+          "task_id": 1,
+          "detail_preservation": 0.5,
+          "task_success": false,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 107.6
+        }
+      ]
+    },
+    "message_pass": {
+      "completed": true,
+      "avg_detail_preservation": 0.5,
+      "avg_task_success": 0.5,
+      "avg_questions_asked": null,
+      "avg_clarification_requests": null,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "message_pass",
+          "task_id": 0,
+          "detail_preservation": 0.5,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 128.1
+        },
+        {
+          "agent": 2,
+          "condition": "message_pass",
+          "task_id": 1,
+          "detail_preservation": 0.5,
+          "task_success": false,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 314.2
+        }
+      ]
+    },
+    "interactive": {
+      "completed": true,
+      "avg_detail_preservation": 1.0,
+      "avg_task_success": 1.0,
+      "avg_questions_asked": 1.0,
+      "avg_clarification_requests": null,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "interactive",
+          "task_id": 0,
+          "detail_preservation": 1.0,
+          "task_success": true,
+          "questions_asked": 1,
+          "clarification_requests": 0,
+          "latency": 157.7
+        },
+        {
+          "agent": 2,
+          "condition": "interactive",
+          "task_id": 1,
+          "detail_preservation": 1.0,
+          "task_success": true,
+          "questions_asked": 1,
+          "clarification_requests": 0,
+          "latency": 165.5
+        }
+      ]
+    }
+  },
+  "hierarchical_orchestration": {
+    "none": {
+      "completed": true,
+      "avg_detail_preservation": 0.4,
+      "avg_task_success": 0.0,
+      "avg_questions_asked": null,
+      "avg_clarification_requests": 0.5,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "none",
+          "task_id": 0,
+          "detail_preservation": 0.4,
+          "task_success": false,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 114.6
+        },
+        {
+          "agent": 2,
+          "condition": "none",
+          "task_id": 1,
+          "detail_preservation": 0.4,
+          "task_success": false,
+          "questions_asked": 0,
+          "clarification_requests": 1,
+          "latency": 119.8
+        }
+      ]
+    },
+    "static": {
+      "completed": true,
+      "avg_detail_preservation": 0.85,
+      "avg_task_success": 1.0,
+      "avg_questions_asked": null,
+      "avg_clarification_requests": 0.0,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "static",
+          "task_id": 0,
+          "detail_preservation": 0.7,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 102.7
+        },
+        {
+          "agent": 2,
+          "condition": "static",
+          "task_id": 1,
+          "detail_preservation": 1.0,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 104.5
+        }
+      ]
+    },
+    "message_pass": {
+      "completed": true,
+      "avg_detail_preservation": 0.7,
+      "avg_task_success": 1.0,
+      "avg_questions_asked": null,
+      "avg_clarification_requests": 0.0,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "message_pass",
+          "task_id": 0,
+          "detail_preservation": 0.7,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 122.0
+        },
+        {
+          "agent": 2,
+          "condition": "message_pass",
+          "task_id": 1,
+          "detail_preservation": 0.7,
+          "task_success": true,
+          "questions_asked": 0,
+          "clarification_requests": 0,
+          "latency": 146.3
+        }
+      ]
+    },
+    "interactive": {
+      "completed": true,
+      "avg_detail_preservation": 0.7,
+      "avg_task_success": 1.0,
+      "avg_questions_asked": 1.0,
+      "avg_clarification_requests": 0.5,
+      "agents": [
+        {
+          "agent": 1,
+          "condition": "interactive",
+          "task_id": 0,
+          "detail_preservation": 0.7,
+          "task_success": true,
+          "questions_asked": 1,
+          "clarification_requests": 0,
+          "latency": 117.4
+        },
+        {
+          "agent": 2,
+          "condition": "interactive",
+          "task_id": 1,
+          "detail_preservation": 0.7,
+          "task_success": true,
+          "questions_asked": 1,
+          "clarification_requests": 1,
+          "latency": 98.5
+        }
+      ]
+    }
+  }
+}

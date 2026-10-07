@@ -1,0 +1,37 @@
+{
+  "run_id": "20260524_171541_quick",
+  "timestamp": "2026-05-24T17:16:26.200668",
+  "config": {
+    "n_problems": 2,
+    "level": 1,
+    "subjects": "algebra",
+    "max_rounds": 3,
+    "baseline_only": true,
+    "group_only": false,
+    "quick": true
+  },
+  "baseline": {
+    "results": [
+      {
+        "subject": "algebra",
+        "level": 1,
+        "problem": "What is the positive difference between $120\\%$ of 30 and $130\\%$ of 20?...",
+        "ground_truth": "10",
+        "predicted": "10",
+        "correct": true,
+        "elapsed_s": 14.7
+      },
+      {
+        "subject": "algebra",
+        "level": 1,
+        "problem": "If $2^8=4^x$, what is the value of $x$?...",
+        "ground_truth": "4",
+        "predicted": "4",
+        "correct": true,
+        "elapsed_s": 27.4
+      }
+    ],
+    "accuracy": 1.0
+  },
+  "group": null
+}

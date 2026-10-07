@@ -1,0 +1,143 @@
+{
+  "condition": "interactive_oracle",
+  "config": {
+    "num_tasks_teacher": 5,
+    "num_tasks_student": 5,
+    "max_questions": 5,
+    "task_split": "validation"
+  },
+  "teacher_task_ids": [
+    "val_000",
+    "val_001",
+    "val_002",
+    "val_003",
+    "val_004"
+  ],
+  "tasks": [
+    {
+      "task_id": "val_005",
+      "condition": "interactive_oracle",
+      "success": false,
+      "plan_tokens": 4925,
+      "oracle_tokens": 18408,
+      "total_tokens": 23333,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the most cost-effective way to travel from Chicago to Albany on March 22nd, 2022, considering our budget of $2,300, and are there any specific flight or train options that would allow us to allocate the majority of our budget towards accommodations and activities?",
+        "What are the most affordable and smoking-friendly accommodation options in Albany that can accommodate two people and provide entire rooms, considering our budget of $2,300 for the entire trip?",
+        "What are the most cost-effective transportation options from Albany to our desired accommodations, considering our budget of $2,300 and the fact that we won't be self-driving during this trip?",
+        "What are the most affordable and smoking-friendly accommodation options in Albany that can accommodate two people and provide entire rooms, considering our budget of $2,300 for the entire trip, and are there any specific hotels or apartments that have been previously recommended by the oracle or other travel agents for similar trips?",
+        "What are the most cost-effective and smoking-friendly transportation options from Albany to our desired accommodations, considering our budget of $2,300 and the fact that we won't be self-driving during this trip?"
+      ],
+      "retrieved": true,
+      "memory_chars": 9396,
+      "plan_elapsed_s": 431.99,
+      "oracle_elapsed_s": 594.34,
+      "mean_oracle_call_elapsed_s": 90.86,
+      "total_elapsed_s": 1026.35
+    },
+    {
+      "task_id": "val_006",
+      "condition": "interactive_oracle",
+      "success": true,
+      "plan_tokens": 4832,
+      "oracle_tokens": 15681,
+      "total_tokens": 20513,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the average daily budget for transportation and activities that the previous agent allocated for a similar 3-day trip from Daytona Beach to Atlanta, considering the travel dates and group size?",
+        "What is the average cost per night for accommodations in Atlanta that meet the requirements of allowing children under 10 years of age and providing entire rooms to the group, based on similar bookings made by the previous agent for a 3-day stay in Atlanta?",
+        "What is the average daily budget for food and miscellaneous expenses that the previous agent allocated for a similar 3-day trip, considering the travel dates, group size, and accommodations that meet the requirements?",
+        "What is the average cost per day for transportation from Daytona Beach to Atlanta that the previous agent allocated for a similar 3-day trip, considering the travel dates and group size, to help determine the most cost-effective and suitable transportation option for this trip?",
+        "What is the average cost per day for food and miscellaneous expenses that the previous agent allocated for a similar 3-day trip, considering the travel dates, group size, and accommodations that meet the requirements, to help determine the daily food budget for this trip?"
+      ],
+      "retrieved": true,
+      "memory_chars": 5348,
+      "plan_elapsed_s": 456.49,
+      "oracle_elapsed_s": 402.14,
+      "mean_oracle_call_elapsed_s": 57.68,
+      "total_elapsed_s": 859.21
+    },
+    {
+      "task_id": "val_007",
+      "condition": "interactive_oracle",
+      "success": true,
+      "plan_tokens": 4418,
+      "oracle_tokens": 15360,
+      "total_tokens": 19778,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the average daily budget for transportation and accommodations that the previous agent allocated for a similar 3-day trip from Houston to Pensacola, considering the visitor-friendly accommodation requirement?",
+        "What is the average cost per night for visitor-friendly accommodations in Pensacola that the previous agent allocated for a similar trip, considering the $1,013.0 total accommodation cost for the 3-day trip from Asheville to Minneapolis?",
+        "What is the average cost per person for meals at Indian, American, Chinese, and Italian restaurants in Pensacola, considering the $1,400 total budget for the 3-day trip, to help determine the daily food budget and plan dining options?",
+        "What is the average cost of transportation from Houston to Pensacola that the previous agent allocated for a similar trip, considering the visitor-friendly accommodation requirement, to help determine the daily transportation budget and plan transportation options?",
+        "What is the average cost per person for meals at Indian, American, Chinese, and Italian restaurants in Pensacola, considering the $1,400 total budget for the 3-day trip, to help determine the daily food budget and plan dining options?"
+      ],
+      "retrieved": true,
+      "memory_chars": 3692,
+      "plan_elapsed_s": 387.98,
+      "oracle_elapsed_s": 255.78,
+      "mean_oracle_call_elapsed_s": 32.22,
+      "total_elapsed_s": 643.79
+    },
+    {
+      "task_id": "val_008",
+      "condition": "interactive_oracle",
+      "success": false,
+      "plan_tokens": 5246,
+      "oracle_tokens": 18058,
+      "total_tokens": 23304,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the average cost of a family-friendly hotel room in Savannah that can accommodate our party of two adults and two children under 10, and are there any specific hotel amenities that would be essential for our young children?",
+        "What are the top three kid-friendly activities and attractions in Savannah that are suitable for children under 10, and are there any specific recommendations for Mediterranean, Mexican, French, or Indian cuisine options that can be enjoyed during these activities?",
+        "What are the average costs of transportation from Newark to Savannah, including flights, trains, or other modes of transportation, and are there any specific travel dates or times that would be more cost-effective for our family of four?",
+        "What are the top three family-friendly restaurants in Savannah that serve Mediterranean, Mexican, French, or Indian cuisine, and are there any specific recommendations for kid-friendly menu options or special requests that can be accommodated for children under 10?",
+        "What are the top three kid-friendly activities and attractions in Savannah that are suitable for children under 10, and are there any specific recommendations for Mediterranean, Mexican, French, or Indian cuisine options that can be enjoyed during these activities?"
+      ],
+      "retrieved": true,
+      "memory_chars": 8458,
+      "plan_elapsed_s": 537.82,
+      "oracle_elapsed_s": 560.06,
+      "mean_oracle_call_elapsed_s": 79.14,
+      "total_elapsed_s": 1097.9
+    },
+    {
+      "task_id": "val_009",
+      "condition": "interactive_oracle",
+      "success": false,
+      "plan_tokens": 5114,
+      "oracle_tokens": 16765,
+      "total_tokens": 21879,
+      "oracle_questions_asked": 5,
+      "oracle_questions": [
+        "What is the most cost-effective and convenient transportation option from South Bend to Atlanta for two people on March 6th, 2022, considering our budget of $1,500?",
+        "What is the average cost of accommodations in Atlanta that allow parties and meet our budget of $1,500 for a 3-day stay, considering our travel dates of March 6th to March 8th, 2022?",
+        "What is the average cost of a Mediterranean, American, Chinese, and Indian cuisine meal in Atlanta, considering our travel dates of March 6th to March 8th, 2022, and our budget of $1,500 for the entire trip, so we can better plan our dining expenses?",
+        "What is the average daily budget for accommodations in Atlanta that allow parties and meet our budget of $1,500 for a 3-day stay, considering our travel dates of March 6th to March 8th, 2022, so we can better plan our itinerary and allocate our budget accordingly?",
+        "What is the average cost of a 3-day stay at a party-friendly accommodation in Atlanta that meets our budget of $1,500, considering our travel dates of March 6th to March 8th, 2022, so we can better plan our itinerary and allocate our budget accordingly?"
+      ],
+      "retrieved": true,
+      "memory_chars": 6094,
+      "plan_elapsed_s": 540.61,
+      "oracle_elapsed_s": 413.63,
+      "mean_oracle_call_elapsed_s": 58.16,
+      "total_elapsed_s": 954.24
+    }
+  ],
+  "summary": {
+    "num_tasks": 5,
+    "success_rate": 0.4,
+    "mean_total_tokens": 21761.4,
+    "mean_plan_tokens": 4907.0,
+    "mean_oracle_tokens": 16854.4,
+    "tokens_per_successful_task": 54403.5,
+    "mean_oracle_questions_asked": 5.0,
+    "mean_memory_chars": 6597.6,
+    "retrieval_rate": 1.0,
+    "mean_plan_elapsed_s": 470.97800000000007,
+    "mean_oracle_elapsed_s": 445.18999999999994,
+    "mean_total_elapsed_s": 916.298,
+    "mean_oracle_call_elapsed_s": 63.612
+  }
+}

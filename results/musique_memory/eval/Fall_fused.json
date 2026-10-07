@@ -1,0 +1,614 @@
+{
+  "condition": "Fall_fused",
+  "results": [
+    {
+      "id": "2hop__460946_294723",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "Who is the spouse of the Green performer?",
+      "gold_answer": "Miquette Giraudy",
+      "predicted_answer": "Ahmad Rash\u0101d",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 842,
+      "elapsed_s": 52.49,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the name of the Green performer?",
+        "Who is the spouse of Phylicia Rash\u0101d?",
+        "Who is Ahmad Rash\u0101d's spouse?"
+      ]
+    },
+    {
+      "id": "2hop__252311_366220",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "Who founded the company that distributed the film UHF?",
+      "gold_answer": "Mike Medavoy",
+      "predicted_answer": "Levey",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1033,
+      "elapsed_s": 61.78,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Weird Al Yankovic's early career",
+        "Weird Al Yankovic's film career",
+        "Weird Al Yankovic's co-writer on UHF"
+      ]
+    },
+    {
+      "id": "2hop__701895_752697",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+      "gold_answer": "Tamaulipas",
+      "predicted_answer": "Nuevo Laredo Municipality",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1316,
+      "elapsed_s": 76.28,
+      "supporting_recall": 1.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is the location of Ciudad Deportiva?",
+        "What is the administrative territorial entity of Nuevo Laredo?",
+        "What is the owner of Ciudad Deportiva?"
+      ]
+    },
+    {
+      "id": "2hop__259228_793698",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "Where is Ulrich Walter's employer headquartered?",
+      "gold_answer": "Cologne",
+      "predicted_answer": "Cologne",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1092,
+      "elapsed_s": 64.45,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What company does Ulrich Walter work for?",
+        "Who is Ulrich Walter?",
+        "What is the German Aerospace Center's headquarters location?"
+      ]
+    },
+    {
+      "id": "2hop__481349_302087",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "Which company owns the manufacturer of Learjet 60?",
+      "gold_answer": "Bombardier Inc.",
+      "predicted_answer": "Bombardier Aerospace",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 538,
+      "elapsed_s": 36.44,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Bombardier and Learjet\"",
+        "\"Who owns Bombardier Aerospace\"",
+        "\"owns Hans-Peter Wild\""
+      ]
+    },
+    {
+      "id": "2hop__697790_864352",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "Who is the child of Caroline LeRoy's spouse?",
+      "gold_answer": "Fletcher Webster",
+      "predicted_answer": "Phoebe",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 724,
+      "elapsed_s": 45.22,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Caroline LeRoy's spouse",
+        "Caroline LeRoy's child",
+        "Caroline LeRoy's child with spouse"
+      ]
+    },
+    {
+      "id": "2hop__207476_625987",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "Who is the grandmother of Philippe, Duke of Orl\u00e9ans?",
+      "gold_answer": "Marie de' Medici",
+      "predicted_answer": "Marie Anne de Bourbon",
+      "em": 0.0,
+      "f1": 0.5714285714285714,
+      "tokens": 1172,
+      "elapsed_s": 71.51,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What was the name of Philippe's mother?",
+        "What is the relationship between Marie Anne de Bourbon and Philippe, Duke of Orl\u00e9ans?",
+        "What is Philippe, Duke of Orl\u00e9ans' relationship to Marie Anne de Bourbon?"
+      ]
+    },
+    {
+      "id": "2hop__390947_232243",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "What is the goal of the group that European Movement Germany is a member of?",
+      "gold_answer": "European integration",
+      "predicted_answer": "Promoting European integration.",
+      "em": 0.0,
+      "f1": 0.8,
+      "tokens": 582,
+      "elapsed_s": 40.35,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the purpose of the European Movement?",
+        "What is the purpose of the European Movement Germany?",
+        "What is the goal of the European Movement International?"
+      ]
+    },
+    {
+      "id": "2hop__354635_174222",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "What company succeeded the owner of Empire Sports Network?",
+      "gold_answer": "Time Warner Cable",
+      "predicted_answer": "Time Warner Cable",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 802,
+      "elapsed_s": 49.2,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who acquired Empire Sports Network?",
+        "Who acquired Windjammer Communications?",
+        "What company acquired Time Warner Cable?"
+      ]
+    },
+    {
+      "id": "2hop__635187_861533",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "What province shares a border with the province where Lago District is located?",
+      "gold_answer": "Cabo Delgado Province",
+      "predicted_answer": "Niassa",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 457,
+      "elapsed_s": 33.03,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What province is home to Lago District?",
+        "What province shares a border with Niassa Province?",
+        "What province shares a border with Tanzania?"
+      ]
+    },
+    {
+      "id": "2hop__166824_185403",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "What league does the team that plays in Stadio Ciro Vigorito play for?",
+      "gold_answer": "Lega Pro Prima Divisione",
+      "predicted_answer": "Serie B",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 501,
+      "elapsed_s": 34.47,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Italian football teams by stadium",
+        "Italian football teams named Napoli",
+        "Italian football teams that play at Stadio Ciro Vigorito"
+      ]
+    },
+    {
+      "id": "2hop__698577_851686",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "What is a notable work written by the author of The Timothy files?",
+      "gold_answer": "Anderson Tapes",
+      "predicted_answer": "Left Behind series",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1202,
+      "elapsed_s": 82.45,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What are some notable works by Beverly LaHaye?",
+        "What is Beverly LaHaye's genre or field of writing?",
+        "I think there's been a mistake! We were supposed to be answering questions about Beverly LaHaye, but the results are talking about Glenda Goss, Jean Sibelius, DVD Flick, and Vinod Khanna!\n\nLet's get back on track. Since we're looking for notable works written by the author of The Timothy Files (which is attributed to Beverly LaHaye), my next search query would be:\n\nWhat is the genre or field of writing associated with The Timothy Files?\n\nPlease provide the result!"
+      ]
+    },
+    {
+      "id": "2hop__362107_652514",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "In which borough was Callum McManaman born?",
+      "gold_answer": "Knowsley",
+      "predicted_answer": "Knowsley",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 605,
+      "elapsed_s": 40.05,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Callum McManaman footballer\"",
+        "Whiston borough",
+        "Merseyside borough"
+      ]
+    },
+    {
+      "id": "2hop__402530_774333",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "What other county does the county where Imperial is located share a border with?",
+      "gold_answer": "Crockett County",
+      "predicted_answer": "Yuma",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 882,
+      "elapsed_s": 55.05,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What county shares a border with Imperial County, California?",
+        "What county shares a border with Imperial County, California?",
+        "What county shares a border with Imperial County, California?"
+      ]
+    },
+    {
+      "id": "2hop__195917_575657",
+      "hop": 2,
+      "condition": "Fall_fused",
+      "question": "In what county is William W. Blair's birthplace located?",
+      "gold_answer": "Orleans County",
+      "predicted_answer": "Orleans County",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 891,
+      "elapsed_s": 55.5,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"William W. Blair birthplace location\"\n\n(Note: I'll use the retrieved passage to guide my next query)",
+        "\"LaSalle County Illinois location\"",
+        "\"Holley New York location\""
+      ]
+    },
+    {
+      "id": "3hop1__454441_55349_651302",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "What is the birthplace of the man who does the voice of Stan on the series that includes the episode The Hobbit?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Seth MacFarlane",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 647,
+      "elapsed_s": 41.97,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who voices Stan on American Dad?",
+        "Who voices Jesus on American Dad?",
+        "Who voices Stan on American Dad?"
+      ]
+    },
+    {
+      "id": "3hop1__145290_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 813,
+      "elapsed_s": 52.09,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Indonesian president after 1998",
+        "Indonesian president after 1998",
+        "Indonesian president 2005-2012"
+      ]
+    },
+    {
+      "id": "3hop1__105767_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the newly declared independent country that is part of the commission of truth and friendship with the country that eats Kemplang?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o (president)",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 873,
+      "elapsed_s": 52.92,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Country eating Kemplang",
+        "Commission of Truth and Friendship",
+        "Newly declared independent country"
+      ]
+    },
+    {
+      "id": "3hop1__105126_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country where Gado-gado is found?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1143,
+      "elapsed_s": 67.41,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Indonesian president since 2001",
+        "Indonesian city famous for Gado-gado",
+        "Indonesian president after 2001"
+      ]
+    },
+    {
+      "id": "3hop1__103881_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country that Tony Gunawan is from?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1312,
+      "elapsed_s": 79.51,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship country\"\n\n(Note: I'll use this passage to guide my next queries)",
+        "\"Indonesian President 2005\"",
+        "\"Indonesian President 2005\"\n\n(Note: I'll use this passage to guide my next queries)"
+      ]
+    },
+    {
+      "id": "3hop1__106094_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country that made Arisan!??",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2315,
+      "elapsed_s": 127.75,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship\"",
+        "QUERY 2: Search query: \"East Timor independence referendum\"",
+        "Search query: \"president of East Timor\""
+      ]
+    },
+    {
+      "id": "3hop1__145212_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Arie Supriyatna's birth country was one participant in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 812,
+      "elapsed_s": 50.54,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "East Timor Commission of Truth",
+        "Indonesian president 2005",
+        "Indonesian president 2005"
+      ]
+    },
+    {
+      "id": "3hop1__144678_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "The Commission of Truth and Friendship established governments for Bustami's birth country and a second country that had who as president after declaring independence?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Jean-Jacques Dessalines",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 994,
+      "elapsed_s": 60.41,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Haiti's first president after independence",
+        "Haiti's president after independence from France",
+        "Haiti's second president after independence"
+      ]
+    },
+    {
+      "id": "3hop1__103662_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with Radiansyah's birth country?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 831,
+      "elapsed_s": 53.04,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship\"",
+        "Query 2: \"East Timor independence referendum\"",
+        "Query: \"East Timor independence referendum 1999 president\""
+      ]
+    },
+    {
+      "id": "3hop1__144439_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "who is the president of newly declared independent country of the country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Estanislau da Silva",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 701,
+      "elapsed_s": 46.88,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Xanana Gusm\u00e3o's role in East Timorese independence",
+        "who is the president of timor leste",
+        "Who is the president of Timor Leste after Ramos-Horta"
+      ]
+    },
+    {
+      "id": "3hop1__103440_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 795,
+      "elapsed_s": 50.11,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Brazilian truth commission participant",
+        "Indonesian president 2005",
+        "Indonesian president 2005"
+      ]
+    },
+    {
+      "id": "3hop1__145411_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1061,
+      "elapsed_s": 65.77,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Sumardi birthplace country\"",
+        "Search query: \"Indonesian country Commission of Truth and Friendship\"",
+        "Search query: \"East Timor president 2005\""
+      ]
+    },
+    {
+      "id": "3hop1__106313_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Opor originated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 672,
+      "elapsed_s": 45.05,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Lula da Silva's presidency",
+        "Who is president of Timor Leste in 2007?",
+        "Who is president of Timor Leste in 2002?"
+      ]
+    },
+    {
+      "id": "3hop1__654651_55349_651302",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "What is the place of birth of who does the voice of stan on the series that Insecurity is part of?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Sacramento, California",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 890,
+      "elapsed_s": 57.37,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who voices Stan in American Dad?\n\n(Note: I'm assuming \"Insecurity\" refers to the TV series \"American Dad!\")",
+        "Who voices Steve Smith in American Dad?",
+        "Who does the voice of Stan in American Dad?"
+      ]
+    },
+    {
+      "id": "3hop1__106900_443779_52195",
+      "hop": 3,
+      "condition": "Fall_fused",
+      "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1459,
+      "elapsed_s": 83.25,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "East Timor's government formation",
+        "Who is the president of East Timor?",
+        "Who is the current president of East Timor?"
+      ]
+    }
+  ],
+  "summary": {
+    "num": 30,
+    "exact_match": 0.16666666666666666,
+    "f1": 0.22904761904761906,
+    "mean_tokens": 931.9,
+    "mean_supporting_recall": 0.3888888888888889,
+    "mean_dfs_score": 0.9,
+    "mean_num_queries": 3.0
+  }
+}

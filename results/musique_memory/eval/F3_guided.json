@@ -1,0 +1,2014 @@
+{
+  "condition": "F3_guided",
+  "results": [
+    {
+      "id": "2hop__460946_294723",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the spouse of the Green performer?",
+      "gold_answer": "Miquette Giraudy",
+      "predicted_answer": "No spouse mentioned.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1344,
+      "elapsed_s": 267.09,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Please retrieve one passage from the current question's passages.",
+        "Please retrieve one passage from the current question's passages.",
+        "Please retrieve one passage from the current question's passages."
+      ]
+    },
+    {
+      "id": "2hop__252311_366220",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who founded the company that distributed the film UHF?",
+      "gold_answer": "Mike Medavoy",
+      "predicted_answer": "Kevin Smith",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 689,
+      "elapsed_s": 150.19,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What company distributed the film UHF?",
+        "Who founded SModcast Pictures?",
+        "Who founded SModcast Pictures?"
+      ]
+    },
+    {
+      "id": "2hop__701895_752697",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+      "gold_answer": "Tamaulipas",
+      "predicted_answer": "Mexico City",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1039,
+      "elapsed_s": 145.9,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Which city owns Ciudad Deportiva?",
+        "Which city is home to Ciudad Deportiva Magdalena Mixhuca?",
+        "Which city is Mexico City?"
+      ]
+    },
+    {
+      "id": "2hop__259228_793698",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Where is Ulrich Walter's employer headquartered?",
+      "gold_answer": "Cologne",
+      "predicted_answer": "Alabama Department of Youth Services",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1194,
+      "elapsed_s": 214.78,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Which company employs Ulrich Walter",
+        "Which company employs Ulrich Walter",
+        "Please provide the next passage."
+      ]
+    },
+    {
+      "id": "2hop__481349_302087",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Which company owns the manufacturer of Learjet 60?",
+      "gold_answer": "Bombardier Inc.",
+      "predicted_answer": "Bombardier Inc.",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 830,
+      "elapsed_s": 150.47,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Learjet 60 owner",
+        "Bombardier Aerospace owner",
+        "QUERY 3: Which company owns Bombardier Aerospace"
+      ]
+    },
+    {
+      "id": "2hop__697790_864352",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the child of Caroline LeRoy's spouse?",
+      "gold_answer": "Fletcher Webster",
+      "predicted_answer": "Fletcher",
+      "em": 0.0,
+      "f1": 0.6666666666666666,
+      "tokens": 868,
+      "elapsed_s": 185.35,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "What is Caroline LeRoy's spouse, and who is their child?",
+        "RESULT 2: [passage]",
+        "Who is Caroline LeRoy's spouse?"
+      ]
+    },
+    {
+      "id": "2hop__207476_625987",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the grandmother of Philippe, Duke of Orl\u00e9ans?",
+      "gold_answer": "Marie de' Medici",
+      "predicted_answer": "Marilou Berry",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 482,
+      "elapsed_s": 167.15,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the relationship between Philippe and his grandmother?",
+        "QUERY 2: Who is Philippe Berry's mother?",
+        "QUERY 3: Who is Philippe Berry's grandmother?"
+      ]
+    },
+    {
+      "id": "2hop__390947_232243",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What is the goal of the group that European Movement Germany is a member of?",
+      "gold_answer": "European integration",
+      "predicted_answer": "To curb magnates' power and strengthen king's power.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 596,
+      "elapsed_s": 127.29,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Please retrieve one passage.",
+        "Please retrieve one passage.",
+        "Please retrieve one passage."
+      ]
+    },
+    {
+      "id": "2hop__354635_174222",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What company succeeded the owner of Empire Sports Network?",
+      "gold_answer": "Time Warner Cable",
+      "predicted_answer": "Time Warner Cable",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 446,
+      "elapsed_s": 133.25,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "owner Empire Sports Network",
+        "owner Adelphia Communications Corporation successor company",
+        "What company succeeded owner Empire Sports Network"
+      ]
+    },
+    {
+      "id": "2hop__635187_861533",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What province shares a border with the province where Lago District is located?",
+      "gold_answer": "Cabo Delgado Province",
+      "predicted_answer": "Tanzania",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 607,
+      "elapsed_s": 162.6,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What province has Lago District",
+        "What province borders Lago",
+        "What province borders Niassa"
+      ]
+    },
+    {
+      "id": "2hop__166824_185403",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What league does the team that plays in Stadio Ciro Vigorito play for?",
+      "gold_answer": "Lega Pro Prima Divisione",
+      "predicted_answer": "Serie B",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 869,
+      "elapsed_s": 238.09,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is Stadio Ciro Vigorito",
+        "Which team plays at Stadio Ciro Vigorito",
+        "Which league does F.C. Crotone play for"
+      ]
+    },
+    {
+      "id": "2hop__698577_851686",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What is a notable work written by the author of The Timothy files?",
+      "gold_answer": "Anderson Tapes",
+      "predicted_answer": "Brooklyn Echoes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 688,
+      "elapsed_s": 180.79,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "author of The Timothy Files",
+        "notable work written by Lawrence Sanders",
+        "Please provide the next passage or query!"
+      ]
+    },
+    {
+      "id": "2hop__362107_652514",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "In which borough was Callum McManaman born?",
+      "gold_answer": "Knowsley",
+      "predicted_answer": "Knowsley",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 717,
+      "elapsed_s": 173.72,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who is Callum McManaman?",
+        "QUERY 2: Which borough is Whiston in?",
+        "Which borough is Knowsley in?"
+      ]
+    },
+    {
+      "id": "2hop__402530_774333",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What other county does the county where Imperial is located share a border with?",
+      "gold_answer": "Crockett County",
+      "predicted_answer": "Pecos",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 419,
+      "elapsed_s": 147.59,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What county is Imperial located in?",
+        "What county shares a border with Pecos County?",
+        "What county shares a border with Reeves County?"
+      ]
+    },
+    {
+      "id": "2hop__195917_575657",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "In what county is William W. Blair's birthplace located?",
+      "gold_answer": "Orleans County",
+      "predicted_answer": "Suffolk.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1181,
+      "elapsed_s": 185.73,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Please provide the passage for this query!",
+        "QUERY 2: What is known about William W. Blair?",
+        "QUERY 3: Where is William W. Blair from?"
+      ]
+    },
+    {
+      "id": "2hop__683835_709167",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What award did the author of The Red Tree receive?",
+      "gold_answer": "Academy Award for Best Animated Short Film",
+      "predicted_answer": "None.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 606,
+      "elapsed_s": 171.34,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who wrote The Red Tree and what award did they",
+        "What awards did the author of The Red Tree receive?",
+        "What awards has Joseph Roth received?"
+      ]
+    },
+    {
+      "id": "2hop__197470_271394",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Where was Tyler MacDuff's child educated?",
+      "gold_answer": "Blair High School",
+      "predicted_answer": "Blair International Baccalaureate School",
+      "em": 0.0,
+      "f1": 0.5714285714285714,
+      "tokens": 677,
+      "elapsed_s": 96.24,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Which school did Tyler MacDuff's child attend?",
+        "Which school did Dana MacDuff attend?",
+        "Which school did Brandon R. MacDuff attend?"
+      ]
+    },
+    {
+      "id": "2hop__458131_174974",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the spouse of the Rabbit Hole's producer?",
+      "gold_answer": "Keith Urban",
+      "predicted_answer": "DONE",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 625,
+      "elapsed_s": 71.21,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the name of the producer of Rabbit Hole,",
+        "Please provide the next passage or reply with DONE if",
+        "Please provide the next passage or reply with DONE if"
+      ]
+    },
+    {
+      "id": "2hop__299142_347613",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the child of Sigrid Eskilsdotter's child?",
+      "gold_answer": "Svante Stensson Sture",
+      "predicted_answer": "Malala.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 575,
+      "elapsed_s": 68.79,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "What is Sigrid Eskilsdotter's child, and who is that child's",
+        "Please provide the next passage.",
+        "Please provide the next passage."
+      ]
+    },
+    {
+      "id": "2hop__528263_865831",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "In which county is Kimbrough Memorial Stadium located?",
+      "gold_answer": "Randall County",
+      "predicted_answer": "Randall County",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 663,
+      "elapsed_s": 70.67,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Which university has Kimbrough Memorial Stadium",
+        "Which county is Canyon, Texas located in?",
+        "Which county is Kimbrough Memorial Stadium located in?"
+      ]
+    },
+    {
+      "id": "2hop__569582_304416",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What record label is the performer of Almost Made Ya signed to?",
+      "gold_answer": "Derrty Entertainment",
+      "predicted_answer": "Delicious Deli Records",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 912,
+      "elapsed_s": 104.71,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who is the performer of \"Almost Made Ya\" and what",
+        "Which record label is signed to the performer of \"Almost",
+        "Please provide the result!"
+      ]
+    },
+    {
+      "id": "2hop__505860_650613",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Where was the author of Hannibal and Scipio educated at?",
+      "gold_answer": "Exeter College",
+      "predicted_answer": "Rome.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 651,
+      "elapsed_s": 72.2,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Please retrieve one passage.",
+        "Please retrieve one passage.",
+        "Please retrieve one passage."
+      ]
+    },
+    {
+      "id": "2hop__821197_368148",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "In which county is Southern Maryland Electric Cooperative headquartered?",
+      "gold_answer": "Charles County",
+      "predicted_answer": "Calvert",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 425,
+      "elapsed_s": 49.1,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Which electric cooperative in Maryland",
+        "Which county is Hughesville MD located in",
+        "Which county is Hughesville MD located in"
+      ]
+    },
+    {
+      "id": "2hop__554167_451128",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the child of the Victim of Romance performer?",
+      "gold_answer": "Chynna Phillips",
+      "predicted_answer": "The child is the illegally adopted child.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 523,
+      "elapsed_s": 60.75,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is the relationship between the Victim of Romance and",
+        "Please provide the next passage.",
+        "Who is the illegally adopted child in The Official Story?"
+      ]
+    },
+    {
+      "id": "2hop__702496_430061",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What county was Tim Dubois born in?",
+      "gold_answer": "McDonald County",
+      "predicted_answer": "Georgia",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 890,
+      "elapsed_s": 113.07,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Please provide a passage from this question's passages.",
+        "What is known about Tim Dubois?",
+        "Please provide a passage from this question's passages."
+      ]
+    },
+    {
+      "id": "2hop__549146_223121",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What record label did the person who is part of The Bruce Lee Band start?",
+      "gold_answer": "Asian Man Records",
+      "predicted_answer": "Result 1: Not applicable (The Bruce Lee Band not mentioned)\n\nNo answer available for Query 2 as no passage provided.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 763,
+      "elapsed_s": 81.66,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who is part of The Bruce Lee Band?",
+        "RESULT 2: [Insert passage here]",
+        "Who is part of The Bruce Lee Band (hop2_who_what)?"
+      ]
+    },
+    {
+      "id": "2hop__647996_551681",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What is another notable work made by the author of Miss Sara Sampson?",
+      "gold_answer": "Emilia Galotti",
+      "predicted_answer": "Emilia Galotti",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 760,
+      "elapsed_s": 77.28,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "author Miss Sara Sampson",
+        "author Gotthold Ephraim Lessing notable work",
+        "author Gotthold Ephraim Lessing notable work"
+      ]
+    },
+    {
+      "id": "2hop__673655_316668",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What instrument is played by the person from The Blackout All-Stars?",
+      "gold_answer": "conga",
+      "predicted_answer": "Saxophone",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 436,
+      "elapsed_s": 47.4,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "The Blackout All-Stars member instrument",
+        "Which instrument is played by Grover Washington, Jr.?",
+        "What instrument is played by Grover Washington, Jr.?"
+      ]
+    },
+    {
+      "id": "2hop__574419_270105",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What is the seat of the county where Van Hook Township is located?",
+      "gold_answer": "Stanley",
+      "predicted_answer": "Stanley",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 552,
+      "elapsed_s": 61.72,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Van Hook Township location",
+        "Result: [Mountrail County, North Dakota] Mountrail County, North Dakota: The",
+        "What is the seat of Mountrail County?"
+      ]
+    },
+    {
+      "id": "2hop__403712_793210",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the father of Edward Baring, 1st Baron Revelstoke's father?",
+      "gold_answer": "Sir Francis Baring, 1st Baronet",
+      "predicted_answer": "Tom Baring",
+      "em": 0.0,
+      "f1": 0.2857142857142857,
+      "tokens": 789,
+      "elapsed_s": 71.47,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is Edward Baring, 1st Baron Revelstoke's father?",
+        "Please provide the next passage or reply with DONE if",
+        "Who is Tom Baring's father?"
+      ]
+    },
+    {
+      "id": "2hop__832795_350510",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What group was the performer of Be the One a member of?",
+      "gold_answer": "Jackson 5",
+      "predicted_answer": "Dancing With The Stars",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 667,
+      "elapsed_s": 72.29,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who performed \"Be the One\" and what group were they",
+        "Please provide the next passage!",
+        "QUERY 3: Which group was Harry Chapin a member of?"
+      ]
+    },
+    {
+      "id": "2hop__744055_408817",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the lead singer of the band performing Bang Bang Rock & Roll?",
+      "gold_answer": "Eddie Argos",
+      "predicted_answer": "Eddie Argos",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 469,
+      "elapsed_s": 65.96,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "lead singer of the band",
+        "QUERY 2: Eddie Argos lead singer",
+        "QUERY 3: Bang Bang Rock & Roll band"
+      ]
+    },
+    {
+      "id": "2hop__726717_610238",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What is the network which National Cycle Route 57 is part of an example of?",
+      "gold_answer": "national cycling route network",
+      "predicted_answer": "National Route 20",
+      "em": 0.0,
+      "f1": 0.5714285714285714,
+      "tokens": 728,
+      "elapsed_s": 77.52,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Please retrieve one passage.",
+        "QUERY 2: Which network is the Julien Dubuque Bridge part",
+        "QUERY 3: What network is U.S. Route 20 part of?"
+      ]
+    },
+    {
+      "id": "2hop__499577_617190",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the spouse of the child of Peter Andreas Heiberg?",
+      "gold_answer": "Johanne Luise Heiberg",
+      "predicted_answer": "Lee Eddy",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 543,
+      "elapsed_s": 63.66,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Please retrieve a passage.",
+        "Please retrieve a passage.",
+        "Please retrieve a passage."
+      ]
+    },
+    {
+      "id": "2hop__685280_510757",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "The Unwinding author volunteered for which organisation?",
+      "gold_answer": "Peace Corps",
+      "predicted_answer": "No answer found.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 931,
+      "elapsed_s": 94.73,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Which organization did the author of \"The Unwinding\" volunteer for?",
+        "Which organisation did the author volunteer for?",
+        "QUERY 3: What did George Packer volunteer for?"
+      ]
+    },
+    {
+      "id": "2hop__341305_332933",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What is the capital of the county that Pine Springs is located in?",
+      "gold_answer": "Van Horn",
+      "predicted_answer": "Culberson",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 892,
+      "elapsed_s": 80.87,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Please provide the passage for this query.",
+        "QUERY 2: What county is Pine Springs located in?",
+        "What county is Pine Springs located in?"
+      ]
+    },
+    {
+      "id": "2hop__731228_609866",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What district is the headquarter of Julia's House located?",
+      "gold_answer": "East Dorset",
+      "predicted_answer": "East Dorset",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 622,
+      "elapsed_s": 56.83,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Julia's House",
+        "QUERY 2: Corfe Mullen district",
+        "What district is Julia's House located in?"
+      ]
+    },
+    {
+      "id": "2hop__693444_220151",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the spouse of Young Man Luther's author?",
+      "gold_answer": "Joan Erikson",
+      "predicted_answer": "Joan Stoddard",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 675,
+      "elapsed_s": 80.85,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Please retrieve one passage.",
+        "Please retrieve one passage.",
+        "Who wrote Young Man Luther?"
+      ]
+    },
+    {
+      "id": "2hop__235471_565925",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What record label did the performer of The Place and the Time belong to?",
+      "gold_answer": "Columbia Records",
+      "predicted_answer": "Sundazed Records",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 589,
+      "elapsed_s": 52.09,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who performed \"The Place and the Time\"?",
+        "Who is the performer of \"The Place and the Time\"?",
+        "Who is the record label for Moby Grape?"
+      ]
+    },
+    {
+      "id": "2hop__310456_846599",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who is the child of the person who followed Tihomir of Serbia?",
+      "gold_answer": "Saint Sava",
+      "predicted_answer": "Stephen",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 686,
+      "elapsed_s": 60.97,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Please retrieve a passage.",
+        "Please retrieve another passage.",
+        "Please retrieve another passage."
+      ]
+    },
+    {
+      "id": "2hop__335418_279684",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What team was Anna Benson's husband on?",
+      "gold_answer": "Pittsburgh Pirates",
+      "predicted_answer": "New Orleans Saints",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 478,
+      "elapsed_s": 45.85,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who is Anna Benson's husband?",
+        "Who did Jenny Benson play for?",
+        "Who did Anna Benson marry?"
+      ]
+    },
+    {
+      "id": "2hop__191125_781346",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What place does the administrative territorial entity that Juba is located in share a border with?",
+      "gold_answer": "Eastern Equatoria",
+      "predicted_answer": "Democratic Republic of the Congo.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1431,
+      "elapsed_s": 113.85,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What country does South Sudan share a border with?",
+        "What country does South Sudan share a border with?",
+        "What administrative territorial entity is Juba located in?"
+      ]
+    },
+    {
+      "id": "2hop__475070_532404",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Where was the spouse of Frances Tupper born?",
+      "gold_answer": "Amherst",
+      "predicted_answer": "Nova Scotia",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 495,
+      "elapsed_s": 56.86,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the birthplace of Frances Tupper's spouse?",
+        "What is the birthplace of Sir Charles Tupper?",
+        "What is the birthplace of Sir Charles Tupper?"
+      ]
+    },
+    {
+      "id": "2hop__700093_455653",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who founded the political party of Dimuthu Bandara Abayakoon?",
+      "gold_answer": "Rohana Wijeweera",
+      "predicted_answer": "Dimuthu Bandara Abayakoon founded Janatha Vimukthi Peramuna.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 654,
+      "elapsed_s": 59.65,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is Dimuthu Bandara Abayakoon known for?",
+        "Please provide the next passage.",
+        "Who is Felix Kulov?"
+      ]
+    },
+    {
+      "id": "2hop__512773_346751",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Bancroft's county borders what county?",
+      "gold_answer": "Haliburton County",
+      "predicted_answer": "Hastings County.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 863,
+      "elapsed_s": 78.43,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What county does Bancroft border?",
+        "QUERY 2: What counties are adjacent to Hastings County?",
+        "QUERY 3: What county shares a border with North Hastings"
+      ]
+    },
+    {
+      "id": "2hop__411091_625230",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "In which county is Mark Dismore's birthplace located?",
+      "gold_answer": "Hancock County",
+      "predicted_answer": "Indiana",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1385,
+      "elapsed_s": 100.93,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Which county is Mark Dismore's birthplace in?",
+        "WHERE IS GREENFIELD INDIANA",
+        "WHERE IS GREENFIELD INDIANA"
+      ]
+    },
+    {
+      "id": "2hop__423972_540249",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who was the sibling of Nannina de' Medici?",
+      "gold_answer": "Giuliano de' Medici",
+      "predicted_answer": "Lorenzo de' Medici",
+      "em": 0.0,
+      "f1": 0.6666666666666666,
+      "tokens": 714,
+      "elapsed_s": 62.61,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the sibling of Nannina de' Medici?",
+        "QUERY 2: Who is the sibling of Nannina de' Medici?",
+        "QUERY 3: Who is Lorenzo de'?"
+      ]
+    },
+    {
+      "id": "2hop__455158_247871",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What county is the NRHEG High School located in?",
+      "gold_answer": "Waseca County",
+      "predicted_answer": "Waseca County",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 651,
+      "elapsed_s": 62.36,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is NRHEG High School?",
+        "What county is New Richland located in?",
+        "What county is Waseca County located in?"
+      ]
+    },
+    {
+      "id": "2hop__189094_612080",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "What league does the team that occupies the Rabat Ajax Football Ground belong to?",
+      "gold_answer": "Maltese Premier League",
+      "predicted_answer": "Maltese Football League",
+      "em": 0.0,
+      "f1": 0.6666666666666666,
+      "tokens": 705,
+      "elapsed_s": 59.07,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the location of the Rabat Ajax Football Ground?",
+        "What league does Rabat Ajax F.C. belong to?",
+        "What league does Rabat Ajax F.C. belong to?"
+      ]
+    },
+    {
+      "id": "2hop__765678_310556",
+      "hop": 2,
+      "condition": "F3_guided",
+      "question": "Who was married to the star of No Escape?",
+      "gold_answer": "John Profumo",
+      "predicted_answer": "Gene Hackman",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 628,
+      "elapsed_s": 59.43,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the name of the actor who starred in",
+        "Who was married to Gene Hackman?",
+        "Who was married to Gene Hackman?"
+      ]
+    },
+    {
+      "id": "3hop1__454441_55349_651302",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the birthplace of the man who does the voice of Stan on the series that includes the episode The Hobbit?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Scott Grimes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1352,
+      "elapsed_s": 3062.01,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who voices Stan in American Dad?",
+        "Who does the voice of Stan on American Dad?",
+        "What is the birthplace of Scott Grimes?"
+      ]
+    },
+    {
+      "id": "3hop1__145290_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1067,
+      "elapsed_s": 92.42,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify entity mentioned in 'who' clause, then narrow down location",
+        "RESULT ?",
+        "Who is Satyo Husodo's birth country?"
+      ]
+    },
+    {
+      "id": "3hop1__105767_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the commission of truth and friendship with the country that eats Kemplang?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1914,
+      "elapsed_s": 45128.41,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "What is the country that eats Kemplang?"
+      ]
+    },
+    {
+      "id": "3hop1__105126_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country where Gado-gado is found?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1994,
+      "elapsed_s": 202.67,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is part of the Commission of Truth and Friendship"
+      ]
+    },
+    {
+      "id": "3hop1__103881_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country that Tony Gunawan is from?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1646,
+      "elapsed_s": 154.22,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is part of the Commission of Truth and Friendship"
+      ]
+    },
+    {
+      "id": "3hop1__106094_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country that made Arisan!??",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1514,
+      "elapsed_s": 139.77,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the current president of East Timor mentioned in"
+      ]
+    },
+    {
+      "id": "3hop1__145212_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Arie Supriyatna's birth country was one participant in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 933,
+      "elapsed_s": 92.72,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify entity \"Arie Supriyatna",
+        "Identify entity \"Arie Supriyatna's birth country",
+        "What country was a participant in the Commission of Truth"
+      ]
+    },
+    {
+      "id": "3hop1__144678_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "The Commission of Truth and Friendship established governments for Bustami's birth country and a second country that had who as president after declaring independence?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Jimmy Carter",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1062,
+      "elapsed_s": 99.55,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify the entity mentioned in the 'who' clause, then follow",
+        "Identify Bustami's birth country",
+        "Identify Bustami's birth country"
+      ]
+    },
+    {
+      "id": "3hop1__103662_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with Radiansyah's birth country?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1518,
+      "elapsed_s": 140.28,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is Radiansyah's birth country?"
+      ]
+    },
+    {
+      "id": "3hop1__144439_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "who is the president of newly declared independent country of the country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xavier do Amaral",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 447,
+      "elapsed_s": 69.79,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Mulham Arufin\" and recursively apply steps (1)",
+        "QUERY 2: What is the birthplace of Mulham Arufin?",
+        "What country is birthplace of Mulham Arufin?"
+      ]
+    },
+    {
+      "id": "3hop1__103440_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1078,
+      "elapsed_s": 109.47,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is Kiwil's birth country?",
+        "Who is Kiwil's birth country president?",
+        "Who participated in Commission of Truth and Friendship with Suriname?"
+      ]
+    },
+    {
+      "id": "3hop1__145411_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2359,
+      "elapsed_s": 106959.52,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the president of East Timor that is part"
+      ]
+    },
+    {
+      "id": "3hop1__106313_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Opor originated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1485,
+      "elapsed_s": 152.07,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is president of East Timor?",
+        "Who is president of East Timor that is part of"
+      ]
+    },
+    {
+      "id": "3hop1__654651_55349_651302",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the place of birth of who does the voice of stan on the series that Insecurity is part of?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Oregon",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1138,
+      "elapsed_s": 117.62,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who voices Stan in series?",
+        "Who is born in what place?",
+        "Who does the voice of Grunkle Stan in Gravity Falls?"
+      ]
+    },
+    {
+      "id": "3hop1__106900_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Sam Nujoma",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1147,
+      "elapsed_s": 121.62,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify entity mentioned in 'who' clause, then narrow down location",
+        "RESULT ?",
+        "QUERY 3: What is the country that broadcasts Dahsyat?"
+      ]
+    },
+    {
+      "id": "3hop1__93963_170667_18967",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "what is the former name of the country where the airport that Lion Air is part is located?",
+      "gold_answer": "Dutch East Indies",
+      "predicted_answer": "Surabaya",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 860,
+      "elapsed_s": 101.08,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the parent company of Lion Air?",
+        "What is the location of Juanda International Airport?",
+        "What is the former name of Surabaya?"
+      ]
+    },
+    {
+      "id": "3hop1__123190_519940_18967",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the former name of the country where Atika Suri studied?",
+      "gold_answer": "Dutch East Indies",
+      "predicted_answer": "Indonesia",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 718,
+      "elapsed_s": 85.4,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify entity \"Atika Suri\" and start narrowing down location.",
+        "RESULT 2: [Trisakti University] Trisakti University is a private university",
+        "What is the country where Trisakti University is located?"
+      ]
+    },
+    {
+      "id": "3hop1__248929_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also a majority religion in the region that became India when the country where Kohat is located was created in the Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Islam",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1379,
+      "elapsed_s": 125.01,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Kohat\" and recursively apply steps (1) to",
+        "What is the majority religion in Gujarat, India?",
+        "What is the meaning of the word that is also"
+      ]
+    },
+    {
+      "id": "3hop1__159737_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also a majority religion in the area that became India when the country that withdrew its forces was created in the Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindu: a large body of water\nMajority religion: Hinduism\nCountry created: 1949",
+      "em": 0.0,
+      "f1": 0.2857142857142857,
+      "tokens": 1352,
+      "elapsed_s": 130.96,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the meaning of the word \"Hindu\"?",
+        "What is the majority religion in the area that became",
+        "When did the country that withdrew its forces was created?"
+      ]
+    },
+    {
+      "id": "3hop1__163024_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that has a Commission of Truth and Friendship with the country where Ambelau is located?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1446,
+      "elapsed_s": 152.79,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the president of East Timor mentioned in the"
+      ]
+    },
+    {
+      "id": "3hop1__23444_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "In the Arabic dictionary what is the meaning of the word that also refers to the majority religion in India when the country containing the Neolithic graveyards was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindu",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1381,
+      "elapsed_s": 137.67,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify entity mentioned in 'who' clause, then narrow down location",
+        "What is the majority religion in India when the country",
+        "What is the meaning of the word that also refers"
+      ]
+    },
+    {
+      "id": "3hop1__488744_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Jenggawah is located?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1546,
+      "elapsed_s": 143.59,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the president of East Timor?"
+      ]
+    },
+    {
+      "id": "3hop1__106688_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the Arabic dictionary meaning, of the word for the majority religion in the part of British India, that became India when the country that released Mushkil was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Islam",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1565,
+      "elapsed_s": 175.97,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is the majority religion in British India?",
+        "What is the majority religion in British India that became",
+        "What is the Arabic dictionary meaning of the word for"
+      ]
+    },
+    {
+      "id": "3hop1__749581_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sambas is located?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1429,
+      "elapsed_s": 148.62,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the president of East Timor that was mentioned"
+      ]
+    },
+    {
+      "id": "3hop1__438364_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Kotamadya is located?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Sam Nujoma",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 983,
+      "elapsed_s": 154.79,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "hop3_what_who_how",
+        "QUERY 2: What is Kotamadya located in?",
+        "Who is the president of the newly declared independent country"
+      ]
+    },
+    {
+      "id": "3hop1__161507_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also a majority religion in the area that became India when the country where Masherbrum is located was created in the Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 846,
+      "elapsed_s": 130.01,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Masherbrum\" and recursively apply steps (1) to",
+        "What is the country where Masherbrum is located?",
+        "What is the majority religion in the area that became"
+      ]
+    },
+    {
+      "id": "3hop1__222380_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Buru is located?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1462,
+      "elapsed_s": 227.09,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the president of East Timor that is part"
+      ]
+    },
+    {
+      "id": "3hop1__507961_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also a majority religion in India when the country where Banna is located was created in the Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1152,
+      "elapsed_s": 195.78,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "What is Banna located in?",
+        "What is the Arabic dictionary that mentions the country where"
+      ]
+    },
+    {
+      "id": "3hop1__106847_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning in the arabic dictionary of the majority religion in the area of British India that become India when the country for A Music Fairy was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 987,
+      "elapsed_s": 176.08,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"British India\", then recursively apply steps (1)",
+        "What is the majority religion in Gujarat, India?",
+        "What is the majority religion in Gujarat, India?"
+      ]
+    },
+    {
+      "id": "3hop1__28404_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also a majority religion in what became India when the country that disavowed the Taliban was created in the Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 852,
+      "elapsed_s": 145.01,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"India\", then recursively apply steps (1) to",
+        "What is majority religion in India mentioned in RESULT 1?",
+        "What is majority religion in India mentioned in RESULT 2?"
+      ]
+    },
+    {
+      "id": "3hop1__604797_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "who is the president of newly declared independent country which is the country of the country of Alabio \u2013Timor Leste Commission of Truth and Friendship?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Zeferino Martins",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 714,
+      "elapsed_s": 152.19,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify entity mentioned in 'who' clause, then narrow down location",
+        "Next search query?",
+        "QUERY 3: What is the relationship between Zeferino Martins and"
+      ]
+    },
+    {
+      "id": "3hop1__475351_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "In the Arabic dictionary, what's the meaning of the word for the majority religion in the area of British India that became India when Dourkhan's country was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindus",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1791,
+      "elapsed_s": 243.67,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the majority religion in British India?",
+        "What is the majority religion in British India?",
+        "What is the meaning of the word for the majority"
+      ]
+    },
+    {
+      "id": "3hop1__498954_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word also known as the majority religion in the area of British India that became India when the country where Mandeer is located was created in arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 601,
+      "elapsed_s": 99.06,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Mandeer\" and recursively apply steps (1) to",
+        "What is the majority religion in the area of British",
+        "What is the majority religion in the area of British"
+      ]
+    },
+    {
+      "id": "3hop1__743797_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country, that established the Timor Leste Commission of Truth and Friendship with the country where the Alas is found?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Ho Chi Minh",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 692,
+      "elapsed_s": 113.35,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"newly declared independent country\", then recursively apply",
+        "Who is the president of the Democratic Republic of Vietnam?",
+        "Who is the president of the Democratic Republic of Vietnam?"
+      ]
+    },
+    {
+      "id": "3hop1__376309_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "In the Arabic dictionary, what's the meaning of the word for the majority religion in the area of British India that became India when Garlat's country was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindus",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1514,
+      "elapsed_s": 212.82,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the majority religion in British India?",
+        "What is the majority religion in British India?",
+        "What is the meaning of the word for the majority"
+      ]
+    },
+    {
+      "id": "3hop1__105837_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "what is meaning of the word that is a majority religion of the area that became India when the country origin of Mizraab was created in Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 918,
+      "elapsed_s": 148.44,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Mizraab\" and recursively apply steps (1) to",
+        "What is majority religion of area that became India?",
+        "What is majority religion of area that became India when"
+      ]
+    },
+    {
+      "id": "3hop1__487301_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of newly declared independent country part of the Commission of Truth and Friendship with the country where Kaimana is located?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1648,
+      "elapsed_s": 220.71,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is part of the Commission of Truth and Friendship"
+      ]
+    },
+    {
+      "id": "3hop1__489567_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the commission of Truth and Friendship with the country where Inierie is located?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1685,
+      "elapsed_s": 233.81,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is part of the commission of Truth and Friendship"
+      ]
+    },
+    {
+      "id": "3hop1__632623_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "In the arabic dictionary what is the meaning of the word that also refers to the majority religion in India during the creation of the country where Rabwah is located?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1094,
+      "elapsed_s": 149.91,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Arabic dictionary\", then recursively apply steps (1)",
+        "What is the majority religion in India during the creation",
+        "What is Rabwah located in"
+      ]
+    },
+    {
+      "id": "3hop1__374018_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also the majority religion in India when the country where Dubbi is located was created in the Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Islam",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1225,
+      "elapsed_s": 178.98,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Dubbi\" and follow chain of relationships to",
+        "What is the majority religion in India?",
+        "What is the meaning of the word that is also"
+      ]
+    },
+    {
+      "id": "3hop1__107195_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning in the Arabic dictionary of the word which also refers to the majority religion of what became India when the country whose business news is covered by Corporate Corridor was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindu",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1386,
+      "elapsed_s": 185.54,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"India\", then recursively apply steps (1) to",
+        "What is majority religion of India?",
+        "What is the meaning in the Arabic dictionary of the"
+      ]
+    },
+    {
+      "id": "3hop1__275261_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the newly declared independent country that formed the Timor Leste Commission of Truth and Friendship with the country where Pantar is found?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1638,
+      "elapsed_s": 221.09,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the president of East Timor that formed the"
+      ]
+    },
+    {
+      "id": "3hop1__504362_443779_52195",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that Solor is a part of?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1808,
+      "elapsed_s": 194.04,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity, then recursively apply steps (1) to (3).",
+        "Who is the president of East Timor?",
+        "Who is the president of East Timor that jointly established"
+      ]
+    },
+    {
+      "id": "3hop1__104996_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also a majority religion in the area that became India when the country that release Ankahi was created in Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hinduism",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1183,
+      "elapsed_s": 126.47,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is Ankahi",
+        "What is the majority religion in the area that became",
+        "What is the majority religion in the area that became"
+      ]
+    },
+    {
+      "id": "3hop1__379315_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the Arabic dictionary meaning of the word referring to the majority religion in the area of British India, that became India when the country containing Barawal was formed?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "ISLAM",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2203,
+      "elapsed_s": 94183.66,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is the majority religion",
+        "What is the Arabic dictionary meaning",
+        "What is the Arabic dictionary meaning of the word referring"
+      ]
+    },
+    {
+      "id": "3hop1__835193_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "In the Arabic dictionary what is the meaning of the word that also refers to the majority religion in India when the country containing Attabad was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Islam",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2104,
+      "elapsed_s": 242.29,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is the majority religion in India?",
+        "What country contains Attabad?",
+        "What is the word in the Arabic dictionary that refers"
+      ]
+    },
+    {
+      "id": "3hop1__30885_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "what is the meaning of the word that is also the majority religion in the area that became India when the country where BCCI is based was created in the Arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindu",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1488,
+      "elapsed_s": 143.06,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "what is BCCI",
+        "What is the majority religion in the area that became",
+        "What is the word in Arabic dictionary"
+      ]
+    },
+    {
+      "id": "3hop1__106864_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning in the Arabic Dictionary of the word for the majority religion in the area of British India that became India when Bedari's country was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindus",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1961,
+      "elapsed_s": 173.19,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Bedari's country\" and recursively apply steps (1)",
+        "What is the majority religion in British India mentioned in",
+        "What is the word for the majority religion in British"
+      ]
+    },
+    {
+      "id": "3hop1__582007_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "In the Arabic dictionary, what's the meaning of the word for the majority religion in the area of British India that became India when Achh's country was created?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindus",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1788,
+      "elapsed_s": 162.76,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the majority religion in British India?",
+        "What is the majority religion in British India?",
+        "What is the meaning of the word for the majority"
+      ]
+    },
+    {
+      "id": "3hop1__309596_160713_77246",
+      "hop": 3,
+      "condition": "F3_guided",
+      "question": "What is the meaning of the word that is also a majority religion in the area that became India when the country where Punial is located was created in the arabic dictionary?",
+      "gold_answer": "the country of India",
+      "predicted_answer": "Hindu",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1403,
+      "elapsed_s": 127.43,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Identify main entity \"Punial\" and recursively apply steps (1) to",
+        "What is majority religion in Gujarat India?",
+        "What is the majority religion in Gujarat India?"
+      ]
+    }
+  ],
+  "summary": {
+    "num": 100,
+    "exact_match": 0.24,
+    "f1": 0.29214285714285715,
+    "mean_tokens": 1040.78,
+    "mean_supporting_recall": 0.4016666666666666,
+    "mean_dfs_score": 0.735,
+    "mean_num_queries": 3.0
+  }
+}

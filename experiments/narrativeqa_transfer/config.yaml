@@ -1,0 +1,21 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 600    # raised further than E7/E8 — truncated full_context prompts
+                  # over these documents are large and dense
+
+experiment:
+  dataset: "deepmind/narrativeqa"
+  split: "validation"
+  kinds: ["gutenberg", "movie"]
+  num_per_kind: 10
+  seed: 42
+  full_context_max_words: 5500   # ~7000-7500 estimated tokens, leaves headroom
+                                  # for system prompt + question + generation budget
+  chunk_words: 200               # retrieval chunk size over the full document
+
+retrieval:
+  max_queries: 3   # reusing E5's near-optimal value, not re-ablated here
+
+output:
+  results_dir: "results/narrativeqa_transfer"

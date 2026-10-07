@@ -1,0 +1,1245 @@
+{
+  "condition": "interactive_retrieval_k2",
+  "config": {
+    "num_per_type": 30,
+    "max_queries": 2
+  },
+  "results_by_type": {
+    "bridge": [
+      {
+        "id": "5a8c7595554299585d9e36b6",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "gold_answer": "Chief of Protocol",
+        "predicted_answer": "Secretary of Commerce.",
+        "em": 0.0,
+        "f1": 0.3333333333333333,
+        "tokens": 473,
+        "elapsed_s": 27.29,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Shirley Temple's early role",
+          "Shirley Temple's final role"
+        ]
+      },
+      {
+        "id": "5a85ea095542994775f606a8",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "gold_answer": "Animorphs",
+        "predicted_answer": "Victoria Hanley",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 221,
+        "elapsed_s": 18.01,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Fever Crumb companion series\"",
+          "\"Indigo Magic companion series\""
+        ]
+      },
+      {
+        "id": "5a8e3ea95542995a26add48d",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "gold_answer": "Greenwich Village, New York City",
+        "predicted_answer": "Greenwich Village",
+        "em": 0.0,
+        "f1": 0.5714285714285715,
+        "tokens": 472,
+        "elapsed_s": 28.25,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "James Keach's hometown NYC",
+          "James Keach director NYC"
+        ]
+      },
+      {
+        "id": "5abd94525542992ac4f382d2",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "gold_answer": "YG Entertainment",
+        "predicted_answer": "Yang Hyun-suk",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 402,
+        "elapsed_s": 25.42,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "SM Entertainment formation",
+          "Who founded YG Entertainment"
+        ]
+      },
+      {
+        "id": "5a85b2d95542997b5ce40028",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "gold_answer": "Eenasul Fateh",
+        "predicted_answer": "Eenasul Fateh (Aladin)",
+        "em": 0.0,
+        "f1": 0.8,
+        "tokens": 410,
+        "elapsed_s": 27.36,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"Peter Drucker's consulting work\"",
+          "\"Peter Drucker stage name Aladin\""
+        ]
+      },
+      {
+        "id": "5a87ab905542996e4f3088c1",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "gold_answer": "3,677 seated",
+        "predicted_answer": "4,000 (3,677 seated)",
+        "em": 0.0,
+        "f1": 0.8,
+        "tokens": 622,
+        "elapsed_s": 36.6,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Androscoggin Bank Coliseum capacity",
+          "Lewiston Maineiacs arena history"
+        ]
+      },
+      {
+        "id": "5a7bbb64554299042af8f7cc",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "gold_answer": "Terry Richardson",
+        "predicted_answer": "Annie Morton (born October 8, 1970) is older than Terry Richardson (born November 21, 1967).",
+        "em": 0.0,
+        "f1": 0.23529411764705882,
+        "tokens": 690,
+        "elapsed_s": 47.75,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Annie Morton photographer",
+          "Terry Richardson photographer"
+        ]
+      },
+      {
+        "id": "5a7166395542994082a3e814",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+        "gold_answer": "Kansas Song",
+        "predicted_answer": "\"Rock Chalk, Jayhawk!\"",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 470,
+        "elapsed_s": 30.59,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"University of Kansas fight song\"",
+          "\"Kansas Jayhawks lyrics\""
+        ]
+      },
+      {
+        "id": "5a877e5d5542993e715abf7d",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+        "gold_answer": "David Weissman",
+        "predicted_answer": "David Weissman",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 403,
+        "elapsed_s": 28.54,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "Joe Stillman screenplay credits",
+          "Nicolas Cage filmography"
+        ]
+      },
+      {
+        "id": "5ab3b0bf5542992ade7c6e39",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+        "gold_answer": "1999",
+        "predicted_answer": "1999",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 540,
+        "elapsed_s": 39.34,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Total Recall soundtrack Guns N Roses\"",
+          "\"End of Days Arnold Schwarzenegger\""
+        ]
+      },
+      {
+        "id": "5ab6d09255429954757d337d",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+        "gold_answer": "from 1986 to 2013",
+        "predicted_answer": "1992-1995",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 557,
+        "elapsed_s": 32.26,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Alex Ferguson tenure duration",
+          "David Beckham Manchester United debut"
+        ]
+      },
+      {
+        "id": "5a75e05c55429976ec32bc5f",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+        "gold_answer": "9,984",
+        "predicted_answer": "9,984",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 655,
+        "elapsed_s": 43.55,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Slovakia population size approximately",
+          "Slovakia vs Kansas population comparison"
+        ]
+      },
+      {
+        "id": "5ab3e45655429976abd1bcd4",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+        "gold_answer": "the North Atlantic Conference",
+        "predicted_answer": "Northeastern Collegiate Athletic Conference (NEC)",
+        "em": 0.0,
+        "f1": 0.25,
+        "tokens": 717,
+        "elapsed_s": 47.66,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"America East history\"",
+          "\"America East predecessor\""
+        ]
+      },
+      {
+        "id": "5ae0d4c9554299603e418468",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+        "gold_answer": "1969 until 1974",
+        "predicted_answer": "1963-1969",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 684,
+        "elapsed_s": 49.66,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"Lyndon B Johnson presidency years\"",
+          "\"Lyndon B Johnson years in office\""
+        ]
+      },
+      {
+        "id": "5ae7a8175542993210983ed8",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+        "gold_answer": "Pedro Rodr\u00edguez",
+        "predicted_answer": "Pedro Rodr\u00edguez",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 507,
+        "elapsed_s": 30.46,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Mexican F1 drivers list\"",
+          "\"Sergio Perez's F1 wins\""
+        ]
+      },
+      {
+        "id": "5ae6050f55429929b0807a5e",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+        "gold_answer": "Sonic",
+        "predicted_answer": "Dr. Robotnik",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 721,
+        "elapsed_s": 48.98,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Muppet character Andy Williams\"",
+          "\"Sonic the Hedgehog characters\""
+        ]
+      },
+      {
+        "id": "5adddccd5542997dc7907069",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+        "gold_answer": "keyboard function keys",
+        "predicted_answer": "Siri Remote",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 514,
+        "elapsed_s": 38.5,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Apple TV original purpose\"",
+          "\"Apple TV 4th Generation features\""
+        ]
+      },
+      {
+        "id": "5ae22b8d554299234fd0440f",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+        "gold_answer": "World's Best Goalkeeper",
+        "predicted_answer": "Kasper Hvidt",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 488,
+        "elapsed_s": 31.46,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "Lev Yashin's successor goalkeeper",
+          "Lev Yashin's nationality"
+        ]
+      },
+      {
+        "id": "5a722b8655429971e9dc9329",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+        "gold_answer": "Barton Lee Hazlewood",
+        "predicted_answer": "Lee Hazlewood",
+        "em": 0.0,
+        "f1": 0.8,
+        "tokens": 419,
+        "elapsed_s": 36.46,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Lee Hazlewood songwriter credits\"",
+          "\"Duane Eddy Nancy Sinatra songs\""
+        ]
+      },
+      {
+        "id": "5adf37a95542995ec70e8f97",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+        "gold_answer": "1838",
+        "predicted_answer": "1968",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 849,
+        "elapsed_s": 51.97,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Virginia Commonwealth University founding",
+          "Virginia Commonwealth University founding year"
+        ]
+      },
+      {
+        "id": "5a828c8355429966c78a6a50",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+        "gold_answer": "Henry J. Kaiser",
+        "predicted_answer": "Henry J. Kaiser",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 741,
+        "elapsed_s": 43.18,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Henry J. Kaiser biography",
+          "Henry J Kaiser shipbuilding"
+        ]
+      },
+      {
+        "id": "5a8a3e745542996c9b8d5e70",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+        "gold_answer": "Arena of Khazan",
+        "predicted_answer": "Arena of Khazan",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 495,
+        "elapsed_s": 39.12,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Ken St. Andre games\"",
+          "\"Tunnels and Trolls adventure\""
+        ]
+      },
+      {
+        "id": "5ac23ff0554299636651994d",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+        "gold_answer": "2000",
+        "predicted_answer": "Not applicable (album does not exist)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 600,
+        "elapsed_s": 44.65,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Poison discography 1987 release",
+          "Poison album not Make Love"
+        ]
+      },
+      {
+        "id": "5ae0361155429925eb1afc2c",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+        "gold_answer": "Charles Eug\u00e8ne",
+        "predicted_answer": "Paul Sauvage Fran\u00e7ois Coli",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 467,
+        "elapsed_s": 28.87,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "French aviator Charles Nungesser",
+          "French pilot L'Oiseau Blanc"
+        ]
+      },
+      {
+        "id": "5abf63f15542997ec76fd3ea",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+        "gold_answer": "October 1922",
+        "predicted_answer": "1920",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1080,
+        "elapsed_s": 69.38,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Russian Civil War 1920 outcome",
+          "Russian Civil War end date"
+        ]
+      },
+      {
+        "id": "5a8ef2a75542995a26add583",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+        "gold_answer": "2000",
+        "predicted_answer": "2000",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 576,
+        "elapsed_s": 37.49,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Carlo Rovelli's work location",
+          "Carlo Rovelli's book publication"
+        ]
+      },
+      {
+        "id": "5a80721b554299485f5985ef",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+        "gold_answer": "World War II",
+        "predicted_answer": "World War I",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 621,
+        "elapsed_s": 44.61,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "World War II statistics",
+          "World War I casualties"
+        ]
+      },
+      {
+        "id": "5a7571135542992d0ec05f98",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+        "gold_answer": "New York City",
+        "predicted_answer": "Riverside",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 634,
+        "elapsed_s": 38.81,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "University of California Berkeley",
+          "University of California Riverside"
+        ]
+      },
+      {
+        "id": "5a74106b55429979e288289e",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+        "gold_answer": "Mumbai",
+        "predicted_answer": "Mumbai",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 534,
+        "elapsed_s": 35.17,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Sachin Warrier Google software engineer",
+          "Tata Consultancy Services headquarters"
+        ]
+      },
+      {
+        "id": "5a79311755429970f5fffe67",
+        "type": "bridge",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+        "gold_answer": "1962",
+        "predicted_answer": "1950",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 645,
+        "elapsed_s": 46.05,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Japanese manga illustrator birth year",
+          "Masakazu Katsura birth year"
+        ]
+      }
+    ],
+    "comparison": [
+      {
+        "id": "5a8b57f25542995d1e6f1371",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "gold_answer": "yes",
+        "predicted_answer": "American",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 212,
+        "elapsed_s": 16.51,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "Scott Derrickson nationality",
+          "Ed Wood nationality"
+        ]
+      },
+      {
+        "id": "5adbf0a255429947ff17385a",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "gold_answer": "no",
+        "predicted_answer": "No.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 151,
+        "elapsed_s": 14.97,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Laleli Istanbul neighborhood\"",
+          "\"Laleli Istanbul landmarks\""
+        ]
+      },
+      {
+        "id": "5a8db19d5542994ba4e3dd00",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Local H and For Against both from the United States?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 586,
+        "elapsed_s": 40.16,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Local H album reviews",
+          "Local H band origin"
+        ]
+      },
+      {
+        "id": "5ab56e32554299637185c594",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+        "gold_answer": "no",
+        "predicted_answer": "No",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 424,
+        "elapsed_s": 29.02,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Random House Tower address\"",
+          "\"Random House Tower address 7th Avenue\""
+        ]
+      },
+      {
+        "id": "5ab29c24554299449642c932",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 653,
+        "elapsed_s": 43.55,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Verdi's most famous opera\"",
+          "\"Thomas's most famous opera\""
+        ]
+      },
+      {
+        "id": "5a8133725542995ce29dcbdb",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "gold_answer": "Robert Erskine Childers DSC",
+        "predicted_answer": "Robert Erskine Childers",
+        "em": 0.0,
+        "f1": 0.8571428571428571,
+        "tokens": 564,
+        "elapsed_s": 42.41,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Robert Erskine Childers author",
+          "Robert Erskine Childers biography"
+        ]
+      },
+      {
+        "id": "5ae2070a5542994d89d5b313",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+        "gold_answer": "Badly Drawn Boy",
+        "predicted_answer": "Wolf Alice",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 537,
+        "elapsed_s": 30.8,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Badly Drawn Boy instruments",
+          "Wolf Alice instruments"
+        ]
+      },
+      {
+        "id": "5abd259d55429924427fcf1a",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are both Dictyosperma, and Huernia described as a genus?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 730,
+        "elapsed_s": 48.83,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Cactus genera classification\"",
+          "\"Dictyosperma genus characteristics\""
+        ]
+      },
+      {
+        "id": "5ae4a3265542995ad6573de5",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+        "gold_answer": "Fujioka, Gunma",
+        "predicted_answer": "Japan",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 676,
+        "elapsed_s": 44.33,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Japanese rock band origin",
+          "Japanese musician Fujioka origin"
+        ]
+      },
+      {
+        "id": "5abc0a5d5542993f40c73c64",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+        "gold_answer": "no",
+        "predicted_answer": "American",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1022,
+        "elapsed_s": 62.89,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Freakonomics documentary type\"",
+          "\"Is Freakonomics documentary American\""
+        ]
+      },
+      {
+        "id": "5a7cc50e554299452d57ba3e",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+        "gold_answer": "Letters to Cleo",
+        "predicted_answer": "Screaming Trees (5)",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 500,
+        "elapsed_s": 38.42,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Screaming Trees band members",
+          "Letters to Cleo band members"
+        ]
+      },
+      {
+        "id": "5ab51dae5542991779162d82",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+        "gold_answer": "no",
+        "predicted_answer": "No",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 452,
+        "elapsed_s": 29.77,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Gerald R. Ford airport location",
+          "Elko Regional Airport location"
+        ]
+      },
+      {
+        "id": "5a7a0e1e5542990783324e1a",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "gold_answer": "Scotch Collie",
+        "predicted_answer": "Manchester Terrier",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 260,
+        "elapsed_s": 26.03,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Origin of Manchester Terrier breed",
+          "Ancestry of Manchester Terrier breed"
+        ]
+      },
+      {
+        "id": "5a8e068b5542995085b37384",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Ferocactus and Silene both types of plant?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 379,
+        "elapsed_s": 24.02,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Ferocactus species characteristics",
+          "Ferocactus related plant families"
+        ]
+      },
+      {
+        "id": "5adc53f75542996e6852530a",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are both Cypress and Ajuga genera?",
+        "gold_answer": "no",
+        "predicted_answer": "Yes.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 505,
+        "elapsed_s": 40.47,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Cypress plant family classification\"",
+          "\"Cupressus genus characteristics\""
+        ]
+      },
+      {
+        "id": "5a7be2595542997c3ec972ac",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+        "gold_answer": "Adeline Virginia Woolf",
+        "predicted_answer": "Virginia Woolf",
+        "em": 0.0,
+        "f1": 0.8,
+        "tokens": 465,
+        "elapsed_s": 27.21,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "Virginia Woolf birthdate",
+          "Emma Bull birthdate"
+        ]
+      },
+      {
+        "id": "5a7759fc5542993569682d60",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "gold_answer": "Canary Islands, Spain",
+        "predicted_answer": "Canary Islands",
+        "em": 0.0,
+        "f1": 0.8,
+        "tokens": 422,
+        "elapsed_s": 37.12,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Spanish national parks Canary Islands",
+          "Teide National Park location"
+        ]
+      },
+      {
+        "id": "5aba749055429901930fa7d8",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "gold_answer": "director",
+        "predicted_answer": "Cinematographer",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 599,
+        "elapsed_s": 34.24,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Chris Menges filmography director\"",
+          "\"Aram Avakian filmography cinematographer\""
+        ]
+      },
+      {
+        "id": "5ae224da554299234fd043ee",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+        "gold_answer": "no",
+        "predicted_answer": "Yes.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 436,
+        "elapsed_s": 37.19,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Gibson cocktail ingredients\"",
+          "\"Zurracapote cocktail ingredients\""
+        ]
+      },
+      {
+        "id": "5ac1b8ee5542994d76dccedc",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "gold_answer": "Levni Yilmaz",
+        "predicted_answer": "Lev Yilmaz",
+        "em": 0.0,
+        "f1": 0.5,
+        "tokens": 333,
+        "elapsed_s": 22.64,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Lev Yilmaz filmography",
+          "Lev Yilmaz animation style"
+        ]
+      },
+      {
+        "id": "5a84c4135542994c784dda31",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Yingkou and Fuding the same level of city?",
+        "gold_answer": "no",
+        "predicted_answer": "No.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 299,
+        "elapsed_s": 26.66,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Difference between Chinese city levels\"",
+          "\"Chinese city level hierarchy\""
+        ]
+      },
+      {
+        "id": "5a7a455c5542994f819ef1a7",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Who died first, George Archainbaud or Ralph Murphy?",
+        "gold_answer": "George Archainbaud",
+        "predicted_answer": "George Archainbaud (February 20, 1959)",
+        "em": 0.0,
+        "f1": 0.5714285714285715,
+        "tokens": 313,
+        "elapsed_s": 25.83,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "George Archainbaud filmography director",
+          "Ralph Murphy filmography director"
+        ]
+      },
+      {
+        "id": "5add11935542994734353827",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Were the bands Skin Yard and Ostava from the U.S.?",
+        "gold_answer": "no",
+        "predicted_answer": "No",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 755,
+        "elapsed_s": 54.31,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Skin Yard discography online",
+          "Ostava band members online"
+        ]
+      },
+      {
+        "id": "5a8c5569554299240d9c2126",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Daryl Hall and Gerry Marsden both musicians?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 550,
+        "elapsed_s": 31.56,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Daryl Hall's music group\"",
+          "\"Gerry Marsden's music group\""
+        ]
+      },
+      {
+        "id": "5a8574945542997b5ce3fffb",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+        "gold_answer": "LaLee's Kin: The Legacy of Cotton",
+        "predicted_answer": "Gimme Shelter",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 528,
+        "elapsed_s": 42.59,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Rolling Stones documentary 1970\"",
+          "\"Oscar nominated documentaries 1970\""
+        ]
+      },
+      {
+        "id": "5a7332935542991f9a20c67d",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Which board game was published most recently, Pirate's Cove or Catan?",
+        "gold_answer": "Pirate's Cove",
+        "predicted_answer": "2010",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 598,
+        "elapsed_s": 41.38,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"Catan release date\"",
+          "\"Pirate's Cove release date\""
+        ]
+      },
+      {
+        "id": "5ac2d1d755429921a00ab053",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Who had the best singles ranking, Roberta Vinci or Jorge Lozano?",
+        "gold_answer": "Roberta Vinci",
+        "predicted_answer": "Roberta Vinci",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 880,
+        "elapsed_s": 56.8,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Roberta Vinci tennis career stats",
+          "Jorge Lozano tennis career stats"
+        ]
+      },
+      {
+        "id": "5ac298f9554299657fa28fc9",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Josey Scott and Ian Watkins were both promising musicians. Which of these talented men was incarcerated, impacting his career with a rock band?",
+        "gold_answer": "Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012.",
+        "predicted_answer": "Ian Watkins",
+        "em": 0.0,
+        "f1": 0.125,
+        "tokens": 582,
+        "elapsed_s": 36.85,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "Ian Watkins child abuse",
+          "Josey Scott band name"
+        ]
+      },
+      {
+        "id": "5a88d745554299206df2b378",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "What occupation was shared by David Yates and Pietro Germi?",
+        "gold_answer": "director",
+        "predicted_answer": "Film director",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 389,
+        "elapsed_s": 34.64,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 0.0,
+        "queries": [
+          "Italian film director Yates",
+          "Italian film director Germi"
+        ]
+      },
+      {
+        "id": "5ab642845542995eadeeff8e",
+        "type": "comparison",
+        "level": "hard",
+        "condition": "interactive_retrieval_k2",
+        "question": "Are Broughtonia and Laeliocattleya both orchids?",
+        "gold_answer": "yes",
+        "predicted_answer": "Yes.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 370,
+        "elapsed_s": 24.5,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 2,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Orchid genera classification system\"",
+          "\"Biology of Laelia orchids\""
+        ]
+      }
+    ]
+  },
+  "summary_by_type": {
+    "bridge": {
+      "num_tasks": 30,
+      "exact_match": 0.26666666666666666,
+      "f1": 0.41522408963585433,
+      "mean_tokens": 573.5666666666667,
+      "mean_elapsed_s": 38.248000000000005,
+      "mean_supporting_fact_recall": 0.4,
+      "mean_dfs_score": 0.8333333333333334,
+      "mean_num_queries": 2.0
+    },
+    "comparison": {
+      "num_tasks": 30,
+      "exact_match": 0.4,
+      "f1": 0.5440079365079366,
+      "mean_tokens": 505.6666666666667,
+      "mean_elapsed_s": 35.52333333333333,
+      "mean_supporting_fact_recall": 0.4666666666666667,
+      "mean_dfs_score": 0.8666666666666667,
+      "mean_num_queries": 2.0
+    }
+  },
+  "summary_overall": {
+    "num_tasks": 60,
+    "exact_match": 0.3333333333333333,
+    "f1": 0.47961601307189544,
+    "mean_tokens": 539.6166666666667,
+    "mean_elapsed_s": 36.885666666666665,
+    "mean_supporting_fact_recall": 0.43333333333333335,
+    "mean_dfs_score": 0.85,
+    "mean_num_queries": 2.0
+  }
+}

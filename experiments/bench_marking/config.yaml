@@ -1,0 +1,21 @@
+model:
+  url: "http://localhost:11434/v1/chat/completions"
+  name: "llama3:8b"
+
+ruler:
+  context_lengths: [1024, 4096, 8192]
+  needle_positions: [0.1, 0.3, 0.5, 0.7, 0.9]
+  num_agents: 10
+  vt_steps: 15      # number of update operations woven into filler
+  vt_vars: 6        # number of tracked variables (up from 4)
+  task_types:
+    - niah_multihop   # two linked needles that must be chained
+    - niah_multikey   # three key-value pairs, retrieve one
+    - vt              # variable tracking with +, -, *
+
+mint:
+  num_agents: 10
+  max_turns: 6
+  task_types:
+    - logical_deduction   # 5-element ordering from constraint sets (BBH-style)
+    - date_reasoning      # multi-step calendar arithmetic (BBH-style)

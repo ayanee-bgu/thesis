@@ -1,0 +1,23 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 600
+
+experiment:
+  dataset: "deepmind/narrativeqa"
+  split: "validation"
+  kinds: ["gutenberg", "movie"]
+  num_per_kind: 10
+  full_context_max_words: 5500
+  chunk_words: 200
+  chunk_overlap_words: 40   # 20% overlap — mirrors E9 bug fix
+
+retrieval:
+  max_queries: 3
+  n_neighbors: 1            # ±1 window for oracle_neighbor and oracle_full
+
+oracle:
+  embed_model: "all-MiniLM-L6-v2"   # CPU-friendly; ~90MB first download
+
+output:
+  results_dir: "results/narrativeqa_oracle_v2"

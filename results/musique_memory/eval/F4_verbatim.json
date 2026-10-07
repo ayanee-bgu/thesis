@@ -1,0 +1,614 @@
+{
+  "condition": "F4_verbatim",
+  "results": [
+    {
+      "id": "2hop__460946_294723",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "Who is the spouse of the Green performer?",
+      "gold_answer": "Miquette Giraudy",
+      "predicted_answer": "No information about spouse found.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1275,
+      "elapsed_s": 112.5,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} born in {country}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy, which suggests starting with a question about birthplace)",
+        "QUERY 2: {which_entity} attended an instance of {college}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy to try to find information about the Green performer's background or education)",
+        "QUERY 3: {what} attended an instance of {college}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy to try to find information about the Green performer's background or education)"
+      ]
+    },
+    {
+      "id": "2hop__252311_366220",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "Who founded the company that distributed the film UHF?",
+      "gold_answer": "Mike Medavoy",
+      "predicted_answer": "Kevin Smith",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 853,
+      "elapsed_s": 64.26,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} founded an instance of {company}\n\n Slots: what, company",
+        "QUERY 2: {what} born in {country}\n\nSlots: what, country\nResult not shown yet.",
+        "QUERY 3: {what} attended an instance of {college}\n\nSlots: what, college"
+      ]
+    },
+    {
+      "id": "2hop__701895_752697",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+      "gold_answer": "Tamaulipas",
+      "predicted_answer": "Mexico City",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 637,
+      "elapsed_s": 49.48,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "which_entity owns Ciudad Deportiva",
+        "which_entity owns Ciudad Deportiva Magdalena Mixhuca",
+        "which_entity owns Ciudad Deportiva Magdalena Mixhuca"
+      ]
+    },
+    {
+      "id": "2hop__259228_793698",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "Where is Ulrich Walter's employer headquartered?",
+      "gold_answer": "Cologne",
+      "predicted_answer": "Thornycroft",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 761,
+      "elapsed_s": 63.32,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} attended an instance of {college}\n\n Slots: what, college\n Queries: {what} attended an instance of {college} | ...",
+        "QUERY 2: {what} born in {country}\n\nSlots: what, country\nQueries: {what} born in {country} | ...",
+        "QUERY 3: {which_entity} | {which_entity}\n\nSlots: which_entity\nQueries: {which_entity} | {which_entity} {what_concept}\nResult: [Ulrich Walter]"
+      ]
+    },
+    {
+      "id": "2hop__481349_302087",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "Which company owns the manufacturer of Learjet 60?",
+      "gold_answer": "Bombardier Inc.",
+      "predicted_answer": "Plansee SE",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 729,
+      "elapsed_s": 57.99,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "which entity owns manufacturer",
+        "QUERY 2: which entity manufactures Learjet",
+        "QUERY 3: what company manufactures Learjet"
+      ]
+    },
+    {
+      "id": "2hop__697790_864352",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "Who is the child of Caroline LeRoy's spouse?",
+      "gold_answer": "Fletcher Webster",
+      "predicted_answer": "Fletcher Webster",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 912,
+      "elapsed_s": 84.45,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} born in {country}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy, which suggests starting with a question about birthplace)",
+        "QUERY 2: {what} attended an instance of {college}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy, which suggests moving to a question about education or college attendance)\nResult not shown yet.",
+        "QUERY 3: {which_entity} | {which_entity} what_concept\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy, which suggests moving to a question about entities and concepts)\n\nPlease provide the next step or reply DONE if you have enough information."
+      ]
+    },
+    {
+      "id": "2hop__207476_625987",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "Who is the grandmother of Philippe, Duke of Orl\u00e9ans?",
+      "gold_answer": "Marie de' Medici",
+      "predicted_answer": "Marie Ad\u00e9la\u00efde of Savoy.",
+      "em": 0.0,
+      "f1": 0.2857142857142857,
+      "tokens": 844,
+      "elapsed_s": 66.54,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} born in {country}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy to guide my search)",
+        "QUERY 2: {what} attended an instance of {college}\n\n(Note: Using the MEMORY/F4_program | hop2 strategy, I'm trying to find more information about Jean-Michel Oughourlian's background)",
+        "QUERY 3: {which_entity} related to Philippe, Duke of Orl\u00e9ans"
+      ]
+    },
+    {
+      "id": "2hop__390947_232243",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "What is the goal of the group that European Movement Germany is a member of?",
+      "gold_answer": "European integration",
+      "predicted_answer": "Unite Europe.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 679,
+      "elapsed_s": 55.64,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} is the goal of an instance of {group}\n\n Slots: what, group",
+        "QUERY 2: {which_entity} is a member of an instance of {organization}\n\nSlots: which_entity, organization\nResult not provided yet...",
+        "QUERY 3: {which_entity} is a member of an instance of {organization}\n\nSlots: which_entity, organization\nResult not provided yet..."
+      ]
+    },
+    {
+      "id": "2hop__354635_174222",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "What company succeeded the owner of Empire Sports Network?",
+      "gold_answer": "Time Warner Cable",
+      "predicted_answer": "Time Warner Cable",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1256,
+      "elapsed_s": 112.68,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} succeeded {owner} of {Empire Sports Network}\n\n(Note: I'm using the decompose_question strategy, which involves breaking down the question into its components and searching for relevant information)",
+        "QUERY 2: {what} succeeded {owner} of {Empire Sports Network}\n\n(Note: Since the result didn't contain any information about the owner of Empire Sports Network, I'll try to find more relevant information. The decompose_question strategy suggests breaking down the question further by searching for what company succeeded the owner of Empire Sports Network.)\n\nPlease let me know if this query is correct or not!",
+        "Since we didn't find any information about what company succeeded the owner of Empire Sports Network, let's try to find more relevant information. Here's a new query:\n\nQUERY 2: {what} attended an instance of {Adelphia Communications Corporation}\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop2] | decompose_question, which involves searching for what company succeeded the owner of Empire Sports Network by looking at Adelphia Communications Corporation, the previous owner of Empire Sports Network.)"
+      ]
+    },
+    {
+      "id": "2hop__635187_861533",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "What province shares a border with the province where Lago District is located?",
+      "gold_answer": "Cabo Delgado Province",
+      "predicted_answer": "Tanzania",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 579,
+      "elapsed_s": 45.52,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "which province borders {Lago District}",
+        "QUERY 2: what province borders {Lago}",
+        "QUERY 3: what province is {Lago} part of"
+      ]
+    },
+    {
+      "id": "2hop__166824_185403",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "What league does the team that plays in Stadio Ciro Vigorito play for?",
+      "gold_answer": "Lega Pro Prima Divisione",
+      "predicted_answer": "Serie B",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 586,
+      "elapsed_s": 38.62,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} born in Italy",
+        "QUERY 2: Which team attended an instance of University of Bari",
+        "What team plays in Stadio Ciro Vigorito"
+      ]
+    },
+    {
+      "id": "2hop__698577_851686",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "What is a notable work written by the author of The Timothy files?",
+      "gold_answer": "Anderson Tapes",
+      "predicted_answer": "Mathnawi",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1490,
+      "elapsed_s": 97.93,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What books did {what} write",
+        "What books did Rumi write",
+        "What notable work written by Rumi"
+      ]
+    },
+    {
+      "id": "2hop__362107_652514",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "In which borough was Callum McManaman born?",
+      "gold_answer": "Knowsley",
+      "predicted_answer": "Whiston, Merseyside",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 799,
+      "elapsed_s": 61.08,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} born in {country}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy, as guided)",
+        "QUERY 2: {what} born in England",
+        "QUERY 3: {which_entity} is a large village and civil parish within the Metropolitan Borough of {what}\n\n(Note: I'm using the MEMORY/F4_program | hop2 strategy, as guided)"
+      ]
+    },
+    {
+      "id": "2hop__402530_774333",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "What other county does the county where Imperial is located share a border with?",
+      "gold_answer": "Crockett County",
+      "predicted_answer": "El Salvador",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 356,
+      "elapsed_s": 29.2,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "which country shares a border with California",
+        "QUERY 2: which country shares a border with California",
+        "Since the results are not relevant to California, let's try again:\n\nQUERY 3: which country shares a border with California"
+      ]
+    },
+    {
+      "id": "2hop__195917_575657",
+      "hop": 2,
+      "condition": "F4_verbatim",
+      "question": "In what county is William W. Blair's birthplace located?",
+      "gold_answer": "Orleans County",
+      "predicted_answer": "LaSalle",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 400,
+      "elapsed_s": 36.18,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "what country is William W. Blair born in",
+        "what county is William W. Blair born in",
+        "what county is William W. Blair born in"
+      ]
+    },
+    {
+      "id": "3hop1__454441_55349_651302",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "What is the birthplace of the man who does the voice of Stan on the series that includes the episode The Hobbit?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Alex Hirsch",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1254,
+      "elapsed_s": 94.86,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who}\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which suggests starting with a \"what\" and \"who\" query to retrieve information about the main entity)",
+        "QUERY 2: {what} {who}\n\n(Note: Since we're still trying to find the birthplace of the man who does the voice of Stan, let's try another \"what\" and \"who\" query)",
+        "QUERY 3: {who}"
+      ]
+    },
+    {
+      "id": "3hop1__145290_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1249,
+      "elapsed_s": 102.18,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} {where}\n\nSearch query: What country has jointly established a Commission on Truth and Friendship with Indonesia where Satyo Husodo was born?",
+        "QUERY 2: {main_entity} {relationship_type} {next_info}\n\nSearch query: Who is the Indonesian President who provided the first acknowledgement of human rights violations committed by state institutions in Timor?\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which suggests that I should use the main_entity and relationship_type slots to guide my search.)",
+        "QUERY 3: {what} {who}\n\nSearch query: What is the name of the Indonesian President who provided the first acknowledgement?\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which suggests that I should use the main_entity and relationship_type slots to guide my search.)"
+      ]
+    },
+    {
+      "id": "3hop1__105767_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the commission of truth and friendship with the country that eats Kemplang?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Chan Santokharam",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 897,
+      "elapsed_s": 85.37,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} {where}\n\nSearch query: What is the newly declared independent country?\n\n(Remember, this is a multi-hop question, so we'll need to answer multiple queries before getting to the final answer.)",
+        "QUERY 2: {what} {who}\n\nSearch query: Who is the president of Suriname?\n\n(Remembering the strategy [MEMORY/F4_program | hop3] | football_tournament_query, I'm using the main entity \"Suriname\" and relationship type \"president\")",
+        "QUERY 3: {what} {who}\n\nSearch query: What is Kemplang?\n\n(Remembering the strategy [MEMORY/F4_program | hop3] | football_tournament_query, I'm using the main entity \"Kemplang\" and relationship type \"eats\")"
+      ]
+    },
+    {
+      "id": "3hop1__105126_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country where Gado-gado is found?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Jessi Colter",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 982,
+      "elapsed_s": 83.81,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {where}\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which suggests starting with a \"what\" and \"where\" query to retrieve information about the newly declared independent country and its location.)",
+        "QUERY 2: {what} {who}\n\n(Note: Since the result didn't provide information about the newly declared independent country, I'll try to retrieve more relevant information by asking \"what\" about Gado-gado and \"who\" is related to it. This will help me narrow down the search.)",
+        "QUERY 3: {what} {where}\n\n(Note: Since the results didn't provide information about the newly declared independent country, I'll try to retrieve more relevant information by asking \"what\" about Gado-gado and \"where\" it is found. This will help me narrow down the search.)\n\nPlease let me know if this query is correct or not!"
+      ]
+    },
+    {
+      "id": "3hop1__103881_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country that Tony Gunawan is from?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Pedro",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1262,
+      "elapsed_s": 101.84,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} | {main_entity} {relationship_type} {next_info}\n\nQuery: What is the main entity of the newly declared independent country?\n\n(Note: This query aims to retrieve a passage that mentions the newly declared independent country, which will help identify the president and provide context for the subsequent queries.)",
+        "Query: What is the president of {main_entity}?\n\n(Note: This query aims to retrieve a passage that mentions the president of the newly declared independent country, which will help answer the original question.)",
+        "QUERY: What is the president of {main_entity}?\n\n(Note: This query aims to retrieve a passage that mentions the president of the newly declared independent country, which will help answer the original question.)\n\nSince we already retrieved passages for this query (Result 2), I'll move on to the next step.\n\nNext search query: Who is Tony Gunawan from?"
+      ]
+    },
+    {
+      "id": "3hop1__106094_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country that made Arisan!??",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Johan Ferrier",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1927,
+      "elapsed_s": 133.86,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} {where}\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which has a success rate of 50%. The slots are what, who, and where.)",
+        "QUERY 2: {what} {who}\n\n(Note: I'll continue using the same strategy [MEMORY/F4_program | hop3] | football_tournament_query)",
+        "QUERY 3: {main_entity} {relationship_type} {next_info}\n\n(Note: I'll continue using the strategy [MEMORY/F4_program | hop3] | multi_hop_query, which has a success rate of 50%. The slots are main_entity, relationship_type, and next_info.)\n\nPlease provide the result for this query."
+      ]
+    },
+    {
+      "id": "3hop1__145212_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Arie Supriyatna's birth country was one participant in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1021,
+      "elapsed_s": 82.37,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{main_entity} {relationship_type} {next_info}\n\n(I'm using the strategy [MEMORY/F4_program | hop3] | multi_hop_query)\n\nQuery: Arie Supriyatna who birth country",
+        "Query: Commission of Truth and Friendship what",
+        "Query: {main_entity} {relationship_type} {next_info}\nQuery: Commission of Truth and Friendship which countries\nExpected result: East Timor and Indonesia"
+      ]
+    },
+    {
+      "id": "3hop1__144678_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "The Commission of Truth and Friendship established governments for Bustami's birth country and a second country that had who as president after declaring independence?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Jackson Avery",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 967,
+      "elapsed_s": 69.44,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who}\n\n(Note: This query is based on the strategy [MEMORY/F4_program | hop3] | football_tournament_query, using the slots what and who)",
+        "QUERY 2: {what}",
+        "QUERY 3: {what} {where}\n\n(Note: This query is based on the strategy [MEMORY/F4_program | hop3] | football_tournament_query, using the slots what and where)"
+      ]
+    },
+    {
+      "id": "3hop1__103662_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with Radiansyah's birth country?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1594,
+      "elapsed_s": 113.98,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} {where}\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which has a success rate of 50%. The slots are what, who, and where.)",
+        "QUERY 2: {what} {who}\n\n(Note: I'll continue using the strategy [MEMORY/F4_program | hop3] | football_tournament_query)",
+        "QUERY 3: {what} {where}\n\n(Note: I'll continue using the strategy [MEMORY/F4_program | hop3] | football_tournament_query)"
+      ]
+    },
+    {
+      "id": "3hop1__144439_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "who is the president of newly declared independent country of the country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 980,
+      "elapsed_s": 92.15,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} {where}\n\nQuery: Who is the president of Timor-Leste?\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which suggests searching for information about the main entity \"Timor Leste\" and its president.)",
+        "QUERY 2: {main_entity} {relationship_type}\n\nQuery: What is the relationship of Estanislau da Silva to Timor Leste?\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | multi_hop_query, which suggests searching for information about the main entity \"Estanislau da Silva\" and its relationship to \"Timor Leste\".)",
+        "QUERY 3: {what} {who}\n\nQuery: Who is the president of Timor-Leste?\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, which suggests searching for information about the main entity \"Timor Leste\" and its president.)"
+      ]
+    },
+    {
+      "id": "3hop1__103440_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1471,
+      "elapsed_s": 98.62,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who}\n\n(Kiwil's birth country)",
+        "QUERY 2: {main_entity} {relationship_type} {next_info}\n\n(main_entity = Suriname, relationship_type = participated, next_info = Commission of Truth and Friendship)\n\nPlease provide the result.",
+        "QUERY 3: {what} {who}\n\n(relationship_type = president, next_info = other country)\n\nPlease provide the result."
+      ]
+    },
+    {
+      "id": "3hop1__145411_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Uhuru Kenyatta",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1157,
+      "elapsed_s": 111.87,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} {where}\n\nSearch query: What is the newly declared independent country?\n\n(Remember, this is a multi-hop question, so we'll need to retrieve passages that can help us answer subsequent queries.)",
+        "Since we didn't find any information about a newly declared independent country, let's try to retrieve more relevant passages. We can use the [MEMORY/F4_program | hop3] strategy with the \"what\" slot filled.\n\nSearch query: What is the newly declared independent country?\n\n(Remember, this is a multi-hop question, so we'll need to retrieve passages that can help us answer subsequent queries.)\n\nPlease provide the next passage.",
+        "Since we didn't find any information about a newly declared independent country in RESULT 2, let's try to retrieve more relevant passages. We can use the [MEMORY/F4_program | hop3] strategy with the \"what\" slot filled.\n\nSearch query: What is the president of the newly declared independent country?\n\n(Remember, this is a multi-hop question, so we'll need to retrieve passages that can help us answer subsequent queries.)\n\nPlease provide the next passage."
+      ]
+    },
+    {
+      "id": "3hop1__106313_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Opor originated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1505,
+      "elapsed_s": 122.35,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} {where}\n\nQuery: What is president of the newly declared independent country where Opor originated",
+        "Query: Who is president of the newly declared independent country that is part of Commission of Truth and Friendship with Indonesia\n\n(Note: Since Opor originated from Indonesia, I'm assuming the newly declared independent country is not a real one, but rather a hypothetical scenario. If you'd like me to clarify or modify the query, please let me know!)",
+        "Since we didn't find any information about a newly declared independent country being part of the Commission of Truth and Friendship with Indonesia in RESULT 2, I'll try to modify the query to get more relevant results.\n\nQuery: What is president of the newly declared independent country that is part of Commission of Truth and Friendship with {what}\n\n(Note: I'm using the strategy [MEMORY/F4_program | hop3] | football_tournament_query, replacing \"football tournament\" with \"Commission of Truth and Friendship\".)\n\nPlease let me know if this query is correct or if you'd like me to modify it further!"
+      ]
+    },
+    {
+      "id": "3hop1__654651_55349_651302",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "What is the place of birth of who does the voice of stan on the series that Insecurity is part of?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Oregon",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 966,
+      "elapsed_s": 86.95,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{who} {what} | {what} {who}\n\nSearch query: Who voices Stan on American Dad?",
+        "QUERY 2: {what} {who}\n\nSearch query: Where is Grunkle Stan from?\n\n(Note: I'm trying to find more information about Grunkle Stan's character)",
+        "Since we're trying to find more information about Grunkle Stan's character, I'll try to retrieve another passage using the strategy [MEMORY/F4_program | hop3] | football_tournament_query | success=50%.\n\nSearch query: What is Grunkle Stan's place of birth?\n\nPlease let me know if this query retrieves a relevant passage!"
+      ]
+    },
+    {
+      "id": "3hop1__106900_443779_52195",
+      "hop": 3,
+      "condition": "F4_verbatim",
+      "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Joko Widodo",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1084,
+      "elapsed_s": 84.45,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "{what} {who} | football_tournament_query\n\n(Note: I'm using the strategy to try to find information about the main entity, which is the president of the new country. The football tournament query is a hint from previous similar questions.)",
+        "QUERY 2: {main_entity} | football_tournament_query\n\n(Note: Since the previous result didn't provide information about the president, I'll try to find more general information about Indonesia using the main entity strategy.)",
+        "QUERY 3: {what} | football_tournament_query\n\n(Note: Since neither of the previous results provided information about the president, I'll try to find more general information about Indonesia using the what strategy.)"
+      ]
+    }
+  ],
+  "summary": {
+    "num": 30,
+    "exact_match": 0.06666666666666667,
+    "f1": 0.07619047619047618,
+    "mean_tokens": 1015.7333333333333,
+    "mean_supporting_recall": 0.25,
+    "mean_dfs_score": 0.7333333333333333,
+    "mean_num_queries": 3.0
+  }
+}

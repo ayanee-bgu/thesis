@@ -1,0 +1,12 @@
+{
+  "conditions": [
+    {
+      "session_1_success_rate": 0.5,
+      "session_2_success_rate": 0.5,
+      "delta_s1_to_s2": 0.0,
+      "mean_tokens_s2": 540.5,
+      "final_graph_nodes": 24,
+      "name": "graph_session_grounded"
+    }
+  ]
+}

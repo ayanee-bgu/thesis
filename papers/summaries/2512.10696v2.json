@@ -1,0 +1,72 @@
+{
+  "title": "Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution",
+  "authors": ["Zouying Cao", "Jiaji Deng", "Li Yu", "Weikang Zhou", "Zhaoyang Liu", "Bolin Ding", "Hai Zhao"],
+  "venue": "arXiv preprint",
+  "year": "2026",
+  "url": "https://arxiv.org/abs/2512.10696",
+  "arxiv_id": "2512.10696",
+  "doi": "",
+  "code_url": "https://github.com/agentscope-ai/ReMe",
+  "data_url": "https://github.com/agentscope-ai/ReMe",
+  "problem_statement": "Existing procedural memory frameworks treat experience as a static append-only archive, causing the pool to degrade into valid insights mixed with toxic noise over time. No existing system addresses the full lifecycle: high-quality extraction, task-grounded utilization, and progressive optimization with principled deletion.",
+  "key_ideas": [
+    "Multi-faceted distillation: three complementary analyses (success pattern recognition, failure analysis, comparative insight generation) extract structured keypoint-level experiences from trajectories",
+    "Structured experience format E = <ω, e, κ, c, τ> (usage scenario, content, keywords, confidence, tools) indexed by LLM-generated usage scenario embeddings",
+    "Context-adaptive reuse: top-K retrieval + LLM reranker + LLM rewriter that produces cohesive task-specific guidance",
+    "Utility-based refinement: selective addition (success-only), failure-aware reflection (failed trial → new attempt → add if succeeds), and utility-based deletion (u/f < β after f ≥ α retrievals)",
+    "Memory-scaling effect: smaller model + ReMe outperforms larger model without memory"
+  ],
+  "method_summary": "ReMe operates through three alternating phases: Experience Acquisition (LLMsumm distills N=8 trajectory samples into structured experiences via success/failure/comparative analysis, validated by LLM-as-judge, deduplicated by cosine similarity), Experience Reuse (top-K=5 retrieval by usage scenario embedding similarity, optional reranking and rewriting), and Experience Refinement (selective addition of successful experiences, failure-aware reflection, utility-based deletion when u/f < β=0.5 after α=5 retrievals). No fine-tuning; fully prompt-based. LLMsumm = LLMexecute in main experiments.",
+  "datasets_used": ["BFCL-V3 (Berkeley Function Calling Leaderboard V3)", "AppWorld"],
+  "baselines": ["No Memory", "A-Mem", "LangMem"],
+  "metrics": ["Avg@4 (average task success rate across 4 trials)", "Pass@4 (probability at least 1 of 4 trials succeeds)"],
+  "key_results": {
+    "qwen3_8b_gains_avg4": "+8.83% over No Memory baseline",
+    "qwen3_8b_gains_pass4": "+7.29% over No Memory baseline",
+    "memory_scaling_8b_vs_14b_pass4": "Qwen3-8B + ReMe(dynamic) 55.03% vs. Qwen3-14B no-memory 54.65%",
+    "memory_scaling_14b_vs_32b_avg4": "Qwen3-14B + ReMe(dynamic) 44.66% vs. Qwen3-32B no-memory 40.89%",
+    "keypoint_vs_trajectory": "Keypoint-level extraction substantially outperforms trajectory-level",
+    "selective_vs_full_addition": "Selective addition +3.50% Avg@4, +2.66% Pass@4 over full addition",
+    "best_retrieval_key": "Usage scenario indexing > generalized query > query keywords > task query",
+    "dynamic_vs_fixed": "Dynamic refinement consistently outperforms fixed memory pool",
+    "stronger_summarizer": "Qwen3-32B LLMsumm with Qwen3-8B LLMexecute: +3.33% Avg@4 vs. self-summarization"
+  },
+  "contributions": [
+    "ReMe framework integrating multi-faceted experience distillation, context-adaptive reuse, and utility-based refinement",
+    "Fine-grained keypoint-level experience extraction (vs. trajectory-level) with structured E = <ω,e,κ,c,τ> format",
+    "Failure-aware reflection mechanism for learning from failures without polluting the experience pool",
+    "Utility-based deletion for progressive memory optimization",
+    "reme.library: fine-grained procedural memory dataset with success patterns and failure lessons",
+    "Empirical demonstration of memory-scaling effect: smaller model + memory > larger model without"
+  ],
+  "limitations_acknowledged": [
+    "Fixed retrieval strategy: experiences retrieved only once at task start, not dynamically mid-task",
+    "LLM-as-judge validation may overlook nuanced quality dimensions",
+    "Larger-scale summarizer improves performance but increases compute cost"
+  ],
+  "limitations_observed": [
+    "No cross-domain transfer tested between benchmarks",
+    "No analysis of experience pool evolution over time (quality plateau, optimal pool size)",
+    "Latency overhead not fully analyzed beyond the +2.54s/task reported for AppWorld",
+    "Main experiments use only Qwen3 family; cross-family generalization limited to Figure 3"
+  ],
+  "relevance_to_thesis": "Directly relevant to all three focus areas. Memory Controller: provides complete implementable schema E=<ω,e,κ,c,τ> with lifecycle management including utility-based deletion. Educability: failure-aware reflection and comparative insight generation operationalize structured learning from contrast. Knowledge Transfer: memory-scaling effect directly demonstrates procedural knowledge compensating for parameter count; stronger summarizer experiment shows cross-capability knowledge extraction.",
+  "gaps_and_questions": [
+    "Can experiences from a stronger model bootstrap a weaker model's performance? (extends Table 5 to cross-model transfer)",
+    "How does the experience pool evolve over many tasks — does quality plateau or degrade?",
+    "Can a single cross-task experience pool generalize better than task-specific pools?",
+    "Can utility thresholds α and β be learned or adapted per domain?",
+    "Would a two-level hierarchical experience structure (abstract principle + concrete step) improve generalization?"
+  ],
+  "poc_ideas": [
+    "Implement ReMe experience structure as procedural memory layer in thesis memory controller; test utility-based deletion vs. simple LRU",
+    "Test memory-scaling effect with cross-model summarizer: use larger model to extract experiences, smaller model to execute",
+    "Build cross-domain memory pool spanning multiple task types and measure transfer vs. task-specific pools",
+    "Compare ReMe and MemP (2508.06433) directly on same benchmark to understand complementary design choices"
+  ],
+  "tags": ["procedural-memory", "experience-learning", "memory-lifecycle", "utility-based-deletion", "failure-reflection", "knowledge-transfer", "memory-scaling", "BFCL", "AppWorld", "agent-memory"],
+  "related_papers": ["MemP (2508.06433)", "ReMe (2512.10696)", "AgeMem (2601.01885)", "A-Mem", "LangMem", "AWM", "Expel", "Synapse", "HiAgent", "Agent KB"],
+  "citations_count": null,
+  "read_date": "2026-06-15",
+  "confidence": "high"
+}

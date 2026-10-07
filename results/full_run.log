@@ -1,0 +1,204 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Python314\Lib\http\client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=1800)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\experiments\multi_agent_cooperation\gaia_eval.py", line 330, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\experiments\multi_agent_cooperation\gaia_eval.py", line 315, in main
+    flat_memory_results = run_flat_group(problems, models, args.max_rounds, memory_enabled=True)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\experiments\multi_agent_cooperation\gaia_eval.py", line 194, in run_flat_group
+    run_result = loop.run(task)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\src\protocols\round_loop.py", line 66, in run
+    result = agent.think(task, round_num, peer_summaries, peer_memories)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\src\agents\cooperative_agent.py", line 89, in think
+    response = self._call_ollama(system, user_message)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\src\agents\cooperative_agent.py", line 199, in _call_ollama
+    resp = requests.post(OLLAMA_URL, json=payload, timeout=OLLAMA_TIMEOUT)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ayane\OneDrive\Documents\Masters\Thesis\venv\Lib\site-packages\requests\adapters.py", line 691, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=1800)
+Loading HotpotQA (n=10, type=all)...
+Loaded 10 problems
+
+=== Baseline: llama3:8b ===
+  [1/10] comparison | OK | pred='Yes.' gt='yes'
+  [2/10] bridge | XX | pred='None.' gt='Chief of Protocol'
+  [3/10] bridge | OK | pred='Animorphs.' gt='Animorphs'
+  [4/10] comparison | XX | pred='Yes.' gt='no'
+  [5/10] bridge | OK | pred='Greenwich Village.' gt='Greenwich Village, New York City'
+  [6/10] bridge | OK | pred='YG Entertainment.' gt='YG Entertainment'
+  [7/10] bridge | OK | pred='Eenasul Fateh.' gt='Eenasul Fateh'
+  [8/10] bridge | XX | pred='4,000' gt='3,677 seated'
+  [9/10] bridge | XX | pred='Annie Morton is older.' gt='Terry Richardson'
+  [10/10] comparison | OK | pred='Yes.' gt='yes'
+  Baseline accuracy: 60.0%
+
+=== Group [flat_msgpass] ===
+
+--- Round 1 ---
+  [reasoner] answer='Yes' conf=1.00
+  [coder] answer='yes' conf=1.00
+  [retriever] answer='yes' conf=0.90 [tool]
+  [generalist] answer='Yes' conf=0.90
+
+Consensus in round 1: 'Yes'
+  [1/10] comparison | OK | pred='Yes' gt='yes' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='Ambassador' conf=0.90
+  [coder] answer='United States Ambassador' conf=1.00
+  [retriever] answer='' conf=0.00 [tool]
+  [generalist] answer='Ambassador' conf=1.00
+
+Consensus in round 1: 'Ambassador'
+  [2/10] bridge | XX | pred='Ambassador' gt='Chief of Protocol' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='Animorphs' conf=0.90
+  [coder] answer='' conf=0.00
+  [retriever] answer='Animorphs' conf=1.00 [tool]
+  [generalist] answer='Animorphs' conf=0.90
+
+Consensus in round 1: 'Animorphs'
+  [3/10] bridge | OK | pred='Animorphs' gt='Animorphs' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='No' conf=0.90
+  [coder] answer='yes' conf=0.90
+  [retriever] answer='Yes' conf=0.70 [tool]
+  [generalist] answer='Yes' conf=0.80
+
+Consensus in round 1: 'yes'
+  [4/10] comparison | XX | pred='yes' gt='no' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='Greenwich Village' conf=1.00
+  [coder] answer='Greenwich Village' conf=1.00
+  [retriever] answer='Greenwich Village' conf=1.00
+  [generalist] answer='Greenwich Village' conf=1.00
+
+Consensus in round 1: 'Greenwich Village'
+  [5/10] bridge | OK | pred='Greenwich Village' gt='Greenwich Village, New York City' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='YG Entertainment' conf=1.00
+  [coder] answer='YG Entertainment' conf=1.00
+  [retriever] answer='YG Entertainment' conf=1.00
+  [generalist] answer='YG Entertainment' conf=0.90
+
+Consensus in round 1: 'YG Entertainment'
+  [6/10] bridge | OK | pred='YG Entertainment' gt='YG Entertainment' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='Eenasul Fateh' conf=1.00
+  [coder] answer='Eenasul Fateh' conf=1.00
+  [retriever] answer='' conf=1.00 [tool]
+  [generalist] answer='Eenasul Fateh' conf=0.90
+
+Consensus in round 1: 'Eenasul Fateh'
+  [7/10] bridge | OK | pred='Eenasul Fateh' gt='Eenasul Fateh' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='4,000' conf=1.00
+  [coder] answer='4,000' conf=1.00
+  [retriever] answer='4,000' conf=1.00 [tool]
+  [generalist] answer='4,000' conf=1.00
+
+Consensus in round 1: '4,000'
+  [8/10] bridge | XX | pred='4,000' gt='3,677 seated' | rounds=1
+
+--- Round 1 ---
+  [reasoner] answer='Annie Morton' conf=1.00
+  [coder] answer='Annie Morton' conf=1.00
+  [retriever] answer='Annie Morton is older' conf=1.00
+  [generalist] answer='Yes' conf=1.00
+
+--- Round 2 ---
+  [reasoner] answer='Yes' conf=1.00
+  [coder] answer='Yes' conf=1.00
+  [retriever] answer='Annie Morton' conf=1.00
+  [generalist] answer='' conf=1.00
+
+Consensus in round 2: 'Yes'
+  [9/10] bridge | XX | pred='Yes' gt='Terry Richardson' | rounds=2
+
+--- Round 1 ---
+  [reasoner] answer='yes' conf=1.00
+  [coder] answer='Yes' conf=1.00
+  [retriever] answer='' conf=0.00 [tool]
+  [generalist] answer='Yes' conf=0.90
+
+Consensus in round 1: 'yes'
+  [10/10] comparison | OK | pred='yes' gt='yes' | rounds=1
+  Accuracy: 60.0% | avg rounds: 1.1
+
+=== Group [flat_memory] ===
+
+--- Round 1 ---
+  [reasoner] answer='Yes' conf=0.90
+  [coder] answer='yes' conf=1.00
+  [retriever] answer='Yes' conf=1.00

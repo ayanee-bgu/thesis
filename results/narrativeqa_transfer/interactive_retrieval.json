@@ -1,0 +1,465 @@
+{
+  "condition": "interactive_retrieval",
+  "config": {
+    "num_per_kind": 10,
+    "max_queries": 3
+  },
+  "results_by_type": {
+    "gutenberg": [
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHO NORMALLY DELIVERS THE OPENING PROLOGUE IN THE PLAY?",
+        "gold_answer": "THE ACTOR WEARING THE BLACK CLOAK",
+        "predicted_answer": "The third child.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1341,
+        "elapsed_s": 78.25,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Play opening prologue narrator\"",
+          "\"Play prologue narrator role\"",
+          "\"Jonson's play prologue narrator\""
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHAT NAME WAS CYNTHIA MORE FAMOUSLY KNOWN BY?",
+        "gold_answer": "THE GODDESS DIANA",
+        "predicted_answer": "Cynthia.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1713,
+        "elapsed_s": 95.51,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Cynthia Rhodes actress filmography",
+          "Cynthia's Revels play summary",
+          "Cynthia's Revels characters"
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHO DOES ECHO WEEP FOR?",
+        "gold_answer": "NARCISSUS",
+        "predicted_answer": "Niobe",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1981,
+        "elapsed_s": 108.79,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Echo's grief in Greek myth",
+          "Greek mythological characters",
+          "Greek mythological characters weeping"
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHAT DOES A DRINK FROM NARCISSUS'S SPRING CAUSE THE DRINKER TO DO?",
+        "gold_answer": "FALL IN LOVE WITH THEMSELVES",
+        "predicted_answer": "Cupid becomes pages.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1836,
+        "elapsed_s": 103.18,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Effects of Narcissus's Spring Drink\"",
+          "\"Meaning of Narcissus's Spring Drink\"",
+          "\"What does drinking Narcissus's Spring\""
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "IN WHAT VALLEY DID THE SOLEMN REVELS OF CYNTHIA TAKE PLACE?",
+        "gold_answer": "GARGAPHIE IN GREECE",
+        "predicted_answer": "Arcadia",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1913,
+        "elapsed_s": 106.01,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"The Sollem Revals of Cynthia\"",
+          "\"Cynthia goddess mythology\"",
+          "\"Cyntha mythology meaning\""
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHAT DID THE  SYMBOLIC VICES DISGUISE THEMSELVES TO BE?",
+        "gold_answer": "VIRTUES",
+        "predicted_answer": "Virtues.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1781,
+        "elapsed_s": 101.5,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Vices in The Picture of Dorian Gray\"",
+          "\"Symbolic Vices in Dorian Gray\"",
+          "\"Vices in masquerade Dorian Gray\""
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHAT SENTENCE DID CYNTHIA GIVE TO THE SYMBOLIC VICES?",
+        "gold_answer": "TO BATHE IN THE SPRING OF HELICON",
+        "predicted_answer": "No sentence was given to the symbolic vices.",
+        "em": 0.0,
+        "f1": 0.15384615384615383,
+        "tokens": 2402,
+        "elapsed_s": 132.23,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Cynthia's sentence in American Gods",
+          "Cynthia's sentence in American Gods context",
+          "Cynthia American Gods quote"
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHO DRANK FROM THE SPRING AT CYNTHIA'S REVELS?",
+        "gold_answer": "ALL THE COURTIERS AND LADIES WHO ATTENDED CYNTHIA'S REVELS",
+        "predicted_answer": "[[chunk 271]] waif.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2345,
+        "elapsed_s": 128.25,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Character from Cynthia's Revels drink",
+          "Ben Jonson characters",
+          "Ben Jonson characters drink"
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "HOW MANY PHASES DID THE COURT COMPLIMENT COMPETITION HAVE?",
+        "gold_answer": "4 PHASES",
+        "predicted_answer": "Two phases.",
+        "em": 0.0,
+        "f1": 0.5,
+        "tokens": 2326,
+        "elapsed_s": 127.51,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"The Court Compliment Competition phases\"",
+          "\"The Court Compliment Competition definition\"",
+          "\"What does Court Compliment mean\""
+        ],
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "interactive_retrieval",
+        "question": "WHO CHALLENGES THE COURTIERS TO COURT COMPLIMENT COMPETITION?",
+        "gold_answer": "ASOTUS",
+        "predicted_answer": "ARCHIE",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2049,
+        "elapsed_s": 114.37,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Court Jester in Shakespeare plays\"",
+          "\"Shakespeare's Court Jester character\"",
+          "\"Shakespeare's Court Jester character\""
+        ],
+        "doc_word_count": 74928
+      }
+    ],
+    "movie": [
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "Why did Micky feel he lost the fight in Atlantic City?",
+        "gold_answer": "Opponent was in a weight class of 20 pounds heavier.",
+        "predicted_answer": "He lost the fight.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2171,
+        "elapsed_s": 118.72,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Rocky IV Atlantic City scene\"",
+          "\"Rocky IV Atlantic City fight\"",
+          "\"Rocky IV Atlantic City fight result\""
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "What injury does Micky receive as he attempted to help his step-brother in a fight with police?",
+        "gold_answer": "Broken hand",
+        "predicted_answer": "Eye injury.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 4068,
+        "elapsed_s": 220.02,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Mickey Rourke eye injury film",
+          "Mickey Rourke film injury details",
+          "Mickey Rourke film injury type"
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "What does Dicky's family realize to be the destroyer in Dicky's life and career after seeing a documentary on HBO?",
+        "gold_answer": "Crack",
+        "predicted_answer": "ESPN",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2159,
+        "elapsed_s": 117.25,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Dicky Egan's boxing career\"",
+          "\"Dicky Egan's HBO documentary\"",
+          "\"Dicky Egan HBO documentary impact\""
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "Who is the manager that gets Micky away from his family of bad influence and encourages him back into the ring?",
+        "gold_answer": "Sal Lanano",
+        "predicted_answer": "Shea",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 4069,
+        "elapsed_s": 219.46,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Rocky Balboa's new manager",
+          "Rocky V manager name",
+          "Rocky V manager name"
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "During his series of fights to regain his career, whose advice does Micky follow to gain momentum against his opponent?",
+        "gold_answer": "his brother, Dicky",
+        "predicted_answer": "Dicky",
+        "em": 0.0,
+        "f1": 0.5,
+        "tokens": 1992,
+        "elapsed_s": 107.73,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Mickey Ward boxing trainer advice",
+          "Mickey Ward trainer name",
+          "Dicky Egan Mickey Ward"
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "Which member of Micky's family realize that other members of the family are bad influences?",
+        "gold_answer": "Micky's father",
+        "predicted_answer": "ALICE and DICKY",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2166,
+        "elapsed_s": 117.28,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Mickey Mouse family character flaws",
+          "Mickey Mouse family members flaws",
+          "Mickey Mouse family members"
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "Who does Dicky seek out to work with in reuniting the family?",
+        "gold_answer": "Charlene",
+        "predicted_answer": "SHERRY",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2321,
+        "elapsed_s": 126.26,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Dicky Egan reunite family movie",
+          "Who plays Sherry in The Fighter",
+          "Who plays Sherry in The Fighter movie"
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "In what location does the group go for the final title fight?",
+        "gold_answer": "London",
+        "predicted_answer": "Lowell, Massachusetts.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 3335,
+        "elapsed_s": 179.23,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Final fight location movie\"",
+          "\"The Fighter movie script\"",
+          "\"Fighter movie location\""
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "What reward does Micky gain in the final victory?",
+        "gold_answer": "The welterweight title",
+        "predicted_answer": "New management and a fight on HBO.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2068,
+        "elapsed_s": 113.47,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Mickey Mouse final victory scene",
+          "Mickey O'Keefe boxer",
+          "Mickey O'Keefe trainer"
+        ],
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "interactive_retrieval",
+        "question": "What is Charlene Fleming's current occupation?",
+        "gold_answer": "A bartender",
+        "predicted_answer": "Bartender.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 2300,
+        "elapsed_s": 123.4,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Charlene Fleming actress now",
+          "Charlene Fleming actress roles",
+          "Charlene Fleming actress film"
+        ],
+        "doc_word_count": 32202
+      }
+    ]
+  },
+  "summary_by_type": {
+    "gutenberg": {
+      "num_tasks": 10,
+      "exact_match": 0.1,
+      "f1": 0.16538461538461538,
+      "mean_tokens": 1968.7,
+      "mean_elapsed_s": 109.55999999999999,
+      "mean_supporting_fact_recall": 0.2,
+      "mean_dfs_score": 0.85,
+      "mean_num_queries": 3.0
+    },
+    "movie": {
+      "num_tasks": 10,
+      "exact_match": 0.1,
+      "f1": 0.15,
+      "mean_tokens": 2664.9,
+      "mean_elapsed_s": 144.28199999999998,
+      "mean_supporting_fact_recall": 0.6,
+      "mean_dfs_score": 1.0,
+      "mean_num_queries": 3.0
+    }
+  },
+  "summary_overall": {
+    "num_tasks": 20,
+    "exact_match": 0.1,
+    "f1": 0.1576923076923077,
+    "mean_tokens": 2316.8,
+    "mean_elapsed_s": 126.921,
+    "mean_supporting_fact_recall": 0.4,
+    "mean_dfs_score": 0.925,
+    "mean_num_queries": 3.0
+  }
+}

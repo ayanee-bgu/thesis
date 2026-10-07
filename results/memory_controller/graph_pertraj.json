@@ -1,0 +1,71 @@
+{
+  "condition": "graph_pertraj",
+  "memory_type": "graph",
+  "update_policy": "per_trajectory",
+  "sessions": [
+    {
+      "session": 1,
+      "num_tasks": 2,
+      "success_rate": 1.0,
+      "mean_tokens": 3571.0,
+      "retrieval_calls": 0,
+      "graph_nodes_after": 8,
+      "flat_entries_after": null
+    },
+    {
+      "session": 2,
+      "num_tasks": 2,
+      "success_rate": 1.0,
+      "mean_tokens": 3538.5,
+      "retrieval_calls": 2,
+      "graph_nodes_after": 20,
+      "flat_entries_after": null
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "val_000",
+      "session": 1,
+      "success": true,
+      "steps": 1,
+      "tokens": 3469,
+      "retrieval_calls": 0,
+      "elapsed_s": 385.4
+    },
+    {
+      "task_id": "val_001",
+      "session": 1,
+      "success": true,
+      "steps": 1,
+      "tokens": 3673,
+      "retrieval_calls": 0,
+      "elapsed_s": 380.93
+    },
+    {
+      "task_id": "val_002",
+      "session": 2,
+      "success": true,
+      "steps": 1,
+      "tokens": 3545,
+      "retrieval_calls": 1,
+      "elapsed_s": 259.45
+    },
+    {
+      "task_id": "val_003",
+      "session": 2,
+      "success": true,
+      "steps": 1,
+      "tokens": 3532,
+      "retrieval_calls": 1,
+      "elapsed_s": 275.15
+    }
+  ],
+  "summary": {
+    "session_1_success_rate": 1.0,
+    "session_2_success_rate": 1.0,
+    "delta_s1_to_s2": 0.0,
+    "mean_tokens_s2": 3538.5,
+    "total_retrieval_calls_s2": 2,
+    "final_graph_nodes": 20
+  }
+}

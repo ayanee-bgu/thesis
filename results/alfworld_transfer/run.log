@@ -1,0 +1,172 @@
+2026-07-11 15:29:56,654 INFO E4: ALFWorld Knowledge Transfer
+2026-07-11 15:29:56,654 INFO Results dir: C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer
+2026-07-11 15:29:56,680 INFO Loaded 2 student tasks (pick_and_place_simple, valid_seen)
+2026-07-11 15:29:56,708 INFO Loaded 2 teacher tasks
+2026-07-11 15:29:56,708 INFO Teacher task: pick_and_place_simple-Book-None-SideTable-329 | 5 steps
+2026-07-11 15:29:56,708 INFO Teacher task: pick_and_place_simple-Book-None-Sofa-229 | 4 steps
+2026-07-11 15:29:56,709 INFO Saved 2 teacher trajectories → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\teacher_trajectories.json
+2026-07-11 15:31:35,783 INFO E4: ALFWorld Knowledge Transfer
+2026-07-11 15:31:35,784 INFO Results dir: C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer
+2026-07-11 15:31:35,788 INFO Loaded 2 student tasks (pick_and_place_simple, valid_seen)
+2026-07-11 15:31:35,791 INFO Loaded 2 teacher tasks
+2026-07-11 15:31:35,791 INFO Teacher task: pick_and_place_simple-Book-None-SideTable-329 | 5 steps
+2026-07-11 15:31:35,791 INFO Teacher task: pick_and_place_simple-Book-None-Sofa-229 | 4 steps
+2026-07-11 15:31:35,793 INFO Saved 2 teacher trajectories to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\teacher_trajectories.json
+2026-07-11 15:31:35,795 INFO [no-llm] Built mock graph: 2 nodes
+2026-07-11 15:31:35,795 INFO 
+============================================================
+Condition: no_memory
+============================================================
+2026-07-11 15:31:35,796 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,796 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,797 INFO Saved no_memory → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\no_memory.json
+2026-07-11 15:31:35,801 INFO 
+============================================================
+Condition: graph_session
+============================================================
+2026-07-11 15:31:35,802 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,803 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,804 INFO Saved graph_session → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\graph_session.json
+2026-07-11 15:31:35,806 INFO 
+============================================================
+Condition: full_handoff
+============================================================
+2026-07-11 15:31:35,806 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,806 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,807 INFO Saved full_handoff → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\full_handoff.json
+2026-07-11 15:31:35,808 INFO 
+============================================================
+Condition: interactive_oracle
+============================================================
+2026-07-11 15:31:35,809 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,809 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:31:35,810 INFO Saved interactive_oracle → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\interactive_oracle.json
+2026-07-11 15:31:35,813 INFO 
+Summary saved → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\summary.json
+2026-07-11 15:32:08,415 INFO E4: ALFWorld Knowledge Transfer
+2026-07-11 15:32:08,415 INFO Results dir: C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer
+2026-07-11 15:32:08,418 INFO Loaded 2 student tasks (pick_and_place_simple, valid_seen)
+2026-07-11 15:32:08,420 INFO Loaded 2 teacher tasks
+2026-07-11 15:32:08,420 INFO Teacher task: pick_and_place_simple-Book-None-SideTable-329 | 5 steps
+2026-07-11 15:32:08,420 INFO Teacher task: pick_and_place_simple-Book-None-Sofa-229 | 4 steps
+2026-07-11 15:32:08,421 INFO Saved 2 teacher trajectories to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\teacher_trajectories.json
+2026-07-11 15:32:08,423 INFO [no-llm] Built mock graph: 2 nodes
+2026-07-11 15:32:08,423 INFO 
+============================================================
+Condition: no_memory
+============================================================
+2026-07-11 15:32:08,424 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,424 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,425 INFO Saved no_memory → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\no_memory.json
+2026-07-11 15:32:08,425 INFO 
+============================================================
+Condition: graph_session
+============================================================
+2026-07-11 15:32:08,426 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,427 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,427 INFO Saved graph_session → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\graph_session.json
+2026-07-11 15:32:08,427 INFO 
+============================================================
+Condition: full_handoff
+============================================================
+2026-07-11 15:32:08,428 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,428 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,428 INFO Saved full_handoff → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\full_handoff.json
+2026-07-11 15:32:08,429 INFO 
+============================================================
+Condition: interactive_oracle
+============================================================
+2026-07-11 15:32:08,429 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,429 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:08,430 INFO Saved interactive_oracle → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\interactive_oracle.json
+2026-07-11 15:32:08,431 INFO 
+Summary saved to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\summary.json
+2026-07-11 15:32:31,303 INFO E4: ALFWorld Knowledge Transfer
+2026-07-11 15:32:31,304 INFO Results dir: C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer
+2026-07-11 15:32:31,306 INFO Loaded 2 student tasks (pick_and_place_simple, valid_seen)
+2026-07-11 15:32:31,306 INFO Skipping teacher phase — loading saved trajectories
+2026-07-11 15:32:31,319 INFO Loaded 2 teacher trajectories
+2026-07-11 15:32:31,331 INFO Loaded graph: 2 nodes
+2026-07-11 15:32:31,331 INFO 
+============================================================
+Condition: no_memory
+============================================================
+2026-07-11 15:32:31,331 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,331 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,332 INFO Saved no_memory → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\no_memory.json
+2026-07-11 15:32:31,332 INFO 
+============================================================
+Condition: graph_session
+============================================================
+2026-07-11 15:32:31,333 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,333 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,334 INFO Saved graph_session → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\graph_session.json
+2026-07-11 15:32:31,334 INFO 
+============================================================
+Condition: full_handoff
+============================================================
+2026-07-11 15:32:31,334 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,335 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,335 INFO Saved full_handoff → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\full_handoff.json
+2026-07-11 15:32:31,336 INFO 
+============================================================
+Condition: interactive_oracle
+============================================================
+2026-07-11 15:32:31,336 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,336 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=False seq=False tokens=0 elapsed=0s
+2026-07-11 15:32:31,337 INFO Saved interactive_oracle → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\interactive_oracle.json
+2026-07-11 15:32:31,338 INFO 
+Summary saved to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\summary.json
+2026-07-11 15:32:56,783 INFO E4: ALFWorld Knowledge Transfer
+2026-07-11 15:32:56,784 INFO Results dir: C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer
+2026-07-11 15:32:56,829 INFO Loaded 5 student tasks (pick_and_place_simple, valid_seen)
+2026-07-11 15:32:56,874 INFO Loaded 5 teacher tasks
+2026-07-11 15:32:56,874 INFO Teacher task: pick_and_place_simple-Book-None-SideTable-329 | 5 steps
+2026-07-11 15:32:56,874 INFO Teacher task: pick_and_place_simple-Book-None-Sofa-229 | 4 steps
+2026-07-11 15:32:56,875 INFO Teacher task: pick_and_place_simple-Bowl-None-CoffeeTable-201 | 4 steps
+2026-07-11 15:32:56,875 INFO Teacher task: pick_and_place_simple-Box-None-Dresser-224 | 5 steps
+2026-07-11 15:32:56,875 INFO Teacher task: pick_and_place_simple-Candle-None-Cart-401 | 4 steps
+2026-07-11 15:32:56,877 INFO Saved 5 teacher trajectories to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\teacher_trajectories.json
+2026-07-11 15:34:59,335 INFO Built graph: +0 nodes, 0 merged
+2026-07-11 15:34:59,335 INFO 
+============================================================
+Condition: no_memory
+============================================================
+2026-07-11 15:35:29,282 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=220 elapsed=30s
+2026-07-11 15:35:47,158 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=True seq=True tokens=227 elapsed=18s
+2026-07-11 15:35:59,231 INFO   pick_and_place_simple-CellPhone-None-ArmChair-318: success=False seq=False tokens=224 elapsed=12s
+2026-07-11 15:36:13,062 INFO   pick_and_place_simple-CellPhone-None-Bed-324: success=True seq=True tokens=236 elapsed=14s
+2026-07-11 15:36:27,540 INFO   pick_and_place_simple-Cloth-None-BathtubBasin-405: success=True seq=True tokens=237 elapsed=14s
+2026-07-11 15:36:27,541 INFO Saved no_memory → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\no_memory.json
+2026-07-11 15:36:27,542 INFO 
+============================================================
+Condition: graph_session
+============================================================
+2026-07-11 15:36:38,482 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=False seq=False tokens=220 elapsed=11s
+2026-07-11 15:36:51,148 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=True seq=True tokens=227 elapsed=13s
+2026-07-11 15:37:02,678 INFO   pick_and_place_simple-CellPhone-None-ArmChair-318: success=False seq=False tokens=224 elapsed=12s
+2026-07-11 15:37:15,361 INFO   pick_and_place_simple-CellPhone-None-Bed-324: success=True seq=True tokens=235 elapsed=13s
+2026-07-11 15:37:29,696 INFO   pick_and_place_simple-Cloth-None-BathtubBasin-405: success=True seq=True tokens=237 elapsed=14s
+2026-07-11 15:37:29,699 INFO Saved graph_session → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\graph_session.json
+2026-07-11 15:37:29,700 INFO 
+============================================================
+Condition: full_handoff
+============================================================
+2026-07-11 15:38:04,988 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=True seq=True tokens=520 elapsed=35s
+2026-07-11 15:38:15,755 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=True seq=True tokens=519 elapsed=11s
+2026-07-11 15:38:27,011 INFO   pick_and_place_simple-CellPhone-None-ArmChair-318: success=True seq=True tokens=519 elapsed=11s
+2026-07-11 15:38:41,798 INFO   pick_and_place_simple-CellPhone-None-Bed-324: success=True seq=True tokens=528 elapsed=15s
+2026-07-11 15:38:53,874 INFO   pick_and_place_simple-Cloth-None-BathtubBasin-405: success=True seq=True tokens=524 elapsed=12s
+2026-07-11 15:38:53,876 INFO Saved full_handoff → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\full_handoff.json
+2026-07-11 15:38:53,877 INFO 
+============================================================
+Condition: interactive_oracle
+============================================================
+2026-07-11 15:44:18,401 INFO   pick_and_place_simple-Candle-None-Toilet-407: success=True seq=True tokens=5135 elapsed=325s
+2026-07-11 15:51:23,919 INFO   pick_and_place_simple-Candle-None-Toilet-429: success=True seq=True tokens=5160 elapsed=426s
+2026-07-11 15:59:41,831 INFO   pick_and_place_simple-CellPhone-None-ArmChair-318: success=True seq=True tokens=5823 elapsed=498s
+2026-07-11 16:05:37,603 INFO   pick_and_place_simple-CellPhone-None-Bed-324: success=True seq=True tokens=5567 elapsed=356s
+2026-07-11 16:10:19,186 INFO   pick_and_place_simple-Cloth-None-BathtubBasin-405: success=True seq=True tokens=5099 elapsed=282s
+2026-07-11 16:10:19,189 INFO Saved interactive_oracle → C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\interactive_oracle.json
+2026-07-11 16:10:19,192 INFO 
+Summary saved to C:\Users\ayane\OneDrive\Documents\Masters\Thesis\results\alfworld_transfer\summary.json

@@ -1,0 +1,614 @@
+{
+  "condition": "F1_verbatim",
+  "results": [
+    {
+      "id": "2hop__460946_294723",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "Who is the spouse of the Green performer?",
+      "gold_answer": "Miquette Giraudy",
+      "predicted_answer": "Victor Willis",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2750,
+      "elapsed_s": 200.97,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Since we don't have any relevant information yet, let's start by searching for the Green performer. Here's my next query:\n\n\"Who is the lead singer of the band Green?\"\n\nPlease provide the passage!",
+        "Since we don't have any relevant information about the spouse of the Green performer yet, let's continue searching for more information about the band Green or its lead singer. Here's my next query:\n\n\"What is the nationality of the lead singer of the band Green?\"\n\nPlease provide the passage!",
+        "Since we don't have any relevant information about the spouse of the Green performer yet, let's continue searching for more information about the band Green or its lead singer. Here's my next query:\n\n\"What is the genre of music played by the band Green?\"\n\nPlease provide the passage!"
+      ]
+    },
+    {
+      "id": "2hop__252311_366220",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "Who founded the company that distributed the film UHF?",
+      "gold_answer": "Mike Medavoy",
+      "predicted_answer": "Mike Medavoy (1978)",
+      "em": 0.0,
+      "f1": 0.8,
+      "tokens": 976,
+      "elapsed_s": 90.49,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Founders of Orion Pictures\"\n\n(Remember, I'll use previous results to guide next queries!)",
+        "I think there's been a mistake! The result you provided doesn't seem relevant to the question about who founded Orion Pictures, which distributed the film UHF. Let's try again!\n\nSince we're trying to find the founders of Orion Pictures, my next query would be:\n\n\"Founders of Orion Pictures Corporation\"\n\nPlease provide the next passage!",
+        "Since we've found the founders of Orion Pictures, my next query would be:\n\n\"Founders of Orion Pictures Corporation again\"\n\nPlease provide the next passage!"
+      ]
+    },
+    {
+      "id": "2hop__701895_752697",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+      "gold_answer": "Tamaulipas",
+      "predicted_answer": "Tamaulipas",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1297,
+      "elapsed_s": 117.67,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Queries: \"Ciudad Deportiva location\" \u2192 \"Ciudad Deportiva country\" \u2192 \"Ciudad Deportiva city\" \u2192 \"Ciudad Deportiva province\"\n\n(Note: I'll use previous results to guide next queries!)",
+        "QUERY 2: Queries: \"Nuevo Laredo administrative territorial entity\" \u2192 \"Tamaulipas state Mexico\" \u2192 \"Mexico administrative territorial entities\" \u2192 \"State of Nuevo Laredo\"\n\n(Note: I'll use previous results to guide next queries!)",
+        "QUERY 3: Queries: \"Tamaulipas state administrative territorial entity\" \u2192 \"Mexico state administrative territorial entities\" \u2192 \"State of Tamaulipas administrative territorial entity\" \u2192 \"Mexican state administrative territorial entities\"\n\n(Note: I'll use previous results to guide next queries!)"
+      ]
+    },
+    {
+      "id": "2hop__259228_793698",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "Where is Ulrich Walter's employer headquartered?",
+      "gold_answer": "Cologne",
+      "predicted_answer": "Colorado Springs, Colorado",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1219,
+      "elapsed_s": 111.52,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Employer of Ulrich Walter\"\n\n(Note: I'll use the strategy from previous similar questions, specifically [MEMORY/F1_raw | hop2])",
+        "I apologize, but the result does not seem relevant to finding Ulrich Walter's employer or its headquarters. Let's try again!\n\nQuery 2: \"Ulrich Walter biography\"\n\n(Note: I'll use the strategy from previous similar questions, specifically [MEMORY/F1_raw | hop2])",
+        "I apologize, but it seems like the results are not relevant to finding Ulrich Walter's employer or its headquarters. Let's try again!\n\nQuery 3: \"Ulrich Walter astronaut\"\n\n(Note: I'll use the strategy from previous similar questions, specifically [MEMORY/F1_raw | hop2])"
+      ]
+    },
+    {
+      "id": "2hop__481349_302087",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "Which company owns the manufacturer of Learjet 60?",
+      "gold_answer": "Bombardier Inc.",
+      "predicted_answer": "Bombardier Inc.",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 863,
+      "elapsed_s": 92.96,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Based on previous results, I'll use the strategy above to guide my search queries.\n\nSince we're looking for information about the manufacturer of Learjet 60, let's try to find more context about Learjet. Here's a query:\n\n\"Learjet history\"\n\nPlease provide the next passage!",
+        "Based on the passage about Learjet history, let's try to find more information about Bombardier Aerospace. Here's a query:\n\n\"Bombardier Aerospace parent company\"\n\nPlease provide the next passage!",
+        "Based on the passage about Bombardier Aerospace, let's try to find more information about its parent company. Here's a query:\n\n\"Bombardier Inc. history\"\n\nPlease provide the next passage!"
+      ]
+    },
+    {
+      "id": "2hop__697790_864352",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "Who is the child of Caroline LeRoy's spouse?",
+      "gold_answer": "Fletcher Webster",
+      "predicted_answer": "Marvin Waitforit Eriksen",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 571,
+      "elapsed_s": 59.77,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Caroline LeRoy's spouse identity \u2192",
+        "QUERY 2: Caroline LeRoy's spouse children \u2192",
+        "QUERY: Who is the child of Caroline LeRoy's spouse?\n\nNEXT QUERY: Marshall Eriksen children \u2192"
+      ]
+    },
+    {
+      "id": "2hop__207476_625987",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "Who is the grandmother of Philippe, Duke of Orl\u00e9ans?",
+      "gold_answer": "Marie de' Medici",
+      "predicted_answer": "Marie Amalie of Bourbon-Sicilies",
+      "em": 0.0,
+      "f1": 0.2857142857142857,
+      "tokens": 1305,
+      "elapsed_s": 128.27,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Based on previous results and strategies, I'll use the following query:\n\n\"Philippe, Duke of Orl\u00e9ans family tree\"\n\nPlease let me know if this query retrieves a relevant passage!",
+        "Based on the result, it seems that this passage is not directly related to Philippe, Duke of Orl\u00e9ans or his family tree. Therefore, I'll try another query.\n\nHere's my next query:\n\n\"Philippe, Duke of Orl\u00e9ans ancestry\"\n\nPlease let me know if this query retrieves a relevant passage!",
+        "Based on the result, it seems that this passage is relevant to Philippe, Duke of Orl\u00e9ans' ancestry. Therefore, I'll try to extract more information from this passage.\n\nHere's my next query:\n\n\"Louis Philippe, Duke of Orl\u00e9ans family\"\n\nPlease let me know if this query retrieves a relevant passage!"
+      ]
+    },
+    {
+      "id": "2hop__390947_232243",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "What is the goal of the group that European Movement Germany is a member of?",
+      "gold_answer": "European integration",
+      "predicted_answer": "Promoting European integration.",
+      "em": 0.0,
+      "f1": 0.8,
+      "tokens": 1004,
+      "elapsed_s": 106.08,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Queries: \"European Movement Germany membership organization\" \u2192 \"European Movement Germany parent organization\" \u2192 \"Council of Europe goals\" \u2192 \"Council of Europe mission\"\n\n(Note: I'll use previous results to guide next queries!)",
+        "I'm not going to answer this question yet! The result is Joan Llimona, which doesn't seem relevant to the European Movement Germany or its goals. I'll keep searching!\n\nMy next query would be:\n\nQueries: \"European Movement Germany membership organization\" \u2192 \"European Movement Germany parent organization\" \u2192 \"Council of Europe goals\" \u2192 \"Council of Europe mission\"\n\nPlease provide the result!",
+        "I'm happy to help!\n\nSince RESULT 2 mentions that European Movement Germany is a member of European Movement International, my next query would be:\n\nQueries: \"European Movement International goals\" \u2192 \"European Movement International mission\" \u2192 \"European Movement International membership organization\" \u2192 \"European Movement International parent organization\"\n\nPlease provide the result!"
+      ]
+    },
+    {
+      "id": "2hop__354635_174222",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "What company succeeded the owner of Empire Sports Network?",
+      "gold_answer": "Time Warner Cable",
+      "predicted_answer": "MSG Network was succeeded by MSG+.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 845,
+      "elapsed_s": 82.47,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"History of MSG Network\"\n\n(Remember, I'll use previous results to guide next queries!)",
+        "Since the result doesn't seem to be related to the Empire Sports Network or its owner, I'll try to find more relevant information.\n\nQuery: \"MSG Network history\"",
+        "Since the results don't seem to be related to the Empire Sports Network or its owner, I'll try to find more relevant information.\n\nQuery: \"MSG Network history\" \u2192 \"MSG Network predecessor\"\n\n(Remember, I'll use previous results to guide next queries!)"
+      ]
+    },
+    {
+      "id": "2hop__635187_861533",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "What province shares a border with the province where Lago District is located?",
+      "gold_answer": "Cabo Delgado Province",
+      "predicted_answer": "Tanzania",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 677,
+      "elapsed_s": 82.94,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Queries: \"Lago District location\" \u2192 \"Lago District province\" \u2192 \"Provinces of Peru\" \u2192 \"Peru provinces that share borders\"\n\n(Note: I'll use previous results to guide next queries!)",
+        "Since the result indicates that Lago District shares a border with Tanzania, my next query would be:\n\nQUERY 2: Queries: \"Tanzania provinces\" \u2192 \"Provinces of Tanzania that share borders\" \u2192 \"Countries that share borders with Tanzania\"\n\n(Note: I'll use previous results to guide next queries!)",
+        "Since the result indicates that Lago District shares a border with Tanzania, my next query would be:\n\nQUERY 3: Queries: \"Tanzania provinces\" \u2192 \"Provinces of Tanzania that share borders\" \u2192 \"Countries that share borders with Tanzania\"\n\n(Note: I'll use previous results to guide next queries!)\n\nPlease let me know if this is correct or not."
+      ]
+    },
+    {
+      "id": "2hop__166824_185403",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "What league does the team that plays in Stadio Ciro Vigorito play for?",
+      "gold_answer": "Lega Pro Prima Divisione",
+      "predicted_answer": "Serie B",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 486,
+      "elapsed_s": 53.51,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Team playing at Stadio Ciro Vigorito league\"\n\n(Remember, I'll use previous results to guide next queries!)",
+        "\"Team playing at Stadio Ciro Vigorito name\"\n\n(Remember, I'll use previous results to guide next queries!)",
+        "\"League Benevento Calcio plays in\"\n\n(Remember, I'll use previous results to guide next queries!)"
+      ]
+    },
+    {
+      "id": "2hop__698577_851686",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "What is a notable work written by the author of The Timothy files?",
+      "gold_answer": "Anderson Tapes",
+      "predicted_answer": "The Will",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 610,
+      "elapsed_s": 66.41,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Author of The Timothy Files notable works\"\n\n(Remember, I'll use previous results to guide next queries!)",
+        "QUERY 2: \"Lawrence Sanders notable works\"",
+        "Since we've already retrieved two passages about Lawrence Sanders' notable works, including \"The Timothy Files\", I'll try to dig deeper into his bibliography. Here's my next query:\n\n\"Lawrence Sanders popular novels\"\n\nLet me know when you're ready!"
+      ]
+    },
+    {
+      "id": "2hop__362107_652514",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "In which borough was Callum McManaman born?",
+      "gold_answer": "Knowsley",
+      "predicted_answer": "Knowsley",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1136,
+      "elapsed_s": 118.67,
+      "supporting_recall": 1.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Since there is no relevant information about Callum McManaman's birthplace in the provided passages, I'll try to find more information. Here's my next query:\n\n\"Callum McManaman birthplace\"\n\nLet me know if this helps or not!",
+        "Since we have a passage that mentions Callum McManaman's birthplace, let's try to extract the relevant information. Here's my next query:\n\n\"Whiston Merseyside location\"\n\nLet me know if this helps or not!",
+        "Since we already have the relevant information about Callum McManaman's birthplace, let's move on to another question. Here's my next query:\n\n\"Whiston Merseyside location\"\n\nLet me know if this helps or not!\n\n(Note: Since Result 2 doesn't seem to be related to Whiston, Merseyside, I'll try again with a new query)\n\nNext search query: \"Merseyside boroughs\""
+      ]
+    },
+    {
+      "id": "2hop__402530_774333",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "What other county does the county where Imperial is located share a border with?",
+      "gold_answer": "Crockett County",
+      "predicted_answer": "Reeves",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 624,
+      "elapsed_s": 96.02,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Queries: \"Imperial College London location\" \u2192 \"Imperial College London location again\" \u2192 \"London boroughs surrounding Imperial College\" \u2192 \"Borough sharing border with Westminster\"\n\n(Note: I'll use previous results to guide my next query!)",
+        "Since the result didn't mention London or Westminster, it seems we're not on the right track yet. Let's try again!\n\nQUERY 2: Queries: \"Imperial College London location\" \u2192 \"London boroughs surrounding Imperial College\" \u2192 \"Borough sharing border with Westminster\" \u2192 \"Westminster neighboring borough\"\n\n(Note: I'll use previous results to guide my next query!)",
+        "It seems we're still stuck on Imperial, Texas! Let's try again with a new query:\n\nQueries: \"Imperial College London\" \u2192 \"London universities\" \u2192 \"University of London colleges\" \u2192 \"College sharing border with Westminster\"\n\n(Note: I'll use previous results to guide my next query!)"
+      ]
+    },
+    {
+      "id": "2hop__195917_575657",
+      "hop": 2,
+      "condition": "F1_verbatim",
+      "question": "In what county is William W. Blair's birthplace located?",
+      "gold_answer": "Orleans County",
+      "predicted_answer": "Orleans",
+      "em": 0.0,
+      "f1": 0.6666666666666666,
+      "tokens": 594,
+      "elapsed_s": 75.74,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Since we don't have any relevant information yet, let's start by searching for the birthplace of William W. Blair.\n\nQuery: \"William W. Blair birthplace location\"",
+        "Since we have some information about William W. Blair's birthplace, let's try to find more details about LaSalle County, Illinois where his family moved in 1839.\n\nQuery: \"LaSalle County Illinois history\"\n\nPlease provide the next passage or result!",
+        "Since we have some information about LaSalle County, Illinois, let's try to find more details about the county where William W. Blair's birthplace is located.\n\nQuery: \"Holley New York location\"\n\nPlease provide the next passage or result!"
+      ]
+    },
+    {
+      "id": "3hop1__454441_55349_651302",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "What is the birthplace of the man who does the voice of Stan on the series that includes the episode The Hobbit?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Eddie Kaye Thomas",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2790,
+      "elapsed_s": 218.36,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Voice actor Stan American Dad\"\n\n(Note: I'll wait for your response before proceeding with the next query.)",
+        "Since we're looking for the birthplace of the voice actor who does Stan on American Dad!, my next query would be:\n\n\"Voice actor Stan American Dad birthplace\"\n\nPlease let me know when you're ready to proceed!",
+        "It seems like we're stuck in an infinite loop!\n\nSince the results for both queries 1 and 2 are identical lists of American Dad! characters, it's clear that we need to re-approach this question.\n\nLet's try again with a new query:\n\n\"Voice actor Stan American Dad name\"\n\nPlease let me know when you're ready to proceed!"
+      ]
+    },
+    {
+      "id": "3hop1__145290_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 913,
+      "elapsed_s": 99.88,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission on Truth and Friendship Indonesia\"",
+        "Since we're looking for the president of the new country (East Timor) who has jointly established a Commission on Truth and Friendship with Indonesia, my next search query would be:\n\n\"President East Timor Commission Truth Friendship\"\n\nLet me know when you're ready to proceed!",
+        "Since we're still looking for the president of East Timor who has jointly established a Commission on Truth and Friendship with Indonesia, my next search query would be:\n\n\"President East Timor Susilo Bambang Yudhoyono\"\n\nLet me know when you're ready to proceed!"
+      ]
+    },
+    {
+      "id": "3hop1__105767_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the commission of truth and friendship with the country that eats Kemplang?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 903,
+      "elapsed_s": 96.49,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Country eating Kemplang commission of truth\"",
+        "Since we're looking for a president, let's try to find out who the presidents are of the countries mentioned in the passage. Here's my next query:\n\n\"Presidents of Indonesia and East Timor\"\n\nPlease provide the result!",
+        "Since we're looking for a president, let's try to find out who the presidents are of the countries mentioned in the passage. Here's my next query:\n\n\"Presidents of Indonesia and East Timor\"\n\nPlease provide the result!\n\n(Note: I'll wait for your response before proceeding with the next query.)"
+      ]
+    },
+    {
+      "id": "3hop1__105126_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country where Gado-gado is found?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1928,
+      "elapsed_s": 158.02,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship Indonesia\"",
+        "QUERY 2: Search query: \"Indonesian President Susilo Bambang Yudhoyono\"\n\nPlease provide the result!",
+        "Based on the results, I can see that East Timor is an independent country with a president and a prime minister. Since we're looking for the president of the newly declared independent country part of the Commission of Truth and Friendship with Indonesia, my next search query would be:\n\n\"President of East Timor\"\n\nPlease provide the result!"
+      ]
+    },
+    {
+      "id": "3hop1__103881_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country that Tony Gunawan is from?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 958,
+      "elapsed_s": 102.79,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Commission of Truth and Friendship member countries\"\n\n(Note: I'll wait for your response before proceeding with the next query.)",
+        "Since we have a passage mentioning the presidents of both nations, I'll try to find more information about one of them. Here's my next query:\n\n\"Indonesian President Susilo Bambang Yudhoyono\"\n\nPlease wait for the response before proceeding with the next query!",
+        "Since we have a passage mentioning Indonesian President Susilo Bambang Yudhoyono, I'll try to find more information about him. Here's my next query:\n\n\"Indonesian President Susilo Bambang Yudhoyono successor\"\n\nPlease wait for the response before proceeding with the next query!"
+      ]
+    },
+    {
+      "id": "3hop1__106094_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country that made Arisan!??",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1796,
+      "elapsed_s": 146.87,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship country\"",
+        "QUERY 2: Search query: \"East Timorese independence referendum country\"\n\n(Note: I'll wait for your response before proceeding with the next query.)",
+        "Based on the results, I can see that East Timor is an independent country with a Commission of Truth and Friendship established jointly with Indonesia. Since Arisan is not mentioned in the passage, I will assume it's a reference to a specific event or issue related to East Timor.\n\nTo proceed, my next query would be:\n\nSearch query: \"East Timorese president\"\n\nPlease provide the result!"
+      ]
+    },
+    {
+      "id": "3hop1__145212_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Arie Supriyatna's birth country was one participant in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 956,
+      "elapsed_s": 102.89,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship countries\"",
+        "Since we have a passage that mentions the Commission of Truth and Friendship between Indonesia and East Timor, our next query can focus on finding the president of East Timor. Here's a possible query:\n\n\"East Timor president 2005\"\n\nLet me know when you're ready for me to execute this query!",
+        "Based on the passage about the Commission of Truth and Friendship between Indonesia and East Timor, our next query can focus on finding the president of East Timor. Here's a possible query:\n\n\"East Timor president 2005\"\n\nLet me know when you're ready for me to execute this query!\n\nPlease go ahead and execute the query!"
+      ]
+    },
+    {
+      "id": "3hop1__144678_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "The Commission of Truth and Friendship established governments for Bustami's birth country and a second country that had who as president after declaring independence?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1423,
+      "elapsed_s": 115.76,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship countries\"",
+        "Search query: \"East Timor president after independence\"",
+        "Based on the results, I can see that East Timor declared independence and had Xanana Gusm\u00e3o as its president after declaring independence. Therefore, my next search query would be:\n\nSearch query: \"East Timor president after independence\"\n\nPlease let me know if this is correct or not!"
+      ]
+    },
+    {
+      "id": "3hop1__103662_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with Radiansyah's birth country?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 806,
+      "elapsed_s": 99.13,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship country\"",
+        "QUERY 2: Search query: \"Indonesian President Susilo Bambang Yudhoyono\"\n\n(Note: I'll wait for your response before proceeding with the next query.)",
+        "Since we have a passage mentioning Indonesian President Susilo Bambang Yudhoyono, let's try to find the president of East Timor. Here's my next query:\n\nSearch query: \"East Timor President\"\n\nPlease provide the result!"
+      ]
+    },
+    {
+      "id": "3hop1__144439_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "who is the president of newly declared independent country of the country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2053,
+      "elapsed_s": 242.53,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Since we're searching for information about Timor-Leste, I'll start by querying for passages related to the country's history or government. Here's my next query:\n\n\"East Timorese independence commission\"\n\nPlease let me know if this query retrieves a relevant passage!",
+        "Based on the passage retrieved, it seems that we're dealing with information about Timor-Leste's government and history. Since our original question is asking about a commission related to Mulham Arufin, I'll try to find more information about commissions or truth and friendship in Timor-Leste.\n\nHere's my next query:\n\n\"Timor Leste Commission of Truth\"\n\nPlease let me know if this query retrieves a relevant passage!",
+        "Based on the passage retrieved, it seems that we're dealing with information about Timor-Leste's government and history, specifically related to a commission of truth and friendship. Since our original question is asking about the president of an independent country, I'll try to find more information about the current or past presidents of Timor-Leste.\n\nHere's my next query:\n\n\"President of East Timor\"\n\nPlease let me know if this query retrieves a relevant passage!"
+      ]
+    },
+    {
+      "id": "3hop1__103440_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1981,
+      "elapsed_s": 211.62,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship countries\"",
+        "QUERY 2: Search query: \"Indonesian President Susilo Bambang Yudhoyono\"\n\n(Note: I'll wait for your response before proceeding with the next query.)",
+        "Since we have enough information to answer the question, I'll reply with \"DONE\".\n\nHowever, if you'd like me to continue searching for more information or answering follow-up questions, please let me know!"
+      ]
+    },
+    {
+      "id": "3hop1__145411_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 832,
+      "elapsed_s": 118.86,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship member countries\"",
+        "QUERY 2: Search query: \"Indonesian President Susilo Bambang Yudhoyono\"\n\n(Note: I'll wait for your response before proceeding with the next query.)",
+        "Since we're still trying to find the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born, I'll try to get more information about East Timor.\n\nQUERY 3: Search query: \"East Timor President\"\n\n(Note: I'll wait for your response before proceeding with the next query.)"
+      ]
+    },
+    {
+      "id": "3hop1__106313_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Opor originated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 970,
+      "elapsed_s": 113.18,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship country\"",
+        "QUERY 2: Search query: \"Indonesian President Susilo Bambang Yudhoyono\"\n\n(Note: I'll wait for your response before proceeding with the next query.)",
+        "Since we've already retrieved two passages related to the Commission of Truth and Friendship, let's try to find more information about the country where Opor originated. Here's a new query:\n\nSearch query: \"Opor origin country\"\n\nPlease wait for the result!"
+      ]
+    },
+    {
+      "id": "3hop1__654651_55349_651302",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "What is the place of birth of who does the voice of stan on the series that Insecurity is part of?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Stephen Russell.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1158,
+      "elapsed_s": 146.86,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Since we're searching for information about the voice actor of Stan, let's try to find more context. Here's a query:\n\n\"Stan American Dad voice actor\"\n\nPlease wait for the response before proceeding with the next query!",
+        "Since we've found the voice actor of Stan, let's try to find more information about him. Here's a query:\n\n\"Stephen Russell birthplace\"\n\nPlease wait for the response before proceeding with the next query!",
+        "Since we've found that Stephen Russell is not the voice actor of Stan, let's try to find more information about the actual voice actor. Here's a query:\n\n\"American Dad voice actor Stan\"\n\nPlease wait for the response before proceeding with the next query!"
+      ]
+    },
+    {
+      "id": "3hop1__106900_443779_52195",
+      "hop": 3,
+      "condition": "F1_verbatim",
+      "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 892,
+      "elapsed_s": 122.5,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Search query: \"Commission of Truth and Friendship Brazil\"",
+        "Since we're looking for a country that jointly established a Commission of Truth and Friendship with East Timor, our next query could be:\n\n\"Country that jointly established Commission of Truth and Friendship with East Timor\"\n\nPlease let me know when you're ready!",
+        "Since we're looking for a country that jointly established a Commission of Truth and Friendship with East Timor, our next query could be:\n\n\"Country that jointly established Commission of Truth and Friendship with Indonesia\"\n\nPlease let me know when you're ready!"
+      ]
+    }
+  ],
+  "summary": {
+    "num": 30,
+    "exact_match": 0.16666666666666666,
+    "f1": 0.2517460317460317,
+    "mean_tokens": 1177.2,
+    "mean_supporting_recall": 0.45555555555555555,
+    "mean_dfs_score": 0.9666666666666667,
+    "mean_num_queries": 3.0
+  }
+}

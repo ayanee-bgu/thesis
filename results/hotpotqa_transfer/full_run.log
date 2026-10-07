@@ -1,0 +1,187 @@
+2026-07-22 23:57:57,192 INFO Loading HotpotQA dataset...
+2026-07-22 23:57:59,312 INFO HTTP Request: HEAD https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-22 23:57:59,329 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/hotpotqa/hotpot_qa/1908d6afbbead072334abe2965f91bd2709910ab/README.md "HTTP/1.1 200 OK"
+2026-07-22 23:57:59,497 INFO HTTP Request: HEAD https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/1908d6afbbead072334abe2965f91bd2709910ab/hotpot_qa.py "HTTP/1.1 404 Not Found"
+2026-07-22 23:57:59,999 INFO HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/hotpotqa/hotpot_qa/hotpotqa/hotpot_qa.py "HTTP/1.1 404 Not Found"
+2026-07-22 23:58:00,178 INFO HTTP Request: GET https://huggingface.co/api/datasets/hotpotqa/hotpot_qa/revision/1908d6afbbead072334abe2965f91bd2709910ab "HTTP/1.1 200 OK"
+2026-07-22 23:58:00,346 INFO HTTP Request: HEAD https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/1908d6afbbead072334abe2965f91bd2709910ab/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-07-22 23:58:00,565 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=hotpotqa/hotpot_qa "HTTP/1.1 200 OK"
+2026-07-22 23:58:00,741 INFO HTTP Request: GET https://huggingface.co/api/datasets/hotpotqa/hotpot_qa/tree/1908d6afbbead072334abe2965f91bd2709910ab/distractor?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-22 23:58:00,907 INFO HTTP Request: GET https://huggingface.co/api/datasets/hotpotqa/hotpot_qa/tree/1908d6afbbead072334abe2965f91bd2709910ab?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-07-22 23:58:01,082 INFO HTTP Request: HEAD https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/1908d6afbbead072334abe2965f91bd2709910ab/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-07-22 23:58:01,104 INFO [dataset] Loaded 7405 rows from hotpotqa/hotpot_qa
+2026-07-22 23:58:01,115 INFO [dataset] type=bridge: 30 examples selected
+2026-07-22 23:58:01,126 INFO [dataset] type=comparison: 30 examples selected
+2026-07-22 23:58:08,481 INFO [warmup] Model ready (7.4s)
+2026-07-22 23:58:08,481 INFO 
+──────────────────────────────────────────────────
+Condition: no_context
+──────────────────────────────────────────────────
+2026-07-22 23:58:14,830 INFO [no_context/bridge] 5a8c7595554299585d9e36b6: em=0 f1=0.00 tok=89 recall=0.00 s=6.3
+2026-07-22 23:58:19,191 INFO [no_context/bridge] 5a85ea095542994775f606a8: em=0 f1=0.00 tok=40 recall=0.00 s=4.4
+2026-07-22 23:58:23,250 INFO [no_context/bridge] 5a8e3ea95542995a26add48d: em=0 f1=0.00 tok=31 recall=0.00 s=4.1
+2026-07-22 23:58:27,039 INFO [no_context/bridge] 5abd94525542992ac4f382d2: em=0 f1=0.50 tok=31 recall=0.00 s=3.8
+2026-07-22 23:58:31,229 INFO [no_context/bridge] 5a85b2d95542997b5ce40028: em=0 f1=0.00 tok=30 recall=0.00 s=4.2
+2026-07-22 23:58:37,409 INFO [no_context/bridge] 5a87ab905542996e4f3088c1: em=0 f1=0.00 tok=40 recall=0.00 s=6.2
+2026-07-22 23:58:41,904 INFO [no_context/bridge] 5a7bbb64554299042af8f7cc: em=0 f1=0.00 tok=24 recall=0.00 s=4.5
+2026-07-22 23:58:46,938 INFO [no_context/bridge] 5a7166395542994082a3e814: em=0 f1=0.00 tok=44 recall=0.00 s=5.0
+2026-07-22 23:58:51,312 INFO [no_context/bridge] 5a877e5d5542993e715abf7d: em=0 f1=0.50 tok=35 recall=0.00 s=4.4
+2026-07-22 23:58:56,285 INFO [no_context/bridge] 5ab3b0bf5542992ade7c6e39: em=0 f1=0.00 tok=40 recall=0.00 s=5.0
+2026-07-22 23:59:01,341 INFO [no_context/bridge] 5ab6d09255429954757d337d: em=0 f1=0.00 tok=31 recall=0.00 s=5.1
+2026-07-22 23:59:05,108 INFO [no_context/bridge] 5a75e05c55429976ec32bc5f: em=0 f1=0.00 tok=27 recall=0.00 s=3.8
+2026-07-22 23:59:09,389 INFO [no_context/bridge] 5ab3e45655429976abd1bcd4: em=0 f1=0.00 tok=40 recall=0.00 s=4.3
+2026-07-22 23:59:14,064 INFO [no_context/bridge] 5ae0d4c9554299603e418468: em=0 f1=0.00 tok=39 recall=0.00 s=4.7
+2026-07-22 23:59:18,685 INFO [no_context/bridge] 5ae7a8175542993210983ed8: em=0 f1=0.00 tok=36 recall=0.00 s=4.6
+2026-07-22 23:59:22,374 INFO [no_context/bridge] 5ae6050f55429929b0807a5e: em=0 f1=0.00 tok=25 recall=0.00 s=3.7
+2026-07-22 23:59:26,406 INFO [no_context/bridge] 5adddccd5542997dc7907069: em=0 f1=0.00 tok=32 recall=0.00 s=4.0
+2026-07-22 23:59:31,114 INFO [no_context/bridge] 5ae22b8d554299234fd0440f: em=0 f1=0.00 tok=36 recall=0.00 s=4.7
+2026-07-22 23:59:35,908 INFO [no_context/bridge] 5a722b8655429971e9dc9329: em=0 f1=0.00 tok=36 recall=0.00 s=4.8
+2026-07-22 23:59:40,493 INFO [no_context/bridge] 5adf37a95542995ec70e8f97: em=1 f1=1.00 tok=45 recall=0.00 s=4.6
+2026-07-22 23:59:44,988 INFO [no_context/bridge] 5a828c8355429966c78a6a50: em=1 f1=1.00 tok=34 recall=0.00 s=4.5
+2026-07-22 23:59:49,075 INFO [no_context/bridge] 5a8a3e745542996c9b8d5e70: em=0 f1=0.00 tok=35 recall=0.00 s=4.1
+2026-07-22 23:59:52,754 INFO [no_context/bridge] 5ac23ff0554299636651994d: em=0 f1=0.00 tok=25 recall=0.00 s=3.7
+2026-07-22 23:59:56,743 INFO [no_context/bridge] 5ae0361155429925eb1afc2c: em=0 f1=0.50 tok=26 recall=0.00 s=4.0
+2026-07-23 00:00:01,366 INFO [no_context/bridge] 5abf63f15542997ec76fd3ea: em=0 f1=0.50 tok=35 recall=0.00 s=4.6
+2026-07-23 00:00:05,475 INFO [no_context/bridge] 5a8ef2a75542995a26add583: em=0 f1=0.00 tok=30 recall=0.00 s=4.1
+2026-07-23 00:00:09,814 INFO [no_context/bridge] 5a80721b554299485f5985ef: em=1 f1=1.00 tok=33 recall=0.00 s=4.3
+2026-07-23 00:00:13,486 INFO [no_context/bridge] 5a7571135542992d0ec05f98: em=0 f1=0.00 tok=27 recall=0.00 s=3.7
+2026-07-23 00:00:17,116 INFO [no_context/bridge] 5a74106b55429979e288289e: em=0 f1=0.00 tok=27 recall=0.00 s=3.6
+2026-07-23 00:00:21,547 INFO [no_context/bridge] 5a79311755429970f5fffe67: em=0 f1=0.00 tok=41 recall=0.00 s=4.4
+2026-07-23 00:00:25,011 INFO [no_context/comparison] 5a8b57f25542995d1e6f1371: em=0 f1=0.00 tok=21 recall=0.00 s=3.5
+2026-07-23 00:00:28,681 INFO [no_context/comparison] 5adbf0a255429947ff17385a: em=0 f1=0.00 tok=27 recall=0.00 s=3.7
+2026-07-23 00:00:32,108 INFO [no_context/comparison] 5a8db19d5542994ba4e3dd00: em=1 f1=1.00 tok=20 recall=0.00 s=3.4
+2026-07-23 00:00:36,520 INFO [no_context/comparison] 5ab56e32554299637185c594: em=0 f1=0.00 tok=29 recall=0.00 s=4.4
+2026-07-23 00:00:39,886 INFO [no_context/comparison] 5ab29c24554299449642c932: em=1 f1=1.00 tok=22 recall=0.00 s=3.4
+2026-07-23 00:00:44,389 INFO [no_context/comparison] 5a8133725542995ce29dcbdb: em=0 f1=0.86 tok=30 recall=0.00 s=4.5
+2026-07-23 00:00:48,913 INFO [no_context/comparison] 5ae2070a5542994d89d5b313: em=1 f1=1.00 tok=33 recall=0.00 s=4.5
+2026-07-23 00:00:52,549 INFO [no_context/comparison] 5abd259d55429924427fcf1a: em=1 f1=1.00 tok=26 recall=0.00 s=3.6
+2026-07-23 00:00:56,325 INFO [no_context/comparison] 5ae4a3265542995ad6573de5: em=0 f1=0.00 tok=27 recall=0.00 s=3.8
+2026-07-23 00:01:00,006 INFO [no_context/comparison] 5abc0a5d5542993f40c73c64: em=1 f1=1.00 tok=25 recall=0.00 s=3.7
+2026-07-23 00:01:04,062 INFO [no_context/comparison] 5a7cc50e554299452d57ba3e: em=1 f1=1.00 tok=28 recall=0.00 s=4.1
+2026-07-23 00:01:07,574 INFO [no_context/comparison] 5ab51dae5542991779162d82: em=1 f1=1.00 tok=26 recall=0.00 s=3.5
+2026-07-23 00:01:11,818 INFO [no_context/comparison] 5a7a0e1e5542990783324e1a: em=0 f1=0.00 tok=34 recall=0.00 s=4.2
+2026-07-23 00:01:15,098 INFO [no_context/comparison] 5a8e068b5542995085b37384: em=1 f1=1.00 tok=21 recall=0.00 s=3.3
+2026-07-23 00:01:18,308 INFO [no_context/comparison] 5adc53f75542996e6852530a: em=0 f1=0.00 tok=16 recall=0.00 s=3.2
+2026-07-23 00:01:21,743 INFO [no_context/comparison] 5a7be2595542997c3ec972ac: em=0 f1=0.00 tok=22 recall=0.00 s=3.4
+2026-07-23 00:01:25,501 INFO [no_context/comparison] 5a7759fc5542993569682d60: em=0 f1=0.80 tok=26 recall=0.00 s=3.8
+2026-07-23 00:01:29,165 INFO [no_context/comparison] 5aba749055429901930fa7d8: em=0 f1=0.00 tok=25 recall=0.00 s=3.7
+2026-07-23 00:01:32,496 INFO [no_context/comparison] 5ae224da554299234fd043ee: em=0 f1=0.00 tok=23 recall=0.00 s=3.3
+2026-07-23 00:01:36,291 INFO [no_context/comparison] 5ac1b8ee5542994d76dccedc: em=0 f1=0.00 tok=28 recall=0.00 s=3.8
+2026-07-23 00:01:39,555 INFO [no_context/comparison] 5a84c4135542994c784dda31: em=1 f1=1.00 tok=21 recall=0.00 s=3.3
+2026-07-23 00:01:43,513 INFO [no_context/comparison] 5a7a455c5542994f819ef1a7: em=1 f1=1.00 tok=26 recall=0.00 s=4.0
+2026-07-23 00:01:46,827 INFO [no_context/comparison] 5add11935542994734353827: em=1 f1=1.00 tok=23 recall=0.00 s=3.3
+2026-07-23 00:01:50,171 INFO [no_context/comparison] 5a8c5569554299240d9c2126: em=1 f1=1.00 tok=20 recall=0.00 s=3.3
+2026-07-23 00:01:54,541 INFO [no_context/comparison] 5a8574945542997b5ce3fffb: em=0 f1=0.00 tok=40 recall=0.00 s=4.4
+2026-07-23 00:01:58,038 INFO [no_context/comparison] 5a7332935542991f9a20c67d: em=0 f1=0.00 tok=24 recall=0.00 s=3.5
+2026-07-23 00:02:01,751 INFO [no_context/comparison] 5ac2d1d755429921a00ab053: em=1 f1=1.00 tok=26 recall=0.00 s=3.7
+2026-07-23 00:02:05,733 INFO [no_context/comparison] 5ac298f9554299657fa28fc9: em=0 f1=0.12 tok=37 recall=0.00 s=4.0
+2026-07-23 00:02:09,131 INFO [no_context/comparison] 5a88d745554299206df2b378: em=0 f1=0.67 tok=23 recall=0.00 s=3.4
+2026-07-23 00:02:12,549 INFO [no_context/comparison] 5ab642845542995eadeeff8e: em=1 f1=1.00 tok=24 recall=0.00 s=3.4
+2026-07-23 00:02:12,551 INFO 
+──────────────────────────────────────────────────
+Condition: full_context
+──────────────────────────────────────────────────
+2026-07-23 00:03:14,716 INFO [full_context/bridge] 5a8c7595554299585d9e36b6: em=0 f1=0.00 tok=1325 recall=1.00 s=62.2
+2026-07-23 00:04:32,723 INFO [full_context/bridge] 5a85ea095542994775f606a8: em=0 f1=0.67 tok=1554 recall=1.00 s=78.0
+2026-07-23 00:05:38,884 INFO [full_context/bridge] 5a8e3ea95542995a26add48d: em=0 f1=0.57 tok=1328 recall=1.00 s=66.2
+2026-07-23 00:06:46,952 INFO [full_context/bridge] 5abd94525542992ac4f382d2: em=1 f1=1.00 tok=1348 recall=1.00 s=68.1
+2026-07-23 00:08:25,453 INFO [full_context/bridge] 5a85b2d95542997b5ce40028: em=0 f1=0.80 tok=1867 recall=1.00 s=98.5
+2026-07-23 00:11:04,510 INFO [full_context/bridge] 5a87ab905542996e4f3088c1: em=0 f1=0.00 tok=2933 recall=1.00 s=159.1
+2026-07-23 00:12:17,768 INFO [full_context/bridge] 5a7bbb64554299042af8f7cc: em=0 f1=0.21 tok=1347 recall=1.00 s=73.3
+2026-07-23 00:13:48,820 INFO [full_context/bridge] 5a7166395542994082a3e814: em=0 f1=0.57 tok=1699 recall=1.00 s=91.0
+2026-07-23 00:14:54,963 INFO [full_context/bridge] 5a877e5d5542993e715abf7d: em=1 f1=1.00 tok=1256 recall=1.00 s=66.1
+2026-07-23 00:16:14,762 INFO [full_context/bridge] 5ab3b0bf5542992ade7c6e39: em=1 f1=1.00 tok=1506 recall=1.00 s=79.8
+2026-07-23 00:17:05,700 INFO [full_context/bridge] 5ab6d09255429954757d337d: em=0 f1=0.00 tok=964 recall=1.00 s=50.9
+2026-07-23 00:18:33,152 INFO [full_context/bridge] 5a75e05c55429976ec32bc5f: em=0 f1=0.00 tok=1575 recall=1.00 s=87.5
+2026-07-23 00:19:44,487 INFO [full_context/bridge] 5ab3e45655429976abd1bcd4: em=1 f1=1.00 tok=1313 recall=1.00 s=71.3
+2026-07-23 00:21:12,948 INFO [full_context/bridge] 5ae0d4c9554299603e418468: em=0 f1=0.00 tok=1665 recall=1.00 s=88.5
+2026-07-23 00:22:18,842 INFO [full_context/bridge] 5ae7a8175542993210983ed8: em=1 f1=1.00 tok=1240 recall=1.00 s=65.9
+2026-07-23 00:23:41,932 INFO [full_context/bridge] 5ae6050f55429929b0807a5e: em=0 f1=0.00 tok=1563 recall=1.00 s=83.1
+2026-07-23 00:25:15,072 INFO [full_context/bridge] 5adddccd5542997dc7907069: em=1 f1=1.00 tok=1744 recall=1.00 s=93.1
+2026-07-23 00:26:22,131 INFO [full_context/bridge] 5ae22b8d554299234fd0440f: em=0 f1=0.00 tok=1250 recall=1.00 s=67.1
+2026-07-23 00:27:26,150 INFO [full_context/bridge] 5a722b8655429971e9dc9329: em=0 f1=0.31 tok=1155 recall=1.00 s=64.0
+2026-07-23 00:29:01,567 INFO [full_context/bridge] 5adf37a95542995ec70e8f97: em=1 f1=1.00 tok=1789 recall=1.00 s=95.4
+2026-07-23 00:30:07,455 INFO [full_context/bridge] 5a828c8355429966c78a6a50: em=1 f1=1.00 tok=1236 recall=1.00 s=65.9
+2026-07-23 00:31:11,913 INFO [full_context/bridge] 5a8a3e745542996c9b8d5e70: em=1 f1=1.00 tok=1219 recall=1.00 s=64.5
+2026-07-23 00:32:28,313 INFO [full_context/bridge] 5ac23ff0554299636651994d: em=1 f1=1.00 tok=1422 recall=1.00 s=76.4
+2026-07-23 00:33:37,340 INFO [full_context/bridge] 5ae0361155429925eb1afc2c: em=0 f1=0.29 tok=1278 recall=1.00 s=69.0
+2026-07-23 00:35:18,817 INFO [full_context/bridge] 5abf63f15542997ec76fd3ea: em=0 f1=0.00 tok=1898 recall=1.00 s=101.5
+2026-07-23 00:36:28,387 INFO [full_context/bridge] 5a8ef2a75542995a26add583: em=1 f1=1.00 tok=1301 recall=1.00 s=69.6
+2026-07-23 00:37:23,389 INFO [full_context/bridge] 5a80721b554299485f5985ef: em=0 f1=0.60 tok=1026 recall=1.00 s=55.0
+2026-07-23 00:38:35,860 INFO [full_context/bridge] 5a7571135542992d0ec05f98: em=1 f1=1.00 tok=1352 recall=1.00 s=72.5
+2026-07-23 00:39:44,825 INFO [full_context/bridge] 5a74106b55429979e288289e: em=0 f1=0.67 tok=1230 recall=1.00 s=69.0
+2026-07-23 00:41:21,068 INFO [full_context/bridge] 5a79311755429970f5fffe67: em=1 f1=1.00 tok=1797 recall=1.00 s=96.2
+2026-07-23 00:42:22,862 INFO [full_context/comparison] 5a8b57f25542995d1e6f1371: em=0 f1=0.00 tok=1168 recall=1.00 s=61.8
+2026-07-23 00:43:16,387 INFO [full_context/comparison] 5adbf0a255429947ff17385a: em=0 f1=0.00 tok=1003 recall=1.00 s=53.5
+2026-07-23 00:44:28,358 INFO [full_context/comparison] 5a8db19d5542994ba4e3dd00: em=1 f1=1.00 tok=1362 recall=1.00 s=72.0
+2026-07-23 00:47:12,475 INFO [full_context/comparison] 5ab56e32554299637185c594: em=0 f1=0.04 tok=2765 recall=1.00 s=164.1
+2026-07-23 00:48:26,088 INFO [full_context/comparison] 5ab29c24554299449642c932: em=1 f1=1.00 tok=1379 recall=1.00 s=73.6
+2026-07-23 00:49:17,888 INFO [full_context/comparison] 5a8133725542995ce29dcbdb: em=0 f1=0.86 tok=970 recall=1.00 s=51.8
+2026-07-23 00:50:15,331 INFO [full_context/comparison] 5ae2070a5542994d89d5b313: em=1 f1=1.00 tok=1064 recall=1.00 s=57.4
+2026-07-23 00:50:36,709 INFO [full_context/comparison] 5abd259d55429924427fcf1a: em=1 f1=1.00 tok=389 recall=1.00 s=21.4
+2026-07-23 00:51:39,148 INFO [full_context/comparison] 5ae4a3265542995ad6573de5: em=1 f1=1.00 tok=1176 recall=1.00 s=62.4
+2026-07-23 00:53:13,964 INFO [full_context/comparison] 5abc0a5d5542993f40c73c64: em=0 f1=0.15 tok=1704 recall=1.00 s=94.8
+2026-07-23 00:54:31,547 INFO [full_context/comparison] 5a7cc50e554299452d57ba3e: em=1 f1=1.00 tok=1449 recall=1.00 s=77.6
+2026-07-23 00:55:57,783 INFO [full_context/comparison] 5ab51dae5542991779162d82: em=0 f1=0.06 tok=1495 recall=1.00 s=86.2
+2026-07-23 00:57:30,137 INFO [full_context/comparison] 5a7a0e1e5542990783324e1a: em=1 f1=1.00 tok=1718 recall=1.00 s=92.3
+2026-07-23 00:58:43,055 INFO [full_context/comparison] 5a8e068b5542995085b37384: em=1 f1=1.00 tok=1373 recall=1.00 s=72.9
+2026-07-23 00:59:38,248 INFO [full_context/comparison] 5adc53f75542996e6852530a: em=1 f1=1.00 tok=1044 recall=1.00 s=55.2
+2026-07-23 01:00:41,975 INFO [full_context/comparison] 5a7be2595542997c3ec972ac: em=0 f1=0.24 tok=1148 recall=1.00 s=63.7
+2026-07-23 01:01:47,625 INFO [full_context/comparison] 5a7759fc5542993569682d60: em=0 f1=0.35 tok=1177 recall=1.00 s=65.7
+2026-07-23 01:02:31,362 INFO [full_context/comparison] 5aba749055429901930fa7d8: em=0 f1=0.67 tok=825 recall=1.00 s=43.7
+2026-07-23 01:03:30,327 INFO [full_context/comparison] 5ae224da554299234fd043ee: em=1 f1=1.00 tok=1097 recall=1.00 s=59.0
+2026-07-23 01:05:16,475 INFO [full_context/comparison] 5ac1b8ee5542994d76dccedc: em=0 f1=0.50 tok=1954 recall=1.00 s=106.2
+2026-07-23 01:05:52,595 INFO [full_context/comparison] 5a84c4135542994c784dda31: em=1 f1=1.00 tok=673 recall=1.00 s=36.1
+2026-07-23 01:06:54,559 INFO [full_context/comparison] 5a7a455c5542994f819ef1a7: em=0 f1=0.31 tok=1096 recall=1.00 s=62.0
+2026-07-23 01:07:56,712 INFO [full_context/comparison] 5add11935542994734353827: em=0 f1=0.25 tok=1115 recall=1.00 s=62.1
+2026-07-23 01:08:59,808 INFO [full_context/comparison] 5a8c5569554299240d9c2126: em=1 f1=1.00 tok=1192 recall=1.00 s=63.1
+2026-07-23 01:09:53,805 INFO [full_context/comparison] 5a8574945542997b5ce3fffb: em=1 f1=1.00 tok=992 recall=1.00 s=54.0
+2026-07-23 01:11:10,507 INFO [full_context/comparison] 5a7332935542991f9a20c67d: em=0 f1=0.40 tok=1398 recall=1.00 s=76.7
+2026-07-23 01:12:27,311 INFO [full_context/comparison] 5ac2d1d755429921a00ab053: em=0 f1=0.10 tok=1364 recall=1.00 s=76.8
+2026-07-23 01:13:24,653 INFO [full_context/comparison] 5ac298f9554299657fa28fc9: em=0 f1=0.12 tok=1072 recall=1.00 s=57.3
+2026-07-23 01:14:13,815 INFO [full_context/comparison] 5a88d745554299206df2b378: em=0 f1=0.00 tok=913 recall=1.00 s=49.2
+2026-07-23 01:15:10,517 INFO [full_context/comparison] 5ab642845542995eadeeff8e: em=1 f1=1.00 tok=1058 recall=1.00 s=56.7
+2026-07-23 01:15:10,519 INFO 
+──────────────────────────────────────────────────
+Condition: summary_doc
+──────────────────────────────────────────────────
+2026-07-23 01:17:27,945 INFO [summary_doc/bridge] 5a8c7595554299585d9e36b6: em=0 f1=0.00 tok=1861 recall=1.00 s=137.4
+2026-07-23 01:20:20,214 INFO [summary_doc/bridge] 5a85ea095542994775f606a8: em=1 f1=1.00 tok=2245 recall=1.00 s=172.3
+2026-07-23 01:23:19,938 INFO [summary_doc/bridge] 5a8e3ea95542995a26add48d: em=0 f1=0.57 tok=2202 recall=1.00 s=179.7
+2026-07-23 01:26:08,152 INFO [summary_doc/bridge] 5abd94525542992ac4f382d2: em=1 f1=1.00 tok=2120 recall=1.00 s=168.2
+2026-07-23 01:29:48,413 INFO [summary_doc/bridge] 5a85b2d95542997b5ce40028: em=0 f1=0.80 tok=2745 recall=1.00 s=220.3
+2026-07-23 01:34:50,465 WARNING LLM call failed (attempt 1/3): HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300). Retrying in 15s...
+2026-07-23 01:37:53,221 INFO [summary_doc/bridge] 5a87ab905542996e4f3088c1: em=0 f1=0.00 tok=1024 recall=1.00 s=484.8
+2026-07-23 01:40:36,331 INFO [summary_doc/bridge] 5a7bbb64554299042af8f7cc: em=0 f1=0.00 tok=2056 recall=1.00 s=163.1
+2026-07-23 01:43:30,494 INFO [summary_doc/bridge] 5a7166395542994082a3e814: em=0 f1=0.00 tok=2341 recall=1.00 s=174.2
+2026-07-23 01:45:53,423 INFO [summary_doc/bridge] 5a877e5d5542993e715abf7d: em=1 f1=1.00 tok=1871 recall=1.00 s=142.9
+2026-07-23 01:49:10,362 INFO [summary_doc/bridge] 5ab3b0bf5542992ade7c6e39: em=1 f1=1.00 tok=2408 recall=1.00 s=196.9
+2026-07-23 01:51:26,315 INFO [summary_doc/bridge] 5ab6d09255429954757d337d: em=0 f1=0.00 tok=1670 recall=1.00 s=135.9
+2026-07-23 01:54:31,820 INFO [summary_doc/bridge] 5a75e05c55429976ec32bc5f: em=0 f1=0.00 tok=2348 recall=1.00 s=185.5
+2026-07-23 01:57:17,357 INFO [summary_doc/bridge] 5ab3e45655429976abd1bcd4: em=0 f1=0.33 tok=2077 recall=1.00 s=165.5
+2026-07-23 02:00:05,780 INFO [summary_doc/bridge] 5ae0d4c9554299603e418468: em=0 f1=0.00 tok=2291 recall=1.00 s=168.4
+2026-07-23 02:03:05,771 INFO [summary_doc/bridge] 5ae7a8175542993210983ed8: em=1 f1=1.00 tok=2142 recall=1.00 s=180.0
+2026-07-23 02:06:13,657 INFO [summary_doc/bridge] 5ae6050f55429929b0807a5e: em=0 f1=0.00 tok=2359 recall=1.00 s=187.9
+2026-07-23 02:09:12,669 INFO [summary_doc/bridge] 5adddccd5542997dc7907069: em=0 f1=0.00 tok=2388 recall=1.00 s=179.0
+2026-07-23 02:11:40,819 INFO [summary_doc/bridge] 5ae22b8d554299234fd0440f: em=1 f1=1.00 tok=1913 recall=1.00 s=148.2
+2026-07-23 02:13:55,324 INFO [summary_doc/bridge] 5a722b8655429971e9dc9329: em=0 f1=0.00 tok=1752 recall=1.00 s=134.5
+2026-07-23 02:16:33,019 INFO [summary_doc/bridge] 5adf37a95542995ec70e8f97: em=1 f1=1.00 tok=2279 recall=1.00 s=157.7
+2026-07-23 02:19:15,369 INFO [summary_doc/bridge] 5a828c8355429966c78a6a50: em=1 f1=1.00 tok=1988 recall=1.00 s=162.3
+2026-07-23 02:21:51,194 INFO [summary_doc/bridge] 5a8a3e745542996c9b8d5e70: em=1 f1=1.00 tok=1955 recall=1.00 s=155.8
+2026-07-23 02:24:53,693 INFO [summary_doc/bridge] 5ac23ff0554299636651994d: em=1 f1=1.00 tok=2254 recall=1.00 s=182.5
+2026-07-23 02:27:29,028 INFO [summary_doc/bridge] 5ae0361155429925eb1afc2c: em=0 f1=0.50 tok=1986 recall=1.00 s=155.3
+2026-07-23 02:30:37,887 INFO [summary_doc/bridge] 5abf63f15542997ec76fd3ea: em=0 f1=0.67 tok=2556 recall=1.00 s=188.9
+2026-07-23 02:33:16,305 INFO [summary_doc/bridge] 5a8ef2a75542995a26add583: em=0 f1=0.00 tok=2022 recall=1.00 s=158.4
+2026-07-23 02:35:18,311 INFO [summary_doc/bridge] 5a80721b554299485f5985ef: em=1 f1=1.00 tok=1598 recall=1.00 s=122.0
+2026-07-23 02:38:08,191 INFO [summary_doc/bridge] 5a7571135542992d0ec05f98: em=0 f1=0.00 tok=2131 recall=1.00 s=169.9
+2026-07-23 02:40:52,679 INFO [summary_doc/bridge] 5a74106b55429979e288289e: em=0 f1=0.67 tok=2016 recall=1.00 s=164.5
+2026-07-23 02:44:33,697 INFO [summary_doc/bridge] 5a79311755429970f5fffe67: em=1 f1=1.00 tok=2723 recall=1.00 s=221.0
+2026-07-23 02:46:51,200 INFO [summary_doc/comparison] 5a8b57f25542995d1e6f1371: em=0 f1=0.00 tok=1793 recall=1.00 s=137.5
+2026-07-23 02:49:01,959 INFO [summary_doc/comparison] 5adbf0a255429947ff17385a: em=1 f1=1.00 tok=1655 recall=1.00 s=130.8
+2026-07-23 02:51:58,066 INFO [summary_doc/comparison] 5a8db19d5542994ba4e3dd00: em=1 f1=1.00 tok=2191 recall=1.00 s=176.1
+2026-07-23 02:56:54,331 INFO [summary_doc/comparison] 5ab56e32554299637185c594: em=0 f1=0.00 tok=3655 recall=1.00 s=296.3
+2026-07-23 02:59:58,125 INFO [summary_doc/comparison] 5ab29c24554299449642c932: em=1 f1=1.00 tok=2237 recall=1.00 s=183.8
+2026-07-23 03:01:57,147 INFO [summary_doc/comparison] 5a8133725542995ce29dcbdb: em=0 f1=0.86 tok=1547 recall=1.00 s=119.0
+2026-07-23 03:04:08,476 INFO [summary_doc/comparison] 5ae2070a5542994d89d5b313: em=0 f1=0.00 tok=1686 recall=1.00 s=131.3
+2026-07-23 03:05:43,017 INFO [summary_doc/comparison] 5abd259d55429924427fcf1a: em=1 f1=1.00 tok=1051 recall=1.00 s=94.5
+2026-07-23 03:08:32,329 INFO [summary_doc/comparison] 5ae4a3265542995ad6573de5: em=0 f1=0.00 tok=2045 recall=1.00 s=169.3

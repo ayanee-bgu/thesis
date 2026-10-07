@@ -1,0 +1,44 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"          # default agent model (swap for stronger model in E2)
+  distil_model: "llama3:8b"  # model used by consolidator for trajectory distillation
+  timeout: 600               # TravelPlanner prompts are large; llama3:8b needs ~3-5 min per plan
+
+experiment:
+  num_sessions: 2            # session 1 builds memory, session 2 uses it — the actual test
+  tasks_per_session: 2       # tasks per session — 4 conds × 2 sessions × 2 tasks ≈ 65 min on llama3:8b
+  max_steps: 20              # max steps for household tasks (TravelPlanner is single-step)
+  seed: 42
+  task_split: "validation"   # TravelPlanner split
+
+memory:
+  graph_path: "knowledge_base/graph/procedure_graph.json"
+  k_hops: 2
+  top_seeds: 5
+  token_budget: 2000
+  dedup_threshold: 0.82
+
+conditions:
+  - name: no_memory
+    description: "No procedural memory (baseline)"
+    memory_type: null
+    update_policy: null
+
+  - name: memp_flat
+    description: "Flat TF-IDF store, per-trajectory update (MemP baseline)"
+    memory_type: flat
+    update_policy: per_trajectory
+
+  - name: graph_pertraj
+    description: "Graph store, per-trajectory update"
+    memory_type: graph
+    update_policy: per_trajectory
+
+  - name: graph_session
+    description: "Graph store, session-end batch update (proposed)"
+    memory_type: graph
+    update_policy: session_end
+
+output:
+  results_dir: "results/memory_controller"
+  log_level: "INFO"

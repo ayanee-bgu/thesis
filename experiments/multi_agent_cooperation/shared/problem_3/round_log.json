@@ -1,0 +1,39 @@
+{
+  "task": "[Domain: algebra | Lead specialist: reasoner]\n\nSolve this problem. State your final answer as a plain number or expression (no LaTeX boxed notation needed \u2014 just the value).\n\nTen treeks weigh as much as three squigs and one goolee. Two treeks and one goolee are equal in weight to one squig. The combined weight of how many treeks equals the weight of one squig?",
+  "started_at": "2026-05-31T22:22:44.055172",
+  "memory_enabled": true,
+  "rounds": [
+    {
+      "round": 1,
+      "votes": [
+        {
+          "role": "reasoner",
+          "answer": "10",
+          "confidence": 0.99
+        },
+        {
+          "role": "coder",
+          "answer": "0.25",
+          "confidence": 0.9
+        },
+        {
+          "role": "retriever",
+          "answer": "1.4",
+          "confidence": 0.9
+        },
+        {
+          "role": "generalist",
+          "answer": "5.25",
+          "confidence": 0.9
+        }
+      ],
+      "consensus": false,
+      "winning_answer": null,
+      "memory_transfers": 0
+    }
+  ],
+  "final_answer": null,
+  "consensus_reached": false,
+  "total_rounds": 0,
+  "memory_transfer_summary": {}
+}

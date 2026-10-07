@@ -1,0 +1,25 @@
+# ALFWorld environment config
+# Used by ALFWorldAdapter in env_adapter.py
+# Requires ALFWORLD_DATA environment variable pointing to downloaded data
+
+dataset:
+  data_path: '$ALFWORLD_DATA'
+  eval_split: 'eval_out_of_distribution'
+
+env:
+  type: 'AlfredTWEnv'
+  recs: false
+  thor:
+    screen_width: 300
+    screen_height: 300
+
+general:
+  random_seed: 42
+  use_cuda: false
+  training_method: 'dagger'
+  task_types: [1, 2, 3, 4, 5, 6]
+  # 1=pick, 2=clean, 3=heat, 4=cool, 5=examine, 6=pick_two
+
+  # Observation settings
+  obs_type: 'look+inv+desc'
+  goal_desc_human_anns_prob: 0.0

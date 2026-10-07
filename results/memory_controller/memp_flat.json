@@ -1,0 +1,71 @@
+{
+  "condition": "memp_flat",
+  "memory_type": "flat",
+  "update_policy": "per_trajectory",
+  "sessions": [
+    {
+      "session": 1,
+      "num_tasks": 2,
+      "success_rate": 1.0,
+      "mean_tokens": 3416.5,
+      "retrieval_calls": 0,
+      "graph_nodes_after": null,
+      "flat_entries_after": null
+    },
+    {
+      "session": 2,
+      "num_tasks": 2,
+      "success_rate": 1.0,
+      "mean_tokens": 3450.5,
+      "retrieval_calls": 0,
+      "graph_nodes_after": null,
+      "flat_entries_after": null
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "val_000",
+      "session": 1,
+      "success": true,
+      "steps": 1,
+      "tokens": 3429,
+      "retrieval_calls": 0,
+      "elapsed_s": 232.47
+    },
+    {
+      "task_id": "val_001",
+      "session": 1,
+      "success": true,
+      "steps": 1,
+      "tokens": 3404,
+      "retrieval_calls": 0,
+      "elapsed_s": 174.23
+    },
+    {
+      "task_id": "val_002",
+      "session": 2,
+      "success": true,
+      "steps": 1,
+      "tokens": 3471,
+      "retrieval_calls": 0,
+      "elapsed_s": 207.14
+    },
+    {
+      "task_id": "val_003",
+      "session": 2,
+      "success": true,
+      "steps": 1,
+      "tokens": 3430,
+      "retrieval_calls": 0,
+      "elapsed_s": 187.18
+    }
+  ],
+  "summary": {
+    "session_1_success_rate": 1.0,
+    "session_2_success_rate": 1.0,
+    "delta_s1_to_s2": 0.0,
+    "mean_tokens_s2": 3450.5,
+    "total_retrieval_calls_s2": 0,
+    "final_graph_nodes": null
+  }
+}

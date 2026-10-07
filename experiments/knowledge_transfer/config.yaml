@@ -1,0 +1,42 @@
+teacher:
+  model: "llama3:8b"          # stronger teacher agent (swap for claude-sonnet-4-6 via API)
+  ollama_url: "http://localhost:11434/api/chat"
+  timeout: 120
+  num_sessions: 5             # how many task sessions the teacher runs before transfer
+  tasks_per_session: 4        # tasks per teacher session
+
+student:
+  model: "llama3:8b"          # weaker student agent (replace with smaller model for contrast)
+  ollama_url: "http://localhost:11434/api/chat"
+  timeout: 120
+  target_success_rate: 0.70   # sessions-to-target is the key metric
+  max_student_sessions: 10    # cap on student sessions
+
+memory:
+  graph_path: "knowledge_base/graph/transfer_graph.json"
+  k_hops: 2
+  top_seeds: 5
+  token_budget: 2000
+  dedup_threshold: 0.82
+  distil_model: "llama3:8b"
+
+experiment:
+  max_steps: 20
+  seed: 42
+  task_split: "eval_out_of_distribution"
+
+conditions:
+  - name: b_from_scratch
+    description: "Student starts with no memory (pure baseline)"
+    student_init: none
+
+  - name: b_from_a_flat
+    description: "Student bootstrapped from teacher's flat MemP store (MemP transfer baseline)"
+    student_init: flat_export
+
+  - name: b_from_a_graph
+    description: "Student bootstrapped from teacher's session graph (proposed)"
+    student_init: graph
+
+output:
+  results_dir: "results/knowledge_transfer"

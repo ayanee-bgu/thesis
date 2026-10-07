@@ -1,0 +1,112 @@
+﻿python : 2026-08-26 20:30:53,620 INFO [resume] 60 sessions already processed
+At line:1 char:357
++ ... rs\Thesis"; python experiments/musique_memory/populate.py --resume >  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-08-26 20:3...ready processed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-08-26 20:31:08,635 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/main/README.md "HTTP/1.1 404 Not Found"
+2026-08-26 20:31:08,879 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue "HTTP/1.1 200 OK"
+2026-08-26 20:31:09,066 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/MuSiQue.py 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:31:09,635 INFO HTTP Request: HEAD 
+https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/dgslibisey/MuSiQue/dgslibisey/MuSiQue.py "HTTP/1.1 
+404 Not Found"
+2026-08-26 20:31:09,811 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/README.md 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:31:09,999 INFO HTTP Request: GET 
+https://huggingface.co/api/datasets/dgslibisey/MuSiQue/revision/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321 "HTTP/1.1 200 
+OK"
+2026-08-26 20:31:10,168 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/.huggingface.yaml 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:31:10,582 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=dgslibisey/MuSiQue 
+"HTTP/1.1 200 OK"
+2026-08-26 20:31:10,793 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465f
+b69d31a8eae894c3fd509c4ca321/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-08-26 20:31:10,965 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465f
+b69d31a8eae894c3fd509c4ca321?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-08-26 20:31:11,359 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/dataset_infos.json 
+"HTTP/1.1 404 Not Found"
+2026-08-26 20:31:13,372 INFO [dataset] Loaded 19938 train rows
+2026-08-26 20:31:17,183 INFO [dataset] hop2: 30 train examples
+2026-08-26 20:31:17,183 INFO [dataset] hop3: 30 train examples
+2026-08-26 20:31:17,204 INFO [skip] 2hop__482757_12019
+2026-08-26 20:31:17,204 INFO [skip] 2hop__129292_160863
+2026-08-26 20:31:17,204 INFO [skip] 2hop__679261_120616
+2026-08-26 20:31:17,204 INFO [skip] 2hop__813857_127131
+2026-08-26 20:31:17,204 INFO [skip] 2hop__144408_215084
+2026-08-26 20:31:17,204 INFO [skip] 2hop__63119_153058
+2026-08-26 20:31:17,204 INFO [skip] 2hop__63593_126904
+2026-08-26 20:31:17,204 INFO [skip] 2hop__125960_675104
+2026-08-26 20:31:17,204 INFO [skip] 2hop__86989_14904
+2026-08-26 20:31:17,204 INFO [skip] 2hop__28482_46077
+2026-08-26 20:31:17,204 INFO [skip] 2hop__465230_21416
+2026-08-26 20:31:17,204 INFO [skip] 2hop__30913_30900
+2026-08-26 20:31:17,205 INFO [skip] 2hop__121758_211071
+2026-08-26 20:31:17,205 INFO [skip] 2hop__121445_444063
+2026-08-26 20:31:17,205 INFO [skip] 2hop__446183_21489
+2026-08-26 20:31:17,205 INFO [skip] 2hop__7483_160863
+2026-08-26 20:31:17,205 INFO [skip] 2hop__2946_2741
+2026-08-26 20:31:17,205 INFO [skip] 2hop__607476_26791
+2026-08-26 20:31:17,205 INFO [skip] 2hop__46304_83854
+2026-08-26 20:31:17,205 INFO [skip] 2hop__94429_480639
+2026-08-26 20:31:17,205 INFO [skip] 2hop__140732_126525
+2026-08-26 20:31:17,205 INFO [skip] 2hop__22777_22785
+2026-08-26 20:31:17,205 INFO [skip] 2hop__47096_807767
+2026-08-26 20:31:17,205 INFO [skip] 2hop__79482_65123
+2026-08-26 20:31:17,205 INFO [skip] 2hop__1007_59746
+2026-08-26 20:31:17,205 INFO [skip] 2hop__56206_271788
+2026-08-26 20:31:17,205 INFO [skip] 2hop__35307_422900
+2026-08-26 20:31:17,205 INFO [skip] 2hop__52582_47867
+2026-08-26 20:31:17,205 INFO [skip] 2hop__95637_487859
+2026-08-26 20:31:17,205 INFO [skip] 2hop__143789_699083
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__30654_75297_89329
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__75297_30654_89329
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__21987_69649_831253
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__59173_69649_831253
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__56933_69649_831253
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__69649_21987_831253
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__69649_59173_831253
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__69649_56933_831253
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__162189_34135_35312
+2026-08-26 20:31:17,205 INFO [skip] 3hop2__162189_38001_35312
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__38001_162189_35312
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__159915_25582_21116
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__25582_159915_21116
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__159915_8509_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__159915_26851_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__159915_1930_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__8509_159915_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__26851_159915_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__1930_159915_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__75408_25582_21116
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__25582_75408_21116
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__8509_75408_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__75408_8509_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__75408_26851_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__75408_1930_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__26851_75408_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__1930_75408_19700
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__72459_51964_32334
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__51964_72459_32334
+2026-08-26 20:31:17,206 INFO [skip] 3hop2__51964_55759_32334
+2026-08-26 20:31:17,206 INFO 
+[populate] Materializing F3/F4/F5 from 0 clusters...
+2026-08-26 20:31:17,210 INFO 
+[populate] Done. {
+  "total": 158,
+  "by_format": {
+    "F1_raw": 63,
+    "F2_chain": 63,
+    "F3_procedure": 14,
+    "F4_program": 4,
+    "F5_decomp": 14,
+    "F6_preference": 0,
+    "F7_correction": 0
+  }
+}

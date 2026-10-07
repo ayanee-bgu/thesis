@@ -1,0 +1,31 @@
+model:
+  ollama_url: "http://localhost:11435/v1/chat/completions"
+  name: "llama3:8b"
+  distil_model: "llama3:8b"
+  timeout: 600
+
+experiment:
+  num_tasks_teacher: 5       # teacher runs this many tasks (phase 1)
+  num_tasks_student: 5       # student runs this many new tasks (phase 2)
+  task_split: "validation"
+  task_levels:               # leave empty for all levels; set ["hard"] for harder tasks
+    - "hard"
+  seed: 42
+  teacher_offset: 0          # teacher uses tasks [teacher_offset : teacher_offset+num_tasks_teacher]
+  student_offset: 5          # student uses tasks [student_offset : student_offset+num_tasks_student]
+                             # must not overlap with teacher slice
+
+oracle:
+  max_questions: 5           # K — question budget per student task (the main ablation knob)
+  context_budget: 8000       # chars of teacher trajectories sent per oracle call
+
+memory:
+  # graph_session condition — reuses E1 infrastructure
+  graph_path: "knowledge_base/graph/interactive_transfer_graph.json"
+  k_hops: 2
+  top_seeds: 5
+  token_budget: 2000
+  dedup_threshold: 0.82
+
+output:
+  results_dir: "results/interactive_transfer"

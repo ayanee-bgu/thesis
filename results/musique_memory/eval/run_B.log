@@ -1,0 +1,92 @@
+﻿python : 2026-08-17 19:48:30,157 INFO [pool] {'total': 158, 'by_format': {'F1_raw': 63, 'F2_chain': 63, 
+'F3_procedure': 14, 'F4_program': 4, 'F5_decomp': 14}}
+At line:1 char:357
++ ... rs\Thesis"; python experiments/musique_memory/evaluate.py --condition ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-08-17 19:4...5_decomp': 14}}:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-08-17 19:48:30,157 INFO Loading val split...
+2026-08-17 19:48:32,749 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/main/README.md "HTTP/1.1 404 Not Found"
+2026-08-17 19:48:32,945 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue "HTTP/1.1 200 OK"
+2026-08-17 19:48:33,113 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/MuSiQue.py 
+"HTTP/1.1 404 Not Found"
+2026-08-17 19:48:33,605 INFO HTTP Request: HEAD 
+https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/dgslibisey/MuSiQue/dgslibisey/MuSiQue.py "HTTP/1.1 
+404 Not Found"
+2026-08-17 19:48:33,788 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/README.md 
+"HTTP/1.1 404 Not Found"
+2026-08-17 19:48:33,956 INFO HTTP Request: GET 
+https://huggingface.co/api/datasets/dgslibisey/MuSiQue/revision/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321 "HTTP/1.1 200 
+OK"
+2026-08-17 19:48:34,124 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/.huggingface.yaml 
+"HTTP/1.1 404 Not Found"
+2026-08-17 19:48:34,346 INFO HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=dgslibisey/MuSiQue 
+"HTTP/1.1 200 OK"
+2026-08-17 19:48:34,522 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465f
+b69d31a8eae894c3fd509c4ca321/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-08-17 19:48:34,694 INFO HTTP Request: GET https://huggingface.co/api/datasets/dgslibisey/MuSiQue/tree/c8f4f8c9465f
+b69d31a8eae894c3fd509c4ca321?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-08-17 19:48:35,047 INFO HTTP Request: HEAD 
+https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/dataset_infos.json 
+"HTTP/1.1 404 Not Found"
+2026-08-17 19:48:35,323 INFO [dataset] 2417 val rows
+2026-08-17 19:48:35,773 INFO [dataset] hop2: 15 val examples
+2026-08-17 19:48:35,773 INFO [dataset] hop3: 15 val examples
+2026-08-17 19:48:35,776 INFO 
+────────────────────────────────────────────────────────────
+Condition: F4_slot_fill
+────────────────────────────────────────────────────────────
+2026-08-17 19:50:06,030 INFO [F4_slot_fill/hop2] 2hop__460946: em=0 f1=0.00 sup=0% dfs=50% tok=327
+2026-08-17 19:53:22,476 INFO [F4_slot_fill/hop2] 2hop__252311: em=0 f1=0.00 sup=0% dfs=0% tok=553
+2026-08-17 19:55:18,602 INFO [F4_slot_fill/hop2] 2hop__701895: em=0 f1=0.00 sup=0% dfs=50% tok=600
+2026-08-17 19:56:50,612 INFO [F4_slot_fill/hop2] 2hop__259228: em=0 f1=0.00 sup=50% dfs=50% tok=498
+2026-08-17 19:59:25,229 INFO [F4_slot_fill/hop2] 2hop__481349: em=0 f1=0.50 sup=50% dfs=100% tok=700
+2026-08-17 20:00:58,211 INFO [F4_slot_fill/hop2] 2hop__697790: em=1 f1=1.00 sup=50% dfs=50% tok=497
+2026-08-17 20:02:42,110 INFO [F4_slot_fill/hop2] 2hop__207476: em=0 f1=0.00 sup=0% dfs=50% tok=487
+2026-08-17 20:03:47,737 INFO [F4_slot_fill/hop2] 2hop__390947: em=0 f1=0.80 sup=50% dfs=50% tok=173
+2026-08-17 20:05:19,506 INFO [F4_slot_fill/hop2] 2hop__354635: em=0 f1=0.00 sup=0% dfs=0% tok=604
+2026-08-17 20:06:28,807 INFO [F4_slot_fill/hop2] 2hop__635187: em=0 f1=0.00 sup=100% dfs=50% tok=247
+2026-08-17 20:08:35,134 INFO [F4_slot_fill/hop2] 2hop__166824: em=0 f1=0.00 sup=0% dfs=50% tok=691
+2026-08-17 20:09:40,123 INFO [F4_slot_fill/hop2] 2hop__698577: em=0 f1=0.00 sup=0% dfs=50% tok=234
+2026-08-17 20:10:39,158 INFO [F4_slot_fill/hop2] 2hop__362107: em=0 f1=0.00 sup=50% dfs=50% tok=316
+2026-08-17 20:12:19,204 INFO [F4_slot_fill/hop2] 2hop__402530: em=0 f1=0.50 sup=50% dfs=100% tok=501
+2026-08-17 20:13:31,598 INFO [F4_slot_fill/hop2] 2hop__195917: em=0 f1=0.67 sup=50% dfs=50% tok=397
+2026-08-17 20:14:51,608 INFO [F4_slot_fill/hop3] 3hop1__45444: em=0 f1=0.00 sup=0% dfs=100% tok=374
+2026-08-17 20:16:20,174 INFO [F4_slot_fill/hop3] 3hop1__14529: em=0 f1=0.00 sup=33% dfs=100% tok=312
+2026-08-17 20:17:34,921 INFO [F4_slot_fill/hop3] 3hop1__10576: em=0 f1=0.00 sup=0% dfs=100% tok=471
+2026-08-17 20:20:06,366 INFO [F4_slot_fill/hop3] 3hop1__10512: em=1 f1=1.00 sup=33% dfs=100% tok=828
+2026-08-17 20:21:20,409 INFO [F4_slot_fill/hop3] 3hop1__10388: em=0 f1=0.00 sup=33% dfs=100% tok=207
+2026-08-17 20:22:44,931 INFO [F4_slot_fill/hop3] 3hop1__10609: em=0 f1=0.00 sup=33% dfs=100% tok=547
+2026-08-17 20:24:11,361 INFO [F4_slot_fill/hop3] 3hop1__14521: em=0 f1=0.00 sup=33% dfs=100% tok=217
+2026-08-17 20:25:59,422 INFO [F4_slot_fill/hop3] 3hop1__14467: em=0 f1=0.00 sup=33% dfs=100% tok=469
+2026-08-17 20:27:11,210 INFO [F4_slot_fill/hop3] 3hop1__10366: em=0 f1=0.00 sup=33% dfs=100% tok=227
+2026-08-17 20:28:27,381 INFO [F4_slot_fill/hop3] 3hop1__14443: em=0 f1=0.00 sup=67% dfs=100% tok=349
+2026-08-17 20:29:39,201 INFO [F4_slot_fill/hop3] 3hop1__10344: em=0 f1=0.00 sup=33% dfs=100% tok=240
+2026-08-17 20:30:55,167 INFO [F4_slot_fill/hop3] 3hop1__14541: em=0 f1=0.00 sup=33% dfs=100% tok=177
+2026-08-17 20:33:06,876 INFO [F4_slot_fill/hop3] 3hop1__10631: em=0 f1=0.00 sup=0% dfs=100% tok=469
+2026-08-17 20:34:24,858 INFO [F4_slot_fill/hop3] 3hop1__65465: em=0 f1=0.00 sup=0% dfs=100% tok=434
+2026-08-17 20:35:31,275 INFO [F4_slot_fill/hop3] 3hop1__10690: em=0 f1=0.00 sup=33% dfs=100% tok=241
+
+=== E12 RESULTS — MuSiQue Procedural Memory ===
+Condition                    EM     F1  Sup.Rec    DFS   Qs     Tok
+───────────────────────────────────────────────────────────────────
+── baselines ──
+── verbatim (memory→oracle) ──
+── guided oracle ──
+F4_slot_fill               6.7%  14.9%    28.3%  75.0%  3.0     413
+── fused ──
+
+── hop2 ──
+Condition                    EM     F1  Sup.Rec    DFS   Qs     Tok
+───────────────────────────────────────────────────────────────────
+F4_slot_fill               6.7%  23.1%    30.0%  50.0%  3.0     455
+
+── hop3 ──
+Condition                    EM     F1  Sup.Rec    DFS   Qs     Tok
+───────────────────────────────────────────────────────────────────
+F4_slot_fill               6.7%   6.7%    26.7% 100.0%  3.0     371

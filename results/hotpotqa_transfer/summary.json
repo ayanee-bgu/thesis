@@ -1,0 +1,136 @@
+{
+  "conditions": [
+    {
+      "condition": "no_context",
+      "overall": {
+        "num_tasks": 60,
+        "exact_match": 0.2833333333333333,
+        "f1": 0.3574801587301587,
+        "mean_tokens": 30.616666666666667,
+        "mean_elapsed_s": 4.0675,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_bridge": {
+        "num_tasks": 30,
+        "exact_match": 0.1,
+        "f1": 0.16666666666666666,
+        "mean_tokens": 35.46666666666667,
+        "mean_elapsed_s": 4.435333333333333,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_comparison": {
+        "num_tasks": 30,
+        "exact_match": 0.4666666666666667,
+        "f1": 0.5482936507936508,
+        "mean_tokens": 25.766666666666666,
+        "mean_elapsed_s": 3.6996666666666664,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "full_context",
+      "overall": {
+        "num_tasks": 60,
+        "exact_match": 0.45,
+        "f1": 0.5953940134787082,
+        "mean_tokens": 1355.2166666666667,
+        "mean_elapsed_s": 72.96616666666667,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_bridge": {
+        "num_tasks": 30,
+        "exact_match": 0.43333333333333335,
+        "f1": 0.5893374461795514,
+        "mean_tokens": 1472.6666666666667,
+        "mean_elapsed_s": 78.284,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_comparison": {
+        "num_tasks": 30,
+        "exact_match": 0.4666666666666667,
+        "f1": 0.6014505807778648,
+        "mean_tokens": 1237.7666666666667,
+        "mean_elapsed_s": 67.64833333333334,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "summary_doc",
+      "overall": {
+        "num_tasks": 60,
+        "exact_match": 0.5,
+        "f1": 0.6191877104377105,
+        "mean_tokens": 2004.6833333333334,
+        "mean_elapsed_s": 180.05166666666668,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_bridge": {
+        "num_tasks": 30,
+        "exact_match": 0.4666666666666667,
+        "f1": 0.554973544973545,
+        "mean_tokens": 2034.7333333333333,
+        "mean_elapsed_s": 192.603,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      },
+      "by_type_comparison": {
+        "num_tasks": 30,
+        "exact_match": 0.5333333333333333,
+        "f1": 0.6834018759018758,
+        "mean_tokens": 1974.6333333333334,
+        "mean_elapsed_s": 167.50033333333334,
+        "mean_supporting_fact_recall": 1.0,
+        "mean_dfs_score": null,
+        "mean_num_queries": null
+      }
+    },
+    {
+      "condition": "interactive_retrieval",
+      "overall": {
+        "num_tasks": 60,
+        "exact_match": 0.36666666666666664,
+        "f1": 0.5339053348612172,
+        "mean_tokens": 1008.9333333333333,
+        "mean_elapsed_s": 71.068,
+        "mean_supporting_fact_recall": 0.49166666666666664,
+        "mean_dfs_score": 0.825,
+        "mean_num_queries": 3.0
+      },
+      "by_type_bridge": {
+        "num_tasks": 30,
+        "exact_match": 0.3,
+        "f1": 0.4646685340802988,
+        "mean_tokens": 951.7666666666667,
+        "mean_elapsed_s": 66.855,
+        "mean_supporting_fact_recall": 0.48333333333333334,
+        "mean_dfs_score": 0.8333333333333334,
+        "mean_num_queries": 3.0
+      },
+      "by_type_comparison": {
+        "num_tasks": 30,
+        "exact_match": 0.43333333333333335,
+        "f1": 0.6031421356421357,
+        "mean_tokens": 1066.1,
+        "mean_elapsed_s": 75.28099999999999,
+        "mean_supporting_fact_recall": 0.5,
+        "mean_dfs_score": 0.8166666666666667,
+        "mean_num_queries": 3.0
+      }
+    }
+  ]
+}

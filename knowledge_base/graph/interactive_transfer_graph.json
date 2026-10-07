@@ -1,0 +1,631 @@
+{
+  "nodes": [
+    {
+      "id": "69c37b67",
+      "content": "Plan a 3-day trip to Minneapolis, departing from Asheville. Book pet-friendly accommodations that provide entire rooms. Prioritize attractions and meals that cater to diverse cuisines (Indian, Chinese, Mediterranean, American).",
+      "level": "script",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.282613+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "6de4198c",
+      "content": "Book self-driving transportation from Asheville to Minneapolis (15 hours)",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.282688+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "d5deba22",
+      "content": "Have breakfast at The Cafe ($14) with options for Indian, Mediterranean, and seafood",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.283041+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "5f45a47e",
+      "content": "Visit the Minneapolis Sculpture Garden (free admission) and explore the Spoonbridge and Cherry sculpture",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.283252+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "a1e64311",
+      "content": "Enjoy lunch at Malo ($80) with Chinese, Indian, and tea-based dishes",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.283467+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "761c39d4",
+      "content": "Savor dinner at Court Avenue Brewing Company ($31) with pizza, French-inspired cuisine, and BBQ options",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.283785+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "7d02348a",
+      "content": "Stay overnight in a pet-friendly apartment in center of Park Slope ($1013.0)",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.284139+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "53640238",
+      "content": "Have breakfast at Monkeypod Kitchen by Merriman ($50) with desserts, pizza, and bakery items",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.284592+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "a6d9701c",
+      "content": "Visit Mill Ruins Park (free admission) to discover historic ruins and scenic views of the Mississippi River",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.285215+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "4bf1eb73",
+      "content": "Enjoy lunch at Oregano India ($91) with BBQ, French-inspired cuisine, and bakery options with an Indian twist",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.285990+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "6982ce82",
+      "content": "Savor dinner at Tony's ($27) with pizza, French-inspired cuisine, and Mediterranean dishes",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.286773+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "466ba61d",
+      "content": "Repeat accommodations from Day 1",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.287228+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "71aa0015",
+      "content": "Have breakfast at Wok In The Clouds ($52) with pizza and seafood options with an Asian twist",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.288364+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "1784ad35",
+      "content": "Visit Minnehaha Falls (free admission) to explore scenic views of the falls and surrounding park",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.289542+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "c3e14c6c",
+      "content": "Enjoy lunch at [insert restaurant name] with [insert cuisine options]",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:23:45.290466+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "3959c371",
+      "content": "Plan a 3-day trip to Newark from Ithaca, considering budget constraints and preferences for entire room accommodations and no self-driving. Book flights and taxis as needed.",
+      "level": "script",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.625286+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "aacaa41d",
+      "content": "Book flight from Ithaca to Newark on Day 1",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.627528+00:00",
+      "deprecated": true,
+      "deprecation_reason": "merged_into:aacaa41d"
+    },
+    {
+      "id": "9b38759e",
+      "content": "Choose breakfast at Artistry in Newark",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.628754+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "ea164c49",
+      "content": "Visit The Newark Museum of Art",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.630060+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "37c5b841",
+      "content": "Have lunch at Angeethi Restaurant",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.631315+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "83df110d",
+      "content": "Dine at Bernardo's for dinner",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.632787+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "1202c3ea",
+      "content": "Stay overnight at a Large Two Story Loft in the Heart of West Village",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.636011+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "90740bdd",
+      "content": "Repeat steps from Day 1 on Day 2, with different breakfast and lunch options",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.639298+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "317de83b",
+      "content": "Visit Weequahic Park on Day 2",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.641216+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "24d60a6e",
+      "content": "Have dinner at Jaguar",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:24:59.642681+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "687af1db",
+      "content": "Plan a trip to Knoxville from Atlanta for 3 days, considering private accommodations that accommodate children under 10 and staying within a budget of $1,000. Use flights and local transportation, and prioritize attractions and dining options.",
+      "level": "script",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:27:35.911245+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "2d726ecd",
+      "content": "Book flight from Atlanta to Knoxville (F3528856) on Day 1",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:27:35.914832+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "ab1b8cf0",
+      "content": "Arrive in Knoxville and check-in at Beautiful & Private Manhattan Room",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:27:35.918659+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "9bae4dc7",
+      "content": "Visit World's Fair Park as the main attraction for the day",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:27:35.923137+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "02f5ba73",
+      "content": "Have breakfast at Cafe Arabelle, lunch at Mamagoto, and dinner at Sky On 57",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:27:35.925892+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "e4ad6250",
+      "content": "Repeat steps 2-4 on Day 2 with a visit to Knoxville Museum of Art",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:27:35.929166+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "df523e5d",
+      "content": "On Day 3, visit Zoo Knoxville and have breakfast at La-Nawaab, lunch at Peppers & Pipes, and dinner at Ali Baba & 41 Dishes",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:27:35.934083+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "545f1327",
+      "content": "Plan a 3-day trip to Charleston from New York, considering budget constraints and preferences for specific cuisines. Book flights, accommodations that allow smoking and are not shared rooms. Prioritize attractions and restaurants based on interests and reviews.",
+      "level": "script",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.445517+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "5e0dcdbc",
+      "content": "Book flight AA1234 from New York (JFK) to Charleston (CHS) for Day 1",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.455422+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "940d6a46",
+      "content": "Choose breakfast at Filling Station in Charleston with a budget of $78",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.462292+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "aabc95f6",
+      "content": "Visit Rainbow Row attraction in the morning",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.465971+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "d72a7b04",
+      "content": "Lunch at Makansutra Gluttons Bay with a budget of $84",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.471105+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "d5d92b09",
+      "content": "Dinner at Roka with a budget of $112",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.475567+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "3daf965b",
+      "content": "Book a 2-bedroom apartment in Prime Midtown West for the entire trip",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.486979+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    },
+    {
+      "id": "3c4c1f28",
+      "content": "Repeat steps for Days 2 and 3, considering breakfast options at Mocha and Brown Bottle The Cedar Falls, and attractions like Magnolia Plantation and Gardens and Drayton Hall",
+      "level": "step",
+      "source_agent": "teacher",
+      "session_id": "teacher_session",
+      "created_at": "2026-06-30T05:29:05.502096+00:00",
+      "deprecated": false,
+      "deprecation_reason": null
+    }
+  ],
+  "edges": [
+    {
+      "src": "69c37b67",
+      "dst": "6de4198c",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "d5deba22",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "5f45a47e",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "a1e64311",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "761c39d4",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "7d02348a",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "53640238",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "a6d9701c",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "4bf1eb73",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "6982ce82",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "466ba61d",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "71aa0015",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "1784ad35",
+      "relation": "generalizes"
+    },
+    {
+      "src": "69c37b67",
+      "dst": "c3e14c6c",
+      "relation": "generalizes"
+    },
+    {
+      "src": "d5deba22",
+      "dst": "6de4198c",
+      "relation": "depends_on"
+    },
+    {
+      "src": "a1e64311",
+      "dst": "5f45a47e",
+      "relation": "depends_on"
+    },
+    {
+      "src": "3959c371",
+      "dst": "aacaa41d",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "9b38759e",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "ea164c49",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "37c5b841",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "83df110d",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "1202c3ea",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "90740bdd",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "317de83b",
+      "relation": "generalizes"
+    },
+    {
+      "src": "3959c371",
+      "dst": "24d60a6e",
+      "relation": "generalizes"
+    },
+    {
+      "src": "9b38759e",
+      "dst": "aacaa41d",
+      "relation": "depends_on"
+    },
+    {
+      "src": "37c5b841",
+      "dst": "ea164c49",
+      "relation": "depends_on"
+    },
+    {
+      "src": "687af1db",
+      "dst": "2d726ecd",
+      "relation": "generalizes"
+    },
+    {
+      "src": "687af1db",
+      "dst": "ab1b8cf0",
+      "relation": "generalizes"
+    },
+    {
+      "src": "687af1db",
+      "dst": "9bae4dc7",
+      "relation": "generalizes"
+    },
+    {
+      "src": "687af1db",
+      "dst": "02f5ba73",
+      "relation": "generalizes"
+    },
+    {
+      "src": "687af1db",
+      "dst": "e4ad6250",
+      "relation": "generalizes"
+    },
+    {
+      "src": "687af1db",
+      "dst": "df523e5d",
+      "relation": "generalizes"
+    },
+    {
+      "src": "545f1327",
+      "dst": "5e0dcdbc",
+      "relation": "generalizes"
+    },
+    {
+      "src": "545f1327",
+      "dst": "940d6a46",
+      "relation": "generalizes"
+    },
+    {
+      "src": "545f1327",
+      "dst": "aabc95f6",
+      "relation": "generalizes"
+    },
+    {
+      "src": "545f1327",
+      "dst": "d72a7b04",
+      "relation": "generalizes"
+    },
+    {
+      "src": "545f1327",
+      "dst": "d5d92b09",
+      "relation": "generalizes"
+    },
+    {
+      "src": "545f1327",
+      "dst": "3daf965b",
+      "relation": "generalizes"
+    },
+    {
+      "src": "545f1327",
+      "dst": "3c4c1f28",
+      "relation": "generalizes"
+    },
+    {
+      "src": "940d6a46",
+      "dst": "5e0dcdbc",
+      "relation": "depends_on"
+    },
+    {
+      "src": "aabc95f6",
+      "dst": "940d6a46",
+      "relation": "depends_on"
+    },
+    {
+      "src": "d72a7b04",
+      "dst": "aabc95f6",
+      "relation": "depends_on"
+    },
+    {
+      "src": "d5d92b09",
+      "dst": "d72a7b04",
+      "relation": "depends_on"
+    },
+    {
+      "src": "3daf965b",
+      "dst": "d5d92b09",
+      "relation": "depends_on"
+    }
+  ]
+}

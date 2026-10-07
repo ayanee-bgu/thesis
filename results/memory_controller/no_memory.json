@@ -1,0 +1,71 @@
+{
+  "condition": "no_memory",
+  "memory_type": null,
+  "update_policy": null,
+  "sessions": [
+    {
+      "session": 1,
+      "num_tasks": 2,
+      "success_rate": 0.5,
+      "mean_tokens": 3553.0,
+      "retrieval_calls": 0,
+      "graph_nodes_after": null,
+      "flat_entries_after": null
+    },
+    {
+      "session": 2,
+      "num_tasks": 2,
+      "success_rate": 1.0,
+      "mean_tokens": 3487.5,
+      "retrieval_calls": 0,
+      "graph_nodes_after": null,
+      "flat_entries_after": null
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "val_000",
+      "session": 1,
+      "success": true,
+      "steps": 1,
+      "tokens": 3444,
+      "retrieval_calls": 0,
+      "elapsed_s": 186.31
+    },
+    {
+      "task_id": "val_001",
+      "session": 1,
+      "success": false,
+      "steps": 1,
+      "tokens": 3662,
+      "retrieval_calls": 0,
+      "elapsed_s": 270.07
+    },
+    {
+      "task_id": "val_002",
+      "session": 2,
+      "success": true,
+      "steps": 1,
+      "tokens": 3559,
+      "retrieval_calls": 0,
+      "elapsed_s": 249.21
+    },
+    {
+      "task_id": "val_003",
+      "session": 2,
+      "success": true,
+      "steps": 1,
+      "tokens": 3416,
+      "retrieval_calls": 0,
+      "elapsed_s": 192.42
+    }
+  ],
+  "summary": {
+    "session_1_success_rate": 0.5,
+    "session_2_success_rate": 1.0,
+    "delta_s1_to_s2": 0.5,
+    "mean_tokens_s2": 3487.5,
+    "total_retrieval_calls_s2": 0,
+    "final_graph_nodes": null
+  }
+}

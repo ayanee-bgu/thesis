@@ -1,0 +1,15 @@
+model:
+  url: "http://localhost:11434/v1/chat/completions"
+  name: "llama3:8b"
+
+experiment:
+  num_agents: 2
+  conditions:
+    - none
+    - static
+    - message_pass
+    - interactive
+  task_types:
+    - coactive_pipeline
+    - hierarchical_orchestration
+  interactive_max_questions: 1

@@ -1,0 +1,6 @@
+networkx>=3.0
+pyyaml>=6.0
+requests>=2.28
+# Required to actually test graph_session_embed / graph_session_full — without it
+# both fall back to TF-IDF automatically (with a logged warning), same as E1.
+sentence-transformers>=2.2

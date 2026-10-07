@@ -1,0 +1,182 @@
+[
+  {
+    "task_id": "pick_and_place_simple-Candle-None-Toilet-407",
+    "condition": "interactive_oracle",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 832,
+    "oracle_tokens": 4303,
+    "total_tokens": 5135,
+    "oracle_questions": [
+      "What is the minimum height and distance from the toilet bowl that the robot should position itself to safely place the candle on the back of the toilet without touching the water or any surrounding surfaces?",
+      "What is the average weight and size of the candles that the previous robot successfully placed on the back of a toilet, and how did it adjust its grip or movement to accommodate these variations?",
+      "What is the average distance from the toilet's edge to the center of the toilet seat, and how did the previous robot adjust its movement or grip to ensure the object was placed safely and securely on the back of the toilet without falling off?",
+      "What is the average size and shape of the objects that the previous robot successfully placed on the back of a toilet, and how did it adjust its movement or grip to accommodate these variations?",
+      "What is the average distance from the floor to the top of the toilet tank, and how did the previous robot adjust its movement or grip to ensure the object was placed safely and securely on the back of the toilet without falling off?"
+    ],
+    "oracle_elapsed_s": 265.0,
+    "plan_elapsed_s": 59.52,
+    "total_elapsed_s": 324.52,
+    "plan_text": "1. GotoLocation Toilet\n2. PickupObject Candle\n3. GotoLocation Toilet\n4. PutObject Candle on/in Toilet\n5. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 3072
+  },
+  {
+    "task_id": "pick_and_place_simple-Candle-None-Toilet-429",
+    "condition": "interactive_oracle",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 857,
+    "oracle_tokens": 4303,
+    "total_tokens": 5160,
+    "oracle_questions": [
+      "What is the most efficient way to move the candle from its current location to the toilet, considering the object's size and shape, and any potential obstacles or hazards along the way?",
+      "What is the most effective way to grasp and manipulate the bottle to ensure a stable and controlled movement onto the back of the newspaper, considering the bottle's shape, size, and any potential interactions with the newspaper's texture and layout?",
+      "What is the most effective way to position the newspaper on the surface to ensure a stable and controlled placement of the bottle on its back, considering the newspaper's layout, texture, and potential interactions with the surrounding environment?",
+      "What is the most common or recommended approach to handling and manipulating objects of similar shape and size to the bottle, such as a book or magazine, in order to achieve a stable and controlled placement on a surface like the newspaper?",
+      "Considering the recommended approach to handling and manipulating objects of similar shape and size to the bottle, can I apply the \"PickupObject\" and \"PutObject\" actions to move the bottle onto the back of the newspaper, and if so, what specific parameters or adjustments should I make to these actions to ensure a stable and controlled placement?"
+    ],
+    "oracle_elapsed_s": 330.41,
+    "plan_elapsed_s": 95.1,
+    "total_elapsed_s": 425.52,
+    "plan_text": "Here is the action plan:\n\n1. GotoLocation toilet\n2. PickupObject candle\n3. GotoLocation newspaper\n4. PutObject candle on/in newspaper\n5. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 3110
+  },
+  {
+    "task_id": "pick_and_place_simple-CellPhone-None-ArmChair-318",
+    "condition": "interactive_oracle",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 1068,
+    "oracle_tokens": 4755,
+    "total_tokens": 5823,
+    "oracle_questions": [
+      "What is the most efficient way to move the cell phone from its current location to the armchair, considering the robot's arm length and the distance between the cell phone and the armchair?",
+      "What is the average distance between the cell phone's current location and the armchair, based on the records of moving magazines, books, bowls, and boxes?",
+      "What is the average distance between the locations of the objects that were moved using the robot's arm, considering only the records of moving magazines, books, bowls, and boxes?",
+      "What is the most efficient way to move the cell phone from its current location to the armchair, considering the average distance of approximately 4.33 meters and the robot's arm length, assuming the armchair is one of the locations listed in the records (e.g., sofa, dining table, coffee table)?",
+      "What is the average distance between the locations of the objects that were moved using the robot's arm, considering only the records of moving magazines, books, bowls, and boxes, and excluding the distance between the bed and the desk?"
+    ],
+    "oracle_elapsed_s": 409.92,
+    "plan_elapsed_s": 87.99,
+    "total_elapsed_s": 497.91,
+    "plan_text": "1. GotoLocation ArmChair\n2. PickupObject CellPhone\n3. GotoLocation CurrentLocation\n4. PutObject CellPhone on/in ArmChair\n5. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 3344
+  },
+  {
+    "task_id": "pick_and_place_simple-CellPhone-None-Bed-324",
+    "condition": "interactive_oracle",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 990,
+    "oracle_tokens": 4577,
+    "total_tokens": 5567,
+    "oracle_questions": [
+      "What is the most efficient way to move the cell phone from the dresser to the bed, considering the robot's physical capabilities and any potential obstacles in the path?",
+      "What are the specific coordinates or spatial references for the dresser and bed locations that the previous robot used to navigate to these locations in the plan structure?",
+      "What is the typical distance or proximity between the dresser and bed locations that the previous robot considered when planning the movement, and how did it adjust its movement accordingly?",
+      "What are the most common object interactions or actions that the previous robot performed when moving objects from a dresser to a bed, and how did it adapt its plan to accommodate these interactions?",
+      "What are the general guidelines or rules of thumb that the previous robot used to determine the most efficient movement plan for moving objects from one location to another, considering factors such as object size, shape, and weight, as well as potential obstacles and navigation constraints?"
+    ],
+    "oracle_elapsed_s": 284.78,
+    "plan_elapsed_s": 70.99,
+    "total_elapsed_s": 355.77,
+    "plan_text": "1. GotoLocation (Dresser)\n2. PickupObject (CellPhone)\n3. GotoLocation (Bed)\n4. PutObject (CellPhone) on/in (Bed)\nDONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 3878
+  },
+  {
+    "task_id": "pick_and_place_simple-Cloth-None-BathtubBasin-405",
+    "condition": "interactive_oracle",
+    "success": true,
+    "sequence_correct": true,
+    "loose_correct": true,
+    "object_mentioned": true,
+    "dest_mentioned": true,
+    "plan_tokens": 831,
+    "oracle_tokens": 4268,
+    "total_tokens": 5099,
+    "oracle_questions": [
+      "What is the most efficient way to grasp and lift the red cloth from the cabinet, considering the cabinet's door type and the cloth's size and shape?",
+      "What is the most effective way to reorient the red cloth to ensure a secure grasp and minimize the risk of dropping it during the move from the cabinet to the BathtubBasin, considering the cloth's size, shape, and any potential obstacles or hazards along the way?",
+      "What is the most efficient way to move the red cloth from the cabinet to the BathtubBasin, considering the typical obstacles and hazards that previous robots have encountered when moving similar objects (e.g., books, magazines, bowls, and boxes) from one location to another?",
+      "What is the most common obstacle or hazard that previous robots have encountered when moving objects from a cabinet to a sink or bathtub, and how did they typically overcome or navigate around it?",
+      "What is the most common type of obstacle or hazard that previous robots have encountered when moving objects from one location to another, and how did they typically overcome or navigate around it, considering the types of objects, locations, and trajectories involved in those tasks?"
+    ],
+    "oracle_elapsed_s": 219.31,
+    "plan_elapsed_s": 62.28,
+    "total_elapsed_s": 281.58,
+    "plan_text": "Here is the action plan:\n\n1. GotoLocation Cabinet\n2. PickupObject Cloth\n3. GotoLocation BathtubBasin\n4. PutObject Cloth on/in BathtubBasin\n5. DONE",
+    "gt_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "generated_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ],
+    "memory_chars": 2829
+  }
+]

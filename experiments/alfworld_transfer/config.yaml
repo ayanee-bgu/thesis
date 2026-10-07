@@ -1,0 +1,28 @@
+model:
+  ollama_url: "http://localhost:11435/v1/chat/completions"
+  name: "llama3:8b"
+  timeout: 600
+
+experiment:
+  task_type: "pick_and_place_simple"   # uniform structure: goto->pickup->goto->put
+  data_split: "valid_seen"
+  num_tasks_teacher: 5
+  num_tasks_student: 5
+  teacher_offset: 0
+  student_offset: 5
+  seed: 42
+
+oracle:
+  max_questions: 5
+  context_budget: 8000
+
+memory:
+  graph_path: "knowledge_base/graph/alfworld_transfer_graph.json"
+  k_hops: 2
+  top_seeds: 5
+  token_budget: 2000
+  dedup_threshold: 0.82
+
+output:
+  results_dir: "results/alfworld_transfer"
+  teacher_trajectories_path: "results/alfworld_transfer/teacher_trajectories.json"

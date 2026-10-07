@@ -1,0 +1,48 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 600
+
+# ── Phase 1: memory population (train split) ────────────────────────────────
+population:
+  dataset: "deepmind/narrativeqa"
+  split: "train"
+  kinds: ["gutenberg", "movie"]
+  num_docs_per_kind: 20          # unique documents to process
+  max_questions_per_doc: 5       # questions per document
+  chunk_words: 200
+  chunk_overlap_words: 40
+  oracle:                        # how we run sessions to collect trajectories
+    index: "tfidf"
+    grounded: true
+    n_neighbors: 1
+    max_queries: 3
+  extraction:
+    min_fact_f1: 0.5             # only extract F2 facts from answers with F1 >= this
+    procedure_dedup_threshold: 0.72   # TF-IDF similarity above which two procedures merge
+    min_procedure_sessions: 2    # sessions needed before a procedure is stored
+    min_program_success_rate: 0.6     # success rate needed before a program is stored
+
+# ── Phase 2: evaluation (val split) ─────────────────────────────────────────
+evaluation:
+  dataset: "deepmind/narrativeqa"
+  split: "validation"
+  kinds: ["gutenberg", "movie"]
+  num_per_kind: 10
+  full_context_max_words: 5500
+  chunk_words: 200
+  chunk_overlap_words: 40
+
+retrieval:
+  max_queries: 3
+  n_neighbors: 1
+  verbatim_max_nodes: 15         # max memory nodes in verbatim context
+  verbatim_max_words: 1500       # hard word budget for verbatim context block
+  filter_by_kind: true           # only retrieve memory from same doc_kind
+
+oracle:
+  embed_model: "all-MiniLM-L6-v2"
+
+output:
+  memory_dir: "results/narrativeqa_memory/pool"
+  results_dir: "results/narrativeqa_memory/eval"

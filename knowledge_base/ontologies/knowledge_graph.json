@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "description": "Paper-level knowledge graph linking papers, concepts, and POC experiments",
+  "nodes": [
+    {
+      "id": "voyager_2305.16291",
+      "type": "paper",
+      "title": "VOYAGER: An Open-Ended Embodied Agent with Large Language Models",
+      "arxiv_id": "2305.16291",
+      "year": 2023,
+      "summary_path": "papers/summaries/voyager_open_ended_agents_with_llms.md",
+      "tags": ["#procedural-memory", "#skill-library", "#lifelong-learning", "#open-ended-agents", "#code-as-actions", "#iterative-prompting", "#automatic-curriculum", "#in-context-learning", "#no-fine-tuning", "#knowledge-transfer", "#educability"]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept_skill_library",
+      "name": "Skill Library",
+      "description": "External vector database mapping semantic embeddings of skill descriptions to executable code programs. Enables retrieval-based procedural memory without model weight updates.",
+      "introduced_by": ["voyager_2305.16291"],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_procedural_memory", "concept_code_as_actions", "concept_embedding_retrieval"]
+    },
+    {
+      "id": "concept_procedural_memory",
+      "name": "Procedural Memory",
+      "description": "Storage and retrieval of executable behaviors/skills, as opposed to declarative/factual memory. Key component of the thesis memory controller.",
+      "introduced_by": [],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_skill_library", "concept_lifelong_learning"]
+    },
+    {
+      "id": "concept_automatic_curriculum",
+      "name": "Automatic Curriculum",
+      "description": "LLM-generated task sequences that adapt to agent's current state and capabilities, maximizing exploration or learning diversity.",
+      "introduced_by": ["voyager_2305.16291"],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_lifelong_learning", "concept_educability"]
+    },
+    {
+      "id": "concept_iterative_prompting",
+      "name": "Iterative Prompting with Execution Feedback",
+      "description": "Closed-loop code refinement using environment state feedback, execution errors, and LLM-based self-verification across multiple rounds.",
+      "introduced_by": ["voyager_2305.16291"],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_self_verification", "concept_code_as_actions"]
+    },
+    {
+      "id": "concept_self_verification",
+      "name": "LLM Self-Verification",
+      "description": "A separate LLM instance acting as a critic to verify task completion and provide corrective feedback, replacing hard-coded success checkers.",
+      "introduced_by": ["voyager_2305.16291"],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_iterative_prompting"]
+    },
+    {
+      "id": "concept_code_as_actions",
+      "name": "Code as Action Space",
+      "description": "Using executable programs (rather than low-level motor commands or natural language) as the agent action representation, enabling temporal abstraction and compositionality.",
+      "introduced_by": ["voyager_2305.16291"],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_skill_library", "concept_procedural_memory"]
+    },
+    {
+      "id": "concept_educability",
+      "name": "Educability",
+      "description": "The capacity of a model to acquire new knowledge and skills over time. VOYAGER operationalizes this as skill acquisition rate without weight updates (in-context lifelong learning).",
+      "introduced_by": [],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_lifelong_learning", "concept_automatic_curriculum"]
+    },
+    {
+      "id": "concept_lifelong_learning",
+      "name": "Lifelong / Continual Learning",
+      "description": "Ability to accumulate knowledge over time without catastrophic forgetting. VOYAGER achieves this via external skill storage rather than weight updates.",
+      "introduced_by": [],
+      "used_by": ["voyager_2305.16291"],
+      "related_concepts": ["concept_procedural_memory", "concept_educability"]
+    }
+  ],
+  "poc_experiments": [
+    {
+      "id": "poc_skill_transfer_crossmodel",
+      "title": "Cross-Model Skill Library Transfer",
+      "description": "Build a skill library (50 skills) with GPT-4 in a task domain. Transfer to Claude/Llama-3. Measure zero-shot task completion rate vs. iterations-to-success. Tests whether executable skill libraries transfer across LLM backends.",
+      "inspired_by": ["voyager_2305.16291"],
+      "relevance": "Direct test of inter-agent knowledge transfer — core thesis question",
+      "status": "idea"
+    },
+    {
+      "id": "poc_educability_benchmark",
+      "title": "Educability Benchmark via Skill Acquisition Rate",
+      "description": "Fix curriculum + task set. Vary base model (GPT-4, GPT-3.5, Claude-3, Llama-3). Measure iterations-to-proficiency curve per model. Produces a quantitative educability ranking.",
+      "inspired_by": ["voyager_2305.16291"],
+      "relevance": "Operationalizes 'educability' as a measurable quantity — core thesis metric",
+      "status": "idea"
+    },
+    {
+      "id": "poc_voyager_domain_generalization",
+      "title": "VOYAGER-style Agent for Research Tasks",
+      "description": "Replace Minecraft/Mineflayer with a research assistant domain (arXiv search + paper summarization + hypothesis generation). Skills = Python API functions. Curriculum = GPT-4 proposes research subtasks.",
+      "inspired_by": ["voyager_2305.16291"],
+      "relevance": "Tests domain generalization of the skill library architecture beyond games",
+      "status": "idea"
+    }
+  ]
+}

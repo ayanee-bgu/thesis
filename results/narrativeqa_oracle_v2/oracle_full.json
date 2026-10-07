@@ -1,0 +1,131 @@
+{
+  "condition": "oracle_full",
+  "config": {
+    "num_per_kind": 2,
+    "max_queries": 3
+  },
+  "results_by_type": {
+    "gutenberg": [
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "oracle_full",
+        "question": "WHO NORMALLY DELIVERS THE OPENING PROLOGUE IN THE PLAY?",
+        "gold_answer": "THE ACTOR WEARING THE BLACK CLOAK",
+        "predicted_answer": "[MOCK for 00fb61fa7bee266ad995e52190ebb73606b60b70]",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 0,
+        "elapsed_s": 0.0,
+        "supporting_fact_recall": 0.0,
+        "retrieval_hit_rate": null,
+        "num_queries": 0,
+        "early_stop": false,
+        "n_expansion_chunks": 0,
+        "dfs_score": null,
+        "queries": null,
+        "doc_word_count": 74928
+      },
+      {
+        "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+        "type": "gutenberg",
+        "condition": "oracle_full",
+        "question": "WHAT NAME WAS CYNTHIA MORE FAMOUSLY KNOWN BY?",
+        "gold_answer": "THE GODDESS DIANA",
+        "predicted_answer": "[MOCK for 00fb61fa7bee266ad995e52190ebb73606b60b70]",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 0,
+        "elapsed_s": 0.0,
+        "supporting_fact_recall": 0.0,
+        "retrieval_hit_rate": null,
+        "num_queries": 0,
+        "early_stop": false,
+        "n_expansion_chunks": 0,
+        "dfs_score": null,
+        "queries": null,
+        "doc_word_count": 74928
+      }
+    ],
+    "movie": [
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "oracle_full",
+        "question": "Why did Micky feel he lost the fight in Atlantic City?",
+        "gold_answer": "Opponent was in a weight class of 20 pounds heavier.",
+        "predicted_answer": "[MOCK for 01502137e4276712d118bd4bdaf481c89aed163b]",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 0,
+        "elapsed_s": 0.0,
+        "supporting_fact_recall": 0.0,
+        "retrieval_hit_rate": null,
+        "num_queries": 0,
+        "early_stop": false,
+        "n_expansion_chunks": 0,
+        "dfs_score": null,
+        "queries": null,
+        "doc_word_count": 32202
+      },
+      {
+        "id": "01502137e4276712d118bd4bdaf481c89aed163b",
+        "type": "movie",
+        "condition": "oracle_full",
+        "question": "What injury does Micky receive as he attempted to help his step-brother in a fight with police?",
+        "gold_answer": "Broken hand",
+        "predicted_answer": "[MOCK for 01502137e4276712d118bd4bdaf481c89aed163b]",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 0,
+        "elapsed_s": 0.0,
+        "supporting_fact_recall": 0.0,
+        "retrieval_hit_rate": null,
+        "num_queries": 0,
+        "early_stop": false,
+        "n_expansion_chunks": 0,
+        "dfs_score": null,
+        "queries": null,
+        "doc_word_count": 32202
+      }
+    ]
+  },
+  "summary_by_type": {
+    "gutenberg": {
+      "num_tasks": 2,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "mean_tokens": 0.0,
+      "mean_elapsed_s": 0.0,
+      "mean_supporting_fact_recall": 0.0,
+      "mean_retrieval_hit_rate": null,
+      "mean_dfs_score": null,
+      "mean_num_queries": 0.0,
+      "early_stop_rate": 0.0
+    },
+    "movie": {
+      "num_tasks": 2,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "mean_tokens": 0.0,
+      "mean_elapsed_s": 0.0,
+      "mean_supporting_fact_recall": 0.0,
+      "mean_retrieval_hit_rate": null,
+      "mean_dfs_score": null,
+      "mean_num_queries": 0.0,
+      "early_stop_rate": 0.0
+    }
+  },
+  "summary_overall": {
+    "num_tasks": 4,
+    "exact_match": 0.0,
+    "f1": 0.0,
+    "mean_tokens": 0.0,
+    "mean_elapsed_s": 0.0,
+    "mean_supporting_fact_recall": 0.0,
+    "mean_retrieval_hit_rate": null,
+    "mean_dfs_score": null,
+    "mean_num_queries": 0.0,
+    "early_stop_rate": 0.0
+  }
+}

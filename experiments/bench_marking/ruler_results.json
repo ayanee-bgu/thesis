@@ -1,0 +1,230 @@
+{
+  "niah_multihop": {
+    "accuracy": 1.0,
+    "convergence_agent": 1,
+    "agents": [
+      {
+        "agent": 1,
+        "correct": true,
+        "latency": 28.6,
+        "knowledge_items": 1,
+        "strategy": "I successfully identified and chained the three linked sentences by searching for keywords \"vault\", \"mirror\", and \"value\" across the document, then analyzing sentence structures to establish relationships between them, ultimately connecting the dots to form a coherent chain."
+      },
+      {
+        "agent": 2,
+        "correct": true,
+        "latency": 10.37,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 3,
+        "correct": true,
+        "latency": 57.77,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 4,
+        "correct": true,
+        "latency": 99.58,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 5,
+        "correct": true,
+        "latency": 36.4,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 6,
+        "correct": true,
+        "latency": 76.57,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 7,
+        "correct": true,
+        "latency": 70.81,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 8,
+        "correct": true,
+        "latency": 60.81,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 9,
+        "correct": true,
+        "latency": 17.46,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 10,
+        "correct": true,
+        "latency": 37.88,
+        "knowledge_items": 1,
+        "strategy": null
+      }
+    ]
+  },
+  "niah_multikey": {
+    "accuracy": 0.8,
+    "convergence_agent": 1,
+    "agents": [
+      {
+        "agent": 1,
+        "correct": true,
+        "latency": 40.76,
+        "knowledge_items": 1,
+        "strategy": "I carefully examined each key-value pair, reading character-by-character to identify potential matches, and then verified the corresponding values to confirm a correct match without being misled by the distractor pair."
+      },
+      {
+        "agent": 2,
+        "correct": true,
+        "latency": 14.03,
+        "knowledge_items": 2,
+        "strategy": "I carefully read each key character-by-character, searching for a match with the target credential, then verified the corresponding value to confirm a correct match without being misled by the distractor pair."
+      },
+      {
+        "agent": 3,
+        "correct": true,
+        "latency": 15.25,
+        "knowledge_items": 2,
+        "strategy": null
+      },
+      {
+        "agent": 4,
+        "correct": true,
+        "latency": 18.82,
+        "knowledge_items": 3,
+        "strategy": "I carefully read each key character-by-character, searching for a match with the target credential by linking individual characters to identify potential matches, then verified corresponding values to confirm correctness."
+      },
+      {
+        "agent": 5,
+        "correct": true,
+        "latency": 18.87,
+        "knowledge_items": 3,
+        "strategy": null
+      },
+      {
+        "agent": 6,
+        "correct": false,
+        "latency": 50.3,
+        "knowledge_items": 4,
+        "strategy": "I should have read each key character-by-character in parallel, comparing multiple characters simultaneously to identify potential matches and avoid being misled by the distractor pair's near-identical key."
+      },
+      {
+        "agent": 7,
+        "correct": false,
+        "latency": 55.53,
+        "knowledge_items": 4,
+        "strategy": null
+      },
+      {
+        "agent": 8,
+        "correct": true,
+        "latency": 40.55,
+        "knowledge_items": 4,
+        "strategy": null
+      },
+      {
+        "agent": 9,
+        "correct": true,
+        "latency": 15.42,
+        "knowledge_items": 5,
+        "strategy": "I carefully read each key character-by-character in parallel, comparing multiple characters simultaneously to identify potential matches by linking individual characters and verifying corresponding values to confirm correctness."
+      },
+      {
+        "agent": 10,
+        "correct": true,
+        "latency": 39.76,
+        "knowledge_items": 5,
+        "strategy": null
+      }
+    ]
+  },
+  "vt": {
+    "accuracy": 0.2,
+    "convergence_agent": null,
+    "agents": [
+      {
+        "agent": 1,
+        "correct": false,
+        "latency": 11.65,
+        "knowledge_items": 1,
+        "strategy": "I should have iteratively applied each update operation in sequence, carefully considering the current values of all variables at each step to ensure accurate computation of the final target value."
+      },
+      {
+        "agent": 2,
+        "correct": false,
+        "latency": 6.14,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 3,
+        "correct": true,
+        "latency": 6.33,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 4,
+        "correct": true,
+        "latency": 27.33,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 5,
+        "correct": false,
+        "latency": 5.25,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 6,
+        "correct": false,
+        "latency": 8.25,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 7,
+        "correct": false,
+        "latency": 9.08,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 8,
+        "correct": false,
+        "latency": 5.06,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 9,
+        "correct": false,
+        "latency": 4.7,
+        "knowledge_items": 1,
+        "strategy": null
+      },
+      {
+        "agent": 10,
+        "correct": false,
+        "latency": 4.55,
+        "knowledge_items": 1,
+        "strategy": null
+      }
+    ]
+  }
+}

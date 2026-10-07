@@ -1,0 +1,961 @@
+{
+  "condition": "interactive_retrieval_k3",
+  "config": {
+    "num_per_hop": 15,
+    "max_queries": 3
+  },
+  "results_by_type": {
+    "hop2": [
+      {
+        "id": "2hop__460946_294723",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the spouse of the Green performer?",
+        "gold_answer": "Miquette Giraudy",
+        "predicted_answer": "Miquette Giraudy",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 743,
+        "elapsed_s": 40.14,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"Green Day lead singer wife\"",
+          "\"Green Day band members wives\"",
+          "\"Green Day bassist wife\""
+        ]
+      },
+      {
+        "id": "2hop__252311_366220",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who founded the company that distributed the film UHF?",
+        "gold_answer": "Mike Medavoy",
+        "predicted_answer": "Weird Al Yankovic",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 955,
+        "elapsed_s": 55.57,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "Weird Al Yankovic",
+          "Weird Al Yankovic film",
+          "Weird Al Yankovic UHF film"
+        ]
+      },
+      {
+        "id": "2hop__701895_752697",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+        "gold_answer": "Tamaulipas",
+        "predicted_answer": "Mexico City",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1265,
+        "elapsed_s": 70.6,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Ciudad Deportiva Mexico City location\"",
+          "\"Mexico City administrative divisions\"",
+          "\"Mexico City administrative divisions\""
+        ]
+      },
+      {
+        "id": "2hop__259228_793698",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "Where is Ulrich Walter's employer headquartered?",
+        "gold_answer": "Cologne",
+        "predicted_answer": "Cologne",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 690,
+        "elapsed_s": 41.26,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Ulrich Walter astronaut employer",
+          "German Aerospace Center location",
+          "German Aerospace Center location"
+        ]
+      },
+      {
+        "id": "2hop__481349_302087",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "Which company owns the manufacturer of Learjet 60?",
+        "gold_answer": "Bombardier Inc.",
+        "predicted_answer": "Bombardier Aerospace",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 834,
+        "elapsed_s": 49.72,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Bombardier Learjet 60 owner\"",
+          "\"Learjet 60 manufacturer history\"",
+          "\"Learjet 60 manufacturer history\""
+        ]
+      },
+      {
+        "id": "2hop__697790_864352",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the child of Caroline LeRoy's spouse?",
+        "gold_answer": "Fletcher Webster",
+        "predicted_answer": "Phoebe",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1142,
+        "elapsed_s": 65.47,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Caroline LeRoy's spouse name",
+          "Caroline LeRoy's child name",
+          "Caroline LeRoy's child name"
+        ]
+      },
+      {
+        "id": "2hop__207476_625987",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the grandmother of Philippe, Duke of Orl\u00e9ans?",
+        "gold_answer": "Marie de' Medici",
+        "predicted_answer": "Marie Anne de Bourbon",
+        "em": 0.0,
+        "f1": 0.5714285714285715,
+        "tokens": 1152,
+        "elapsed_s": 64.65,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Louis XIV's daughter-in-law\"",
+          "\"Marie Anne de Bourbon children\"",
+          "\"Marie Anne de Bourbon grandchildren\""
+        ]
+      },
+      {
+        "id": "2hop__390947_232243",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "What is the goal of the group that European Movement Germany is a member of?",
+        "gold_answer": "European integration",
+        "predicted_answer": "To promote EU integration.",
+        "em": 0.0,
+        "f1": 0.3333333333333333,
+        "tokens": 661,
+        "elapsed_s": 40.84,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "European Movement International",
+          "European Movement in Serbia",
+          "European Movement Germany goals"
+        ]
+      },
+      {
+        "id": "2hop__354635_174222",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "What company succeeded the owner of Empire Sports Network?",
+        "gold_answer": "Time Warner Cable",
+        "predicted_answer": "Time Warner Cable",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 896,
+        "elapsed_s": 52.13,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Empire Sports Network history\"",
+          "\"Empire Sports Network owner\"",
+          "\"Adelphia Communications successor\""
+        ]
+      },
+      {
+        "id": "2hop__635187_861533",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "What province shares a border with the province where Lago District is located?",
+        "gold_answer": "Cabo Delgado Province",
+        "predicted_answer": "Cabo Delgado",
+        "em": 0.0,
+        "f1": 0.8,
+        "tokens": 694,
+        "elapsed_s": 42.88,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Location of Lago District\"",
+          "\"Tanzanian provinces bordering Mozambique\"",
+          "\"Tanzanian provinces bordering Mozambique\""
+        ]
+      },
+      {
+        "id": "2hop__166824_185403",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "What league does the team that plays in Stadio Ciro Vigorito play for?",
+        "gold_answer": "Lega Pro Prima Divisione",
+        "predicted_answer": "Serie B",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1554,
+        "elapsed_s": 83.56,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Avezzano football team",
+          "Stadio Ciro Vigorito location",
+          "Benevento Calcio league"
+        ]
+      },
+      {
+        "id": "2hop__698577_851686",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "What is a notable work written by the author of The Timothy files?",
+        "gold_answer": "Anderson Tapes",
+        "predicted_answer": "The Timothy Files",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 847,
+        "elapsed_s": 49.4,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Author of The Timothy Files\"",
+          "\"Lawrence Sanders notable works\"",
+          "\"Lawrence Sanders notable works\""
+        ]
+      },
+      {
+        "id": "2hop__362107_652514",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "In which borough was Callum McManaman born?",
+        "gold_answer": "Knowsley",
+        "predicted_answer": "Knowsley",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 736,
+        "elapsed_s": 44.83,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Callum McManaman birthplace UK\"",
+          "\"Whiston Merseyside borough location\"",
+          "\"Knowsley borough location\""
+        ]
+      },
+      {
+        "id": "2hop__402530_774333",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "What other county does the county where Imperial is located share a border with?",
+        "gold_answer": "Crockett County",
+        "predicted_answer": "Reeves",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 506,
+        "elapsed_s": 33.99,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Imperial County neighboring counties\"",
+          "\"Texas county borders Pecos\"",
+          "\"Texas counties bordering Pecos\""
+        ]
+      },
+      {
+        "id": "2hop__195917_575657",
+        "type": "hop2",
+        "condition": "interactive_retrieval_k3",
+        "question": "In what county is William W. Blair's birthplace located?",
+        "gold_answer": "Orleans County",
+        "predicted_answer": "Orleans",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 635,
+        "elapsed_s": 39.68,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"William W. Blair biography\"",
+          "\"LaSalle County Illinois history\"",
+          "\"Holley New York county\""
+        ]
+      }
+    ],
+    "hop3": [
+      {
+        "id": "3hop1__454441_55349_651302",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "What is the birthplace of the man who does the voice of Stan on the series that includes the episode The Hobbit?",
+        "gold_answer": "Denver",
+        "predicted_answer": "Eddie Kaye Thomas",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1642,
+        "elapsed_s": 88.0,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Seth MacFarlane's voice actor",
+          "Voice actor Stan American Dad",
+          "Voice actor Stan American Dad"
+        ]
+      },
+      {
+        "id": "3hop1__145290_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Xanana Gusm\u00e3o",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1662,
+        "elapsed_s": 90.65,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"East Timor's current president\"",
+          "\"Satyo Husodo nationality\"",
+          "\"Commission on Truth and Friendship country\""
+        ]
+      },
+      {
+        "id": "3hop1__105767_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the newly declared independent country that is part of the commission of truth and friendship with the country that eats Kemplang?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Joko Widodo",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 815,
+        "elapsed_s": 48.48,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Newly declared independent country\"",
+          "\"Country eats Kemplang\"",
+          "Country that eats Kemplang"
+        ]
+      },
+      {
+        "id": "3hop1__105126_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country where Gado-gado is found?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Francisco Guterres",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1997,
+        "elapsed_s": 105.66,
+        "supporting_fact_recall": 0.6666666666666666,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "East Timor's current leader",
+          "Country where Gado-gado is found",
+          "Commission of Truth and Friendship"
+        ]
+      },
+      {
+        "id": "3hop1__103881_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country that Tony Gunawan is from?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Jos\u00e9 Ramos-Horta",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1058,
+        "elapsed_s": 59.82,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"East Timor's first president\"",
+          "\"East Timor's current president\"",
+          "\"Tony Gunawan country of origin\""
+        ]
+      },
+      {
+        "id": "3hop1__106094_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country that made Arisan!??",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Xanana Gusm\u00e3o",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1143,
+        "elapsed_s": 64.8,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Commission of Truth and Friendship country\"",
+          "\"East Timor independence referendum\"",
+          "\"East Timor president 1999\""
+        ]
+      },
+      {
+        "id": "3hop1__145212_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Arie Supriyatna's birth country was one participant in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Susilo Bambang Yudhoyono",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 875,
+        "elapsed_s": 50.69,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "East Timor President",
+          "East Timor neighboring country",
+          "Indonesian President"
+        ]
+      },
+      {
+        "id": "3hop1__144678_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "The Commission of Truth and Friendship established governments for Bustami's birth country and a second country that had who as president after declaring independence?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Xanana Gusm\u00e3o",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1928,
+        "elapsed_s": 102.3,
+        "supporting_fact_recall": 0.6666666666666666,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Commission of Truth and Friendship countries\"",
+          "\"East Timor independence president\"",
+          "\"East Timor president after independence\""
+        ]
+      },
+      {
+        "id": "3hop1__103662_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with Radiansyah's birth country?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Francisco Guterres",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1552,
+        "elapsed_s": 83.85,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"East Timor independence leader\"",
+          "\"East Timor president name\"",
+          "\"East Timor president current\""
+        ]
+      },
+      {
+        "id": "3hop1__144439_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "who is the president of newly declared independent country of the country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Francisco Guterres",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 2980,
+        "elapsed_s": 155.63,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "East Timorese independence leader",
+          "East Timorese president",
+          "Francisco Guterres president"
+        ]
+      },
+      {
+        "id": "3hop1__103440_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Susilo Bambang Yudhoyono",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1267,
+        "elapsed_s": 71.34,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Brazil Commission of Truth\"",
+          "\"Indonesia president 2005\"",
+          "\"Indonesia president 2005 name\""
+        ]
+      },
+      {
+        "id": "3hop1__145411_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Francisco Guterres",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1651,
+        "elapsed_s": 89.64,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "East Timor's first president",
+          "Who was Sumardi born in?",
+          "Which country has Commission of Truth and Friendship with Indonesia?"
+        ]
+      },
+      {
+        "id": "3hop1__106313_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Opor originated?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Susilo Bambang Yudhoyono",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1258,
+        "elapsed_s": 72.49,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Commission of Truth and Friendship country\"",
+          "\"Indonesian President 2005\"",
+          "\"Indonesian President 2005 Susilo Bambang Yudhoyono\""
+        ]
+      },
+      {
+        "id": "3hop1__654651_55349_651302",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "What is the place of birth of who does the voice of stan on the series that Insecurity is part of?",
+        "gold_answer": "Denver",
+        "predicted_answer": "Denver, Colorado",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 863,
+        "elapsed_s": 49.96,
+        "supporting_fact_recall": 0.6666666666666666,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Stan's voice actor Insecurity",
+          "Stan's voice actor South Park",
+          "Stan's birthplace South Park"
+        ]
+      },
+      {
+        "id": "3hop1__106900_443779_52195",
+        "type": "hop3",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Francisco Guterres",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1820,
+        "elapsed_s": 97.61,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "East Timor's current president",
+          "Country broadcasting Dahsyat",
+          "Country that jointly established a Commission of Truth and Friendship with East Timor"
+        ]
+      }
+    ],
+    "hop4": [
+      {
+        "id": "4hop1__93963_170667_443779_52195",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "Who is the president of the newly declared independent country, that established the Timor Leste Commission of Truth and Friendship, with the country containing the airport that includes Lion Air?",
+        "gold_answer": "Francisco Guterres",
+        "predicted_answer": "Xanana Gusmao",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1248,
+        "elapsed_s": 69.29,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "Xanana Gusmao biography",
+          "Timor Leste Commission of Truth",
+          "Susilo Bambang Yudhoyono presidency"
+        ]
+      },
+      {
+        "id": "4hop3__862_846_326964_7713",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "How long was the city where the Yongle emperor greeted the person the Ming court thought the representatives were sent by the capitol of Yaxing Coach's headquarters location?",
+        "gold_answer": "about 400 years",
+        "predicted_answer": "1420",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1206,
+        "elapsed_s": 67.35,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "Yongle Emperor's capital city",
+          "Yongle Emperor's Ming court representatives",
+          "Yaxing Coach's headquarters location"
+        ]
+      },
+      {
+        "id": "4hop3__862_846_613770_7713",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "How long was the place where the Yongle Emperor greeted who the Ming court thought representatives were sent by the capitol of the city in which Guangling District is located?",
+        "gold_answer": "about 400 years",
+        "predicted_answer": "No information found.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1434,
+        "elapsed_s": 80.39,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Nanjing Ming court ambassadors\"",
+          "\"How long did Yongle Emperor greet\"",
+          "\"How long did Yongle Emperor greet Karmapa\""
+        ]
+      },
+      {
+        "id": "4hop3__857_846_613770_7713",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "How long was the place where the Yongle Emperor greeted the person to whom the edict was addressed the capitol of the area where Guangling District was located?",
+        "gold_answer": "about 400 years",
+        "predicted_answer": "Nanjing",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1210,
+        "elapsed_s": 67.1,
+        "supporting_fact_recall": 0.6666666666666666,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "Yongle Emperor's capital location",
+          "Guangling District location",
+          "Yongle Emperor's capital location"
+        ]
+      },
+      {
+        "id": "4hop3__857_846_326964_7713",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "How long had the city where the Yongle emperor greeted the person to whom the edict was addressed been the capitol of Yaxing Coach's headquarters location?",
+        "gold_answer": "about 400 years",
+        "predicted_answer": "1420",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1433,
+        "elapsed_s": 80.52,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Yongle Emperor's capital city\"",
+          "\"Yongle Emperor's edict recipient\"",
+          "\"Karmapa's headquarters location\""
+        ]
+      },
+      {
+        "id": "4hop1__72247_497223_15840_36002",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "What are the Genesis's advantages over the game platform with a 3 letter name abbreviation, featuring a game named after the league that chooses where the Super Bowl is held?",
+        "gold_answer": "built on 16-bit architectures and offered improved graphics and sound",
+        "predicted_answer": "PS vs Xbox advantages over PS (PlayStation) and Xbox featuring a game named after the league that chooses where the Super Bowl is held: Genesis.",
+        "em": 0.0,
+        "f1": 0.06250000000000001,
+        "tokens": 988,
+        "elapsed_s": 58.9,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"PS vs Xbox advantages\"",
+          "\"PS vs Xbox Genesis\"",
+          "\"PS vs Xbox differences\""
+        ]
+      },
+      {
+        "id": "4hop1__46196_497223_15840_36002",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "What were the Genesis's advantages over the platform with a three letter abbreviation, that had a video game named after the league in charge of the Super Bowl halftime show?",
+        "gold_answer": "built on 16-bit architectures and offered improved graphics and sound",
+        "predicted_answer": "Better graphics and sound.",
+        "em": 0.0,
+        "f1": 0.4285714285714285,
+        "tokens": 1005,
+        "elapsed_s": 57.3,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Genesis vs Atari advantages\"",
+          "\"Genesis vs TurboGrafx advantages\"",
+          "\"Genesis vs SNES advantages\""
+        ]
+      },
+      {
+        "id": "4hop1__40316_497223_15840_36002",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "What were the Genesis's advantages over the game system with a 3 letter abbreviation, featuring a game named after the football league that the Los Angeles Rams are representative of?",
+        "gold_answer": "built on 16-bit architectures and offered improved graphics and sound",
+        "predicted_answer": "Genesis",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 998,
+        "elapsed_s": 56.36,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Sega Master System NFL\"",
+          "\"Sega Genesis NFL game\"",
+          "\"NFL game on Genesis\""
+        ]
+      },
+      {
+        "id": "4hop1__94201_642284_131926_13165",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "What treaty ceded territory to the US extending west to the body of water by the city where the designer of Southeast Library died?",
+        "gold_answer": "Treaty of Paris",
+        "predicted_answer": "Lake Superior",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 950,
+        "elapsed_s": 54.71,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Designer of Southeast Library\"",
+          "City where Ralph Rapson died",
+          "Body of water near Minneapolis"
+        ]
+      },
+      {
+        "id": "4hop1__525129_315334_131926_89261",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "Where into the Gulf of Mexico does the body of water by the city where the Lots More Blues, Rags and Hollers performer was formed empty?",
+        "gold_answer": "the Mississippi River Delta",
+        "predicted_answer": "Mississippi River Delta",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1172,
+        "elapsed_s": 65.51,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Mississippi River Delta location\"",
+          "\"Mississippi River Delta Gulf\"",
+          "\"Mississippi River Delta location map\""
+        ]
+      },
+      {
+        "id": "4hop1__94201_642284_131926_87157",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "What is the direction of the flow of the river near the city where the designer of Southeast Library died?",
+        "gold_answer": "rises in northern Minnesota and meanders slowly southwards",
+        "predicted_answer": "South",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 700,
+        "elapsed_s": 42.62,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Southeast Library designer's death location\"",
+          "\"Keith Scott death location\"",
+          "\"Tree Hill river direction\""
+        ]
+      },
+      {
+        "id": "4hop1__860115_798482_131926_90707",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "Where does the body of water by the city that shares a border with Elizabeth Berg's birthplace and Ohio River meet?",
+        "gold_answer": "at the city of Cairo, Illinois",
+        "predicted_answer": "Lake Erie",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1045,
+        "elapsed_s": 59.78,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 0.0,
+        "queries": [
+          "\"City near Berg's birthplace\"",
+          "\"Elizabeth Berg's birthplace location\"",
+          "Ohio River cities"
+        ]
+      },
+      {
+        "id": "4hop1__94201_642284_131926_90707",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "Where does the river by the city where the Southeast Library designer died and the Ohio River meet?",
+        "gold_answer": "at the city of Cairo, Illinois",
+        "predicted_answer": "Smoky Hill River",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1223,
+        "elapsed_s": 68.0,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Southeast Library designer death location\"",
+          "\"City near Eisenhower Presidential Library\"",
+          "\"Abilene Kansas river Ohio\""
+        ]
+      },
+      {
+        "id": "4hop1__860115_798482_131926_13165",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "What treaty ceded territory to the US extending west to the river by the city sharing a border with Elizabeth Berg's birthplace?",
+        "gold_answer": "Treaty of Paris",
+        "predicted_answer": "Mississippi",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1338,
+        "elapsed_s": 73.47,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Minnesota territorial cession 1818\"",
+          "\"Minnesota territorial border river\"",
+          "\"Minnesota territorial cession 1818 treaty\""
+        ]
+      },
+      {
+        "id": "4hop1__525129_315334_131926_87157",
+        "type": "hop4",
+        "condition": "interactive_retrieval_k3",
+        "question": "What is the direction of flow of the river by the city where the Lots More Blues, Rags and Hollers performer was formed?",
+        "gold_answer": "rises in northern Minnesota and meanders slowly southwards",
+        "predicted_answer": "Eastward",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 762,
+        "elapsed_s": 45.74,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Blues Rags Hollers band origin\"",
+          "\"Koerner Ray Glover hometown city\"",
+          "\"Minneapolis river direction flow\""
+        ]
+      }
+    ]
+  },
+  "summary_by_type": {
+    "hop2": {
+      "num_tasks": 15,
+      "exact_match": 0.26666666666666666,
+      "f1": 0.4692063492063492,
+      "mean_tokens": 887.3333333333334,
+      "mean_elapsed_s": 51.648,
+      "mean_supporting_fact_recall": 0.4666666666666667,
+      "mean_dfs_score": 0.8666666666666667,
+      "mean_num_queries": 3.0,
+      "full_recall_rate": 0.13333333333333333
+    },
+    "hop3": {
+      "num_tasks": 15,
+      "exact_match": 0.4,
+      "f1": 0.4,
+      "mean_tokens": 1500.7333333333333,
+      "mean_elapsed_s": 82.06133333333334,
+      "mean_supporting_fact_recall": 0.5111111111111111,
+      "mean_dfs_score": 0.7,
+      "mean_num_queries": 3.0,
+      "full_recall_rate": 0.2
+    },
+    "hop4": {
+      "num_tasks": 15,
+      "exact_match": 0.06666666666666667,
+      "f1": 0.09940476190476191,
+      "mean_tokens": 1114.1333333333334,
+      "mean_elapsed_s": 63.135999999999996,
+      "mean_supporting_fact_recall": 0.29444444444444445,
+      "mean_dfs_score": 0.7,
+      "mean_num_queries": 3.0,
+      "full_recall_rate": 0.0
+    }
+  },
+  "summary_overall": {
+    "num_tasks": 45,
+    "exact_match": 0.24444444444444444,
+    "f1": 0.32287037037037036,
+    "mean_tokens": 1167.4,
+    "mean_elapsed_s": 65.6151111111111,
+    "mean_supporting_fact_recall": 0.42407407407407405,
+    "mean_dfs_score": 0.7555555555555555,
+    "mean_num_queries": 3.0,
+    "full_recall_rate": 0.1111111111111111
+  }
+}

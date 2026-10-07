@@ -1,0 +1,71 @@
+{
+  "title": "Mem^p: Exploring Agent Procedural Memory",
+  "authors": ["Runnan Fang", "Yuan Liang", "Xiaobin Wang", "Jialong Wu", "Shuofei Qiao", "Pengjun Xie", "Fei Huang", "Huajun Chen", "Ningyu Zhang"],
+  "venue": "arXiv preprint",
+  "year": "2026",
+  "url": "https://arxiv.org/abs/2508.06433",
+  "arxiv_id": "2508.06433",
+  "doi": "",
+  "code_url": "https://github.com/zjunlp/MemP",
+  "data_url": "",
+  "problem_statement": "LLM-based agents suffer from brittle procedural memory that is manually engineered or frozen in static parameters. The paper investigates how to make procedural memory learnable, updatable, and lifelong across agent trajectories.",
+  "key_ideas": [
+    "Build procedural memory by distilling trajectories into verbatim traces, abstract scripts, or both (Proceduralization = best)",
+    "Retrieve using cosine similarity over task embeddings; keyword-averaged AveFact retrieval outperforms raw query embeddings",
+    "Update with error-correction reflection (Adjustment): revise failed memories in-place, outperforming vanilla append or success-only filtering",
+    "Procedural memory from a strong model (GPT-4o) transfers to a weaker model (Qwen2.5-14B) without retraining",
+    "Formal MDP model of memory lifecycle: Add/Delete/Update operations over the memory store"
+  ],
+  "method_summary": "Mem^p is a task-agnostic framework with three phases: Build (construct procedural memories from trajectories via trajectory storage, script abstraction, or Proceduralization combining both), Retrieve (cosine similarity over embeddings with key construction strategies: random, query-vector, AveFact keyword-averaged), and Update (Vanilla append, Validation success-only, or Adjustment in-place error correction via reflection). No fine-tuning required; all operations are prompt-based at inference time.",
+  "datasets_used": ["TravelPlanner", "ALFWorld"],
+  "baselines": ["ReAct (no memory)", "Expel", "AWM (Agent Workflow Memory)"],
+  "metrics": ["Commonsense Constraint score (#CS)", "Hard Constraint score (#HC)", "Task success rate (dev/test)", "Step count", "Token consumption"],
+  "key_results": {
+    "accuracy_improvement_vs_no_memory": "~50% on ALFWorld",
+    "step_reduction_vs_no_memory": "~50%",
+    "best_build_strategy": "Proceduralization (trajectory +  script)",
+    "best_retrieval_strategy": "AveFact keyword-averaged cosine similarity",
+    "best_update_strategy": "Adjustment (reflection-based in-place correction)",
+    "cross_model_transfer_gpt4o_to_qwen14b_travelplanner": "+5% task completion, -1.6 avg steps",
+    "optimal_retrieved_memories": "~10-12; performance plateaus then degrades beyond this",
+    "adjustment_advantage_over_second_best": "+0.7 reward points, -14 steps at final task group"
+  },
+  "contributions": [
+    "Systematic ablation of Build, Retrieve, and Update strategies for agent procedural memory",
+    "Proceduralization (combined trajectory + script) as best build strategy",
+    "AveFact keyword-averaged retrieval as best retrieval strategy",
+    "Adjustment (error-correction reflection) as best update strategy enabling near-linear lifelong learning",
+    "Empirical demonstration of cross-model procedural memory transfer (strong→weak) without retraining"
+  ],
+  "limitations_acknowledged": [
+    "Retrieval restricted to vector-similarity search; BM25 and other methods not explored",
+    "Depends on explicit benchmark reward signals; cannot function in real-world settings without ground-truth rewards"
+  ],
+  "limitations_observed": [
+    "Cross-model transfer only tested in one direction (GPT-4o → smaller model); no bidirectional or same-family tests",
+    "No analysis of memory quality/noise as store scales",
+    "No cross-domain procedural transfer (e.g., ALFWorld memory on TravelPlanner)",
+    "Mechanism for why excess retrieved memories hurt performance is underexplored",
+    "No RAG-over-raw-trajectories baseline for fair comparison"
+  ],
+  "relevance_to_thesis": "Directly relevant to all three thesis focus areas. For Memory Controller: provides a concrete Build/Retrieve/Update lifecycle for procedural memory with dual-level representation (episodic trace + abstract script). For Educability: Adjustment update strategy operationalizes learning from failure (online self-education), with measurable near-linear improvement curves. For Knowledge Transfer: the GPT-4o → Qwen2.5-14B experiment is direct empirical proof that procedural memory is a transferable distillation artifact independent of model weights — a strong baseline for thesis transfer protocols.",
+  "gaps_and_questions": [
+    "Can procedural memory transfer cross-domain (not just cross-model)?",
+    "How to handle memory consolidation and compression as store grows?",
+    "Can a weaker model's memories augment a stronger one (reverse transfer)?",
+    "Would ontology-structured procedural memory improve retrieval precision over flat key-value?",
+    "What is the mechanism behind performance degradation from excess retrieved memories?"
+  ],
+  "poc_ideas": [
+    "Implement MemP Build+Retrieve+Update pipeline as procedural memory module in thesis memory controller",
+    "Test cross-model procedural memory transfer with different model pairs (e.g., Claude→GPT, open→closed)",
+    "Compare flat key-value procedural store vs ontology-structured schema for retrieval quality",
+    "Extend Adjustment update to include forgetting/deprecation under domain shift",
+    "Implement AveFact retrieval with hybrid BM25+dense to improve precision"
+  ],
+  "tags": ["procedural-memory", "agent-memory", "knowledge-transfer", "memory-controller", "educability", "lifelong-learning", "retrieval", "reflection", "distillation", "ALFWorld", "TravelPlanner"],
+  "related_papers": ["AWM (Agent Workflow Memory)", "Voyager", "AutoManual", "Expel", "MemoryBank", "Synapse", "CAMEL"],
+  "citations_count": null,
+  "read_date": "2026-06-15",
+  "confidence": "high"
+}

@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "session_1_success_rate": 0.5,
+      "session_2_success_rate": 1.0,
+      "delta_s1_to_s2": 0.5,
+      "mean_tokens_s2": 3487.5,
+      "total_retrieval_calls_s2": 0,
+      "final_graph_nodes": null,
+      "name": "no_memory"
+    },
+    {
+      "session_1_success_rate": 1.0,
+      "session_2_success_rate": 1.0,
+      "delta_s1_to_s2": 0.0,
+      "mean_tokens_s2": 3450.5,
+      "total_retrieval_calls_s2": 0,
+      "final_graph_nodes": null,
+      "name": "memp_flat"
+    },
+    {
+      "session_1_success_rate": 1.0,
+      "session_2_success_rate": 1.0,
+      "delta_s1_to_s2": 0.0,
+      "mean_tokens_s2": 3538.5,
+      "total_retrieval_calls_s2": 2,
+      "final_graph_nodes": 20,
+      "name": "graph_pertraj"
+    },
+    {
+      "session_1_success_rate": 1.0,
+      "session_2_success_rate": 1.0,
+      "delta_s1_to_s2": 0.0,
+      "mean_tokens_s2": 3611.5,
+      "total_retrieval_calls_s2": 2,
+      "final_graph_nodes": 12,
+      "name": "graph_session"
+    }
+  ]
+}

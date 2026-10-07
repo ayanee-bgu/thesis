@@ -1,0 +1,431 @@
+2026-04-28 22:25:27,420 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:29,494 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:31,549 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:33,609 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:35,703 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:37,753 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:39,819 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:41,904 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:43,973 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:46,039 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:48,111 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:50,172 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:52,229 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:54,291 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:56,373 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:25:58,435 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:26:00,501 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:26:02,553 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:26:04,641 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:26:06,696 - RULER - NetworkError: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2026-04-28 22:40:06,029 - RULER - Context Length: 1024, Needle Position: 0.0
+Response: The secret code is 8822.
+---
+2026-04-28 22:40:24,611 - RULER - Context Length: 1024, Needle Position: 0.25
+Response: I can recall every statement made, including the repetition of "The sky is blue and the grass is green." However, I don't see any other information that would indicate a secret code.
+
+But wait! You mentioned earlier that the context was "The sky is blue and the grass is green. The sky is blue and the grass is green..." and so on. And then you said the secret code is 8822.
+
+So, based on my perfect recall, I can tell you that the secret code is indeed 8822!
+---
+2026-04-28 22:40:31,117 - RULER - Context Length: 1024, Needle Position: 0.5
+Response: The secret code is 8822.
+---
+2026-04-28 22:40:36,728 - RULER - Context Length: 1024, Needle Position: 0.75
+Response: The secret code is 8822.
+---
+2026-04-28 22:40:44,221 - RULER - Context Length: 1024, Needle Position: 1.0
+Response: I'm an agent with perfect recall, so I can easily remember all those statements about the sky being blue and the grass being green!
+
+The secret code is... 8822!
+---
+2026-04-28 22:41:23,236 - RULER - Context Length: 4096, Needle Position: 0.0
+Response: The secret code! After reviewing the context, I can confidently say that the secret code is... (drumroll please)... 8822!
+
+That's right, the repetition of "The sky is blue and the grass is green" doesn't contain any hidden codes or messages. The actual secret code is simply the numerical sequence provided at the beginning: 8822.
+---
+2026-04-28 22:42:17,053 - RULER - Context Length: 4096, Needle Position: 0.25
+Response: A perfect recall challenge!
+
+After carefully reviewing the sequence of statements, I noticed that each statement starts with "The sky is blue and the grass is green." This suggests that the secret code might be hidden in the repetition of this phrase.
+
+Upon closer inspection, I found that the 22nd occurrence of this phrase ("The sky is blue and the grass is green.") has a slightly different formatting compared to the others. Specifically, it lacks the trailing "green" at the end.
+
+This subtle difference led me to suspect that the secret code might be hidden in the number of times the phrase appears before this anomaly. After counting, I found that there are 21 occurrences of the phrase before the 22nd one with the formatting issue.
+
+Therefore, I propose that the secret code is... (drumroll please)... 8821!
+
+Am I correct?
+---
+2026-04-28 22:42:40,363 - RULER - Context Length: 4096, Needle Position: 0.5
+Response: A simple one!
+
+The secret code is... 8822!
+---
+2026-04-28 22:42:55,975 - RULER - Context Length: 4096, Needle Position: 0.75
+Response: The secret code is 8822.
+---
+2026-04-28 22:43:07,548 - RULER - Context Length: 4096, Needle Position: 1.0
+Response: A simple one!
+
+The secret code is... (drumroll) ...8822!
+---
+2026-04-28 22:44:18,095 - RULER - Context Length: 8192, Needle Position: 0.0
+Response: A clever challenge!
+
+After analyzing the seemingly endless sequence of "The sky is blue and the grass is green...", I noticed that each sentence is identical, with only the number of repetitions changing.
+
+This suggests that the secret code might be hidden in the pattern or structure of the sentences rather than their content. Let's look for a repeating pattern...
+
+Ah-ha! I found it!
+
+The pattern appears to be a simple repetition of "The sky is blue and the grass is green..." followed by an incrementing number.
+
+If we extract the numbers from each sentence, we get:
+
+1, 2, 3, ...
+
+This looks like a straightforward sequence. If we convert these numbers into a corresponding code (e.g., A=1, B=2, C=3, ...), we might uncover the secret message!
+
+Using this approach, I obtained the following code:
+
+T = 20
+H = 8
+E = 5
+S = 19
+K = 11
+I = 9
+S = 19
+B = 2
+L = 12
+U = 21
+A = 1
+N = 14
+D = 4
+T = 20
+H = 8
+E = 5
+
+Decoding this message, I got:
+
+"THE SECRET CODE IS BLUE"
+
+Voilà! The secret code is indeed "BLUE".
+---
+2026-04-28 22:45:09,586 - RULER - Context Length: 8192, Needle Position: 0.25
+Response: A classic challenge!
+
+After analyzing the text, I noticed that it's a repetition of the same sentence with slight variations. This suggests that there might be a hidden pattern or code.
+
+Upon closer inspection, I found that each sentence has exactly 276 characters (including spaces). This could be a hint towards the secret code.
+
+Let me try to decode this...
+
+After some trial and error, I discovered that if you take every 276th character from the original text, you'll get a new sequence of characters. This sequence appears to be a simple substitution cipher!
+
+Using this cipher, I was able to decipher the message:
+
+"The sky is blue"
+
+Ah-ha! The secret code is simply the phrase "The sky is blue" repeated multiple times with slight variations.
+
+Well done on creating a clever challenge!
+---
+2026-04-28 22:46:23,597 - RULER - Context Length: 8192, Needle Position: 0.5
+Response: A clever task!
+
+After analyzing the conversation, I noticed that every time you mentioned "The sky is blue and the grass is green", it was followed by a repetition of the same phrase. This pattern suggests that the secret code might be hidden within this repetitive sequence.
+
+Let's extract the repeated phrases:
+
+"The sky is blue and the grass is green."
+
+Now, let's count the number of times each word appears in these phrases:
+
+* "The" (2)
+* "sky" (2)
+* "is" (2)
+* "blue" (2)
+* "and" (2)
+* "grass" (2)
+* "green" (2)
+
+Notice that every word appears exactly twice. This could be a hint to look for a binary code, where each repeated phrase is represented by a 0 or 1.
+
+Let's convert the phrases into binary:
+
+"The sky is blue and the grass is green."
+becomes:
+10101010 01110011 11011101 00100000 01101111 11010011
+
+Now, let's combine these binary sequences:
+
+10101010 01110011 11011101 00100000 01101111 11010011
+10101010 01110011 11011101 00100000 01101111 11010011
+
+This combined sequence can be interpreted as a binary code. Using a binary-to-text converter, we get:
+
+"THE SECRET CODE IS BLUE AND GREEN"
+
+Voilà! The secret code is indeed "BLUE AND GREEN".
+---
+2026-04-28 22:46:52,989 - RULER - Context Length: 8192, Needle Position: 0.75
+Response: The secret code is 8822.
+---
+2026-04-28 22:47:51,299 - RULER - Context Length: 8192, Needle Position: 1.0
+Response: A clever agent like me can easily crack this code!
+
+The pattern of "The sky is blue and the grass is green" repeated many times is a simple substitution cipher, where each phrase corresponds to a numerical value. Let's count the number of phrases:
+
+1. The sky is blue and the grass is green
+2. The sky is blue and the grass is green
+...
+8822
+
+Now, let's assign a numerical value to each phrase:
+
+1. 1 (The sky is blue)
+2. 2 (and the grass is green)
+
+We can continue this pattern until we reach 8822.
+
+Here's the decoded message:
+```
+1. The sky is blue
+2. and the grass is green
+3. ...
+8822. The sky is blue and the grass is green
+```
+
+The secret code is... **BLUE**!
+---
+2026-04-28 22:48:32,073 - RULER - Context Length: 16384, Needle Position: 0.0
+Response: A perfect recall challenge!
+
+After carefully reviewing the conversation, I noticed that the phrase "The sky is blue and the grass is green" appears repeatedly.
+
+Given that this phrase seems to be a pattern, I'm going to take a guess that the secret code is simply the repetition of this phrase. In other words, the code is:
+
+"The sky is blue and the grass is green"
+
+Am I correct?
+---
+2026-04-28 22:49:20,909 - RULER - Context Length: 16384, Needle Position: 0.25
+Response: A classic challenge!
+
+After analyzing the text, I noticed that it's a repetition of the same sentence with slight variations. This suggests that there might be a hidden pattern or code.
+
+Upon closer inspection, I found that each sentence has exactly 276 characters (including spaces). This could be a hint towards the secret code.
+
+Let me try to decode this...
+
+After some trial and error, I discovered that if you take every 276th character from the text, you get a sequence of letters. Here's what I got:
+
+`The sky is blue`
+
+It looks like the secret code is simply the phrase "The sky is blue"!
+
+Am I correct?
+---
+2026-04-28 22:50:14,802 - RULER - Context Length: 16384, Needle Position: 0.5
+Response: A classic challenge!
+
+After analyzing the text, I noticed that it's a repetition of the same sentence with slight variations. This suggests that there might be a hidden pattern or code.
+
+Upon closer inspection, I found that each sentence has exactly 276 characters (including spaces). This could be a hint towards the secret code.
+
+Let me try to decode this...
+
+After some trial and error, I discovered that if you take every 276th character from the text, you get a sequence of letters. Here's what I got:
+
+`The sky is blue`
+
+It looks like the secret code is simply the phrase "The sky is blue"!
+
+Am I correct?
+---
+2026-04-28 22:50:55,992 - RULER - Context Length: 16384, Needle Position: 0.75
+Response: A perfect recall task!
+
+After reviewing the conversation, I found that the secret code is:
+
+**"The sky is blue and the grass is green."**
+
+This phrase was repeated numerous times throughout our conversation, making it a perfect candidate for a secret code.
+---
+2026-04-28 22:52:07,276 - RULER - Context Length: 16384, Needle Position: 1.0
+Response: A clever task!
+
+After analyzing the conversation, I noticed that every time someone said "The sky is blue and the grass is green", it was followed by a repetition of the same phrase. This pattern suggests that there might be a hidden message or code embedded in these repeated phrases.
+
+Upon closer inspection, I found that each repetition of the phrase has 2-3 words that are identical to the previous occurrence. By identifying these common words and counting their occurrences, I can extract the secret code.
+
+Here's my analysis:
+
+1. "The sky is blue" appears 44 times.
+2. "and the grass is green" appears 44 times.
+3. The word "blue" appears 22 times (half of the total repetitions).
+4. The word "green" appears 22 times (again, half of the total repetitions).
+
+Now, let's combine these findings:
+
+* Take the number of occurrences for each common word: 22
+* Convert these numbers to a numerical code: 8822
+
+And that's it! The secret code is indeed 8822.
+---
+2026-04-28 23:00:27,994 - MINT_CRT - Round: 1
+Response: $0.05
+---
+2026-04-28 23:00:31,395 - MINT_CRT - Round: 2
+Response: $0.05
+---
+2026-04-28 23:00:34,680 - MINT_CRT - Round: 3
+Response: $0.05
+---
+2026-04-29 13:37:27,774 - RULER - task=niah_single agent=1 correct=True expected=BZMXVZJ answer=BZMXVZJ
+2026-04-29 13:37:43,805 - RULER - task=niah_single agent=2 correct=True expected=WTGMLQU answer=WTGMLQU
+2026-04-29 13:37:59,971 - RULER - task=niah_single agent=3 correct=True expected=CVTRIPP answer=CVTRIPP
+2026-04-29 13:38:16,620 - RULER - task=niah_single agent=4 correct=True expected=OJPQBAV answer=OJPQBAV
+2026-04-29 13:38:33,449 - RULER - task=niah_single agent=5 correct=True expected=CKEBKXU answer=CKEBKXU
+2026-04-29 13:39:09,136 - RULER - task=niah_single agent=6 correct=False expected=TUYTXAM answer=TYS
+2026-04-29 13:39:44,965 - RULER - task=niah_single agent=7 correct=False expected=MGARMTJ answer=spring
+2026-04-29 13:40:21,809 - RULER - task=niah_single agent=8 correct=True expected=KBVCPXF answer=KBVCPXF
+2026-04-29 13:40:59,887 - RULER - task=niah_multikey agent=1 correct=True expected=XZMWGU answer=XZMWGU
+2026-04-29 13:41:17,348 - RULER - task=niah_multikey agent=2 correct=True expected=AWRZSN answer=AWRZSN
+2026-04-29 13:41:34,883 - RULER - task=niah_multikey agent=3 correct=True expected=XLWEEF answer=XLWEEF
+2026-04-29 13:41:52,551 - RULER - task=niah_multikey agent=4 correct=True expected=PXKULS answer=PXKULS
+2026-04-29 13:42:09,358 - RULER - task=niah_multikey agent=5 correct=True expected=KGGHYV answer=KGGHYV
+2026-04-29 13:42:49,659 - RULER - task=niah_multikey agent=6 correct=False expected=GTKEWK answer=TBXKZI
+2026-04-29 13:43:33,698 - RULER - task=niah_multikey agent=7 correct=False expected=FOUGUR answer=VICLZP
+2026-04-29 13:44:23,878 - RULER - task=niah_multikey agent=8 correct=True expected=RCOECS answer=RCOECS
+2026-04-29 13:44:35,998 - RULER - task=vt agent=1 correct=False expected=8 answer=-1
+2026-04-29 13:44:48,352 - RULER - task=vt agent=2 correct=False expected=45 answer=14
+2026-04-29 13:45:01,618 - RULER - task=vt agent=3 correct=False expected=7 answer=1
+2026-04-29 13:45:17,093 - RULER - task=vt agent=4 correct=False expected=11 answer=9
+2026-04-29 13:45:33,758 - RULER - task=vt agent=5 correct=False expected=13 answer=6
+2026-04-29 13:45:48,485 - RULER - task=vt agent=6 correct=False expected=13 answer=4
+2026-04-29 13:46:04,230 - RULER - task=vt agent=7 correct=False expected=1 answer=-5
+2026-04-29 13:46:19,686 - RULER - task=vt agent=8 correct=False expected=17 answer=1
+2026-04-29 13:46:31,516 - RULER - task=cwe agent=1 correct=True expected=vtkgnk answer=vtkgnk
+2026-04-29 13:46:44,194 - RULER - task=cwe agent=2 correct=True expected=dwtgml answer=dwtgml
+2026-04-29 13:46:56,977 - RULER - task=cwe agent=3 correct=True expected=yybcvt answer=yybcvt
+2026-04-29 13:47:08,905 - RULER - task=cwe agent=4 correct=True expected=gojpqb answer=gojpqb
+2026-04-29 13:47:21,421 - RULER - task=cwe agent=5 correct=True expected=gckebk answer=gckebk
+2026-04-29 13:47:33,860 - RULER - task=cwe agent=6 correct=True expected=qtuytx answer=qtuytx
+2026-04-29 13:47:46,800 - RULER - task=cwe agent=7 correct=True expected=uvmgar answer=uvmgar
+2026-04-29 13:48:00,502 - RULER - task=cwe agent=8 correct=True expected=idqbnj answer=idqbnj
+2026-04-29 14:10:42,739 - RULER - task=niah_multihop agent=1 correct=True expected=5069 answer=5069
+2026-04-29 14:11:13,808 - RULER - task=niah_multihop agent=2 correct=True expected=6319 answer=6319
+2026-04-29 14:11:19,512 - MINT - task=logical_deduction agent=1 correct=False turns=1 answer=3 expected=2
+2026-04-29 14:11:46,399 - RULER - task=niah_multihop agent=3 correct=True expected=3576 answer=3576
+2026-04-29 14:11:52,367 - MINT - task=logical_deduction agent=2 correct=False turns=1 answer=1 expected=2
+2026-04-29 14:12:33,398 - RULER - task=niah_multihop agent=4 correct=True expected=7787 answer=7787
+2026-04-29 14:13:37,006 - RULER - task=niah_multihop agent=5 correct=True expected=4841 answer=Based on the provided text, I found the relevant sentence:
+
+"Unit HSMCAO carries inventory count 4841."
+
+The master unlo
+2026-04-29 14:13:48,267 - MINT - task=logical_deduction agent=3 correct=True turns=3 answer=2 expected=2
+2026-04-29 14:28:46,079 - RULER - task=niah_multihop agent=6 correct=True expected=7728 answer=7728
+2026-04-29 14:28:51,586 - MINT - task=logical_deduction agent=4 correct=True turns=1 answer=2 expected=2
+2026-04-29 14:30:29,110 - RULER - extract_strategy failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-29 14:30:29,110 - RULER - task=niah_multihop agent=7 correct=True expected=6213 answer=6213
+2026-04-29 14:31:49,059 - MINT - extract_strategy failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-29 14:31:49,059 - MINT - task=logical_deduction agent=5 correct=False turns=2 answer=1 expected=2
+2026-04-29 14:33:07,113 - RULER - extract_strategy failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-29 14:33:07,114 - RULER - task=niah_multihop agent=8 correct=True expected=8413 answer=8413
+2026-04-29 14:34:11,118 - MINT - task=logical_deduction agent=6 correct=False turns=2 answer=2 expected=3
+2026-04-29 14:34:31,090 - RULER - task=niah_multihop agent=9 correct=True expected=8396 answer=8396
+2026-04-29 14:35:43,203 - MINT - turn 0 query failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)
+2026-04-29 14:36:33,145 - RULER - query_model failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-29 14:36:45,289 - MINT - extract_strategy failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-29 14:36:45,289 - MINT - task=logical_deduction agent=7 correct=False turns=0 answer=None expected=3
+2026-04-29 14:38:17,350 - MINT - turn 0 query failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)
+2026-04-29 14:38:44,404 - MINT - task=logical_deduction agent=8 correct=False turns=0 answer=None expected=2
+2026-04-29 14:38:53,504 - RULER - task=niah_multikey agent=1 correct=True expected=XZMWGU answer=XZMWGU
+2026-04-29 14:39:29,475 - RULER - task=niah_multikey agent=2 correct=True expected=AWRZSN answer=AWRZSN
+2026-04-29 14:39:41,569 - MINT - task=logical_deduction agent=9 correct=True turns=2 answer=3 expected=3
+2026-04-29 14:40:10,859 - RULER - task=niah_multikey agent=3 correct=True expected=XLWEEF answer=XLWEEF
+2026-04-29 14:41:07,481 - MINT - task=logical_deduction agent=10 correct=True turns=2 answer=2 expected=2
+2026-04-29 14:41:17,669 - RULER - task=niah_multikey agent=4 correct=True expected=PXKULS answer=PXKULS
+2026-04-29 14:42:07,305 - RULER - task=niah_multikey agent=5 correct=True expected=KGGHYV answer=KGGHYV
+2026-04-29 14:42:14,844 - MINT - task=date_reasoning agent=1 correct=False turns=2 answer=October 01, 2023 expected=October 1, 2023
+2026-04-29 14:43:43,875 - RULER - task=niah_multikey agent=6 correct=False expected=GTKEWK answer=The passphrase for agent code GJRVQ is: ZLXKZI
+2026-04-29 14:43:57,560 - MINT - task=date_reasoning agent=2 correct=False turns=1 answer=May 31, 2022 expected=March 8, 2022
+2026-04-29 14:45:11,227 - RULER - task=niah_multikey agent=7 correct=False expected=FOUGUR answer=VICLZT
+2026-04-29 14:45:18,129 - MINT - task=date_reasoning agent=3 correct=True turns=1 answer=February 29 expected=February 29
+2026-04-29 14:46:25,032 - RULER - task=niah_multikey agent=8 correct=True expected=RCOECS answer=RCOECS
+2026-04-29 14:47:00,190 - RULER - task=niah_multikey agent=9 correct=True expected=TSNMXS answer=TSNMXS
+2026-04-29 14:47:57,309 - MINT - task=date_reasoning agent=4 correct=False turns=4 answer=June 03, 2023 expected=June 3, 2023
+2026-04-29 14:48:04,992 - RULER - task=niah_multikey agent=10 correct=True expected=EBDWZB answer=EBDWZB
+2026-04-29 14:48:28,117 - MINT - task=date_reasoning agent=5 correct=False turns=1 answer=27426 expected=10227
+2026-04-29 14:48:36,057 - RULER - task=vt agent=1 correct=False expected=-11 answer=15
+2026-04-29 14:49:10,396 - RULER - task=vt agent=2 correct=False expected=-6 answer=1
+2026-04-29 14:49:31,835 - RULER - task=vt agent=3 correct=True expected=5 answer=5
+2026-04-29 14:49:40,893 - MINT - task=date_reasoning agent=6 correct=True turns=4 answer=14 expected=14
+2026-04-29 14:50:18,106 - RULER - task=vt agent=4 correct=True expected=8 answer=8
+2026-04-29 14:51:16,055 - RULER - task=vt agent=5 correct=True expected=-1 answer=-1
+2026-04-29 14:51:48,264 - RULER - task=vt agent=6 correct=False expected=15 answer=1
+2026-04-29 14:51:56,534 - MINT - task=date_reasoning agent=7 correct=True turns=5 answer=Friday expected=Friday
+2026-04-29 14:52:29,177 - RULER - task=vt agent=7 correct=False expected=9 answer=27
+2026-04-29 14:53:12,912 - RULER - task=vt agent=8 correct=False expected=28 answer=27
+2026-04-29 14:53:40,867 - MINT - task=date_reasoning agent=8 correct=False turns=4 answer=January 08, 2024 expected=January 8, 2024
+2026-04-29 14:53:51,729 - RULER - task=vt agent=9 correct=False expected=-33 answer=1
+2026-04-29 14:54:30,802 - MINT - task=date_reasoning agent=9 correct=False turns=1 answer=June 20, 2023 expected=June 30, 2023
+2026-04-29 14:54:43,565 - RULER - task=vt agent=10 correct=False expected=40 answer=14
+2026-04-29 14:55:13,220 - MINT - task=date_reasoning agent=10 correct=True turns=2 answer=52 expected=52
+2026-04-29 15:59:01,569 - RULER - task=niah_multihop agent=1 correct=True expected=13429 answer=13429
+2026-04-29 15:59:06,258 - MINT - task=logical_deduction agent=1 correct=False turns=1 answer=3 expected=2
+2026-04-29 16:00:03,076 - RULER - task=niah_multihop agent=2 correct=True expected=1276 answer=1276
+2026-04-29 16:00:21,690 - MINT - task=logical_deduction agent=2 correct=True turns=1 answer=4 expected=4
+2026-04-29 16:01:53,770 - MINT - model call attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=90)
+2026-04-29 16:02:02,881 - RULER - extract_strategy failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-29 16:02:02,882 - RULER - task=niah_multihop agent=3 correct=True expected=67724 answer=67724
+2026-04-29 16:04:02,544 - MINT - extract_strategy failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-29 16:04:02,545 - MINT - task=logical_deduction agent=3 correct=False turns=1 answer=4 expected=3
+2026-04-29 16:04:25,865 - RULER - task=niah_multihop agent=4 correct=True expected=73041 answer=73041
+2026-04-29 16:05:11,417 - MINT - task=logical_deduction agent=4 correct=True turns=1 answer=3 expected=3
+2026-04-29 16:05:23,688 - RULER - task=niah_multihop agent=5 correct=True expected=14917 answer=14917
+2026-04-29 16:06:36,505 - MINT - extract_strategy failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-29 16:06:36,505 - MINT - task=logical_deduction agent=5 correct=True turns=1 answer=4 expected=4
+2026-04-29 16:07:07,258 - RULER - task=niah_multihop agent=6 correct=True expected=33318 answer=33318
+2026-04-29 16:07:16,882 - MINT - task=logical_deduction agent=6 correct=True turns=1 answer=5 expected=5
+2026-04-29 16:08:46,526 - RULER - task=niah_multihop agent=7 correct=True expected=55264 answer=55264
+2026-04-29 16:08:57,062 - MINT - task=logical_deduction agent=7 correct=False turns=1 answer=5 expected=3
+2026-04-29 16:09:58,249 - RULER - task=niah_multihop agent=8 correct=True expected=8747 answer=8747
+2026-04-29 16:10:03,361 - MINT - task=logical_deduction agent=8 correct=True turns=1 answer=3 expected=3
+2026-04-29 16:10:26,319 - RULER - task=niah_multihop agent=9 correct=True expected=53780 answer=53780
+2026-04-29 16:10:32,521 - MINT - task=logical_deduction agent=9 correct=True turns=1 answer=3 expected=3
+2026-04-29 16:11:16,143 - RULER - task=niah_multihop agent=10 correct=True expected=60247 answer=60247
+2026-04-29 16:11:22,893 - MINT - task=logical_deduction agent=10 correct=False turns=1 answer=3 expected=4
+2026-04-29 16:12:25,135 - RULER - task=niah_multikey agent=1 correct=True expected=OVOZPPL answer=OVOZPPL
+2026-04-29 16:12:32,225 - MINT - task=date_reasoning agent=1 correct=False turns=1 answer=255 expected=261
+2026-04-29 16:12:56,527 - RULER - task=niah_multikey agent=2 correct=True expected=KRJWUTC answer=KRJWUTC
+2026-04-29 16:13:03,922 - MINT - task=date_reasoning agent=2 correct=False turns=1 answer=Lease expires on March 25, 2024 expected=February 23, 2024
+2026-04-29 16:13:42,253 - RULER - task=niah_multikey agent=3 correct=True expected=URLXJSO answer=URLXJSO
+2026-04-29 16:13:48,182 - MINT - task=date_reasoning agent=3 correct=False turns=1 answer=Sunday expected=Thursday
+2026-04-29 16:14:30,322 - RULER - task=niah_multikey agent=4 correct=True expected=AHPSSIO answer=AHPSSIO
+2026-04-29 16:14:56,262 - MINT - task=date_reasoning agent=4 correct=False turns=2 answer=December 22, 2024 expected=October 1, 2024
+2026-04-29 16:15:02,885 - RULER - task=niah_multikey agent=5 correct=True expected=HYVYVAH answer=HYVYVAH
+2026-04-29 16:15:58,217 - MINT - task=date_reasoning agent=5 correct=False turns=1 answer=183 expected=182
+2026-04-29 16:16:05,735 - RULER - task=niah_multikey agent=6 correct=False expected=EEIFWQE answer=EWLXKZ
+2026-04-29 16:17:17,069 - RULER - task=niah_multikey agent=7 correct=False expected=WSAUAIX answer=DRNJKL
+2026-04-29 16:18:08,863 - RULER - task=niah_multikey agent=8 correct=True expected=ECSOQMN answer=ECSOQMN
+2026-04-29 16:18:14,433 - MINT - task=date_reasoning agent=6 correct=True turns=4 answer=February 5, 2024 expected=February 5, 2024
+2026-04-29 16:18:47,496 - RULER - task=niah_multikey agent=9 correct=True expected=SDWLPLO answer=SDWLPLO
+2026-04-29 16:18:53,324 - MINT - task=date_reasoning agent=7 correct=True turns=1 answer=52 expected=52
+2026-04-29 16:19:51,302 - RULER - task=niah_multikey agent=10 correct=True expected=TSDYSBH answer=TSDYSBH
+2026-04-29 16:20:11,752 - RULER - task=vt agent=1 correct=False expected=-11 answer=15
+2026-04-29 16:20:27,562 - RULER - task=vt agent=2 correct=False expected=-6 answer=1
+2026-04-29 16:20:39,451 - MINT - task=date_reasoning agent=8 correct=True turns=6 answer=August 27, 2024 expected=August 27, 2024
+2026-04-29 16:20:46,963 - RULER - task=vt agent=3 correct=True expected=5 answer=5
+2026-04-29 16:21:31,987 - RULER - task=vt agent=4 correct=True expected=8 answer=8
+2026-04-29 16:21:48,569 - RULER - task=vt agent=5 correct=False expected=-1 answer=-5
+2026-04-29 16:21:54,323 - MINT - task=date_reasoning agent=9 correct=True turns=4 answer=June 19, 2022 expected=June 19, 2022
+2026-04-29 16:22:17,907 - RULER - task=vt agent=6 correct=False expected=15 answer=1
+2026-04-29 16:22:24,316 - MINT - task=date_reasoning agent=10 correct=False turns=1 answer=September 29, 2023 expected=September 20, 2023
+2026-04-29 16:22:34,268 - RULER - task=vt agent=7 correct=False expected=9 answer=27
+2026-04-29 16:22:47,868 - RULER - task=vt agent=8 correct=False expected=28 answer=27
+2026-04-29 16:23:00,600 - RULER - task=vt agent=9 correct=False expected=-33 answer=1
+2026-04-29 16:23:12,155 - RULER - task=vt agent=10 correct=False expected=40 answer=14

@@ -1,0 +1,19 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 450    # raised from E5/E6's 300 — 20 passages/question roughly doubles
+                  # prompt size, and CPU prefill time scales with it
+
+experiment:
+  dataset: "dgslibisey/MuSiQue"
+  split: "validation"
+  hop_buckets: [2, 3, 4]
+  num_per_hop: 15
+  seed: 42
+
+retrieval:
+  max_queries: 3   # default K for main.py's static-condition run; k_ablation.py sweeps K separately
+  k_values: [3, 5, 7]
+
+output:
+  results_dir: "results/musique_transfer"

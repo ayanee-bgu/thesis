@@ -1,0 +1,113 @@
+{
+  "condition": "graph_session",
+  "config": {
+    "num_tasks_teacher": 5,
+    "num_tasks_student": 5,
+    "max_questions": 5,
+    "task_split": "validation"
+  },
+  "teacher_task_ids": [
+    "val_000",
+    "val_001",
+    "val_002",
+    "val_003",
+    "val_004"
+  ],
+  "tasks": [
+    {
+      "task_id": "val_005",
+      "condition": "graph_session",
+      "success": true,
+      "plan_tokens": 3462,
+      "oracle_tokens": 0,
+      "total_tokens": 3462,
+      "oracle_questions_asked": 0,
+      "oracle_questions": [],
+      "retrieved": true,
+      "memory_chars": 878,
+      "plan_elapsed_s": 2568.96,
+      "oracle_elapsed_s": 0.0,
+      "mean_oracle_call_elapsed_s": 0.0,
+      "total_elapsed_s": 2569.16
+    },
+    {
+      "task_id": "val_006",
+      "condition": "graph_session",
+      "success": true,
+      "plan_tokens": 3898,
+      "oracle_tokens": 0,
+      "total_tokens": 3898,
+      "oracle_questions_asked": 0,
+      "oracle_questions": [],
+      "retrieved": true,
+      "memory_chars": 1624,
+      "plan_elapsed_s": 343.91,
+      "oracle_elapsed_s": 0.0,
+      "mean_oracle_call_elapsed_s": 0.0,
+      "total_elapsed_s": 345.19
+    },
+    {
+      "task_id": "val_007",
+      "condition": "graph_session",
+      "success": true,
+      "plan_tokens": 4038,
+      "oracle_tokens": 0,
+      "total_tokens": 4038,
+      "oracle_questions_asked": 0,
+      "oracle_questions": [],
+      "retrieved": true,
+      "memory_chars": 1575,
+      "plan_elapsed_s": 431.05,
+      "oracle_elapsed_s": 0.0,
+      "mean_oracle_call_elapsed_s": 0.0,
+      "total_elapsed_s": 432.84
+    },
+    {
+      "task_id": "val_008",
+      "condition": "graph_session",
+      "success": false,
+      "plan_tokens": 3805,
+      "oracle_tokens": 0,
+      "total_tokens": 3805,
+      "oracle_questions_asked": 0,
+      "oracle_questions": [],
+      "retrieved": true,
+      "memory_chars": 1624,
+      "plan_elapsed_s": 5142.63,
+      "oracle_elapsed_s": 0.0,
+      "mean_oracle_call_elapsed_s": 0.0,
+      "total_elapsed_s": 5142.75
+    },
+    {
+      "task_id": "val_009",
+      "condition": "graph_session",
+      "success": false,
+      "plan_tokens": 3776,
+      "oracle_tokens": 0,
+      "total_tokens": 3776,
+      "oracle_questions_asked": 0,
+      "oracle_questions": [],
+      "retrieved": true,
+      "memory_chars": 1624,
+      "plan_elapsed_s": 113.15,
+      "oracle_elapsed_s": 0.0,
+      "mean_oracle_call_elapsed_s": 0.0,
+      "total_elapsed_s": 113.22
+    }
+  ],
+  "summary": {
+    "num_tasks": 5,
+    "success_rate": 0.6,
+    "mean_total_tokens": 3795.8,
+    "mean_plan_tokens": 3795.8,
+    "mean_oracle_tokens": 0.0,
+    "tokens_per_successful_task": 6326.333333333333,
+    "mean_oracle_questions_asked": 0.0,
+    "mean_memory_chars": 1465.0,
+    "retrieval_rate": 1.0,
+    "mean_plan_elapsed_s": 1719.94,
+    "mean_oracle_elapsed_s": 0.0,
+    "mean_total_elapsed_s": 1720.632,
+    "mean_oracle_call_elapsed_s": 0.0
+  }
+}

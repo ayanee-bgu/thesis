@@ -1,0 +1,51 @@
+{
+  "task": "What is the average speed of a trip where you go 120 km at 60 km/h and return at 40 km/h? Use Python code to compute this precisely. Answer with a single number.",
+  "started_at": "2026-05-24T17:31:41.311125",
+  "memory_enabled": true,
+  "rounds": [
+    {
+      "round": 1,
+      "votes": [
+        {
+          "role": "coder",
+          "answer": "45",
+          "confidence": 1.0
+        },
+        {
+          "role": "generalist",
+          "answer": "48",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": false,
+      "winning_answer": null,
+      "memory_transfers": 0
+    },
+    {
+      "round": 2,
+      "votes": [
+        {
+          "role": "coder",
+          "answer": "30.0",
+          "confidence": 1.0
+        },
+        {
+          "role": "generalist",
+          "answer": "48.0",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": false,
+      "winning_answer": null,
+      "memory_transfers": 0
+    }
+  ],
+  "final_answer": "48.0",
+  "consensus_reached": false,
+  "total_rounds": 2,
+  "memory_transfer_summary": {
+    "total_transfers": 0,
+    "by_round": {},
+    "by_pair": {}
+  }
+}

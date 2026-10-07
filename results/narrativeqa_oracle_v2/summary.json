@@ -1,0 +1,355 @@
+{
+  "conditions": [
+    {
+      "condition": "no_context",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "full_context",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "summary_doc",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "oracle_baseline",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "oracle_grounded",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "oracle_bm25",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "oracle_embed",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "oracle_neighbor",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    },
+    {
+      "condition": "oracle_full",
+      "overall": {
+        "num_tasks": 4,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_gutenberg": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      },
+      "by_type_movie": {
+        "num_tasks": 2,
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "mean_tokens": 0.0,
+        "mean_elapsed_s": 0.0,
+        "mean_supporting_fact_recall": 0.0,
+        "mean_retrieval_hit_rate": null,
+        "mean_dfs_score": null,
+        "mean_num_queries": 0.0,
+        "early_stop_rate": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "task": "\nA train travels from city A to city B at 60 km/h and returns at 40 km/h.\nWhat is the average speed for the entire round trip?\nAnswer with a single number in km/h.\n",
+  "started_at": "2026-05-24T17:38:13.827634",
+  "memory_enabled": true,
+  "rounds": [
+    {
+      "round": 1,
+      "votes": [
+        {
+          "role": "reasoner",
+          "answer": "48",
+          "confidence": 1.0
+        },
+        {
+          "role": "generalist",
+          "answer": "48",
+          "confidence": 1.0
+        }
+      ],
+      "consensus": true,
+      "winning_answer": "48",
+      "memory_transfers": 0
+    }
+  ],
+  "final_answer": "48",
+  "consensus_reached": true,
+  "total_rounds": 1,
+  "memory_transfer_summary": {
+    "total_transfers": 0,
+    "by_round": {},
+    "by_pair": {}
+  }
+}

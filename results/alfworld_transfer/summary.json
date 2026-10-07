@@ -1,0 +1,68 @@
+{
+  "conditions": [
+    {
+      "condition": "no_memory",
+      "num_tasks": 5,
+      "success_rate": 0.6,
+      "sequence_correct_rate": 0.6,
+      "loose_correct_rate": 1.0,
+      "mean_total_tokens": 228.8,
+      "mean_plan_tokens": 228.8,
+      "mean_oracle_tokens": 0.0,
+      "tokens_per_successful_task": 381.0,
+      "mean_oracle_questions_asked": 0.0,
+      "mean_memory_chars": 0.0,
+      "mean_plan_elapsed_s": 17.642,
+      "mean_oracle_elapsed_s": 0.0,
+      "mean_total_elapsed_s": 17.642
+    },
+    {
+      "condition": "graph_session",
+      "num_tasks": 5,
+      "success_rate": 0.6,
+      "sequence_correct_rate": 0.6,
+      "loose_correct_rate": 1.0,
+      "mean_total_tokens": 228.6,
+      "mean_plan_tokens": 228.6,
+      "mean_oracle_tokens": 0.0,
+      "tokens_per_successful_task": 381.0,
+      "mean_oracle_questions_asked": 0.0,
+      "mean_memory_chars": 0.0,
+      "mean_plan_elapsed_s": 12.43,
+      "mean_oracle_elapsed_s": 0.0,
+      "mean_total_elapsed_s": 12.43
+    },
+    {
+      "condition": "full_handoff",
+      "num_tasks": 5,
+      "success_rate": 1.0,
+      "sequence_correct_rate": 1.0,
+      "loose_correct_rate": 1.0,
+      "mean_total_tokens": 522.0,
+      "mean_plan_tokens": 522.0,
+      "mean_oracle_tokens": 0.0,
+      "tokens_per_successful_task": 522.0,
+      "mean_oracle_questions_asked": 0.0,
+      "mean_memory_chars": 954.0,
+      "mean_plan_elapsed_s": 16.838,
+      "mean_oracle_elapsed_s": 0.0,
+      "mean_total_elapsed_s": 16.838
+    },
+    {
+      "condition": "interactive_oracle",
+      "num_tasks": 5,
+      "success_rate": 1.0,
+      "sequence_correct_rate": 1.0,
+      "loose_correct_rate": 1.0,
+      "mean_total_tokens": 5356.8,
+      "mean_plan_tokens": 915.6,
+      "mean_oracle_tokens": 4441.2,
+      "tokens_per_successful_task": 5357.0,
+      "mean_oracle_questions_asked": 5.0,
+      "mean_memory_chars": 3247.0,
+      "mean_plan_elapsed_s": 75.176,
+      "mean_oracle_elapsed_s": 301.884,
+      "mean_total_elapsed_s": 377.06
+    }
+  ]
+}

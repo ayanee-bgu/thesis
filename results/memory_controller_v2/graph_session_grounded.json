@@ -1,0 +1,62 @@
+{
+  "condition": "graph_session_grounded",
+  "sessions": [
+    {
+      "session": 1,
+      "num_tasks": 2,
+      "success_rate": 0.5,
+      "mean_tokens": 361.5,
+      "retrieval_calls": 0,
+      "graph_nodes_after": 11
+    },
+    {
+      "session": 2,
+      "num_tasks": 2,
+      "success_rate": 0.5,
+      "mean_tokens": 540.5,
+      "retrieval_calls": 2,
+      "graph_nodes_after": 24
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "pick_cup",
+      "session": 1,
+      "success": true,
+      "tokens": 297,
+      "retrieval_calls": 0,
+      "elapsed_s": 33.09
+    },
+    {
+      "task_id": "heat_apple",
+      "session": 1,
+      "success": false,
+      "tokens": 426,
+      "retrieval_calls": 0,
+      "elapsed_s": 43.67
+    },
+    {
+      "task_id": "clean_knife",
+      "session": 2,
+      "success": true,
+      "tokens": 440,
+      "retrieval_calls": 1,
+      "elapsed_s": 46.29
+    },
+    {
+      "task_id": "cool_mug",
+      "session": 2,
+      "success": false,
+      "tokens": 641,
+      "retrieval_calls": 1,
+      "elapsed_s": 81.28
+    }
+  ],
+  "summary": {
+    "session_1_success_rate": 0.5,
+    "session_2_success_rate": 0.5,
+    "delta_s1_to_s2": 0.0,
+    "mean_tokens_s2": 540.5,
+    "final_graph_nodes": 24
+  }
+}

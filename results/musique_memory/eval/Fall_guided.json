@@ -1,0 +1,614 @@
+{
+  "condition": "Fall_guided",
+  "results": [
+    {
+      "id": "2hop__460946_294723",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "Who is the spouse of the Green performer?",
+      "gold_answer": "Miquette Giraudy",
+      "predicted_answer": "Martin-Green",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1078,
+      "elapsed_s": 64.2,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Who is the star of Koyelaanchal?",
+        "Who featured in the film Koyelaanchal?",
+        "Who is the star of Koyelaanchal?"
+      ]
+    },
+    {
+      "id": "2hop__252311_366220",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "Who founded the company that distributed the film UHF?",
+      "gold_answer": "Mike Medavoy",
+      "predicted_answer": "Mike Medavoy",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 1249,
+      "elapsed_s": 87.42,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who produced the film UHF?",
+        "QUERY 2: Who distributed the film UHF?\n\n(Note: I'm assuming that the company that distributed the film UHF is the same one mentioned in the passage as producing the film Videodrome, which is not necessarily true. If this assumption is incorrect, please let me know and I'll adjust my query accordingly.)",
+        "QUERY 3: Who founded Orion Pictures?\n\n(Note: I'm assuming that the company that distributed the film UHF is indeed Orion Pictures, as mentioned in the passage. If this assumption is incorrect, please let me know and I'll adjust my query accordingly.)"
+      ]
+    },
+    {
+      "id": "2hop__701895_752697",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+      "gold_answer": "Tamaulipas",
+      "predicted_answer": "Uruguay",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 919,
+      "elapsed_s": 57.89,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "In which country is Hertfordshire located? \u2192 [England]",
+        "In which region is Hertfordshire located? \u2192 [East of England]",
+        "When was East of England created? \u2192 [hop2]"
+      ]
+    },
+    {
+      "id": "2hop__259228_793698",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "Where is Ulrich Walter's employer headquartered?",
+      "gold_answer": "Cologne",
+      "predicted_answer": "Yale University",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 888,
+      "elapsed_s": 54.56,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who is Ulrich Walter?",
+        "Who is Ulrich Walter's colleague from the Argonne National Laboratory?",
+        "Who is Ali Javan's employer?"
+      ]
+    },
+    {
+      "id": "2hop__481349_302087",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "Which company owns the manufacturer of Learjet 60?",
+      "gold_answer": "Bombardier Inc.",
+      "predicted_answer": "Bombardier.",
+      "em": 0.0,
+      "f1": 0.6666666666666666,
+      "tokens": 886,
+      "elapsed_s": 66.61,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who manufactures Learjet 60?",
+        "I think there's been a mistake! The question is about Learjet 60, but the result talks about iPods. Let's try again!\n\nQUERY 2: Who manufactures Learjet 60?\n\n(Note: I'll wait for the next passage to see if it's related to the correct topic)",
+        "I think there's been another mistake! The results are still about iPods, not Learjet 60. Let's try again!\n\nQUERY 3: Who manufactures Learjet 60?\n\n(Note: I'll wait for the next passage to see if it's related to the correct topic)"
+      ]
+    },
+    {
+      "id": "2hop__697790_864352",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "Who is the child of Caroline LeRoy's spouse?",
+      "gold_answer": "Fletcher Webster",
+      "predicted_answer": "John F. Kennedy",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 893,
+      "elapsed_s": 53.67,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who is Caroline LeRoy's spouse?",
+        "Who is Caroline LeRoy's spouse?",
+        "Who is Caroline Kennedy's child?"
+      ]
+    },
+    {
+      "id": "2hop__207476_625987",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "Who is the grandmother of Philippe, Duke of Orl\u00e9ans?",
+      "gold_answer": "Marie de' Medici",
+      "predicted_answer": "Marie Anne de Bourbon",
+      "em": 0.0,
+      "f1": 0.5714285714285714,
+      "tokens": 671,
+      "elapsed_s": 46.27,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who is Louise Marie Ad\u00e9la\u00efde Duras?",
+        "Who is Philippe, Duke of Orl\u00e9ans' grandmother?",
+        "Who is Philippe, Duke of Orl\u00e9ans' mother?"
+      ]
+    },
+    {
+      "id": "2hop__390947_232243",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "What is the goal of the group that European Movement Germany is a member of?",
+      "gold_answer": "European integration",
+      "predicted_answer": "Promoting European integration.",
+      "em": 0.0,
+      "f1": 0.8,
+      "tokens": 800,
+      "elapsed_s": 63.26,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "hop2_who_what: What is the goal of the organization that European Movement Germany is a member of?",
+        "hop2_who_what: What is the goal of the group that European Movement Germany is a member of?\n\n(Note: Since we already have a passage related to European Movement International, let's try to find more specific information about their goals.)",
+        "Since we already have two passages related to European Movement International, let's try to find more specific information about their goals. Here's my next search query:\n\nhop2_who_what: What is the main goal of European Movement International?\n\nLet me know if I should proceed or reply DONE!"
+      ]
+    },
+    {
+      "id": "2hop__354635_174222",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "What company succeeded the owner of Empire Sports Network?",
+      "gold_answer": "Time Warner Cable",
+      "predicted_answer": "TVNorge: None\nAlt for Norge: TVNorge",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1404,
+      "elapsed_s": 87.68,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who owns TVNorge now?",
+        "Who owns TVNorge now?",
+        "Since the results of queries 1 and 2 are the same, it seems that we're not getting any relevant information about TVNorge. Let's try a different approach.\n\nQUERY: Which Norwegian TV channel airs Alt for Norge?\n\nPlease provide the next passage or let me know if I should proceed with another query."
+      ]
+    },
+    {
+      "id": "2hop__635187_861533",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "What province shares a border with the province where Lago District is located?",
+      "gold_answer": "Cabo Delgado Province",
+      "predicted_answer": "Italy",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 619,
+      "elapsed_s": 41.3,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "In which country is Lago District located?",
+        "In what region is Lago Verde located?",
+        "In what region of Italy is Lago Verde located?"
+      ]
+    },
+    {
+      "id": "2hop__166824_185403",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "What league does the team that plays in Stadio Ciro Vigorito play for?",
+      "gold_answer": "Lega Pro Prima Divisione",
+      "predicted_answer": "Serie B",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 723,
+      "elapsed_s": 49.49,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Team playing at Stadio Ciro Vigorito\"\n\n(Note: I'm using the strategy from previous similar questions, specifically [MEMORY/F1_raw | hop2])",
+        "\"Which league does Benevento Calcio play for?\"",
+        "\"Which league does Benevento Calcio play?\""
+      ]
+    },
+    {
+      "id": "2hop__698577_851686",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "What is a notable work written by the author of The Timothy files?",
+      "gold_answer": "Anderson Tapes",
+      "predicted_answer": "Archon's Quest",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 902,
+      "elapsed_s": 57.79,
+      "supporting_recall": 0.5,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Who wrote The Timothy Files?",
+        "Who is Lawrence Sanders notable work written by?",
+        "What is Lawrence Sanders notable work written by?\n\n(Note: Since we already have two passages from the same source, I'll try to retrieve a new passage from a different source.)"
+      ]
+    },
+    {
+      "id": "2hop__362107_652514",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "In which borough was Callum McManaman born?",
+      "gold_answer": "Knowsley",
+      "predicted_answer": "Knowsley",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 731,
+      "elapsed_s": 46.36,
+      "supporting_recall": 1.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is Callum McManaman's birthplace?",
+        "What borough is Whiston in?",
+        "What borough is Knowsley in?"
+      ]
+    },
+    {
+      "id": "2hop__402530_774333",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "What other county does the county where Imperial is located share a border with?",
+      "gold_answer": "Crockett County",
+      "predicted_answer": "Bedfordshire.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1468,
+      "elapsed_s": 99.49,
+      "supporting_recall": 0.5,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Since we're dealing with a new question, let's start fresh! Based on the previous strategies, I'll try to find a relevant passage for this new question. Here's my next search query:\n\nWhat county shares a border with Hertfordshire?\n\nPlease retrieve one passage based on this query.",
+        "Since this passage doesn't seem relevant to our original question about Imperial's location, let's try a different approach. Here's my next search query:\n\nWhat is Hertfordshire known for?\n\nPlease retrieve one passage based on this query.",
+        "Since both queries didn't yield relevant passages for our original question about Imperial's location, let's try to find a passage that mentions Hertfordshire. Here's my next search query:\n\nWhat is the location of Hertfordshire?\n\nPlease retrieve one passage based on this query."
+      ]
+    },
+    {
+      "id": "2hop__195917_575657",
+      "hop": 2,
+      "condition": "Fall_guided",
+      "question": "In what county is William W. Blair's birthplace located?",
+      "gold_answer": "Orleans County",
+      "predicted_answer": "Hertfordshire is located in England.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1216,
+      "elapsed_s": 82.16,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "In which state is Hertfordshire located?",
+        "Not quite what we're looking for! Since Hertfordshire is not located in Nigeria, let's try again.\n\nQUERY 2: Where is Hertfordshire located?\n\n(Remember, we're trying to find out where William W. Blair was born!)",
+        "Not quite what we're looking for! Since Hertfordshire is not located in Nigeria, let's try again.\n\nQUERY 3: What region is Hertfordshire located in?\n\n(Remember, we're trying to find out where William W. Blair was born!)"
+      ]
+    },
+    {
+      "id": "3hop1__454441_55349_651302",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "What is the birthplace of the man who does the voice of Stan on the series that includes the episode The Hobbit?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Armenian",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2219,
+      "elapsed_s": 134.83,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What country contains the city of Shiraz?",
+        "Since we're not getting any information about Shiraz or its country from this passage, let's try another query. Here it is:\n\nWhat language did Xenophon sound like?\n\n(Note: This query is guided by the previous results and focuses on the nation containing Shiraz and the ethnic group whose language Xenophon sounded like Armenian.)",
+        "Since we didn't get any information about Shiraz or its country from the previous passages, let's try another query. Here it is:\n\nWhat country does Shiraz city belong to?\n\n(Note: This query is guided by the previous results and focuses on the nation containing Shiraz.)"
+      ]
+    },
+    {
+      "id": "3hop1__145290_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1379,
+      "elapsed_s": 96.92,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "\"Commission on Truth and Friendship\"\n\n(Note: This commission was established between Indonesia and East Timor, so I'm assuming Satya Husodo is from East Timor. If that's not correct, please let me know and I'll adjust my query accordingly!)",
+        "QUERY 2: \"president of East Timor\"\n\n(Note: Since we know that the Commission on Truth and Friendship was established between Indonesia and East Timor, I'm assuming that Satya Husodo is from East Timor. If that's not correct, please let me know and I'll adjust my query accordingly!)",
+        "Since we know that Satya Husodo is from East Timor, let's try to find out which president of East Timor was involved in the Commission on Truth and Friendship. Here's my next query:\n\n\"president of East Timor involved in Commission on Truth and Friendship\"\n\nYour turn!"
+      ]
+    },
+    {
+      "id": "3hop1__105767_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the commission of truth and friendship with the country that eats Kemplang?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "No answer found.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1047,
+      "elapsed_s": 68.65,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "hop3_where_who_how: Entity=country, Attribute=independent, Bridge=commission, Location=eats Kemplang",
+        "hop3_what_who_how: Entity=country, Attribute=independent, Bridge=commission, Location=eats Kemplang",
+        "hop3_what_who_how: Entity=country, Attribute=independent, Bridge=commission, Location=eats Kemplang"
+      ]
+    },
+    {
+      "id": "3hop1__105126_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country where Gado-gado is found?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Dinny Suhardiman (2008-2013)",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1662,
+      "elapsed_s": 114.39,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "hop3_what_who_how: Identify main entity, then recursively apply steps (1) to (3)\n\nMain entity: Country where Gado-gado is found\n\nRelationship type: Location of a dish \u2192 Country\n\nQuery: \"Country Gado-gado origin\"",
+        "Query: \"Country West Java Indonesia president\"\n\n(Note: I'm applying the hop3_what_who_how strategy to find the president of the country where Gado-gado is found, which is identified as West Java, Indonesia)",
+        "Since the previous queries didn't provide any information about the president of West Java, Indonesia, we need to continue searching. Let's apply the hop3_what_who_how strategy again:\n\nMain entity: West Java, Indonesia\n\nRelationship type: Country \u2192 Government \u2192 President\n\nQuery: \"West Java Indonesia president\"\n\nPlease provide the next passage or query result!"
+      ]
+    },
+    {
+      "id": "3hop1__103881_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country that Tony Gunawan is from?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 902,
+      "elapsed_s": 67.43,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "hop3_what_what_what: What percentage of the nation where Tony Gunawan is from, is made up of the people whose language Indonesian resembles most?",
+        "What percentage of the nation where Tony Gunawan is from, is made up of the people whose language Indonesian resembles most?\n\n(Note: Since we already got a passage about Tony Gunawan, let's try to find more information about his country of origin. We can use the hop3_what_what_what pattern again.)",
+        "hop3_where_who_how: How many of the people from Indonesia live in the country where Tony Gunawan played badminton?"
+      ]
+    },
+    {
+      "id": "3hop1__106094_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the newly declared independent country part of the Commission of Truth and Friendship with the country that made Arisan!??",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Johan Ferrier",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1362,
+      "elapsed_s": 91.19,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "Who spoke Armenian-like language in ancient times?",
+        "Who spoke Armenian-like language?\n\n(Note: I'm using the strategy to decompose the question into three parts: who, where, and how. Since we already have a result for \"who\", let's move on to \"where\" and use this information to find the answer.)",
+        "Since we already have a result for \"who\" (Xenophon), let's move on to \"where\". Here's my next query:\n\nQUERY 3: Where is Shiraz located?\n\n(Note: I'm using the strategy to guide my search, focusing on the nation containing Shiraz and the ethnic group whose language Xenophon sounded like Armenian.)"
+      ]
+    },
+    {
+      "id": "3hop1__145212_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Arie Supriyatna's birth country was one participant in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1510,
+      "elapsed_s": 114.31,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Let's focus on identifying the key entities mentioned in the question, such as Arie Supriyatna and the Commission of Truth and Friendship.\n\nSince we're not given any specific information about the languages spoken in these countries, let's try to retrieve a passage that provides more context. Here's my next query:\n\n\"Commission of Truth and Friendship participants\"\n\nYour turn!",
+        "Now that we have more context about the Commission of Truth and Friendship, let's focus on identifying the key entities mentioned in the question again. We know Arie Supriyatna was born in one country that participated in this commission, so our next query should try to retrieve information about the other country that participated.\n\nHere's my next query:\n\n\"East Timor president\"\n\nYour turn!",
+        "Now that we have more context about the Commission of Truth and Friendship, let's focus on identifying the key entities mentioned in the question again. We know Arie Supriyatna was born in one country that participated in this commission, so our next query should try to retrieve information about the other country that participated.\n\nHere's my next query:\n\n\"Indonesian President\"\n\nYour turn!"
+      ]
+    },
+    {
+      "id": "3hop1__144678_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "The Commission of Truth and Friendship established governments for Bustami's birth country and a second country that had who as president after declaring independence?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Jackson",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1200,
+      "elapsed_s": 68.93,
+      "supporting_recall": 0.0,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "hop3_where_who_how",
+        "hop3_who_who_what",
+        "hop3_who_what"
+      ]
+    },
+    {
+      "id": "3hop1__103662_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with Radiansyah's birth country?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Indonesia",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1271,
+      "elapsed_s": 72.83,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "What is Radiansyah's birth country?",
+        "Who is Radiansyah?",
+        "What country does Radiansyah's birth country belong to?"
+      ]
+    },
+    {
+      "id": "3hop1__144439_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "who is the president of newly declared independent country of the country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2185,
+      "elapsed_s": 131.6,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the capital city of East Timor?",
+        "Since we're looking for the president of East Timor, our next query could be:\n\n\"Who is the current President of East Timor?\"\n\n(Note: We can use the result from Query 1 to inform our next search.)",
+        "Since we're looking for the president of East Timor, our next query could be:\n\n\"Who is the current President of East Timor?\"\n\n(Note: We can use the result from Query 1 to inform our next search.)\n\nPlease provide the result."
+      ]
+    },
+    {
+      "id": "3hop1__103440_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Francisco Guterres",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2025,
+      "elapsed_s": 123.52,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.5,
+      "num_queries": 3,
+      "queries": [
+        "\"Commission of Truth and Friendship participants\"\n\n(Note: I'm assuming \"Kiwil\" refers to New Zealand, as kiwis are a symbol of the country.)",
+        "QUERY 2: \"president of East Timor\"",
+        "Since we've found that East Timor participated in a Commission of Truth and Friendship with Samoa, our next query can be:\n\n\"President of East Timor\"\n\nThis is because we're trying to find the president of the other country that participated in the Commission of Truth and Friendship, which was mentioned earlier."
+      ]
+    },
+    {
+      "id": "3hop1__145411_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1095,
+      "elapsed_s": 65.18,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "What country did Sumardi come from?",
+        "Who was Sumardi born in?",
+        "What country hosts the Commission of Truth and Friendship?"
+      ]
+    },
+    {
+      "id": "3hop1__106313_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Opor originated?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Xanana Gusm\u00e3o",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 595,
+      "elapsed_s": 40.35,
+      "supporting_recall": 0.3333333333333333,
+      "dfs_score": 0.0,
+      "num_queries": 3,
+      "queries": [
+        "Who is president of East Timor?",
+        "What country is Shiraz in?",
+        "What is Opor originated from?"
+      ]
+    },
+    {
+      "id": "3hop1__654651_55349_651302",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "What is the place of birth of who does the voice of stan on the series that Insecurity is part of?",
+      "gold_answer": "Denver",
+      "predicted_answer": "Scott Grimes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1079,
+      "elapsed_s": 66.75,
+      "supporting_recall": 0.0,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "What is the series that Insecurity is part of?",
+        "Who does the voice of Stan on American Dad! series?",
+        "What is the place of birth of Steve Smith (American Dad!)"
+      ]
+    },
+    {
+      "id": "3hop1__106900_443779_52195",
+      "hop": 3,
+      "condition": "Fall_guided",
+      "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat?",
+      "gold_answer": "Francisco Guterres",
+      "predicted_answer": "Susilo Bambang Yudhoyono",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 1409,
+      "elapsed_s": 94.68,
+      "supporting_recall": 0.6666666666666666,
+      "dfs_score": 1.0,
+      "num_queries": 3,
+      "queries": [
+        "Let's try to find more information about the country that broadcasts \"Dahsyat\". \n\nQUERY: \"country that broadcasts Dahsyat\"\n\nYour turn!",
+        "Since we found the country that broadcasts \"Dahsyat\" is Indonesia, let's try to find more information about the Commission of Truth and Friendship established with Indonesia.\n\nQUERY: \"Commission of Truth and Friendship\"\n\nYour turn!",
+        "Since we found that the Commission of Truth and Friendship was established between Indonesia and East Timor, let's try to find more information about the president of East Timor at the time when the commission was established.\n\nQUERY: \"president of East Timor in 2005\"\n\nYour turn!"
+      ]
+    }
+  ],
+  "summary": {
+    "num": 30,
+    "exact_match": 0.13333333333333333,
+    "f1": 0.20126984126984127,
+    "mean_tokens": 1179.5666666666666,
+    "mean_supporting_recall": 0.3055555555555555,
+    "mean_dfs_score": 0.7666666666666667,
+    "mean_num_queries": 3.0
+  }
+}

@@ -1,0 +1,19 @@
+model:
+  ollama_url: "http://localhost:11434/api/chat"
+  name: "llama3:8b"
+  timeout: 450    # same scale as E7 — QASPER papers run up to ~8k tokens
+
+experiment:
+  dataset: "allenai/qasper"
+  revision: "refs/convert/parquet"   # script-based loader is dead in datasets 4.x
+  split: "validation"
+  length_buckets: ["short", "medium", "long"]
+  num_per_bucket: 15
+  seed: 42
+  full_context_max_words: 6500   # defensive truncation for the few papers near/over the window
+
+retrieval:
+  max_queries: 3   # reusing E5's near-optimal value, not re-ablated here
+
+output:
+  results_dir: "results/qasper_transfer"

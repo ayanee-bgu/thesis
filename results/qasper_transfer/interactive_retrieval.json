@@ -1,0 +1,1002 @@
+{
+  "condition": "interactive_retrieval",
+  "config": {
+    "num_per_bucket": 15,
+    "max_queries": 3
+  },
+  "results_by_type": {
+    "short": [
+      {
+        "id": "a313e98994fc039a82aa2447c411dda92c65a470",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "How do they match words before reordering them?",
+        "gold_answer": "Unanswerable",
+        "predicted_answer": "They match words before reordering them by using pre-ordering rules to align the word order of the assisting language with the word order of the source language.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1994,
+        "elapsed_s": 110.54,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Word alignment algorithms",
+          "Word order divergence",
+          "Word order alignment techniques"
+        ],
+        "paper_word_count": 2202
+      },
+      {
+        "id": "37861be6aecd9242c4fdccdfcd06e48f3f1f8f81",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "On how many language pairs do they show that preordering assisting language sentences helps translation quality?",
+        "gold_answer": "5",
+        "predicted_answer": "2",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1752,
+        "elapsed_s": 97.32,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"preordering sentence assistance results\"",
+          "\"preordering language pairs results\"",
+          "\"preordering sentence translation quality\""
+        ],
+        "paper_word_count": 2202
+      },
+      {
+        "id": "7e62a53823aba08bc26b2812db016f5ce6159565",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "Which dataset(s) do they experiment with?",
+        "gold_answer": "IITB English-Hindi parallel corpus BIBREF22; ILCI English-Hindi parallel corpus",
+        "predicted_answer": "Bengali, Gujarati, Marathi, Tamil, Malayalam",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1400,
+        "elapsed_s": 77.86,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Dataset used in paper\"",
+          "\"Indian languages mentioned\"",
+          "\"Indian language examples\""
+        ],
+        "paper_word_count": 2202
+      },
+      {
+        "id": "9eabb54c2408dac24f00f92cf1061258c7ea2e1a",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "Which information about text structure is included in the corpus?",
+        "gold_answer": "paragraphs; lines; Information on physical page segmentation (for PDFs only), paragraph segmentation, and line segmentation",
+        "predicted_answer": "Text structure",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1263,
+        "elapsed_s": 68.9,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Text structure corpus features",
+          "German text simplification features",
+          "Text structure features included"
+        ],
+        "paper_word_count": 2456
+      },
+      {
+        "id": "3d013f15796ae7fed5272183a166c45f16e24e39",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "Which information about typography is included in the corpus?",
+        "gold_answer": "font type; font style; Information on the font type and font style (e.g., italics, bold print) of a token and its position on the physical page",
+        "predicted_answer": "Typography",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1250,
+        "elapsed_s": 68.13,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Typography corpus features",
+          "Typography features included",
+          "Typography features examples"
+        ],
+        "paper_word_count": 2456
+      },
+      {
+        "id": "71e4ba4e87e6596aeca187127c0d088df6570c57",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "What evaluations methods do they take?",
+        "gold_answer": "Unanswerable",
+        "predicted_answer": "Other methods",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1485,
+        "elapsed_s": 79.53,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Evaluation metrics used",
+          "Evaluation metrics used in",
+          "Evaluation metrics used in NLP"
+        ],
+        "paper_word_count": 2156
+      },
+      {
+        "id": "7561a968470a8936d10e1ba722d2f38b5a9a4d38",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "What is the size of the dataset?",
+        "gold_answer": "30,000",
+        "predicted_answer": "Over 30,000",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 2289,
+        "elapsed_s": 120.86,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Dataset size in paper\"",
+          "\"Flickr30K dataset size\"",
+          "\"Flickr8K dataset size\""
+        ],
+        "paper_word_count": 2156
+      },
+      {
+        "id": "6d4400f45bd97b812e946b8a682b018826e841f1",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "Which methods are considered to find examples of biases and unwarranted inferences??",
+        "gold_answer": "spot patterns by just looking at a collection of images; tag all descriptions with part-of-speech information; I applied Louvain clustering",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1556,
+        "elapsed_s": 83.93,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Detecting bias in NLP models\"",
+          "\"Automated bias detection methods\"",
+          "\"Automated bias detection techniques\""
+        ],
+        "paper_word_count": 2156
+      },
+      {
+        "id": "26c2e1eb12143d985e4fb50543cf0d1eb4395e67",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "What biases are found in the dataset?",
+        "gold_answer": "Ethnic bias",
+        "predicted_answer": "Linguistic bias and unwarranted inferences.",
+        "em": 0.0,
+        "f1": 0.28571428571428575,
+        "tokens": 2042,
+        "elapsed_s": 109.9,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Dataset bias detection techniques\"",
+          "\"Flickr30K dataset characteristics\"",
+          "\"Linguistic bias definition\""
+        ],
+        "paper_word_count": 2156
+      },
+      {
+        "id": "d27438b11bc70e706431dda0af2b1c0b0d209f96",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "Were any of these tasks evaluated in any previous work?",
+        "gold_answer": "Yes",
+        "predicted_answer": "Yes.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 2541,
+        "elapsed_s": 138.98,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Previous NLP task evaluations\"",
+          "\"Previous NLP task evaluations syntax\"",
+          "\"Previous NLP task evaluations syntax-sensitive\""
+        ],
+        "paper_word_count": 1442
+      },
+      {
+        "id": "8d4ac4afbf5b14f412171729ceb5e822afcfa3f4",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "Do they build a model to automatically detect demographic, lingustic or psycological dimensons of people?",
+        "gold_answer": "No",
+        "predicted_answer": "Yes.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1515,
+        "elapsed_s": 84.65,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Model for demographic detection\"",
+          "\"Psycholinguistic features extracted\"",
+          "\"Linguistic Inquiry and Word Count\""
+        ],
+        "paper_word_count": 1409
+      },
+      {
+        "id": "3c93894c4baf49deacc6ed2a14ef5e0f13b7d96f",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "Which demographic dimensions of people do they obtain?",
+        "gold_answer": "occupation; industry; profile information; language use; gender ",
+        "predicted_answer": "Location, profile information, language use.",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 524,
+        "elapsed_s": 35.23,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Demographic features extracted",
+          "Demographic features extracted from",
+          "Demographic features extracted from what"
+        ],
+        "paper_word_count": 1409
+      },
+      {
+        "id": "07d15501a599bae7eb4a9ead63e9df3d55b3dc35",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "How do they obtain psychological dimensions of people?",
+        "gold_answer": "using the Meaning Extraction Method",
+        "predicted_answer": "Text analysis techniques",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1613,
+        "elapsed_s": 87.99,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "Text analysis techniques",
+          "Psycholinguistic word classes",
+          "Psychological dimensions measurement"
+        ],
+        "paper_word_count": 1409
+      },
+      {
+        "id": "1ff0fccf0dca95a6630380c84b0422bed854269a",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "How are models evaluated in this human-machine communication game?",
+        "gold_answer": "by training an autocomplete system on 500K randomly sampled sentences from Yelp reviews",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2504,
+        "elapsed_s": 133.44,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Evaluation metrics NLP games",
+          "Multi-objective optimization NLP",
+          "Multi-objective optimization algorithms"
+        ],
+        "paper_word_count": 1811
+      },
+      {
+        "id": "3d7d865e905295d11f1e85af5fa89b210e3e9fdf",
+        "type": "short",
+        "condition": "interactive_retrieval",
+        "question": "How many participants were trying this communication game?",
+        "gold_answer": "100 ",
+        "predicted_answer": "100",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1599,
+        "elapsed_s": 89.83,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Participants in language game study\"",
+          "\"Number of players game study\"",
+          "\"Number of participants study\""
+        ],
+        "paper_word_count": 1811
+      }
+    ],
+    "medium": [
+      {
+        "id": "b6f15fb6279b82e34a5bf4828b7b5ddabfdf1d54",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "which multilingual approaches do they compare with?",
+        "gold_answer": "BIBREF19; BIBREF20",
+        "predicted_answer": "traditional transfer learning, pivot-based method, multilingual NMT",
+        "em": 0.0,
+        "f1": 0.36363636363636365,
+        "tokens": 2266,
+        "elapsed_s": 121.52,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Multilingual language models",
+          "Multilingual language models comparison",
+          "Multilingual NMT approaches"
+        ],
+        "paper_word_count": 3725
+      },
+      {
+        "id": "f5e6f43454332e0521a778db0b769481e23e7682",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "what are the pivot-based baselines?",
+        "gold_answer": "pivoting; pivoting$_{\\rm m}$",
+        "predicted_answer": "Pivoting, multilingual NMT (MNMT), cross-lingual transfer without pretraining.",
+        "em": 0.0,
+        "f1": 0.18181818181818182,
+        "tokens": 2113,
+        "elapsed_s": 115.85,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Pivot-based baseline methods",
+          "Pivoting translation methods",
+          "Pivot-based method limitations"
+        ],
+        "paper_word_count": 3725
+      },
+      {
+        "id": "9a05a5f4351db75da371f7ac12eb0b03607c4b87",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "which datasets did they experiment with?",
+        "gold_answer": "Europarl; MultiUN",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1049,
+        "elapsed_s": 60.22,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"datasets used in paper\"",
+          "\"public datasets mentioned paper\"",
+          "\"public datasets mentioned paper\""
+        ],
+        "paper_word_count": 3725
+      },
+      {
+        "id": "5eda469a8a77f028d0c5f1acd296111085614537",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "what language pairs are explored?",
+        "gold_answer": "De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2650,
+        "elapsed_s": 140.57,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Language pair examples NLP\"",
+          "\"Language pairs NLP examples\"",
+          "\"MultiUN dataset languages\""
+        ],
+        "paper_word_count": 3725
+      },
+      {
+        "id": "18c5d366b1da8447b5404eab71f4cc658ba12e6f",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "what ner models were evaluated?",
+        "gold_answer": "Stanford NER; spaCy 2.0 ; recurrent model with a CRF top layer",
+        "predicted_answer": "Stanford NER, spaCy 2.0, recurrent model similar to BIBREF13/BIBREF14",
+        "em": 0.0,
+        "f1": 0.631578947368421,
+        "tokens": 1405,
+        "elapsed_s": 81.16,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"NER model evaluation metrics\"",
+          "\"Stanford NER algorithm details\"",
+          "\"spaCy 2.0 architecture details\""
+        ],
+        "paper_word_count": 2719
+      },
+      {
+        "id": "b5e4866f0685299f1d7af267bbcc4afe2aab806f",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "what is the source of the news sentences?",
+        "gold_answer": "ilur.am",
+        "predicted_answer": "Unanswerable.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2415,
+        "elapsed_s": 129.48,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"News sentence dataset sources\"",
+          "\"Armenian news websites list\"",
+          "Armenian Wikipedia articles list"
+        ],
+        "paper_word_count": 2719
+      },
+      {
+        "id": "1f085b9bb7bfd0d6c8cba1a9d73f08fcf2da7590",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "did they use a crowdsourcing platform for manual annotations?",
+        "gold_answer": "No",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 3352,
+        "elapsed_s": 179.1,
+        "supporting_fact_recall": 0.6666666666666666,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"manual annotation techniques NLP\"",
+          "\"Armenian language NLP projects\"",
+          "\"manual annotation dataset NLP\""
+        ],
+        "paper_word_count": 2719
+      },
+      {
+        "id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "how is model compactness measured?",
+        "gold_answer": "Using file size on disk",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1076,
+        "elapsed_s": 60.73,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Model compression metrics",
+          "Model compression evaluation",
+          "Model compression metrics used"
+        ],
+        "paper_word_count": 3185
+      },
+      {
+        "id": "0752d71a0a1f73b3482a888313622ce9e9870d6e",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "what was the baseline?",
+        "gold_answer": "system presented by deri2016grapheme",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 880,
+        "elapsed_s": 51.94,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"baseline model used\"",
+          "\"what was baseline performance\"",
+          "\"baseline performance metrics\""
+        ],
+        "paper_word_count": 3185
+      },
+      {
+        "id": "55c8f7acbfd4f5cde634aaecd775b3bb32e9ffa3",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "what evaluation metrics were used?",
+        "gold_answer": "Phoneme Error Rate (PER); Word Error Rate (WER); Word Error Rate 100 (WER 100)",
+        "predicted_answer": "Phoneme Error Rate (PER), Word Error Rate (WER), Word Error Rate 100 (WER 100)",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 1336,
+        "elapsed_s": 77.53,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"evaluation metrics in NLP papers\"",
+          "\"phonemic error metrics NLP\"",
+          "\"beam search NLP applications\""
+        ],
+        "paper_word_count": 3185
+      },
+      {
+        "id": "4eaf9787f51cd7cdc45eb85cf223d752328c6ee4",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "what datasets did they use?",
+        "gold_answer": "the Carnegie Mellon Pronouncing Dictionary BIBREF12; the multilingual pronunciation corpus collected by deri2016grapheme ; ranscriptions extracted from Wiktionary",
+        "predicted_answer": "Multilingual pronunciation corpus collected by deri2016grapheme.",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 2466,
+        "elapsed_s": 132.36,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Dataset used in paper\"",
+          "\"Phoible phonemic inventories\"",
+          "\"Multilingual pronunciation corpus\""
+        ],
+        "paper_word_count": 3185
+      },
+      {
+        "id": "fb2b536dc8e442dffab408db992b971e86548158",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "What is the interannotator agreement for the human evaluation?",
+        "gold_answer": "Unanswerable",
+        "predicted_answer": "Unanswerable",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 5599,
+        "elapsed_s": 303.02,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Interannotator agreement metrics",
+          "Interannotator agreement metrics human evaluation",
+          "Interannotator agreement human evaluation"
+        ],
+        "paper_word_count": 3586
+      },
+      {
+        "id": "31735ec3d83c40b79d11df5c34154849aeb3fb47",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "Who were the human evaluators used?",
+        "gold_answer": "20 evaluators were recruited from our institution and asked to each perform 20 annotations",
+        "predicted_answer": "20 evaluators were recruited from our institution.",
+        "em": 0.0,
+        "f1": 0.6666666666666666,
+        "tokens": 5072,
+        "elapsed_s": 274.43,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Human evaluator selection",
+          "Human evaluator selection process",
+          "Who were the evaluators recruited from?"
+        ],
+        "paper_word_count": 3586
+      },
+      {
+        "id": "10d450960907091f13e0be55f40bcb96f44dd074",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "Is the template-based model realistic?  ",
+        "gold_answer": "Yes",
+        "predicted_answer": "Unanswerable. The passage does not contain information about the realism of template-based language generation. It discusses related work on abstractive summarization and data synthesis, but does not provide any evaluation or assessment of the realism of template-based language generation.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 5914,
+        "elapsed_s": 355.48,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Template-based language generation",
+          "Template-based language generation realism",
+          "Is template-based language generation realistic?"
+        ],
+        "paper_word_count": 3586
+      },
+      {
+        "id": "b5608076d91450b0d295ad14c3e3a90d7e168d0e",
+        "type": "medium",
+        "condition": "interactive_retrieval",
+        "question": "Is the student reflection data very different from the newspaper data?  ",
+        "gold_answer": "Yes",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 4110,
+        "elapsed_s": 221.26,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Student reflection vs newspaper differences\"",
+          "\"Student reflection data characteristics\"",
+          "\"Student reflection vs news differences\""
+        ],
+        "paper_word_count": 3586
+      }
+    ],
+    "long": [
+      {
+        "id": "b6ae8e10c6a0d34c834f18f66ab730b670fb528c",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "what are the topics pulled from Reddit?",
+        "gold_answer": "politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. ",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 3508,
+        "elapsed_s": 185.46,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Reddit topic extraction methods\"",
+          "\"Mutual information analysis\"",
+          "\"Dogmatic subreddit clusters\""
+        ],
+        "paper_word_count": 4150
+      },
+      {
+        "id": "a87a009c242d57c51fc94fe312af5e02070f898b",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What predictive model do they build?",
+        "gold_answer": "logistic regression models",
+        "predicted_answer": "Linear regression",
+        "em": 0.0,
+        "f1": 0.4,
+        "tokens": 2155,
+        "elapsed_s": 113.75,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"predictive model in paper\"",
+          "\"predictive model linear regression\"",
+          "\"predictive model R2\""
+        ],
+        "paper_word_count": 4150
+      },
+      {
+        "id": "ef4dba073d24042f24886580ae77add5326f2130",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What accuracy does the proposed system achieve?",
+        "gold_answer": "F1 scores of 85.99 on the DL-PS data,  75.15 on the EC-MT data and 71.53 on the EC-UQ data ",
+        "predicted_answer": "Unanswerable",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1698,
+        "elapsed_s": 90.45,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 0.5,
+        "queries": [
+          "\"Paper's evaluation metrics used\"",
+          "\"Paper's accuracy results shown\"",
+          "\"Adversarial learning accuracy results\""
+        ],
+        "paper_word_count": 5242
+      },
+      {
+        "id": "2df4a045a9cd7b44874340b6fdf9308d3c55327a",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What crowdsourcing platform is used?",
+        "gold_answer": "Unanswerable",
+        "predicted_answer": "Amazon Mechanical Turk",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 3566,
+        "elapsed_s": 185.34,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Amazon Mechanical Turk",
+          "Amazon Mechanical Turk workers",
+          "Crowdsourcing worker quality"
+        ],
+        "paper_word_count": 5242
+      },
+      {
+        "id": "9ee07edc371e014df686ced4fb0c3a7b9ce3d5dc",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "On which benchmarks they achieve the state of the art?",
+        "gold_answer": "SimpleQuestions; WebQSP",
+        "predicted_answer": "SimpleQuestions, WebQSP",
+        "em": 1.0,
+        "f1": 1.0,
+        "tokens": 2763,
+        "elapsed_s": 144.77,
+        "supporting_fact_recall": 0.5,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"State-of-the-art NLP benchmarks\"",
+          "\"KBQA end-task results table\"",
+          "\"What does STAGG use\""
+        ],
+        "paper_word_count": 4460
+      },
+      {
+        "id": "d3aa0449708cc861a51551b128d73e11d62207d2",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What they use in their propsoed framework?",
+        "gold_answer": "break the relation names into word sequences;  relation-level and word-level relation representations; bidirectional LSTMs (BiLSTMs);  residual learning method",
+        "predicted_answer": "Entity re-ranking step, constraint detection, multiple relation detectors.",
+        "em": 0.0,
+        "f1": 0.08,
+        "tokens": 2751,
+        "elapsed_s": 145.55,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Proposed framework components\"",
+          "\"Proposed framework components meaning\"",
+          "\"What are proposed components\""
+        ],
+        "paper_word_count": 4460
+      },
+      {
+        "id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What does KBQA abbreviate for",
+        "gold_answer": "Knowledge Base Question Answering",
+        "predicted_answer": "KBQA",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 4624,
+        "elapsed_s": 243.0,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Knowledge Base Question\"",
+          "\"Knowledge Base Question Answering\"",
+          "\"Knowledge Base Question Answering systems\""
+        ],
+        "paper_word_count": 4460
+      },
+      {
+        "id": "c0e341c4d2253eb42c8840381b082aae274eddad",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What is te core component for KBQA?",
+        "gold_answer": "answer questions by obtaining information from KB tuples ",
+        "predicted_answer": "Core component for KBQA: Hierarchical Matching between questions and relations with residual learning (HR-BiLSTM).",
+        "em": 0.0,
+        "f1": 0.782608695652174,
+        "tokens": 3952,
+        "elapsed_s": 212.0,
+        "supporting_fact_recall": 1.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Knowledge Base Querying\"",
+          "\"KBQA system architecture\"",
+          "\"KB relation detection challenges\""
+        ],
+        "paper_word_count": 4460
+      },
+      {
+        "id": "1ec152119cf756b16191b236c85522afeed11f59",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What experiments are proposed to test that upper layers produce context-specific embeddings?",
+        "gold_answer": "They measure self-similarity, intra-sentence similarity and maximum explainable variance of the embeddings in the upper layers.",
+        "predicted_answer": "Experiments proposed to test that upper layers produce context-specific embeddings:\n\n1. Adding an anisotropy penalty to the language modelling objective.\n2. Generating static word representations from contextualized ones.",
+        "em": 0.0,
+        "f1": 0.1839080459770115,
+        "tokens": 1439,
+        "elapsed_s": 83.16,
+        "supporting_fact_recall": 0.2,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Contextualized word embeddings\"",
+          "\"Static word representation extraction\"",
+          "\"Maximum explainable variance\""
+        ],
+        "paper_word_count": 4030
+      },
+      {
+        "id": "891c2001d6baaaf0da4e65b647402acac621a7d2",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "How do they calculate a static embedding for each word?",
+        "gold_answer": "They use the first principal component of a word's contextualized representation in a given layer as its static embedding.",
+        "predicted_answer": "Unanswerable.",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 1693,
+        "elapsed_s": 90.1,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "Word embeddings calculation",
+          "Static word embedding calculation",
+          "Static word embedding calculation"
+        ],
+        "paper_word_count": 4030
+      },
+      {
+        "id": "66c96c297c2cffdf5013bab5e95b59101cb38655",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What is the performance of BERT on the task?",
+        "gold_answer": "F1 scores are:\nHUBES-PHI: Detection(0.965), Classification relaxed (0.95), Classification strict (0.937)\nMedoccan: Detection(0.972), Classification (0.967)",
+        "predicted_answer": "Outperforms both CRF and spaCy classifiers thanks to its greater recall.",
+        "em": 0.0,
+        "f1": 0.046511627906976744,
+        "tokens": 2155,
+        "elapsed_s": 116.22,
+        "supporting_fact_recall": 0.3333333333333333,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "BERT sentiment analysis results",
+          "BERT performance comparison",
+          "BERT performance comparison MEDDOCAN"
+        ],
+        "paper_word_count": 4415
+      },
+      {
+        "id": "6b53e1f46ae4ba9b75117fc6e593abded89366be",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What are the other algorithms tested?",
+        "gold_answer": "NER model; CRF classifier trained with sklearn-crfsuite; classifier has been developed that consists of regular-expressions and dictionary look-up",
+        "predicted_answer": "CRF classifier, spaCy entity recogniser, NLNDE, mao2019hadoken",
+        "em": 0.0,
+        "f1": 0.4,
+        "tokens": 842,
+        "elapsed_s": 52.78,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Baselines in NLP papers\"",
+          "\"Other NLP algorithms tested\"",
+          "\"Systems compared to BERT\""
+        ],
+        "paper_word_count": 4415
+      },
+      {
+        "id": "c0bee6539eb6956a7347daa9d2419b367bd02064",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "Does BERT reach the best performance among all the algorithms compared?",
+        "gold_answer": "No",
+        "predicted_answer": "Yes",
+        "em": 0.0,
+        "f1": 0.0,
+        "tokens": 2976,
+        "elapsed_s": 162.12,
+        "supporting_fact_recall": 0.0,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"BERT vs other NLP models\"",
+          "\"BERT performance comparison\"",
+          "\"BERT performance comparison NLP tasks\""
+        ],
+        "paper_word_count": 4415
+      },
+      {
+        "id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What are the clinical datasets used in the paper?",
+        "gold_answer": "MEDDOCAN; NUBes-PHI",
+        "predicted_answer": "MEDDOCAN: Medical Document Anonymization shared task dataset and NUBes",
+        "em": 0.0,
+        "f1": 0.3636363636363636,
+        "tokens": 3492,
+        "elapsed_s": 194.87,
+        "supporting_fact_recall": 0.25,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Clinical NLP dataset collections\"",
+          "\"Medical Document Anonymization shared task dataset\"",
+          "\"NUBes corpus medical reports\""
+        ],
+        "paper_word_count": 4415
+      },
+      {
+        "id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+        "type": "long",
+        "condition": "interactive_retrieval",
+        "question": "What discourse relations does it work best/worst for?",
+        "gold_answer": "explicit discourse relations",
+        "predicted_answer": "Implicit-Temporal, Implicit-Contingency, Implicit-Expansion, Comparison, Contingency, Temporal",
+        "em": 0.0,
+        "f1": 0.16666666666666666,
+        "tokens": 2169,
+        "elapsed_s": 117.75,
+        "supporting_fact_recall": 0.6,
+        "num_queries": 3,
+        "dfs_score": 1.0,
+        "queries": [
+          "\"Discourse relation types examples\"",
+          "\"Discourse relation types implicit\"",
+          "\"Discourse relation types comparison\""
+        ],
+        "paper_word_count": 3951
+      }
+    ]
+  },
+  "summary_by_type": {
+    "short": {
+      "num_tasks": 15,
+      "exact_match": 0.13333333333333333,
+      "f1": 0.24126984126984127,
+      "mean_tokens": 1688.4666666666667,
+      "mean_elapsed_s": 92.47266666666665,
+      "mean_supporting_fact_recall": 0.3055555555555555,
+      "mean_dfs_score": 0.9,
+      "mean_num_queries": 3.0
+    },
+    "medium": {
+      "num_tasks": 15,
+      "exact_match": 0.2,
+      "f1": 0.32291334396597554,
+      "mean_tokens": 2780.2,
+      "mean_elapsed_s": 153.64333333333335,
+      "mean_supporting_fact_recall": 0.5944444444444444,
+      "mean_dfs_score": 1.0,
+      "mean_num_queries": 3.0
+    },
+    "long": {
+      "num_tasks": 15,
+      "exact_match": 0.06666666666666667,
+      "f1": 0.22822209332261284,
+      "mean_tokens": 2652.2,
+      "mean_elapsed_s": 142.488,
+      "mean_supporting_fact_recall": 0.3422222222222222,
+      "mean_dfs_score": 0.9666666666666667,
+      "mean_num_queries": 3.0
+    }
+  },
+  "summary_overall": {
+    "num_tasks": 45,
+    "exact_match": 0.13333333333333333,
+    "f1": 0.2641350928528099,
+    "mean_tokens": 2373.6222222222223,
+    "mean_elapsed_s": 129.53466666666668,
+    "mean_supporting_fact_recall": 0.41407407407407404,
+    "mean_dfs_score": 0.9555555555555556,
+    "mean_num_queries": 3.0
+  }
+}

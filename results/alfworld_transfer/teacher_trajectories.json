@@ -1,0 +1,59 @@
+[
+  {
+    "task_id": "pick_and_place_simple-Book-None-SideTable-329",
+    "task_desc": "move a magazine from the bed to the table",
+    "trajectory": "TASK: move a magazine from the bed to the table\nOBJECT: Book, DESTINATION: SideTable\nGROUND-TRUTH PLAN:\n1. GotoLocation\n2. PickupObject\n3. GotoLocation\n4. PutObject\n",
+    "high_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject",
+      "NoOp"
+    ]
+  },
+  {
+    "task_id": "pick_and_place_simple-Book-None-Sofa-229",
+    "task_desc": "Move a book from a desk to a sofa.",
+    "trajectory": "TASK: Move a book from a desk to a sofa.\nOBJECT: Book, DESTINATION: Sofa\nGROUND-TRUTH PLAN:\n1. GotoLocation\n2. PickupObject\n3. GotoLocation\n4. PutObject\n",
+    "high_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ]
+  },
+  {
+    "task_id": "pick_and_place_simple-Bowl-None-CoffeeTable-201",
+    "task_desc": "Move a bowl from a dining table to a coffee table.",
+    "trajectory": "TASK: Move a bowl from a dining table to a coffee table.\nOBJECT: Bowl, DESTINATION: CoffeeTable\nGROUND-TRUTH PLAN:\n1. GotoLocation\n2. PickupObject\n3. GotoLocation\n4. PutObject\n",
+    "high_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ]
+  },
+  {
+    "task_id": "pick_and_place_simple-Box-None-Dresser-224",
+    "task_desc": "move a box from the couch to the dresser",
+    "trajectory": "TASK: move a box from the couch to the dresser\nOBJECT: Box, DESTINATION: Dresser\nGROUND-TRUTH PLAN:\n1. GotoLocation\n2. PickupObject\n3. GotoLocation\n4. PutObject\n",
+    "high_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject",
+      "NoOp"
+    ]
+  },
+  {
+    "task_id": "pick_and_place_simple-Candle-None-Cart-401",
+    "task_desc": "Put a candle on a rack.",
+    "trajectory": "TASK: Put a candle on a rack.\nOBJECT: Candle, DESTINATION: Cart\nGROUND-TRUTH PLAN:\n1. GotoLocation\n2. PickupObject\n3. GotoLocation\n4. PutObject\n",
+    "high_actions": [
+      "GotoLocation",
+      "PickupObject",
+      "GotoLocation",
+      "PutObject"
+    ]
+  }
+]
